@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+		
+		<meta charset="utf-8">
+<meta name="robots" content="noodp">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name="google-site-verification" content="sRcy8COOEVzfXadS3NzNsefhbSouqvlesgWngH5kKxs">
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="AL6tLMp5O7GfkHcQLU8wt9mLrJq4SR2UDIIbmxO3Hxc=" name="csrf-token" />
+<link href="http://d9ej3djcdo585.cloudfront.net/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+
+		<title>Tutorial: How to render toon in keyshot , faire un rendu dessin sur keyshoot pro  - GrabCAD</title>
+<meta content="share cad, collaborate, mechanical engineers, grabcad, cad, cam, library, free, cad models, cad drawings, models, open source, solid works, solidedge, autodesk, alibre, autocad, catia, sketchup, keycreator, pro/engineer, spaceclaim" name="keywords" />
+		
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app-5cafbacdac642bf50ad99138c0115601.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app_1-88db9beff3b67d7c78ad6369e0f476a8.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/mobile-926c78328922620d538ba8bfd444e209.css" media="screen" rel="stylesheet" type="text/css" />
+
+		
+		
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/modernizr.min-a0dbb94a4cc903c6320b4aedc103c987.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+var Analytical = {
+  track: function(page) {
+
+  },
+  event: function(name, data) {
+    if (typeof data === 'undefined') { data = {}; }
+
+  }
+};
+</script>
+
+	</head>
+	<body id="questions">
+			<!-- Qualaroo code for grabcad.com -->
+	<script>var _kiq = _kiq || [];</script>
+	<script>
+		(function(){
+			setTimeout(function(){
+				var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+				s.async = true; s.src = '//s3.amazonaws.com/ki.js/49091/a6N.js'; f.parentNode.insertBefore(s, f);
+			}, 1);
+		})();
+	</script>
+	<script charset="utf-8">
+		_kiq.push(['identify', '']);
+	</script>
+	<!-- End of Qualaroo code for grabcad.com -->
+
+		
+		
+		<header ng-non-bindable>
+	<nav class="main g1c">
+		<a href="../index.html" class="grabcad-logo"></a>
+		<ul class="menu">
+			<li class="selected">
+				<a href="../home-3.html">Community</a>
+				<ul class="dropdown">
+					<li  class='secondary' >
+						<a href="../home-3.html">
+							<span>Home</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../library.html">
+							<span>Library</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../challenges.html">
+							<span>Challenges</span>
+</a>					</li>
+					<li class="secondary selected" class='secondary' >
+						<a href="../questions.html">
+							<span>Tutorials</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../engineers.html">
+							<span>Engineers</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li >
+					<a href="../workbench.html">
+						<span>Workbench</span>
+</a>				<ul class="dropdown workbench">
+					<li  class='secondary'>
+						<a href="../workbench.html">
+							<span>Overview</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/features.html">
+							<span>Features</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/customers.html">
+							<span>Customers</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/pricing.html">
+							<span>Pricing</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/blog/resources/">
+				<span>Resources</span>
+</a>				<ul class="dropdown">
+					<li class='secondary'>
+						<a href="http://blog.grabcad.com/blog/resources/">
+							<span>Resource Center</span>
+</a>				 	</li>
+					<li class='secondary'>
+						<a href="http://help.grabcad.com" target="_blank">
+							<span>Help Center</span>
+</a>					</li>
+					<li class='secondary'>
+						<a href="/about">
+						<span>About us</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/">
+				<span>Blog</span>
+</a>			</li>
+		</ul>
+		<div class="headerRightHalf">
+			<div class="account">
+						<a href="../login-52.html" class="mr16">Log in</a>
+		<a href="../profile/register-59.html">Sign up</a>
+
+			</div>
+			  <div class="headerSearch">
+				  <!-- <form accept-charset="UTF-8" action="http://localhost:3000/search" method="get" class="">
+	<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text"><span class="searchSpin"></span>
+	<ul class="quickfilter hidden"><li></li></ul></div>
+</form>
+ -->
+<form accept-charset="UTF-8" action="http://grabcad.com/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search community'">
+		<span class="searchSpin"></span>
+	</div>
+</form>
+			  </div>
+		</div>
+	</nav>
+</header>
+
+			<div class="signupBanner">
+				<div class="g1c">
+						<div class="g1">
+		<div class="contentUpsell">
+			<div class="g2x3c">		
+				<h2>Ask and answer questions and download tutorials</h2>
+				<p>Thousands of tutorials to learn from</p>
+			</div>
+			<div class="g1x3c">
+				<a href="../profile/register%3Futm_source=tutorial_page.html" class="button b48 darkgray" id="banner_cta_engineers">
+					<span> Start learning, sign up</span>
+</a>			</div>
+		</div>
+	</div>
+
+				</div>
+			</div>
+		<section id="body" class="">
+			<section id="bodyContent" class="gc">
+				<div class="g1">
+					<div class="flashMessage">
+					</div>
+				</div>
+				
+<div class="g2x3c">
+	<div class="g2x3 questionHead">
+		<a href="../mech.amine-1.html" class="avatar">
+				<img alt="Feed" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/164941/feed.jpg?1399849139" />
+</a>		<h1 class="withAvatar">
+			Tutorial: How to render toon in keyshot , faire un rendu dessin sur keyshoot pro 
+		</h1>
+		<div class="tagList">
+			<a href="latest/software/rendering.html" class="system qTag">Rendering</a>
+				<a href="/questions/latest/tag/rendu" class="qTag">rendu</a>
+				<a href="/questions/latest/tag/dessin" class="qTag">dessin</a>
+				<a href="/questions/latest/tag/faire" class="qTag">faire</a>
+				<a href="/questions/latest/tag/sur" class="qTag">sur</a>
+				<a href="/questions/latest/tag/toon" class="qTag">toon</a>
+				<a href="/questions/latest/tag/how" class="qTag">how</a>
+				<a href="/questions/latest/tag/un" class="qTag">un</a>
+				<a href="/questions/latest/tag/tutorial" class="qTag">tutorial</a>
+				<a href="/questions/latest/tag/pro" class="qTag">pro</a>
+				<a href="/questions/latest/tag/rendering" class="qTag">rendering</a>
+				<a href="latest/tag/solidworks.html" class="qTag">solidworks</a>
+				<a href="/questions/latest/tag/keyshoot" class="qTag">keyshoot</a>
+				<a href="/questions/latest/tag/keyshot" class="qTag">keyshot</a>
+				<a href="/questions/latest/tag/render" class="qTag">render</a>
+		</div>
+		<div class="titlemeta">
+			By <a href="../mech.amine-1.html">Mech Amine</a> on 10 Dec 15:55
+			<span class="answers">9 answers</span>
+			<span class="views">1618 views</span>
+			<span class="comments">6 comments</span>
+		</div>
+		<div class="questionData">
+			<p>tutorial  render toon in keyshot 
+<br /> faire un rendu dessin sur keyshoot pro </p>
+			<div class="questionAttachments">
+					<div class="questionImages">
+						<h3>Added images</h3>
+							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30201/large.png?1386690912" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30201/square.png?1386690912" />
+</a>					</div>
+			</div>
+		</div>
+	</div>
+	<div class="g2x3">
+		<h3>
+			9 answers
+		</h3>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="../mech.amine-1.html" class="avatar">
+							<img alt="Mech Amine" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/164941/feed.jpg?1399849139" />
+</a>						<div class="body">
+							<a href="../mech.amine-1.html" class="author">Mech Amine</a>
+							<span class="eventTime">7 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>tutorial how to render toon in keyshot ? comment faire un rendu dessin sur keyshoot pro ?"</p>
+									<div class="answerImages">
+										<h4>Added images</h4>
+												<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30217/large.png?1386701634" class="lightbox">
+												<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30217/square.png?1386701634" />
+</a>									</div>
+									<ol class="answerTutorialSteps">
+											<li>
+												<h3>Step 1</h3>
+												<p>cliquer sur importer puis choisissez le projet </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30218/large.png?1386701640" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30218/medium.png?1386701640" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 2</h3>
+												<p>
+- 1 : double clic sur n'importe quelle objet 
+<br />- 2 : choisir le type Dessin 
+</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30219/large.png?1386701645" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30219/medium.png?1386701645" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 3</h3>
+												<p>
+choisir la couleur  </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30220/large.png?1386701650" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30220/medium.png?1386701650" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 4</h3>
+												<p>réglage des propriétés : (création de nouveau matériaux ( dessin) )
+<br />-angle de l’arrête : 60
+<br />-largeur de l’arête   : 0,774
+<br />-qualité de l’arête : 2
+<br />-transparence : 0
+<br />et cocher tous les paramètres avancé  
+</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30221/large.png?1386701655" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30221/medium.png?1386701655" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 5</h3>
+												<p>pour ajouter le nouveau matériaux ( dessin) dans la Bibliothèque de Matériaux
+<br />-1 :cliquer sur libraries 
+<br />-2 :clic droite sur le dossier materials puis ajouter</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30222/large.png?1386701660" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30222/medium.png?1386701660" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 6</h3>
+												<p>- choisir le nom de nouveau dossier (dessin modifié )
+<br />-clic ok </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30223/large.png?1386701665" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30223/medium.png?1386701665" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 7</h3>
+												<p>1- renommer le nom de Matériau puis cliquer sur sauvegarder dans la librarie 
+<br />2-choisir le dossier que vous avez déjà créé (dessin modifié )
+<br />3-clic ok </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30224/large.png?1386701669" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30224/medium.png?1386701669" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 8</h3>
+												<p>nouveau Matériau ( blue toon ) créé </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30225/large.png?1386701675" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30225/medium.png?1386701675" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 9</h3>
+												<p>cocher les  propriétés avancé </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30226/large.png?1386701680" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30226/medium.png?1386701680" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 10</h3>
+												<p>réglage degré d'ombre </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30227/large.png?1386701685" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30227/medium.png?1386701685" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 11</h3>
+												<p>appliquer le réglage degré d'ombre  pour tous les Matériaux</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30228/large.png?1386701689" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30228/medium.png?1386701689" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 12</h3>
+												<p>appliquer le réglage propriétés pour les autre Matériaux </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30229/large.png?1386701695" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30229/medium.png?1386701695" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 13</h3>
+												<p>test 1</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30230/large.png?1386701699" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30230/medium.png?1386701699" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 14</h3>
+												<p>appliquer le réglage  de luminosité et de Gamma</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30231/large.png?1386701705" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30231/medium.png?1386701705" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 15</h3>
+												<p>cocher l'option effets et faire le réglage suivant </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30232/large.png?1386701710" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30232/medium.png?1386701710" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 16</h3>
+												<p>modifier les paramètres environnement de l’éditeur HDRI  </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30233/large.png?1386701715" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30233/medium.png?1386701715" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 17</h3>
+												<p>renommer le non de sortie image et modifier la résolution </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30234/large.png?1386701721" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30234/medium.png?1386701721" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 18</h3>
+												<p>modifier les paramètres qualité </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30235/large.png?1386701727" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30235/medium.png?1386701727" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 19</h3>
+												<p>rendu </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30236/large.png?1386701731" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30236/medium.png?1386701731" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 20</h3>
+												<p>rendue final </p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30237/large.png?1386701737" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/30237/medium.png?1386701737" />
+</a>												</p>
+											</li>
+									</ol>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19369">
+								<ol class="answerComments" id="Answer19369">
+												<li id="comment_517284">
+    <a href="../mech.amine-1.html" class="avatar">
+        <img alt="Mech Amine" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/164941/feed.jpg?1399849139" />
+</a>    <div class="body">
+        <a href="../mech.amine-1.html" class="author">Mech Amine</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">7 months ago</span>
+        <blockquote>
+            <p>thanks all </p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_517282">
+    <a href="../sourbh.html" class="avatar">
+        <img alt="Sourbh" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/10129/feed.gif?1394380490" />
+</a>    <div class="body">
+        <a href="../sourbh.html" class="author">Sourbh</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">7 months ago</span>
+        <blockquote>
+            <p>But translate it to english for other users.</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_517281">
+    <a href="../sourbh.html" class="avatar">
+        <img alt="Sourbh" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/10129/feed.gif?1394380490" />
+</a>    <div class="body">
+        <a href="../sourbh.html" class="author">Sourbh</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">7 months ago</span>
+        <blockquote>
+            <p>Well done..!! </p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_517161">
+    <a href="/cao.france-1" class="avatar">
+        <img alt="CAO+ france" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1106064/feed.jpg?1386719814" />
+</a>    <div class="body">
+        <a href="/cao.france-1" class="author">CAO+ france</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">7 months ago</span>
+        <blockquote>
+            <p>merci pour votre effort amine mech</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_517048">
+    <a href="/3d.key-1" class="avatar">
+        <img alt="3d key" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/3d.key-1" class="author">3d key</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">7 months ago</span>
+        <blockquote>
+            <p>merci </p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_517045">
+    <a href="/evaa-1" class="avatar">
+        <img alt="evaa " src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1068490/feed.jpeg?1385314680" />
+</a>    <div class="body">
+        <a href="/evaa-1" class="author">evaa </a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">7 months ago</span>
+        <blockquote>
+            <p>GREAT Thanks Mech Amine !</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/yannick.herinckx-1" class="avatar">
+							<img alt="Yannick Herinckx" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/925087/feed.jpg?1382946453" />
+</a>						<div class="body">
+							<a href="/yannick.herinckx-1" class="author">Yannick Herinckx</a>
+							<span class="eventTime">7 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p><a href="https://grabcad.com/questions/tutorial-how-to-render-using-keyshot" rel="nofollow" target="_blank">https://grabcad.com/questions/tutorial-how-to-render-using-keyshot</a></p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19368">
+								<ol class="answerComments" id="Answer19368">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="../harvey.fonseca-1.html" class="avatar">
+							<img alt="Harvey Fonseca" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/374307/feed.JPG?1398664148" />
+</a>						<div class="body">
+							<a href="../harvey.fonseca-1.html" class="author">Harvey Fonseca</a>
+							<span class="eventTime">7 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Nice. Useful.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19378">
+								<ol class="answerComments" id="Answer19378">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="../dea-1.html" class="avatar">
+							<img alt="DEA" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/98381/feed.png?1392510988" />
+</a>						<div class="body">
+							<a href="../dea-1.html" class="author">DEA</a>
+							<span class="eventTime">7 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Great!!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19380">
+								<ol class="answerComments" id="Answer19380">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="../rewing-1.html" class="avatar">
+							<img alt="Rewing" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/735427/feed.jpg?1377949120" />
+</a>						<div class="body">
+							<a href="../rewing-1.html" class="author">Rewing</a>
+							<span class="eventTime">7 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>really cool!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19384">
+								<ol class="answerComments" id="Answer19384">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/stylusrip" class="avatar">
+							<img alt="Stylusrip" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/63696/feed.jpg?1323242512" />
+</a>						<div class="body">
+							<a href="/stylusrip" class="author">Stylusrip</a>
+							<span class="eventTime">6 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Nice!!!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19485">
+								<ol class="answerComments" id="Answer19485">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="../reza-126.html" class="avatar">
+							<img alt="reza " src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/101752/feed.gif?1401815536" />
+</a>						<div class="body">
+							<a href="../reza-126.html" class="author">reza </a>
+							<span class="eventTime">5 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Congratulations :) </p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_20106">
+								<ol class="answerComments" id="Answer20106">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/pierre--6" class="avatar">
+							<img alt="Pierre" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/39170/feed.jpg?1321793933" />
+</a>						<div class="body">
+							<a href="/pierre--6" class="author">Pierre</a>
+							<span class="eventTime">5 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>super tuto !</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_20146">
+								<ol class="answerComments" id="Answer20146">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="../mech.amine-1.html" class="avatar">
+							<img alt="Mech Amine" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/164941/feed.jpg?1399849139" />
+</a>						<div class="body">
+							<a href="../mech.amine-1.html" class="author">Mech Amine</a>
+							<span class="eventTime">5 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>thanks all </p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_20154">
+								<ol class="answerComments" id="Answer20154">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+			<div class="newAnswer">
+				<h2>Add your answer to: <span>"Tutorial: How to render toon in keyshot , faire un rendu dessin sur keyshoot pro "</span></h2>
+				<div class="bgHilite gray addAnswerContainer commentGroup">
+						<div class="signin">
+							Please log in to answer questions.
+							<a href="../login-52.html" class="button b32 gray">
+								<span>Log in</span>
+</a>						</div>
+				</div>
+			</div>
+	</div>
+</div>
+<div class="g3">
+	<div class="sidebar">
+		<div class="actions right">
+			<div class="dropdownContainer settingsBorder right">
+				<span class="gearIcon-active"></span>
+				<ul>
+				</ul>
+			</div>
+			
+		</div>
+			<div class="bgHilite light socialList">
+
+				<ul>
+					<!-- GOOGLE + tag -->
+					<li class="socialButton">
+						<div>
+							<g:plusone size="tall"></g:plusone>
+						</div>
+					</li>
+					<!-- Facebook tag -->
+					<div id="fb-root"></div>
+					<li class="socialButton fbLike">
+						<div>
+							<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+							<fb:like href="grabcad.com/questions/tutorial-how-to-render-toon-in-keyshot-faire-un-rendu-dessin-sur-keyshoot-pro" send="false" layout="box_count" width="55" show_faces="false"></fb:like>
+						</div>
+					</li>
+					<!-- TWEET tag -->
+					<li class="socialButtonLast">
+						<div>
+							<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical" data-text="Checkout Tutorial: How to render toon in keyshot , faire un rendu dessin sur keyshoot pro  @GrabCAD">Tweet</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="fl fullW">Similar questions</h3>
+	<ul class="sidebarList">
+			<li><strong><a href="/questions/vtuto-un-primer-render-en-keyshot">VTUTO - un primer render en KeyShot</a></strong>
+			<span class="meta">By Carco, 23 Jan 13:15</span></li>
+			<li><strong><a href="/questions/jewellery-and-dimond-rendring-in-keyshot">jewellery and dimond rendring in keyshot</a></strong>
+			<span class="meta">By Ajay Agrawal, 16 Jun 08:39</span></li>
+			<li><strong><a href="/questions/tutorial-how-to-render-using-keyshot">tutorial : how to render using keyshot</a></strong>
+			<span class="meta">By Yannick Herinckx, 08 Dec 18:13</span></li>
+			<li><strong><a href="/questions/how-powerful-and-user-friendly-is-the-keyshot-renderer">How powerful and user friendly is the Keyshot renderer?</a></strong>
+			<span class="meta">By olumide daniel, 26 Apr 13:39</span></li>
+			<li><strong><a href="/questions/how-to-render-animations-in-keyshot-2">How to render animations in keyshot 2?</a></strong>
+			<span class="meta">By ISHAN NANDE, 05 Oct 12:43</span></li>
+			<li><strong><a href="/questions/how-to-render-exploded-view-in-keyshot">how to render exploded view in keyshot?</a></strong>
+			<span class="meta">By Ajay Kunasekaran, 29 Sep 17:37</span></li>
+	</ul>
+	<h3>Similar tags</h3>
+	<p class="tagList">
+			<a href="/questions/latest/tag/how" class="qTag">how</a>
+			<a href="/questions/latest/tag/faire" class="qTag">faire</a>
+			<a href="/questions/latest/tag/un" class="qTag">un</a>
+			<a href="/questions/latest/tag/keyshoot" class="qTag">keyshoot</a>
+			<a href="/questions/latest/tag/pro" class="qTag">pro</a>
+			<a href="latest/tag/solidworks.html" class="qTag">solidworks</a>
+			<a href="/questions/latest/tag/rendering" class="qTag">rendering</a>
+			<a href="/questions/latest/tag/toon" class="qTag">toon</a>
+			<a href="/questions/latest/tag/keyshot" class="qTag">keyshot</a>
+			<a href="/questions/latest/tag/rendu" class="qTag">rendu</a>
+			<a href="/questions/latest/tag/tutorial" class="qTag">tutorial</a>
+			<a href="/questions/latest/tag/dessin" class="qTag">dessin</a>
+			<a href="/questions/latest/tag/sur" class="qTag">sur</a>
+			<a href="/questions/latest/tag/render" class="qTag">render</a>
+	</p>
+	<h3>Popular systems</h3>
+	<p class="popularList">
+			<strong><a href="latest/software/autocad.html">AutoCAD</a></strong><br>
+			<strong><a href="latest/software/autodesk-inventor.html">Autodesk Inventor</a></strong><br>
+			<strong><a href="latest/software/catia.html">CATIA</a></strong><br>
+			<strong><a href="latest/software/nx.html">NX</a></strong><br>
+			<strong><a href="latest/software/pro-slash-engineer-wildfire.html">Pro/Engineer Wildfire</a></strong><br>
+			<strong><a href="latest/software/ptc-creo-elements.html">PTC Creo Elements</a></strong><br>
+			<strong><a href="latest/software/solidworks.html">SOLIDWORKS</a></strong><br>
+			<strong><a href="latest/software/solid-edge.html">Solid Edge</a></strong><br>
+			<strong><a href="latest/software/other.html">Other</a></strong><br>
+	</p>
+
+	</div>
+</div>
+			</section>
+		</section>
+		<a class="replacer hidden"><img alt="" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" /></a>
+		
+		<div id="dimmer"></div>
+<div id='' class='popupWin'>
+	<div class="contentWrapper">
+		<div class='popupHeader'>
+			<span class="popupName">
+				<h1></h1>
+				<p></p>
+			</span>
+			<span class="closeButton"></span>
+			<span class="close"></span>
+		</div>
+		<div class='popupBody'>
+			<div class="bodyContent"></div>
+			<div class="spinnerDiv"></div>
+		</div>
+		<div class='popupFooter'>
+			<span class="buttons">
+				<span class="button b32 red submit" id='popupSubmit'>Save</span>
+				<a href="#" class="button cancelButton" id='popupCancel'>Cancel</a>
+			</span>
+		</div>
+	</div>
+</div>
+		<footer class="g1c">
+	<div class="footerItems">
+		<nav>
+			<ul class="g6c">
+				<li class="heading">Community</li>
+				<li><a href="../library.html">Library</a></li>
+				<li><a href="../challenges.html">Challenges</a></li>
+				<li><a href="../questions.html">Tutorials</a></li>
+				<li><a href="../engineers.html">Engineers</a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">Workbench</li>
+				<li><a href="../workbench.html">About Workbench</a></li>
+				<li><a href="/workbench/security">Security</a></li>
+				<li><a href="../workbench/customers.html">Customers</a></li>
+				<li><a href="../workbench/pricing.html">Pricing</a></li>
+				<li><a href="/toolbox"><span class="translation_missing" title="translation missing: en.navigation.workbench.toolbox">Toolbox</span></a></li>
+				<li><a href="http://blog.grabcad.com/blog/resources"><span class="translation_missing" title="translation missing: en.navigation.workbench.resources">Resources</span></a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">About us</li>
+				<li><a href="/about">Company</a></li>
+				<li><a href="/jobs">Jobs</a></li>
+				<li><a href="http://help.grabcad.com" target="_blank">Help Center</a></li>
+			</ul>
+			<ul class="g6c more">
+				<li class="heading">Get more</li>
+				<li>Read our <a href="http://blog.grabcad.com">Blog</a></li>
+				<li>Follow us on <a href="https://twitter.com/GrabCAD">Twitter</a></li>
+				<li>Like us on <a href="http://facebook.com/GrabCAD">Facebook</a></li>
+			</ul>
+		</nav>
+		<section class="copyrightContainer">
+			<div class="g2x3 copyright">© 2014 GrabCAD
+				<a href="mailto:info@grabcad.com">info@grabcad.com</a>
+				<a href="/terms">Terms of Service</a>
+				<a href="/privacy_policy">Privacy policy</a>
+			</div>
+		</section>
+	</div>
+</footer>
+
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/application-97822be5d16255c56fa7f76b80e039c5.js" type="text/javascript"></script>
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/mobile-af06448f9164aca61a135d66f5e7bdc4.js" type="text/javascript"></script>
+			<script src="http://d9ej3djcdo585.cloudfront.net/assets/learning-51de1b9a40e30c62aa530ac9aed60fb7.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+            Grabcad.configuration.configure({
+  imagePath: 'http://d9ej3djcdo585.cloudfront.net/images',
+  default3dModelPath: '/static/content/cube_holes_5.STL',
+  maximumCategoriesOnCadfile: 3,
+  uploadPath: 'https://s3.amazonaws.com/gc-p',
+  uploadifyFlash: 'http://d9ej3djcdo585.cloudfront.net/flash/uploadify.swf',
+  uploadFileSizeLimit: 524288000,
+  airbrake_options: {
+    project_key: 'bced41dc67ce770c9d55b39f172f1a47',
+    production: true,
+    environment_name: 'production',
+    project_id: '20621'
+  }
+});
+
+            
+		</script>
+		
+		
+			<!-- Google Code for Remarketing Tag -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 981400234;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/981400234/?value=0&guid=ON&script=0"/>
+		</div>
+	</noscript>
+
+	<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-5.newrelic.com","2ff0bc8e20","1508038","c1hbEkVfCgoHQhkTTVVEQQ9YXhVJEVhZFQ==",5,530,new Date().getTime(),"","","","",""]);</script></body>
+</html>

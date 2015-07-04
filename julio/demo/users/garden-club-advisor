@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<link rel="shortcut icon" href="../sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta about="/demo/users/garden-club-advisor#me" typeof="foaf:Person" rel="foaf:account" resource="/demo/users/garden-club-advisor" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta about="/demo/users/garden-club-advisor" property="foaf:name" content="Garden Club Advisor" />
+  <title>Garden Club Advisor | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_okyEETo-_MiNzLiO0rv853zFnOXGWJ04yHHaR6sJ0s4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="../sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_8YnKEH2191h1uW2SekzE955HmAgGcbHvObibmduei6w.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"VFu0R40G-35i-r75tDb83CTj_qLZaFIbyLzu1QHUASQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-user page-user- page-user-11" >
+  <div id="skip-link">
+    <a href="garden-club-advisor#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../../demo" title="Home"><img alt="" class="logo" typeof="foaf:Image" src="../profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../announcements" title="">News</a></li>
+<li class="leaf"><a href="../calendar" title="">Calendar</a></li>
+<li class="last leaf"><a href="../content/contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="garden-club-advisor" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-1tnrk55xXtSJF6HlpSkGCQ_JqvaliH518f87UnRTTe4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 first"><a href="../../demo">Home</a></li>
+<li class="menu-389"><a href="../staff">Faculty and Staff</a></li>
+<li class="menu-367"><a href="../student-life" title="Student Life">Student Life</a></li>
+<li class="menu-369"><a href="../academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="../admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="../guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 last"><a href="../athletics" title="Athletics">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper"></div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+      
+      <div class="region-content-wrapper">
+                  <div class="content-header">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="../../demo">Home</a></div>                        <h1 class="page-title title">Garden Club Advisor</h1>                                                          </div>
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="profile" typeof="sioc:UserAccount" about="/demo/users/garden-club-advisor">
+    <div class="user-picture">
+    <a href="garden-club-advisor" title="View user profile." class="active"><img typeof="foaf:Image" src="../sites/default/files/styles/thumbnail/public/pictures/picture-11-1339805468.jpg" alt="Garden Club Advisor&#039;s picture" title="Garden Club Advisor&#039;s picture" /></a>  </div>
+<div class="field field-name-field-julio-first-name field-type-text field-label-inline clearfix"><div class="field-label">First Name:&nbsp;</div><div class="field-items"><div class="field-item even">Garden</div></div></div><div class="field field-name-julio-og-user-group-ref field-type-entityreference field-label-above"><div class="field-label">User&#039;s Groups:&nbsp;</div><div class="field-items"><div class="field-item even">Garden Club</div></div></div><div class="field field-name-field-julio-last-name field-type-text field-label-inline clearfix"><div class="field-label">Last Name:&nbsp;</div><div class="field-items"><div class="field-item even">Club Advisor</div></div></div><div class="field field-name-field-julio-job-title field-type-text field-label-inline clearfix"><div class="field-label">Job Title:&nbsp;</div><div class="field-items"><div class="field-item even">Garden Club Advisor</div></div></div><div class="field field-name-field-julio-department field-type-text field-label-inline clearfix"><div class="field-label">Department(s):&nbsp;</div><div class="field-items"><div class="field-item even">Garden Club</div></div></div>  <h3>History</h3>
+
+<dl>
+  <dt>Member for</dt>
+<dd>2 years 7 months</dd>
+</dl>
+</div>
+  </div>
+</div>
+  </div>
+                  </div>
+      </div>
+    </div>
+
+
+      <div class="region region-sidebar-first">
+    <div id="block-views-julio-user-og-dashboard-block-1" class="block block-views">
+
+    <h2>My Groups</h2>
+  
+  <div class="content">
+    <div class="view view-julio-user-og-dashboard view-id-julio_user_og_dashboard view-display-id-block_1 view-dom-id-dc152fbf091ca846d0ddf1ea15a27593">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../athletics">Athletics</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/garden-club">Garden Club</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-julio-user-content-block-1" class="block block-views">
+
+    <h2>My Recent Posts</h2>
+  
+  <div class="content">
+    <div class="view view-julio-user-content view-id-julio_user_content view-display-id-block_1 views-row-padding view-dom-id-e59409604bc0cfbe8fea9278b87da78b">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="../content/dreary-night-november">Dreary night of November</a></span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="../content/return-home">Return Home </a></span>  </span></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="../content/sufficient-leisure">Sufficient Leisure</a></span>  </span></li>
+          <li class="views-row views-row-4 views-row-even views-row-last">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="../content/day-my-departure">The day of my departure</a></span>  </span></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

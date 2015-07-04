@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta content="LETTER II " about="/demo/content/letter-ii" property="dc:title" />
+<link rel="shortlink" href="9" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../content/letter-ii" />
+  <title>LETTER II  | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_okyEETo-_MiNzLiO0rv853zFnOXGWJ04yHHaR6sJ0s4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="../sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_8YnKEH2191h1uW2SekzE955HmAgGcbHvObibmduei6w.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"CzYQpwuHbMBlftv8UqJy6y5DqpMZYotFEduiKrouE9M","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-9 node-type-julio-announcement" >
+  <div id="skip-link">
+    <a href="9#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../../demo" title="Home"><img alt="" class="logo" typeof="foaf:Image" src="../profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../announcements" title="">News</a></li>
+<li class="leaf"><a href="../calendar" title="">Calendar</a></li>
+<li class="last leaf"><a href="../content/contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="9" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-eVfYCAk0ui6yRltBK8p0CSSHfpO9CTZ4sL7mYE3MeiU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 first"><a href="../../demo">Home</a></li>
+<li class="menu-389"><a href="../staff">Faculty and Staff</a></li>
+<li class="menu-367"><a href="../student-life" title="Student Life">Student Life</a></li>
+<li class="menu-369"><a href="../academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="../admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="../guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 last"><a href="../athletics" title="Athletics">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper"></div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+      
+      <div class="region-content-wrapper">
+                  <div class="content-header">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="../../demo">Home</a></div>                        <h1 class="page-title title">LETTER II </h1>                                                          </div>
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-9" class="node node-julio-announcement node-promoted clearfix" about="/demo/content/letter-ii" typeof="sioc:Item foaf:Document">
+
+  
+      
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2012-06-15T14:22:35-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <a href="../users/football-coach" title="View user profile." class="username" xml:lang="" about="/demo/users/football-coach" typeof="sioc:UserAccount" property="foaf:name">Football Coach</a> on Fri, 06/15/2012 - 2:22pm</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="../sites/default/files/3747916256_b8ba6353d2.jpg" width="500" height="334" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>LETTER II</p>
+<p>To Mrs. Saville, England</p>
+<p> </p>
+<p>ARCHANGEL, March 28th, 17--.</p>
+<p>How slowly the time passes here, encompassed as I am by frost and snow! yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already engaged appear to be men on whom I can depend, and are certainly possessed of dauntless courage.</p>
+<p>But I have one want which I have never yet been able to satisfy; and the absence of the object of which I now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be none to participate my joy; if I am assailed by disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor medium for the communication of feeling. I desire the company of a man who could sympathise with me; whose eyes would reply to mine. You may deem me romantic, my dear sister, but I bitterly feel the want of a friend. I have no one near me, gentle yet courageous, possessed of a cultivated as well as of a capacious mind, whose tastes are like my own, to approve or amend my plans. How would such a friend repair the faults of your poor brother! I am too ardent in execution, and too impatient of difficulties. But it is a still greater evil to me that I am self-educated: for the first fourteen years of my life I ran wild on a common, and read nothing but our uncle Thomas's books of voyages. At that age I became acquainted with the celebrated poets of our own country; but it was only when it had ceased to be in my power to derive its most important benefits from such a conviction that I perceived the necessity of becoming acquainted with more languages than that of my native country. Now I am twenty-eight, and am in reality more illiterate than many schoolboys of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) keeping; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection enough for me to endeavour to regulate my mind.</p>
+<p>Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous of glory: or rather, to word my phrase more characteristically, of advancement in his profession. He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.</p>
+<p>The master is a person of an excellent disposition, and is remarkable in the ship for his gentleness and the mildness of his discipline. This circumstance, added to his well known integrity and dauntless courage, made me very desirous to engage him. A youth passed in solitude, my best years spent under your gentle and feminine fosterage, has so refined the groundwork of my character that I cannot overcome an intense distaste to the usual brutality exercised on board ship: I have never believed it to be necessary; and when I heard of a mariner equally noted for his kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself peculiarly fortunate in being able to secure his services. I heard of him first in rather a romantic manner, from a lady who owes to him the happiness of her life. This, briefly, is his story. Some years ago he loved a young Russian lady of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her lover, instantly abandoned his pursuit. He had already bought a farm with his money, on which he had desired to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman's father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. "What a noble fellow!" you will exclaim. He is so; but then he is wholly uneducated: he is as silent as a Turk, and a kind of ignorant carelessness attends him, which, while it renders his conduct the more astonishing, detracts from the interest and sympathy which otherwise he would command.</p>
+<p>Yet do not suppose, because I complain a little, or because I can conceive a consolation for my toils which I may never know, that I am wavering in my resolutions. Those are as fixed as fate; and my voyage is only now delayed until the weather shall permit my embarkation. The winter has been dreadfully severe; but the spring promises well, and it is considered as a remarkably early season; so that perhaps I may sail sooner than I expected. I shall do nothing rashly: you know me sufficiently to confide in my prudence and considerateness whenever the safety of others is committed to my care.</p>
+<p>I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to "the land of mist and snow;" but I shall kill no albatross, therefore do not be alarmed for my safety, or if I should come back to you as worn and woeful as the "Ancient Mariner?" You will smile at my allusion; but I will disclose a secret. I have often attributed my attachment to, my passionate enthusiasm for, the dangerous mysteries of ocean, to that production of the most imaginative of modern poets. There is something at work in my soul which I do not understand. I am practically industrious--painstaking;--a workman to execute with perseverance and labour:--but besides this, there is a love for the marvellous, a belief in the marvellous, intertwined in all my projects, which hurries me out of the common pathways of men, even to the wild sea and unvisited regions I am about to explore.</p>
+<p>But to return to dearer considerations. Shall I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue for the present to write to me by every opportunity: I may receive your letters on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.--Your affectionate brother,</p>
+<p>ROBERT WALTON.</p>
+<p> </p>
+<ul><li>Name:Steven Depolo</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/stevendepolo/" rel="nofollow" title="http://www.flickr.com/people/stevendepolo/">http://www.flickr.com/people/stevendepolo/</a></li>
+</ul> </div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                  </div>
+      </div>
+    </div>
+
+
+      <div class="region region-sidebar-first">
+    <div id="block-views-julio-announcements-block-3" class="block block-views">
+
+    <h2>News</h2>
+  
+  <div class="content">
+    <div class="view view-julio-announcements view-id-julio_announcements view-display-id-block_3 view-dom-id-8029e29b2cd4ba3b70330a206b7bccdc">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/image-credits">Image Credits </a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/sufficient-leisure">Sufficient Leisure</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/day-my-departure">The day of my departure</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/chapter-3">Chapter 3</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/chapter-2">Chapter 2</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="../announcements">
+    All News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

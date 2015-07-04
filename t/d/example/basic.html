@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>ErniLab { Feedback }</title>
+		<meta name="description" content="Enables reporting of various information (errors, ideas, general comments, etc.) by users. Capture a screen where you can select the area reported." />
+		<meta name="keywords" content="feedback, form, contact, capture screen, message, reporting">
+		<meta name="author" content="Erwin Bujak">
+
+		<link rel="stylesheet" type="text/css" href="styles/styl.css">
+		<link rel="stylesheet" type="text/css" href="../Feedback/styles/Feedback.css">
+
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+		<!--[if lt IE 9]>
+		<script src="http://lab.erwinbujak.eu/scripts/html5shiv-printshiv.js"></script>
+		<![endif]-->
+	</head>
+<body>
+
+<section id="Container">
+	<header id="Header">
+		<a href="http://lab.erwinbujak.eu/Feedback/" title="" id="Logo"><img src="images/logo.png" alt="" />ErniLab { <span>Feedback</span> }</a>
+
+		<nav>
+			<a href="http://lab.erwinbujak.eu/Feedback/" title="Home" class="active">Home</a>
+		</nav>
+	</header>
+	<section id="Content">
+		<div id="EmbedJS">
+			<h1><img src="images/icon.png" alt="" /><b>Feedback</b></h1>
+			<p>Enables reporting of various information (errors, ideas, general comments, etc.) by users. Capture a screen where you can select the area reported.</p>
+			<nav>
+				<a href="#preview" title="" class="preview">Show me how</a>
+			</nav>
+		</div>
+		<div id="BoxsWhy">
+			<div class="ItemFour">
+				<img src="images/why_icon_01.png" alt="" />
+				<span>Capture a screen without having to use additional software.</span>
+			</div>
+			<div class="ItemFour">
+				<img src="images/why_icon_02.png" alt="" />
+				<span>The ability to select the area of the page you are reporting.</span>
+			</div>
+			<div class="ItemFour">
+				<img src="images/why_icon_03.png" alt="" />
+				<span>Send submissions along with a screenshot by e-mail.</span>
+			</div>
+			<div class="ItemFour">
+				<img src="images/why_icon_06.png" alt="" />
+				<span>Customize the look to your page using the generator styles.</span>
+			</div>
+		</div>
+
+		<div id="DescImages">
+			<div class="Left">
+				<img src="images/desc_image_01.png" alt="" />
+				<div class="Text" style="top: 50px; left: 485px;">
+					<p>Feedback fit your needs! You can completely change the look of the entire tool adjusting it to your site using ready-made color schemes or choose the colors yourself.</p>
+				</div>
+			</div>
+			<div class="Right">
+				<img src="images/desc_image_02.png" alt="" />
+				<div class="Text" style="top: 50px; right: 475px;">
+					<p>User which sends standard notification, can also select an area of the page that describes it. Advantage is also blurring of sensitive data and unchecking the selected area if you make a mistake.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="Browsers">
+			<img src="images/browser_firefox.png" alt="" />
+			<img src="images/browser_chrome.png" alt="" />
+			<img src="images/browser_safari.png" alt="" />
+			<img src="images/browser_opera.png" alt="" />
+			<img src="images/browser_internet-explorer.png" alt="" />
+		</div>
+	</section>
+</section>
+
+<footer id="Footer">Copyright 2014 by Erwin Bujak</footer>
+
+<script src="../Feedback/scripts/jquery-1.11.0.min.js"></script>
+<script src="../Feedback/scripts/html2canvas.js"></script>
+<script src="../Feedback/scripts/jquery.plugin.html2canvas.js"></script>
+<script src="../Feedback/scripts/Feedback.language.en.js"></script>
+<script src="../Feedback/scripts/Feedback.js"></script>
+<script>
+(function () {
+	var config = {
+			"url": "../Feedback/save.php",
+			"multiSelectCategory": false,
+			"category": [
+				{ "name": "General comment", "class": "comment" },
+				{ "name": "Idea", "class": "idea" },
+				{ "name": "Error", "class": "error" },
+				{ "name": "Other" }
+			],
+			"fields": [
+				{
+					"name": "Message",
+					"type": "textarea",
+					"placeholder": "Write a few words...",
+					"validate": true,
+					"validateMessage": "You must complete a description of the notification."
+				},
+				{
+					"name": "UrlNotification",
+					"type": "hidden",
+					"value": window.location,
+					"validate": false
+				}
+			]
+		};
+
+	/* Create button */
+	Feedback.button({ name: FeedbackLanguage.buttonInit.name, position: "BottomRightTab" }, config);
+
+	/* Listener element on page */
+	Feedback.button("#EmbedJS .preview", config);
+
+})();
+</script>
+
+</body>
+</html>

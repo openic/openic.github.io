@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title> Calendar | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_9re6G4jnPYdcTmv-cWeXYcgsRWqKcruL3Ss80iMUcb8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_XR9e7B5pluTeBKDa3mg7UuKKg2cuNGR1Qsr1xr99jbs.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_1tnfCSN4yWn9UnRCwyZm90LUJUUxf9T6WxvmxJ7yA_U.css" media="print" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_zJkg92fmG5ZFnTO5VdE3pYPEg0AFv4jSFqSZgOj7QO4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="sites/default/files/js/js_l0Q9zcWowSIO44jZ3-it__YvATfjQjHLCbJrcRc3cmE.js"></script>
+<script type="text/javascript" src="sites/default/files/js/js_CytnOtaEGoLJKS46oJ5fqBH5trmhthvo1LHare9OaCU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"0OvMA8umX-SV0J1yJJoRtQafwc0luq-CYqfS0GHhr5c","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.effects.core.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.draggable.min.js":1,"misc\/ui\/jquery.ui.droppable.min.js":1,"misc\/ui\/jquery.ui.resizable.min.js":1,"misc\/ui\/jquery.effects.highlight.min.js":1,"profiles\/julio\/libraries\/fullcalendar\/fullcalendar.min.js":1,"profiles\/julio\/libraries\/fullcalendar\/gcal.js":1,"profiles\/julio\/modules\/fullcalendar\/js\/fullcalendar.library.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"profiles\/julio\/modules\/fullcalendar\/fullcalendar_options\/js\/colorbox.fullcalendar.js":1,"profiles\/julio\/modules\/fullcalendar\/js\/fullcalendar.fullcalendar.js":1,"profiles\/julio\/modules\/fullcalendar\/fullcalendar_options\/js\/fullcalendar_options.fullcalendar.js":1,"profiles\/julio\/modules\/fullcalendar\/js\/fullcalendar.views.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"profiles\/julio\/libraries\/fullcalendar\/fullcalendar.css":1,"profiles\/julio\/libraries\/fullcalendar\/fullcalendar.print.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/modules\/fullcalendar\/css\/fullcalendar.theme.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]},"fullcalendar":{".view-dom-id-fc-1":{"colorbox":{"colorbox":true,"colorboxIFrame":false,"colorboxClass":".region-content-wrapper","colorboxWidth":"","colorboxHeight":""},"fullcalendar_options":{"firstHour":6,"minTime":0,"maxTime":24,"slotMinutes":30,"defaultEventMinutes":120,"allDaySlot":true,"weekends":true,"lazyFetching":true,"disableDragging":false,"disableResizing":false,"dragRevertDuration":500,"dayClick":false,"dayClickView":"agendaWeek"},"grouping":[],"fullcalendar":{"buttonText":{"day":"Day","week":"Week","month":"Month","today":"Today"},"allDayText":"All day","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"isRTL":false,"defaultView":"month","firstDay":"0","weekMode":"fixed","header":{"left":"today prev,next","center":"title","right":"month agendaWeek agendaDay"},"timeFormat":"h(:mm)tt","axisFormat":"h(:mm)t","theme":true,"sameWindow":false,"droppable":false,"editable":false},"date":{"year":"2015","month":0},"gcal":[],"view_name":"julio_events_calendar","view_display":"page","weights":["fullcalendar","colorbox","fullcalendar_options"]}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-calendar" >
+  <div id="skip-link">
+    <a href="calendar#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../demo" title="Home"><img alt="" class="logo" typeof="foaf:Image" src="profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="announcements" title="">News</a></li>
+<li class="leaf active-trail"><a href="calendar" title="" class="active-trail active">Calendar</a></li>
+<li class="last leaf"><a href="content/contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="calendar" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-i5xC0ZmdgCwIgrDwgIGjm3pq6EdV0LOsIectxaa4wig" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 first"><a href="../demo">Home</a></li>
+<li class="menu-389"><a href="staff">Faculty and Staff</a></li>
+<li class="menu-367"><a href="student-life" title="Student Life">Student Life</a></li>
+<li class="menu-369"><a href="academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 last"><a href="athletics" title="Athletics">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper"></div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+      
+      <div class="region-content-wrapper">
+                  <div class="content-header">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="../demo">Home</a> » <a href="calendar" class="active">Events</a></div>                        <h1 class="page-title title"> Calendar</h1>                                                          </div>
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-julio-events-calendar view-id-julio_events_calendar view-display-id-page view-dom-id-fc-1">
+        
+  
+  
+      <div class="view-content">
+      <div class="fullcalendar-status"></div><div class="fullcalendar"></div><div class="fullcalendar-content"><div class="fullcalendar-event"><h3 class="title">Return Home </h3><div class="fullcalendar-instance"><a href="content/return-home" allDay="" start="2012-06-15 16:12:00" end="2012-06-15 17:12:00" editable="" field="field_julio_event_date" index="0" eid="22" entity_type="node" cn="fc-event-default julio-event fc-event-field-field-julio-event-date" title="Return Home " class="fullcalendar-event-details"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2012-06-15T16:12:00-07:00">Friday, June 15, 2012 - 4:12pm</span></a></div></div><div class="fullcalendar-event"><h3 class="title">August 13th, 17--</h3><div class="fullcalendar-instance"><a href="content/august-13th-17" allDay="" start="2012-08-13 14:44:00" end="2012-08-13 16:44:00" editable="" field="field_julio_event_date" index="0" eid="12" entity_type="node" cn="fc-event-default julio-event fc-event-field-field-julio-event-date" title="August 13th, 17--" class="fullcalendar-event-details"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2012-08-13T14:44:00-07:00">Monday, August 13, 2012 - 2:44pm</span></a></div></div><div class="fullcalendar-event"><h3 class="title">August 19th, 17--</h3><div class="fullcalendar-instance"><a href="content/august-19th-17" allDay="" start="2012-08-19 14:46:00" end="2012-08-19 15:46:00" editable="" field="field_julio_event_date" index="0" eid="13" entity_type="node" cn="fc-event-default julio-event fc-event-field-field-julio-event-date" title="August 19th, 17--" class="fullcalendar-event-details"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2012-08-19T14:46:00-07:00">Sunday, August 19, 2012 - 2:46pm</span></a></div></div><div class="fullcalendar-event"><h3 class="title">Dreary night of November</h3><div class="fullcalendar-instance"><a href="content/dreary-night-november" allDay="" start="2012-11-06 16:12:00" end="2012-11-12 17:12:00" editable="" field="field_julio_event_date" index="0" eid="23" entity_type="node" cn="fc-event-default julio-event fc-event-field-field-julio-event-date" title="Dreary night of November" class="fullcalendar-event-details"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2012-11-06T16:12:00-08:00">Tuesday, November 6, 2012 - 4:12pm</span></a></div></div></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+                  </div>
+      </div>
+    </div>
+
+
+      <div class="region region-sidebar-first">
+    <div id="block-views-julio-announcements-block-3" class="block block-views">
+
+    <h2>News</h2>
+  
+  <div class="content">
+    <div class="view view-julio-announcements view-id-julio_announcements view-display-id-block_3 view-dom-id-132ac18319d74b8992899f915f6626af">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/image-credits">Image Credits </a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/sufficient-leisure">Sufficient Leisure</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/day-my-departure">The day of my departure</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/chapter-3">Chapter 3</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/chapter-2">Chapter 2</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="announcements">
+    All News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

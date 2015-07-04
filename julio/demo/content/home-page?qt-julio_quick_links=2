@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta content="Home Page" about="/demo/content/home-page" property="dc:title" />
+<link rel="shortlink" href="../node/1" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="home-page" />
+  <title>Home Page | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_eu5p-Xv7iQi2Bc2lDmUptnLcRSd1KfQ0i5GQE71SClY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="../sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_U3dpi3m9Ek_h9Wjl_LAxnAqsRi9odQ7dT8bRLBK32SU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"8Y-Zr0xjwYEFnH2RMj-rZi_Vji56XsKcC_uB3QjStZE","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/progress.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"profiles\/julio\/libraries\/nivo-slider\/jquery.nivo.slider.pack.js":1,"profiles\/julio\/modules\/media-nivo-slider\/js\/media_nivo_slider.js":1,"profiles\/julio\/modules\/quicktabs\/js\/quicktabs.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/libraries\/nivo-slider\/nivo-slider.css":1,"profiles\/julio\/libraries\/nivo-slider\/themes\/default\/default.css":1,"profiles\/julio\/modules\/quicktabs\/css\/quicktabs.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]},"media_nivo_slider":{"homepage-slideshow":{"effect":"random","animSpeed":"500","pauseTime":"4000","slices":"15","boxCols":"8","boxRows":"4","hoverPause":"true","captionOpacity":"0.80"}},"quicktabs":{"qt_julio_quick_links":{"name":"julio_quick_links","tabs":[{"bid":"menu_delta_menu-julio-current-students","hide_title":1},{"bid":"menu_delta_menu-julio-alumni","hide_title":1},{"bid":"menu_delta_menu-julio-faculty-staff","hide_title":1},{"bid":"menu_delta_menu-julio-prospective-students","hide_title":1}],"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]}}}});
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page front-1" >
+  <div id="skip-link">
+    <a href="home-page?qt-julio_quick_links=2#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../../demo" title="Home" class="active"><img alt="" class="logo" typeof="foaf:Image" src="../profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../announcements" title="">News</a></li>
+<li class="leaf"><a href="../calendar" title="">Calendar</a></li>
+<li class="last leaf"><a href="contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="home-page?qt-julio_quick_links=2" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Qmh1Av2D7aHRtAmGogpLEUX-g4PYrvS9dcgCA4gzo5o" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 active first active"><a href="../../demo" class="active active">Home</a></li>
+<li class="menu-389"><a href="../staff">Faculty and Staff</a></li>
+<li class="menu-367"><a href="../student-life" title="Student Life">Student Life</a></li>
+<li class="menu-369"><a href="../academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="../admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="../guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 last"><a href="../athletics" title="Athletics">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper"></div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+              <div id="featured" class="clearfix">
+            <div class="region region-featured">
+    <div id="block-media-nivo-slider-7" class="block block-media-nivo-slider">
+
+    
+  <div class="content">
+    
+<div class="slider-wrapper theme-default">
+    <div id="homepage-slideshow-media-nivo-slider" class="nivoSlider">
+
+      </div>
+</div>
+  </div>
+</div>
+  </div>
+        </div>
+      
+      <div class="region-content-wrapper">
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-1" class="node node-page clearfix" about="/demo/content/home-page" typeof="foaf:Document">
+
+  
+      
+  
+  <div class="content">
+      </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                  </div>
+      </div>
+    </div>
+
+
+        
+          <div class="triptych-wrapper clearfix">
+          <div class="region region-triptych-first">
+    <div id="block-quicktabs-julio-quick-links" class="block block-quicktabs">
+
+    <h2>Quick Links</h2>
+  
+  <div class="content">
+    <div  id="quicktabs-julio_quick_links" class="quicktabs-wrapper quicktabs-style-nostyle"><div class="item-list"><ul class="quicktabs-tabs quicktabs-style-nostyle"><li class="first"><a href="home-page?qt-julio_quick_links=0#qt-julio_quick_links" id="quicktabs-tab-julio_quick_links-0" class="active">Current Students</a></li>
+<li><a href="home-page?qt-julio_quick_links=1#qt-julio_quick_links" id="quicktabs-tab-julio_quick_links-1" class="active">Alumni</a></li>
+<li class="active"><a href="home-page?qt-julio_quick_links=2#qt-julio_quick_links" id="quicktabs-tab-julio_quick_links-2" class="active">Faculty &amp; Staff</a></li>
+<li class="last"><a href="home-page?qt-julio_quick_links=3#qt-julio_quick_links" id="quicktabs-tab-julio_quick_links-3" class="active">Prospective Students</a></li>
+</ul></div><div id="quicktabs-container-julio_quick_links" class="quicktabs_main quicktabs-style-nostyle"><div  id="quicktabs-tabpage-julio_quick_links-0" class="quicktabs-tabpage quicktabs-hide"></div><div  id="quicktabs-tabpage-julio_quick_links-1" class="quicktabs-tabpage quicktabs-hide"></div><div  id="quicktabs-tabpage-julio_quick_links-2" class="quicktabs-tabpage "></div><div  id="quicktabs-tabpage-julio_quick_links-3" class="quicktabs-tabpage quicktabs-hide"></div></div></div>  </div>
+</div>
+  </div>
+          <div class="region region-triptych-middle">
+    <div id="block-views-julio-events-calendar-block-3" class="block block-views">
+
+    <h2>Events</h2>
+  
+  <div class="content">
+    <div class="view view-julio-events-calendar view-id-julio_events_calendar view-display-id-block_3 event-block view-dom-id-cf110343600ed3b5fdd6a0b918f0dc95">
+        
+  
+  
+      <div class="view-empty">
+       <p>There are no featured events yet.</p>
+     </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="../calendar">
+    Calendar  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+          <div class="region region-triptych-last">
+    <div id="block-views-julio-announcements-block-2" class="block block-views">
+
+    <h2>Featured News</h2>
+  
+  <div class="content">
+    <div class="view view-julio-announcements view-id-julio_announcements view-display-id-block_2 view-dom-id-182c181ab1404506bcdc85fd8b13d277">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="image-credits">Image Credits </a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="sufficient-leisure">Sufficient Leisure</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="day-my-departure">The day of my departure</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="letter-ii">LETTER II </a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="letter-i">LETTER I </a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="../announcements">
+    All News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+      </div>
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

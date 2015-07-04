@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta content="Sufficient Leisure" about="/demo/content/sufficient-leisure" property="dc:title" />
+<link rel="shortlink" href="21" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../content/sufficient-leisure" />
+  <title>Sufficient Leisure | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_okyEETo-_MiNzLiO0rv853zFnOXGWJ04yHHaR6sJ0s4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="../sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_8YnKEH2191h1uW2SekzE955HmAgGcbHvObibmduei6w.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"PJ3KWhq-WHIJHu0nMMGvwavHIcuFo6OBSg_SFm6Qf0I","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]},"ogContext":{"groupType":"node","gid":"19"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-21 node-type-julio-announcement og-context og-context-node og-context-node-19" >
+  <div id="skip-link">
+    <a href="21#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../../demo" title="Home"><img alt="" class="logo" typeof="foaf:Image" src="../profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../announcements" title="">News</a></li>
+<li class="leaf"><a href="../calendar" title="">Calendar</a></li>
+<li class="last leaf"><a href="../content/contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="21" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-pJ6uvOe5Lb4FGo_3rfAVYKrCXARAWuo4ST3L3h4gGRE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 first"><a href="../../demo">Home</a></li>
+<li class="menu-389"><a href="../staff">Faculty and Staff</a></li>
+<li class="menu-367 active"><a href="../student-life" title="Student Life" class="active">Student Life</a></li>
+<li class="menu-369"><a href="../academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="../admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="../guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 last"><a href="../athletics" title="Athletics">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper">  <div class="region region-header">
+    <div id="block-menu-menu-julio-clubs-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first last leaf"><a href="../clubs" title="All clubs">Clubs</a></li>
+</ul>  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+      
+      <div class="region-content-wrapper">
+                  <div class="content-header">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="../../demo">Home</a></div>                        <h1 class="page-title title">Sufficient Leisure</h1>                                                          </div>
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-21" class="node node-julio-announcement node-promoted clearfix" about="/demo/content/sufficient-leisure" typeof="sioc:Item foaf:Document">
+
+  
+      
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2012-06-15T16:17:12-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <a href="../users/garden-club-advisor" title="View user profile." class="username" xml:lang="" about="/demo/users/garden-club-advisor" typeof="sioc:UserAccount" property="foaf:name">Garden Club Advisor</a> on Fri, 06/15/2012 - 4:17pm</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="../sites/default/files/4350089553_8f494a2e91.jpg" width="500" height="333" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>I had sufficient leisure for these and many other reflections during my journey to Ingolstadt, which was long and fatiguing. At length the high white steeple of the town met my eyes. I alighted, and was conducted to my solitary apartment, to spend the evening as I pleased.</p>
+<p>The next morning I delivered my letters of introduction and paid a visit to some of the principal professors. Chance--or rather the evil influence, the Angel of Destruction, which asserted omnipotent sway over me from the moment I turned my reluctant steps from my father's door led me first to M. Krempe, professor of natural philosophy. He was an uncouth man, but deeply embued in the secrets of his science. He asked me several questions concerning my progress in the different branches of science appertaining to natural philosophy. I replied carelessly; and, partly in contempt, mentioned the names of my alchymists as the principal authors I had studied. The professor stared: "Have you," he said, "really spent your time in studying such nonsense?"</p>
+<p> </p>
+<p>Image Credit : </p>
+<ul><li>Website: <a class="external free" href="http://www.flickr.com/people/planofthebrachialplexus/" rel="nofollow" title="http://www.flickr.com/people/planofthebrachialplexus/">http://www.flickr.com/people/planofthebrachialplexus/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/planofthebrachialplexus/4350089553/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/planofthebrachialplexus/4350089553/sizes/m/in/photostream/">http://www.flickr.com/photos/planofthebrachialplexus/4350089553/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+ </div></div></div><div class="field field-name-julio-og-group-ref field-type-entityreference field-label-above"><div class="field-label">Belongs to:&nbsp;</div><div class="field-items"><div class="field-item even">Garden Club</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                  </div>
+      </div>
+    </div>
+
+
+      <div class="region region-sidebar-first">
+    <div id="block-views-julio-announcements-block-1" class="block block-views">
+
+    <h2>Garden Club News</h2>
+  
+  <div class="content">
+    <div class="view view-julio-announcements view-id-julio_announcements view-display-id-block_1 view-dom-id-daaf5c875420e23065d2caa5e881b859">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/sufficient-leisure" class="active">Sufficient Leisure</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/day-my-departure">The day of my departure</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="../announcements/19">
+    All News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Faculty and Staff | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_okyEETo-_MiNzLiO0rv853zFnOXGWJ04yHHaR6sJ0s4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="sites/default/files/js/js_8YnKEH2191h1uW2SekzE955HmAgGcbHvObibmduei6w.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"yz8DY3ZCQmvqND8C9NiZ3tQAGY352VDTaEyjBX-yTYA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-staff" >
+  <div id="skip-link">
+    <a href="staff#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../demo" title="Home"><img alt="" class="logo" typeof="foaf:Image" src="profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="announcements" title="">News</a></li>
+<li class="leaf"><a href="calendar" title="">Calendar</a></li>
+<li class="last leaf"><a href="content/contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="staff" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-pv06TIKYwoCoy4Q6DJUGNk6_SiOlyNJrldPhSTpV1jg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 first"><a href="../demo">Home</a></li>
+<li class="menu-389 active-trail active"><a href="staff" class="active-trail active">Faculty and Staff</a></li>
+<li class="menu-367"><a href="student-life" title="Student Life">Student Life</a></li>
+<li class="menu-369"><a href="academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 last"><a href="athletics" title="Athletics">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper"></div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+      
+      <div class="region-content-wrapper">
+                  <div class="content-header">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="../demo">Home</a></div>                        <h1 class="page-title title">Faculty and Staff</h1>                                                          </div>
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-julio-faculty-staff view-id-julio_faculty_staff view-display-id-page staff view-dom-id-57cba891a410adc97c44ae2fdbfee59f">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-2">
+  <tbody>
+          <tr class="row-1 row-first">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-field-julio-first-name">        <strong class="field-content">Drama</strong>  </span>  
+  <span class="views-field views-field-field-julio-last-name">        <strong class="field-content">Assistant Director</strong>  </span>  
+  <div class="views-field views-field-field-julio-job-title">        <em class="field-content">Drama Assistant Director</em>  </div>  
+  <div class="views-field views-field-field-julio-department">        <div class="field-content">Drama</div>  </div>  
+  <div class="views-field views-field-field-julio-email">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-julio-phone">        <div class="field-content"></div>  </div>          </td>
+                  <td class="col-2 col-last">
+              
+  <span class="views-field views-field-field-julio-first-name">        <strong class="field-content">Garden</strong>  </span>  
+  <span class="views-field views-field-field-julio-last-name">        <strong class="field-content">Club Advisor</strong>  </span>  
+  <div class="views-field views-field-field-julio-job-title">        <em class="field-content">Garden Club Advisor</em>  </div>  
+  <div class="views-field views-field-field-julio-department">        <div class="field-content">Garden Club</div>  </div>  
+  <div class="views-field views-field-field-julio-email">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-julio-phone">        <div class="field-content"></div>  </div>          </td>
+              </tr>
+          <tr class="row-2">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-field-julio-first-name">        <strong class="field-content">Garden</strong>  </span>  
+  <span class="views-field views-field-field-julio-last-name">        <strong class="field-content">Club Leader</strong>  </span>  
+  <div class="views-field views-field-field-julio-job-title">        <em class="field-content">Garden Club Leader</em>  </div>  
+  <div class="views-field views-field-field-julio-department">        <div class="field-content">Garden Club</div>  </div>  
+  <div class="views-field views-field-field-julio-email">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-julio-phone">        <div class="field-content"></div>  </div>          </td>
+                  <td class="col-2 col-last">
+              
+  <span class="views-field views-field-field-julio-first-name">        <strong class="field-content">Garden</strong>  </span>  
+  <span class="views-field views-field-field-julio-last-name">        <strong class="field-content">Club Student Rep</strong>  </span>  
+  <div class="views-field views-field-field-julio-job-title">        <em class="field-content">Garden Club Student Rep</em>  </div>  
+  <div class="views-field views-field-field-julio-department">        <div class="field-content">Garden Club</div>  </div>  
+  <div class="views-field views-field-field-julio-email">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-julio-phone">        <div class="field-content"></div>  </div>          </td>
+              </tr>
+          <tr class="row-3">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-field-julio-first-name">        <strong class="field-content">Football</strong>  </span>  
+  <span class="views-field views-field-field-julio-last-name">        <strong class="field-content">Coach</strong>  </span>  
+  <div class="views-field views-field-field-julio-job-title">        <em class="field-content">Football Coach</em>  </div>  
+  <div class="views-field views-field-field-julio-department">        <div class="field-content">Athletics</div>  </div>  
+  <div class="views-field views-field-field-julio-email">        <div class="field-content"><a href="mailto:Football_Coach@examplesite.com">Football_Coach@examplesite.com</a></div>  </div>  
+  <div class="views-field views-field-field-julio-phone">        <div class="field-content">123.456.7890</div>  </div>          </td>
+                  <td class="col-2 col-last">
+              
+  <span class="views-field views-field-field-julio-first-name">        <strong class="field-content">Drama Club</strong>  </span>  
+  <span class="views-field views-field-field-julio-last-name">        <strong class="field-content">Director</strong>  </span>  
+  <div class="views-field views-field-field-julio-job-title">        <em class="field-content">Drama Club Director</em>  </div>  
+  <div class="views-field views-field-field-julio-department">        <div class="field-content">Drama</div>  </div>  
+  <div class="views-field views-field-field-julio-email">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-julio-phone">        <div class="field-content"></div>  </div>          </td>
+              </tr>
+          <tr class="row-4">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-field-julio-first-name">        <strong class="field-content">Assistant</strong>  </span>  
+  <span class="views-field views-field-field-julio-last-name">        <strong class="field-content">Football Coach</strong>  </span>  
+  <div class="views-field views-field-field-julio-job-title">        <em class="field-content">Assistant Football Coach</em>  </div>  
+  <div class="views-field views-field-field-julio-department">        <div class="field-content">Athletics</div>  </div>  
+  <div class="views-field views-field-field-julio-email">        <div class="field-content"><a href="mailto:Assistant_Football_Coach@examplesite.com">Assistant_Football_Coach@examplesite.com</a></div>  </div>  
+  <div class="views-field views-field-field-julio-phone">        <div class="field-content">123.456.7890</div>  </div>          </td>
+                  <td class="col-2 col-last">
+              
+  <span class="views-field views-field-field-julio-first-name">        <strong class="field-content">Jeff</strong>  </span>  
+  <span class="views-field views-field-field-julio-last-name">        <strong class="field-content">Graham</strong>  </span>  
+  <div class="views-field views-field-field-julio-job-title">        <em class="field-content">Steamroller</em>  </div>  
+  <div class="views-field views-field-field-julio-department">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-julio-email">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-julio-phone">        <div class="field-content"></div>  </div>          </td>
+              </tr>
+          <tr class="row-5 row-last">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-field-julio-first-name">        <strong class="field-content">Drama</strong>  </span>  
+  <span class="views-field views-field-field-julio-last-name">        <strong class="field-content">Student Rep</strong>  </span>  
+  <div class="views-field views-field-field-julio-job-title">        <em class="field-content">Drama Student Rep</em>  </div>  
+  <div class="views-field views-field-field-julio-department">        <div class="field-content">Drama</div>  </div>  
+  <div class="views-field views-field-field-julio-email">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-julio-phone">        <div class="field-content"></div>  </div>          </td>
+                  <td class="col-2 col-last">
+                      </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+                  </div>
+      </div>
+    </div>
+
+
+      <div class="region region-sidebar-first">
+    <div id="block-views-julio-announcements-block-3" class="block block-views">
+
+    <h2>News</h2>
+  
+  <div class="content">
+    <div class="view view-julio-announcements view-id-julio_announcements view-display-id-block_3 view-dom-id-73eca2e3b416a0386859dc61c75564ae">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/image-credits">Image Credits </a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/sufficient-leisure">Sufficient Leisure</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/day-my-departure">The day of my departure</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/chapter-3">Chapter 3</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="content/chapter-2">Chapter 2</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="announcements">
+    All News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

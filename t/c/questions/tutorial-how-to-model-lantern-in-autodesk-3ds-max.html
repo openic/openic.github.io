@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+		
+		<meta charset="utf-8">
+<meta name="robots" content="noodp">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name="google-site-verification" content="sRcy8COOEVzfXadS3NzNsefhbSouqvlesgWngH5kKxs">
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="u+gK0g9c+UiP8HnfaW8+8nd5SxKj0miTS35NKzmsyWc=" name="csrf-token" />
+<link href="http://d9ej3djcdo585.cloudfront.net/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+
+		<title>Tutorial: How to model Lantern in Autodesk 3Ds Max - GrabCAD</title>
+<meta content="share cad, collaborate, mechanical engineers, grabcad, cad, cam, library, free, cad models, cad drawings, models, open source, solid works, solidedge, autodesk, alibre, autocad, catia, sketchup, keycreator, pro/engineer, spaceclaim" name="keywords" />
+		
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app-5cafbacdac642bf50ad99138c0115601.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app_1-88db9beff3b67d7c78ad6369e0f476a8.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/mobile-926c78328922620d538ba8bfd444e209.css" media="screen" rel="stylesheet" type="text/css" />
+
+		
+		
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/modernizr.min-a0dbb94a4cc903c6320b4aedc103c987.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+var Analytical = {
+  track: function(page) {
+
+  },
+  event: function(name, data) {
+    if (typeof data === 'undefined') { data = {}; }
+
+  }
+};
+</script>
+
+	</head>
+	<body id="questions">
+			<!-- Qualaroo code for grabcad.com -->
+	<script>var _kiq = _kiq || [];</script>
+	<script>
+		(function(){
+			setTimeout(function(){
+				var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+				s.async = true; s.src = '//s3.amazonaws.com/ki.js/49091/a6N.js'; f.parentNode.insertBefore(s, f);
+			}, 1);
+		})();
+	</script>
+	<script charset="utf-8">
+		_kiq.push(['identify', '']);
+	</script>
+	<!-- End of Qualaroo code for grabcad.com -->
+
+		
+		
+		<header ng-non-bindable>
+	<nav class="main g1c">
+		<a href="../index.html" class="grabcad-logo"></a>
+		<ul class="menu">
+			<li class="selected">
+				<a href="../home-3.html">Community</a>
+				<ul class="dropdown">
+					<li  class='secondary' >
+						<a href="../home-3.html">
+							<span>Home</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../library.html">
+							<span>Library</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../challenges.html">
+							<span>Challenges</span>
+</a>					</li>
+					<li class="secondary selected" class='secondary' >
+						<a href="../questions.html">
+							<span>Tutorials</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../engineers.html">
+							<span>Engineers</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li >
+					<a href="../workbench.html">
+						<span>Workbench</span>
+</a>				<ul class="dropdown workbench">
+					<li  class='secondary'>
+						<a href="../workbench.html">
+							<span>Overview</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/features.html">
+							<span>Features</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/customers.html">
+							<span>Customers</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/pricing.html">
+							<span>Pricing</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/blog/resources/">
+				<span>Resources</span>
+</a>				<ul class="dropdown">
+					<li class='secondary'>
+						<a href="http://blog.grabcad.com/blog/resources/">
+							<span>Resource Center</span>
+</a>				 	</li>
+					<li class='secondary'>
+						<a href="http://help.grabcad.com" target="_blank">
+							<span>Help Center</span>
+</a>					</li>
+					<li class='secondary'>
+						<a href="/about">
+						<span>About us</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/">
+				<span>Blog</span>
+</a>			</li>
+		</ul>
+		<div class="headerRightHalf">
+			<div class="account">
+						<a href="../login-52.html" class="mr16">Log in</a>
+		<a href="../profile/register-58.html">Sign up</a>
+
+			</div>
+			  <div class="headerSearch">
+				  <!-- <form accept-charset="UTF-8" action="http://localhost:3000/search" method="get" class="">
+	<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text"><span class="searchSpin"></span>
+	<ul class="quickfilter hidden"><li></li></ul></div>
+</form>
+ -->
+<form accept-charset="UTF-8" action="http://grabcad.com/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search community'">
+		<span class="searchSpin"></span>
+	</div>
+</form>
+			  </div>
+		</div>
+	</nav>
+</header>
+
+			<div class="signupBanner">
+				<div class="g1c">
+						<div class="g1">
+		<div class="contentUpsell">
+			<div class="g2x3c">		
+				<h2>Ask and answer questions and download tutorials</h2>
+				<p>Thousands of tutorials to learn from</p>
+			</div>
+			<div class="g1x3c">
+				<a href="../profile/register%3Futm_source=tutorial_page.html" class="button b48 darkgray" id="banner_cta_engineers">
+					<span> Start learning, sign up</span>
+</a>			</div>
+		</div>
+	</div>
+
+				</div>
+			</div>
+		<section id="body" class="">
+			<section id="bodyContent" class="gc">
+				<div class="g1">
+					<div class="flashMessage">
+					</div>
+				</div>
+				
+<div class="g2x3c">
+	<div class="g2x3 questionHead">
+		<a href="../mohammad.shubbak-1.html" class="avatar">
+				<img alt="Feed" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/171486/feed.jpg?1394122761" />
+</a>		<h1 class="withAvatar">
+			Tutorial: How to model Lantern in Autodesk 3Ds Max
+		</h1>
+		<div class="tagList">
+			<a href="latest/software/autodesk-3ds-max.html" class="system qTag">Autodesk 3ds Max</a>
+				<a href="/questions/latest/tag/lantern" class="qTag">lantern</a>
+				<a href="/questions/latest/tag/designintent" class="qTag">designintent</a>
+		</div>
+		<div class="titlemeta">
+			By <a href="../mohammad.shubbak-1.html">Mohammad Shubbak</a> on 09 May 22:12
+			<span class="answers">3 answers</span>
+			<span class="views">1555 views</span>
+			<span class="comments">0 comments</span>
+		</div>
+		<div class="questionData">
+			<p>original model : <a href="http://grabcad.com/library/tutorial-how-to-model-lantern-in-autodesk-3ds-max" rel="nofollow" target="_blank">Lantern</a>.</p>
+			<div class="questionAttachments">
+					<div class="questionImages">
+						<h3>Added images</h3>
+							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20087/large.jpg?1368133972" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20087/square.jpg?1368133972" />
+</a>							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20166/large.jpg?1368139339" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20166/square.jpg?1368139339" />
+</a>					</div>
+			</div>
+		</div>
+	</div>
+	<div class="g2x3">
+		<h3>
+			3 answers
+		</h3>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="../mohammad.shubbak-1.html" class="avatar">
+							<img alt="Mohammad Shubbak" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/171486/feed.jpg?1394122761" />
+</a>						<div class="body">
+							<a href="../mohammad.shubbak-1.html" class="author">Mohammad Shubbak</a>
+							<span class="eventTime">about 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Original model : <a href="http://grabcad.com/library/tutorial-how-to-model-lantern-in-autodesk-3ds-max" rel="nofollow" target="_blank">Lantern</a>.</p>
+									<ol class="answerTutorialSteps">
+											<li>
+												<h3>Step 1</h3>
+												<p>First draw a plane; from "Geometry" choose "Plane"</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20100/large.jpg?1368136746" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20100/medium.jpg?1368136746" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 2</h3>
+												<p>Draw a plane with a size of the Lantern image.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20099/large.jpg?1368136743" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20099/medium.jpg?1368136743" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 3</h3>
+												<p>Drag the Lantern image and drop it into the Plane surface.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20098/large.jpg?1368136741" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20098/medium.jpg?1368136741" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 4</h3>
+												<p>Now we will first draw the Upper Part of our Lantern, from "Shapes" choose "Line"</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20097/large.jpg?1368136739" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20097/medium.jpg?1368136739" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 5</h3>
+												<p>With lines, draw the right-hand-half of the upper part.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20096/large.jpg?1368136737" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20096/medium.jpg?1368136737" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 6</h3>
+												<p>From the "Modifier List" choose "Lathe"</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20095/large.jpg?1368136735" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20095/medium.jpg?1368136735" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 7</h3>
+												<p>The figure will become closed (by rotation around itself).</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20094/large.jpg?1368136733" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20094/medium.jpg?1368136733" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 8</h3>
+												<p>Choose Segments = 40</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20093/large.jpg?1368136731" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20093/medium.jpg?1368136731" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 9</h3>
+												<p>From the "Modifier List" choose "Edit Poly"</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20092/large.jpg?1368136729" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20092/medium.jpg?1368136729" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 10</h3>
+												<p>Select polygon, then press "Shift" while lift-clicking on the lower surface as shown in the figure, so the surface will become selected. afterthat press "Del" to remove it.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20091/large.jpg?1368136727" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20091/medium.jpg?1368136727" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 11</h3>
+												<p>The drawing becomes open from the bottom.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20116/large.jpg?1368137207" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20116/medium.jpg?1368137207" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 12</h3>
+												<p>From "Selection" choose "Element" and press on the Model to select it totally.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20115/large.jpg?1368137205" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20115/medium.jpg?1368137205" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 13</h3>
+												<p>.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20114/large.jpg?1368137203" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20114/medium.jpg?1368137203" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 14</h3>
+												<p>Right-Click on the selected Model then choose "Scale"</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20113/large.jpg?1368137201" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20113/medium.jpg?1368137201" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 15</h3>
+												<p>Press "Shift" for duplicate the model. and make the cloned Model smaller. from the dialog box check "Clone to Element" then OK.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20112/large.jpg?1368137200" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20112/medium.jpg?1368137200" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 16</h3>
+												<p>For the new element, select "Normal" from the "Modifier List"</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20111/large.jpg?1368137198" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20111/medium.jpg?1368137198" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 17</h3>
+												<p>Look at the difference at the element surface.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20110/large.jpg?1368137196" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20110/medium.jpg?1368137196" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 18</h3>
+												<p>In the modifier list, right-click "Normal" and select "Collapse All"</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20109/large.jpg?1368137194" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20109/medium.jpg?1368137194" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 19</h3>
+												<p>From "Selection" choose "Border" then select the bottom edges of the two elements.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20108/large.jpg?1368137192" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20108/medium.jpg?1368137192" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 20</h3>
+												<p>From "Edit Borders" choose "Bridge"</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20107/large.jpg?1368137189" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20107/medium.jpg?1368137189" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 21</h3>
+												<p>Notice that the shape will be closed as shown in the figure.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20106/large.jpg?1368137187" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20106/medium.jpg?1368137187" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 22</h3>
+												<p>Now the Upper part of our Lantern is finished.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20146/large.jpg?1368138091" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20146/medium.jpg?1368138091" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 23</h3>
+												<p>Draw the Middle Part exactly the same way as the upper one; lines, lathe, rotation... (see steps 4 to 21)</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20145/large.jpg?1368138089" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20145/medium.jpg?1368138089" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 24</h3>
+												<p>.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20144/large.jpg?1368138087" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20144/medium.jpg?1368138087" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 25</h3>
+												<p>.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20143/large.jpg?1368138086" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20143/medium.jpg?1368138086" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 26</h3>
+												<p>.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20142/large.jpg?1368138084" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20142/medium.jpg?1368138084" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 27</h3>
+												<p>Now the Middle part is also finished.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20141/large.jpg?1368138082" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20141/medium.jpg?1368138082" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 28</h3>
+												<p>Draw the Bottom Part of the Lantern exactly the same way as the previous parts. (steps 4 to 9)</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20140/large.jpg?1368138080" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20140/medium.jpg?1368138080" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 29</h3>
+												<p>.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20139/large.jpg?1368138078" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20139/medium.jpg?1368138078" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 30</h3>
+												<p>From "Selection" choose "Edge" then select the shown line, press "Shift" and click on the line besides to select the circular edge.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20138/large.jpg?1368138076" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20138/medium.jpg?1368138076" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 31</h3>
+												<p>from "Edit Edges" select "Chamfer"</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20165/large.jpg?1368138713" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20165/medium.jpg?1368138713" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 32</h3>
+												<p>Choose the parameters 0.9 and 5 as shown in the figure.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20164/large.jpg?1368138711" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20164/medium.jpg?1368138711" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 33</h3>
+												<p>Now, Drawing the Glass Frame. from "Geometry" select "Box" and draw it as shown.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20163/large.jpg?1368138710" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20163/medium.jpg?1368138710" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 34</h3>
+												<p>Make the length segs = width segs = 3</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20162/large.jpg?1368138708" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20162/medium.jpg?1368138708" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 35</h3>
+												<p>From "Modifier List" select "Poly", then select "Vertex" from the "Selection" tab.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20161/large.jpg?1368138706" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20161/medium.jpg?1368138706" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 36</h3>
+												<p>Move the points to get the figure shown.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20160/large.jpg?1368138704" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20160/medium.jpg?1368138704" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 37</h3>
+												<p>Select the middle rectangle, and remove it.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20159/large.jpg?1368138702" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20159/medium.jpg?1368138702" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 38</h3>
+												<p>From "Selection" choose "Border", and select the shown lines.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20158/large.jpg?1368138700" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20158/medium.jpg?1368138700" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 39</h3>
+												<p>Select "Bridge" from the "Edit Poly" tab.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20157/large.jpg?1368138698" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20157/medium.jpg?1368138698" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 40</h3>
+												<p>The edges will be closed.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20156/large.jpg?1368138294" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20156/medium.jpg?1368138294" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 41</h3>
+												<p>Chamfer the outer edges, with these parameters (0.5 and 5).</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20155/large.jpg?1368138292" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20155/medium.jpg?1368138292" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 42</h3>
+												<p>.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20154/large.jpg?1368138289" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20154/medium.jpg?1368138289" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 43</h3>
+												<p>Draw a box inside the frame. (the Glass)</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20153/large.jpg?1368138287" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20153/medium.jpg?1368138287" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 44</h3>
+												<p>For Drawing a Star in the Glass, draw a "Cylinder" from "Geometry" with (Sides=5).</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20152/large.jpg?1368138285" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20152/medium.jpg?1368138285" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 45</h3>
+												<p>Convert it to Poly, then choose polygon and select the five sides.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20151/large.jpg?1368138283" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20151/medium.jpg?1368138283" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 46</h3>
+												<p>Select "Bevel" as shown.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20150/large.jpg?1368138281" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20150/medium.jpg?1368138281" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 47</h3>
+												<p>The star is finished.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20149/large.jpg?1368138280" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20149/medium.jpg?1368138280" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 48</h3>
+												<p>Move the star to the glass surface, then select the Glass, Go to "Geometry"-"Compound Objects".</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20148/large.jpg?1368138278" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20148/medium.jpg?1368138278" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 49</h3>
+												<p>Select "Boolean", then choose "Pick Operand B" and click on the Star.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20147/large.jpg?1368138276" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20147/medium.jpg?1368138276" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 50</h3>
+												<p>The star will be removed leaving a hollow of its shape in the Glass.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20137/large.jpg?1368137936" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20137/medium.jpg?1368137936" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 51</h3>
+												<p>Select the Glass and its Frame, and copy it 6 times in circular way.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20136/large.jpg?1368137934" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20136/medium.jpg?1368137934" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 52</h3>
+												<p>Now we will draw the Handle of our Lantern; from "Shapes" choose "Line" and draw the Handle.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20135/large.jpg?1368137933" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20135/medium.jpg?1368137933" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 53</h3>
+												<p>From "modifier List" Select "Sweep".</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20134/large.jpg?1368137931" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20134/medium.jpg?1368137931" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 54</h3>
+												<p>Choose "Cylinder" from the Built-in-Section menu.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20133/large.jpg?1368137929" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20133/medium.jpg?1368137929" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 55</h3>
+												<p>Radius = 0.8</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20132/large.jpg?1368137927" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20132/medium.jpg?1368137927" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 56</h3>
+												<p>Finally our Lantern is now ready for rendering.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20131/large.jpg?1368137926" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20131/medium.jpg?1368137926" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 57</h3>
+												<p>Using KeyShot, we add materials and lights to get final renderings as shown.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20130/large.jpg?1368137923" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/20130/medium.jpg?1368137923" />
+</a>												</p>
+											</li>
+									</ol>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_15196">
+								<ol class="answerComments" id="Answer15196">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/hir-1" class="avatar">
+							<img alt="hir" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/963802/feed.jpg?1381132594" />
+</a>						<div class="body">
+							<a href="/hir-1" class="author">hir</a>
+							<span class="eventTime">9 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Great job nice work.</p>
+
+<p>Thank you</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_18405">
+								<ol class="answerComments" id="Answer18405">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/arian.shamil-1" class="avatar">
+							<img alt="Arian Shamil" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/213600/feed.jpg?1338817236" />
+</a>						<div class="body">
+							<a href="/arian.shamil-1" class="author">Arian Shamil</a>
+							<span class="eventTime">7 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Very nice tutorial! :)</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19189">
+								<ol class="answerComments" id="Answer19189">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+			<div class="newAnswer">
+				<h2>Add your answer to: <span>"Tutorial: How to model Lantern in Autodesk 3Ds Max"</span></h2>
+				<div class="bgHilite gray addAnswerContainer commentGroup">
+						<div class="signin">
+							Please log in to answer questions.
+							<a href="../login-52.html" class="button b32 gray">
+								<span>Log in</span>
+</a>						</div>
+				</div>
+			</div>
+	</div>
+</div>
+<div class="g3">
+	<div class="sidebar">
+		<div class="actions right">
+			<div class="dropdownContainer settingsBorder right">
+				<span class="gearIcon-active"></span>
+				<ul>
+				</ul>
+			</div>
+			
+		</div>
+			<div class="bgHilite light socialList">
+
+				<ul>
+					<!-- GOOGLE + tag -->
+					<li class="socialButton">
+						<div>
+							<g:plusone size="tall"></g:plusone>
+						</div>
+					</li>
+					<!-- Facebook tag -->
+					<div id="fb-root"></div>
+					<li class="socialButton fbLike">
+						<div>
+							<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+							<fb:like href="grabcad.com/questions/tutorial-how-to-model-lantern-in-autodesk-3ds-max" send="false" layout="box_count" width="55" show_faces="false"></fb:like>
+						</div>
+					</li>
+					<!-- TWEET tag -->
+					<li class="socialButtonLast">
+						<div>
+							<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical" data-text="Checkout Tutorial: How to model Lantern in Autodesk 3Ds Max @GrabCAD">Tweet</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="fl fullW">Similar questions</h3>
+	<ul class="sidebarList">
+			<li><strong><a href="tutorial-modeling-windows-using-3ds-max.html">Tutorial :Modeling Windows Using 3ds max </a></strong>
+			<span class="meta">By Moahmed Mrigua, 22 Oct 17:37</span></li>
+			<li><strong><a href="tutorial-how-to-set-thickness-in-3ds-max.html">Tutorial: how to set thickness in 3ds max</a></strong>
+			<span class="meta">By Tibor, 12 Aug 12:38</span></li>
+			<li><strong><a href="/questions/tutorial-how-to-import-catia-v5-files-to-3ds-max">Tutorial: How to import catia v5 files to 3ds max </a></strong>
+			<span class="meta">By Mech Amine, 11 Dec 01:09</span></li>
+			<li><strong><a href="/questions/tutorial-how-to-export-solidworks-files-to-3ds-max">Tutorial : how to export solidworks files to 3ds max</a></strong>
+			<span class="meta">By Mech Amine, 16 Dec 23:38</span></li>
+			<li><strong><a href="/questions/how-to-wrap-an-image-to-3ds-max-model">How to wrap an image to 3ds max model?</a></strong>
+			<span class="meta">By Jareer Ardash, 10 Oct 13:36</span></li>
+			<li><strong><a href="tutorial-playing-with-car-surfaces-in-3ds-max.html">Tutorial: playing with car surfaces in 3ds max</a></strong>
+			<span class="meta">By Tibor, 14 Aug 20:32</span></li>
+	</ul>
+	<h3>Similar tags</h3>
+	<p class="tagList">
+			<a href="/questions/latest/tag/designintent" class="qTag">designintent</a>
+			<a href="/questions/latest/tag/lantern" class="qTag">lantern</a>
+	</p>
+	<h3>Popular systems</h3>
+	<p class="popularList">
+			<strong><a href="latest/software/autocad.html">AutoCAD</a></strong><br>
+			<strong><a href="latest/software/autodesk-inventor.html">Autodesk Inventor</a></strong><br>
+			<strong><a href="latest/software/catia.html">CATIA</a></strong><br>
+			<strong><a href="latest/software/nx.html">NX</a></strong><br>
+			<strong><a href="latest/software/pro-slash-engineer-wildfire.html">Pro/Engineer Wildfire</a></strong><br>
+			<strong><a href="latest/software/ptc-creo-elements.html">PTC Creo Elements</a></strong><br>
+			<strong><a href="latest/software/solidworks.html">SOLIDWORKS</a></strong><br>
+			<strong><a href="latest/software/solid-edge.html">Solid Edge</a></strong><br>
+			<strong><a href="latest/software/other.html">Other</a></strong><br>
+	</p>
+
+	</div>
+</div>
+			</section>
+		</section>
+		<a class="replacer hidden"><img alt="" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" /></a>
+		
+		<div id="dimmer"></div>
+<div id='' class='popupWin'>
+	<div class="contentWrapper">
+		<div class='popupHeader'>
+			<span class="popupName">
+				<h1></h1>
+				<p></p>
+			</span>
+			<span class="closeButton"></span>
+			<span class="close"></span>
+		</div>
+		<div class='popupBody'>
+			<div class="bodyContent"></div>
+			<div class="spinnerDiv"></div>
+		</div>
+		<div class='popupFooter'>
+			<span class="buttons">
+				<span class="button b32 red submit" id='popupSubmit'>Save</span>
+				<a href="" class="button cancelButton" id='popupCancel'>Cancel</a>
+			</span>
+		</div>
+	</div>
+</div>
+		<footer class="g1c">
+	<div class="footerItems">
+		<nav>
+			<ul class="g6c">
+				<li class="heading">Community</li>
+				<li><a href="../library.html">Library</a></li>
+				<li><a href="../challenges.html">Challenges</a></li>
+				<li><a href="../questions.html">Tutorials</a></li>
+				<li><a href="../engineers.html">Engineers</a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">Workbench</li>
+				<li><a href="../workbench.html">About Workbench</a></li>
+				<li><a href="../workbench/security.html">Security</a></li>
+				<li><a href="../workbench/customers.html">Customers</a></li>
+				<li><a href="../workbench/pricing.html">Pricing</a></li>
+				<li><a href="../toolbox.html"><span class="translation_missing" title="translation missing: en.navigation.workbench.toolbox">Toolbox</span></a></li>
+				<li><a href="http://blog.grabcad.com/blog/resources"><span class="translation_missing" title="translation missing: en.navigation.workbench.resources">Resources</span></a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">About us</li>
+				<li><a href="/about">Company</a></li>
+				<li><a href="/jobs">Jobs</a></li>
+				<li><a href="http://help.grabcad.com" target="_blank">Help Center</a></li>
+			</ul>
+			<ul class="g6c more">
+				<li class="heading">Get more</li>
+				<li>Read our <a href="http://blog.grabcad.com">Blog</a></li>
+				<li>Follow us on <a href="https://twitter.com/GrabCAD">Twitter</a></li>
+				<li>Like us on <a href="http://facebook.com/GrabCAD">Facebook</a></li>
+			</ul>
+		</nav>
+		<section class="copyrightContainer">
+			<div class="g2x3 copyright">© 2014 GrabCAD
+				<a href="mailto:info@grabcad.com">info@grabcad.com</a>
+				<a href="/terms">Terms of Service</a>
+				<a href="/privacy_policy">Privacy policy</a>
+			</div>
+		</section>
+	</div>
+</footer>
+
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/application-97822be5d16255c56fa7f76b80e039c5.js" type="text/javascript"></script>
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/mobile-af06448f9164aca61a135d66f5e7bdc4.js" type="text/javascript"></script>
+			<script src="http://d9ej3djcdo585.cloudfront.net/assets/learning-51de1b9a40e30c62aa530ac9aed60fb7.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+            Grabcad.configuration.configure({
+  imagePath: 'http://d9ej3djcdo585.cloudfront.net/images',
+  default3dModelPath: '/static/content/cube_holes_5.STL',
+  maximumCategoriesOnCadfile: 3,
+  uploadPath: 'https://s3.amazonaws.com/gc-p',
+  uploadifyFlash: 'http://d9ej3djcdo585.cloudfront.net/flash/uploadify.swf',
+  uploadFileSizeLimit: 524288000,
+  airbrake_options: {
+    project_key: 'bced41dc67ce770c9d55b39f172f1a47',
+    production: true,
+    environment_name: 'production',
+    project_id: '20621'
+  }
+});
+
+            
+		</script>
+		
+		
+			<!-- Google Code for Remarketing Tag -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 981400234;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/981400234/?value=0&guid=ON&script=0"/>
+		</div>
+	</noscript>
+
+	<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-5.newrelic.com","2ff0bc8e20","1508038","c1hbEkVfCgoHQhkTTVVEQQ9YXhVJEVhZFQ==",6,486,new Date().getTime(),"","","","",""]);</script></body>
+</html>

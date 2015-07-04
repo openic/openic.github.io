@@ -1,0 +1,1605 @@
+@charset "UTF-8";
+html { font-size: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+body { margin: 0; padding: 0; }
+
+ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr { margin: 0; padding: 0; }
+
+pre, code, address, caption, th, figcaption { font-size: 1em; font-weight: normal; font-style: normal; }
+
+fieldset, iframe, img { border: none; }
+
+caption, th { text-align: left; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption { display: block; }
+
+audio, canvas, video, progress { display: inline-block; vertical-align: baseline; }
+
+button { font: inherit; vertical-align: middle; }
+
+@media print { body, #main, #content { color: #000; }
+  a, a:link, a:visited { color: #000; text-decoration: none; }
+  #globalheader, #globalfooter, #directorynav, #tabs, .noprint, .hide { display: none; } }
+body { background-color: white; color: #333333; line-height: 1.7857; font-weight: normal; font-style: normal; font-family: "Lucida Grande", "Lucida Sans Unicode", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=ja-JP] body { font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=th-TH] body { font-family: "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=ko-KR] body { font-family: "Lucida Grande", "Lucida Sans Unicode", "Dotum", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+
+body, input, textarea, select, button { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -moz-font-feature-settings: "liga", "kern"; }
+
+a { color: #0088cc; }
+a:visited, a:link, a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; margin-top: 1em; }
+html[lang=zh-CN] h1, html[lang=zh-CN] h2, html[lang=zh-CN] h3, html[lang=zh-CN] h4, html[lang=zh-CN] h5, html[lang=zh-CN] h6 { font-family: "PingHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=zh-TW] h1, html[lang=zh-TW] h2, html[lang=zh-TW] h3, html[lang=zh-TW] h4, html[lang=zh-TW] h5, html[lang=zh-TW] h6 { font-family: "MHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=zh-HK] h1, html[lang=zh-HK] h2, html[lang=zh-HK] h3, html[lang=zh-HK] h4, html[lang=zh-HK] h5, html[lang=zh-HK] h6 { font-family: "MHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=th-TH] h1, html[lang=th-TH] h2, html[lang=th-TH] h3, html[lang=th-TH] h4, html[lang=th-TH] h5, html[lang=th-TH] h6 { font-family: "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=ko-KR] h1, html[lang=ko-KR] h2, html[lang=ko-KR] h3, html[lang=ko-KR] h4, html[lang=ko-KR] h5, html[lang=ko-KR] h6 { font-family: "Yoon Gothic", "Helvetica Neue", "Helvetica", "Dotum", "Arial", "Verdana", "sans-serif"; }
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child { margin-top: 0; }
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { display: block; margin: 0; }
+
+h1 { font-size: 4.0625em; font-weight: 200; line-height: 1.071; letter-spacing: -1px; }
+
+h2 { font-size: 3.125em; font-weight: 200; line-height: 1.105; letter-spacing: -1px; }
+
+h3 { font-size: 2.375em; font-weight: 200; line-height: 1.105; letter-spacing: -1px; }
+
+h4 { font-size: 1.4375em; font-weight: 400; line-height: 1.2; }
+
+h5 { font-size: 1.25em; font-weight: 400; line-height: 1.2; }
+
+h6 { font-size: 1.25em; font-weight: 400; line-height: 1.2; }
+
+strong, b { font-weight: bold; }
+
+em, i, cite, dfn { font-style: italic; }
+
+p { font-size: 1em; margin-top: 1em; }
+p:first-child { margin-top: 0; }
+
+li { font-size: 1em; }
+li li { font-size: 1em; }
+
+ul, ol { margin: 1em 0 1em 1.25em; }
+nav ul, nav ol { list-style: none; margin: 0; }
+
+sup { font-size: .6em; opacity: .8; vertical-align: top; position: relative; bottom: -.2em; }
+.oldie sup { font-size: 10px; font-weight: normal; line-height: 1; }
+h1 sup, h2 sup, h3 sup { font-size: .4em; }
+.oldie h1 sup, .oldie h2 sup, .oldie h3 sup { font-size: .4em; }
+sup a { color: #333333; }
+sup a:hover { color: #0088cc; text-decoration: none; }
+
+sub { line-height: 1; }
+
+abbr { border: 0; }
+
+small, .small { font-size: 0.75em; line-height: 1.5; }
+
+.selfclear:before, .selfclear:after { content: " "; display: table; }
+.selfclear:after { clear: both; }
+.oldie .selfclear { zoom: 1; }
+
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+.imagereplace { font: 0/0 a; color: transparent; }
+
+.nowrap { white-space: nowrap; }
+
+.clear { clear: both; }
+
+#top { position: absolute; top: 0; }
+
+.cursor-grab { cursor: move; cursor: -webkit-grab; cursor: grab; }
+
+.cursor-grabbing { cursor: move; cursor: -webkit-grabbing; cursor: grabbing; }
+
+a.block { display: block; cursor: pointer; color: inherit; }
+a.block:before, a.block:after { content: " "; display: table; }
+a.block:after { clear: both; }
+.oldie a.block { zoom: 1; }
+.oldie a.block { color: expression(this.parentNode.currentStyle['color']); }
+a.block:hover { text-decoration: none; }
+a.block:hover .block-link { text-decoration: underline; }
+a.block:hover .block-link.icon-ie-parent { text-decoration: none; }
+a.block:hover .block-link.icon-ie-parent .icon-ie-link { text-decoration: underline; }
+a.block .block-link { color: #0088cc; cursor: pointer; }
+
+a.block-inline { display: inline-block; }
+
+.button { background: #2494de; background: -webkit-linear-gradient(#37aaea, #117ed2); background: linear-gradient(#37aaea, #117ed2); border: 1px solid #137ec6; border-top-color: #1992da; border-bottom-color: #0d6ab2; border-radius: 4px; color: white; cursor: pointer; font-size: 0.875em; line-height: 1.2857; text-align: center; white-space: nowrap; padding: 0.4286em 1.1429em 0.5em; display: inline-block; }
+.oldie .button { display: inline; zoom: 1; }
+.oldie .button { vertical-align: middle; }
+.button:hover { background: #359ce0; background: -webkit-linear-gradient(#47b0eb, #2488d5); background: linear-gradient(#47b0eb, #2488d5); text-decoration: none; }
+.button:active { background: #2087cc; background: -webkit-linear-gradient(#329cd7, #0f73c1); background: linear-gradient(#329cd7, #0f73c1); outline: none; }
+
+.button-buynow, .button-compact { background: #2494de; background: -webkit-linear-gradient(#37aaea, #117ed2); background: linear-gradient(#37aaea, #117ed2); border-color: #137ec6; border-top-color: #1992da; border-bottom-color: #0d6ab2; color: white; color: #fff; font-size: 12px; padding: 0.4167em 1em 0.4167em; line-height: 1; }
+.button-buynow:hover, .button-compact:hover { background: #359ce0; background: -webkit-linear-gradient(#47b0eb, #2488d5); background: linear-gradient(#47b0eb, #2488d5); }
+.button-buynow:active, .button-compact:active { background: #2087cc; background: -webkit-linear-gradient(#329cd7, #0f73c1); background: linear-gradient(#329cd7, #0f73c1); }
+
+.violator { background: transparent; border: 1px solid #cccccc; border-radius: 4px; color: #999999; font-size: 0.875em; line-height: 1.2857; text-align: center; white-space: nowrap; padding: 0.4286em 1.1429em 0.5em; display: inline-block; }
+.oldie .violator { display: inline; zoom: 1; }
+.oldie .violator { vertical-align: middle; }
+
+.violator-compact { font-size: 12px; padding: 0.4167em 1em 0.4167em; line-height: 1; }
+
+.dotnav { text-align: center; line-height: 1px; }
+.touch .dotnav { pointer-events: none; }
+.dotnav li { font-size: 1em; list-style: none; margin: 0 9px; width: 16px; height: 16px; display: inline-block; position: relative; }
+.oldie .dotnav li { display: inline; zoom: 1; }
+
+.dotnav-item { top: 2px; left: 2px; width: 8px; height: 8px; outline: none; position: absolute; border-width: 1px; border-style: solid; border-color: transparent; border-radius: 50%; background-color: gray; font: 0/0 a; color: transparent; }
+.dotnav-item:hover { top: 2px; background-color: #666666; }
+.dotnav-item.active, .dotnav-item.current { top: 0; left: 0; width: 12px; height: 12px; border-color: #0088cc; background-color: transparent; cursor: default; }
+
+.row { position: relative; z-index: 1; }
+.row:before, .row:after { content: " "; display: table; }
+.row:after { clear: both; }
+.oldie .row { zoom: 1; }
+.row .large-1 { width: 8.3333%; }
+.oldie .row .large-1 { width: 8.325%; }
+.row .large-centered-1 { margin-left: 45.8333%; }
+.oldie .row .large-centered-1 { margin-left: 45.7875%; }
+.row .large-offset-1 { margin-left: 8.3333%; }
+.oldie .row .large-offset-1 { margin-left: 8.325%; }
+.row .large-push-1 { left: 8.3333%; right: auto; }
+.row .large-pull-1 { right: 8.3333%; left: auto; }
+.row .large-2 { width: 16.6667%; }
+.oldie .row .large-2 { width: 16.65%; }
+.row .large-centered-2 { margin-left: 41.6667%; }
+.oldie .row .large-centered-2 { margin-left: 41.625%; }
+.row .large-offset-2 { margin-left: 16.6667%; }
+.oldie .row .large-offset-2 { margin-left: 16.65%; }
+.row .large-push-2 { left: 16.6667%; right: auto; }
+.row .large-pull-2 { right: 16.6667%; left: auto; }
+.row .large-3 { width: 25%; }
+.oldie .row .large-3 { width: 24.975%; }
+.row .large-centered-3 { margin-left: 37.5%; }
+.oldie .row .large-centered-3 { margin-left: 37.4625%; }
+.row .large-offset-3 { margin-left: 25%; }
+.oldie .row .large-offset-3 { margin-left: 24.975%; }
+.row .large-push-3 { left: 25%; right: auto; }
+.row .large-pull-3 { right: 25%; left: auto; }
+.row .large-4 { width: 33.3333%; }
+.oldie .row .large-4 { width: 33.3%; }
+.row .large-centered-4 { margin-left: 33.3333%; }
+.oldie .row .large-centered-4 { margin-left: 33.3%; }
+.row .large-offset-4 { margin-left: 33.3333%; }
+.oldie .row .large-offset-4 { margin-left: 33.3%; }
+.row .large-push-4 { left: 33.3333%; right: auto; }
+.row .large-pull-4 { right: 33.3333%; left: auto; }
+.row .large-5 { width: 41.6667%; }
+.oldie .row .large-5 { width: 41.625%; }
+.row .large-centered-5 { margin-left: 29.1667%; }
+.oldie .row .large-centered-5 { margin-left: 29.1375%; }
+.row .large-offset-5 { margin-left: 41.6667%; }
+.oldie .row .large-offset-5 { margin-left: 41.625%; }
+.row .large-push-5 { left: 41.6667%; right: auto; }
+.row .large-pull-5 { right: 41.6667%; left: auto; }
+.row .large-6 { width: 50%; }
+.oldie .row .large-6 { width: 49.95%; }
+.row .large-centered-6 { margin-left: 25%; }
+.oldie .row .large-centered-6 { margin-left: 24.975%; }
+.row .large-offset-6 { margin-left: 50%; }
+.oldie .row .large-offset-6 { margin-left: 49.95%; }
+.row .large-push-6 { left: 50%; right: auto; }
+.row .large-pull-6 { right: 50%; left: auto; }
+.row .large-7 { width: 58.3333%; }
+.oldie .row .large-7 { width: 58.275%; }
+.row .large-centered-7 { margin-left: 20.8333%; }
+.oldie .row .large-centered-7 { margin-left: 20.8125%; }
+.row .large-offset-7 { margin-left: 58.3333%; }
+.oldie .row .large-offset-7 { margin-left: 58.275%; }
+.row .large-push-7 { left: 58.3333%; right: auto; }
+.row .large-pull-7 { right: 58.3333%; left: auto; }
+.row .large-8 { width: 66.6667%; }
+.oldie .row .large-8 { width: 66.6%; }
+.row .large-centered-8 { margin-left: 16.6667%; }
+.oldie .row .large-centered-8 { margin-left: 16.65%; }
+.row .large-offset-8 { margin-left: 66.6667%; }
+.oldie .row .large-offset-8 { margin-left: 66.6%; }
+.row .large-push-8 { left: 66.6667%; right: auto; }
+.row .large-pull-8 { right: 66.6667%; left: auto; }
+.row .large-9 { width: 75%; }
+.oldie .row .large-9 { width: 74.925%; }
+.row .large-centered-9 { margin-left: 12.5%; }
+.oldie .row .large-centered-9 { margin-left: 12.4875%; }
+.row .large-offset-9 { margin-left: 75%; }
+.oldie .row .large-offset-9 { margin-left: 74.925%; }
+.row .large-push-9 { left: 75%; right: auto; }
+.row .large-pull-9 { right: 75%; left: auto; }
+.row .large-10 { width: 83.3333%; }
+.oldie .row .large-10 { width: 83.25%; }
+.row .large-centered-10 { margin-left: 8.3333%; }
+.oldie .row .large-centered-10 { margin-left: 8.325%; }
+.row .large-offset-10 { margin-left: 83.3333%; }
+.oldie .row .large-offset-10 { margin-left: 83.25%; }
+.row .large-push-10 { left: 83.3333%; right: auto; }
+.row .large-pull-10 { right: 83.3333%; left: auto; }
+.row .large-11 { width: 91.6667%; }
+.oldie .row .large-11 { width: 91.575%; }
+.row .large-centered-11 { margin-left: 4.1667%; }
+.oldie .row .large-centered-11 { margin-left: 4.1625%; }
+.row .large-offset-11 { margin-left: 91.6667%; }
+.oldie .row .large-offset-11 { margin-left: 91.575%; }
+.row .large-push-11 { left: 91.6667%; right: auto; }
+.row .large-pull-11 { right: 91.6667%; left: auto; }
+.row .large-12 { width: 100%; }
+.oldie .row .large-12 { width: 99.9%; }
+.row .large-centered-12 { margin-left: 0%; }
+.oldie .row .large-centered-12 { margin-left: 0%; }
+.row .large-offset-12 { margin-left: 100%; }
+.oldie .row .large-offset-12 { margin-left: 99.9%; }
+.row .large-push-12 { left: 100%; right: auto; }
+.row .large-pull-12 { right: 100%; left: auto; }
+.row .large-offset-0 { margin-left: 0; }
+.row .large-push-0 { left: auto; right: auto; }
+.row .large-pull-0 { right: auto; left: auto; }
+.row .large-centered { margin-left: auto; margin-right: auto; float: none; }
+.row .large-uncentered { margin-left: 0; margin-right: 0; float: left; }
+@media only screen and (max-width: 64em) { .row .medium-1 { width: 8.3333%; }
+  .oldie .row .medium-1 { width: 8.325%; }
+  .row .medium-centered-1 { margin-left: 45.8333%; }
+  .oldie .row .medium-centered-1 { margin-left: 45.7875%; }
+  .row .medium-offset-1 { margin-left: 8.3333%; }
+  .oldie .row .medium-offset-1 { margin-left: 8.325%; }
+  .row .medium-push-1 { left: 8.3333%; right: auto; }
+  .row .medium-pull-1 { right: 8.3333%; left: auto; }
+  .row .medium-2 { width: 16.6667%; }
+  .oldie .row .medium-2 { width: 16.65%; }
+  .row .medium-centered-2 { margin-left: 41.6667%; }
+  .oldie .row .medium-centered-2 { margin-left: 41.625%; }
+  .row .medium-offset-2 { margin-left: 16.6667%; }
+  .oldie .row .medium-offset-2 { margin-left: 16.65%; }
+  .row .medium-push-2 { left: 16.6667%; right: auto; }
+  .row .medium-pull-2 { right: 16.6667%; left: auto; }
+  .row .medium-3 { width: 25%; }
+  .oldie .row .medium-3 { width: 24.975%; }
+  .row .medium-centered-3 { margin-left: 37.5%; }
+  .oldie .row .medium-centered-3 { margin-left: 37.4625%; }
+  .row .medium-offset-3 { margin-left: 25%; }
+  .oldie .row .medium-offset-3 { margin-left: 24.975%; }
+  .row .medium-push-3 { left: 25%; right: auto; }
+  .row .medium-pull-3 { right: 25%; left: auto; }
+  .row .medium-4 { width: 33.3333%; }
+  .oldie .row .medium-4 { width: 33.3%; }
+  .row .medium-centered-4 { margin-left: 33.3333%; }
+  .oldie .row .medium-centered-4 { margin-left: 33.3%; }
+  .row .medium-offset-4 { margin-left: 33.3333%; }
+  .oldie .row .medium-offset-4 { margin-left: 33.3%; }
+  .row .medium-push-4 { left: 33.3333%; right: auto; }
+  .row .medium-pull-4 { right: 33.3333%; left: auto; }
+  .row .medium-5 { width: 41.6667%; }
+  .oldie .row .medium-5 { width: 41.625%; }
+  .row .medium-centered-5 { margin-left: 29.1667%; }
+  .oldie .row .medium-centered-5 { margin-left: 29.1375%; }
+  .row .medium-offset-5 { margin-left: 41.6667%; }
+  .oldie .row .medium-offset-5 { margin-left: 41.625%; }
+  .row .medium-push-5 { left: 41.6667%; right: auto; }
+  .row .medium-pull-5 { right: 41.6667%; left: auto; }
+  .row .medium-6 { width: 50%; }
+  .oldie .row .medium-6 { width: 49.95%; }
+  .row .medium-centered-6 { margin-left: 25%; }
+  .oldie .row .medium-centered-6 { margin-left: 24.975%; }
+  .row .medium-offset-6 { margin-left: 50%; }
+  .oldie .row .medium-offset-6 { margin-left: 49.95%; }
+  .row .medium-push-6 { left: 50%; right: auto; }
+  .row .medium-pull-6 { right: 50%; left: auto; }
+  .row .medium-7 { width: 58.3333%; }
+  .oldie .row .medium-7 { width: 58.275%; }
+  .row .medium-centered-7 { margin-left: 20.8333%; }
+  .oldie .row .medium-centered-7 { margin-left: 20.8125%; }
+  .row .medium-offset-7 { margin-left: 58.3333%; }
+  .oldie .row .medium-offset-7 { margin-left: 58.275%; }
+  .row .medium-push-7 { left: 58.3333%; right: auto; }
+  .row .medium-pull-7 { right: 58.3333%; left: auto; }
+  .row .medium-8 { width: 66.6667%; }
+  .oldie .row .medium-8 { width: 66.6%; }
+  .row .medium-centered-8 { margin-left: 16.6667%; }
+  .oldie .row .medium-centered-8 { margin-left: 16.65%; }
+  .row .medium-offset-8 { margin-left: 66.6667%; }
+  .oldie .row .medium-offset-8 { margin-left: 66.6%; }
+  .row .medium-push-8 { left: 66.6667%; right: auto; }
+  .row .medium-pull-8 { right: 66.6667%; left: auto; }
+  .row .medium-9 { width: 75%; }
+  .oldie .row .medium-9 { width: 74.925%; }
+  .row .medium-centered-9 { margin-left: 12.5%; }
+  .oldie .row .medium-centered-9 { margin-left: 12.4875%; }
+  .row .medium-offset-9 { margin-left: 75%; }
+  .oldie .row .medium-offset-9 { margin-left: 74.925%; }
+  .row .medium-push-9 { left: 75%; right: auto; }
+  .row .medium-pull-9 { right: 75%; left: auto; }
+  .row .medium-10 { width: 83.3333%; }
+  .oldie .row .medium-10 { width: 83.25%; }
+  .row .medium-centered-10 { margin-left: 8.3333%; }
+  .oldie .row .medium-centered-10 { margin-left: 8.325%; }
+  .row .medium-offset-10 { margin-left: 83.3333%; }
+  .oldie .row .medium-offset-10 { margin-left: 83.25%; }
+  .row .medium-push-10 { left: 83.3333%; right: auto; }
+  .row .medium-pull-10 { right: 83.3333%; left: auto; }
+  .row .medium-11 { width: 91.6667%; }
+  .oldie .row .medium-11 { width: 91.575%; }
+  .row .medium-centered-11 { margin-left: 4.1667%; }
+  .oldie .row .medium-centered-11 { margin-left: 4.1625%; }
+  .row .medium-offset-11 { margin-left: 91.6667%; }
+  .oldie .row .medium-offset-11 { margin-left: 91.575%; }
+  .row .medium-push-11 { left: 91.6667%; right: auto; }
+  .row .medium-pull-11 { right: 91.6667%; left: auto; }
+  .row .medium-12 { width: 100%; }
+  .oldie .row .medium-12 { width: 99.9%; }
+  .row .medium-centered-12 { margin-left: 0%; }
+  .oldie .row .medium-centered-12 { margin-left: 0%; }
+  .row .medium-offset-12 { margin-left: 100%; }
+  .oldie .row .medium-offset-12 { margin-left: 99.9%; }
+  .row .medium-push-12 { left: 100%; right: auto; }
+  .row .medium-pull-12 { right: 100%; left: auto; }
+  .row .medium-offset-0 { margin-left: 0; }
+  .row .medium-push-0 { left: auto; right: auto; }
+  .row .medium-pull-0 { right: auto; left: auto; }
+  .row .medium-centered { margin-left: auto; margin-right: auto; float: none; }
+  .row .medium-uncentered { margin-left: 0; margin-right: 0; float: left; } }
+@media only screen and (max-width: 47.5em) { .row .small-1 { width: 8.3333%; }
+  .oldie .row .small-1 { width: 8.325%; }
+  .row .small-centered-1 { margin-left: 45.8333%; }
+  .oldie .row .small-centered-1 { margin-left: 45.7875%; }
+  .row .small-offset-1 { margin-left: 8.3333%; }
+  .oldie .row .small-offset-1 { margin-left: 8.325%; }
+  .row .small-push-1 { left: 8.3333%; right: auto; }
+  .row .small-pull-1 { right: 8.3333%; left: auto; }
+  .row .small-2 { width: 16.6667%; }
+  .oldie .row .small-2 { width: 16.65%; }
+  .row .small-centered-2 { margin-left: 41.6667%; }
+  .oldie .row .small-centered-2 { margin-left: 41.625%; }
+  .row .small-offset-2 { margin-left: 16.6667%; }
+  .oldie .row .small-offset-2 { margin-left: 16.65%; }
+  .row .small-push-2 { left: 16.6667%; right: auto; }
+  .row .small-pull-2 { right: 16.6667%; left: auto; }
+  .row .small-3 { width: 25%; }
+  .oldie .row .small-3 { width: 24.975%; }
+  .row .small-centered-3 { margin-left: 37.5%; }
+  .oldie .row .small-centered-3 { margin-left: 37.4625%; }
+  .row .small-offset-3 { margin-left: 25%; }
+  .oldie .row .small-offset-3 { margin-left: 24.975%; }
+  .row .small-push-3 { left: 25%; right: auto; }
+  .row .small-pull-3 { right: 25%; left: auto; }
+  .row .small-4 { width: 33.3333%; }
+  .oldie .row .small-4 { width: 33.3%; }
+  .row .small-centered-4 { margin-left: 33.3333%; }
+  .oldie .row .small-centered-4 { margin-left: 33.3%; }
+  .row .small-offset-4 { margin-left: 33.3333%; }
+  .oldie .row .small-offset-4 { margin-left: 33.3%; }
+  .row .small-push-4 { left: 33.3333%; right: auto; }
+  .row .small-pull-4 { right: 33.3333%; left: auto; }
+  .row .small-5 { width: 41.6667%; }
+  .oldie .row .small-5 { width: 41.625%; }
+  .row .small-centered-5 { margin-left: 29.1667%; }
+  .oldie .row .small-centered-5 { margin-left: 29.1375%; }
+  .row .small-offset-5 { margin-left: 41.6667%; }
+  .oldie .row .small-offset-5 { margin-left: 41.625%; }
+  .row .small-push-5 { left: 41.6667%; right: auto; }
+  .row .small-pull-5 { right: 41.6667%; left: auto; }
+  .row .small-6 { width: 50%; }
+  .oldie .row .small-6 { width: 49.95%; }
+  .row .small-centered-6 { margin-left: 25%; }
+  .oldie .row .small-centered-6 { margin-left: 24.975%; }
+  .row .small-offset-6 { margin-left: 50%; }
+  .oldie .row .small-offset-6 { margin-left: 49.95%; }
+  .row .small-push-6 { left: 50%; right: auto; }
+  .row .small-pull-6 { right: 50%; left: auto; }
+  .row .small-7 { width: 58.3333%; }
+  .oldie .row .small-7 { width: 58.275%; }
+  .row .small-centered-7 { margin-left: 20.8333%; }
+  .oldie .row .small-centered-7 { margin-left: 20.8125%; }
+  .row .small-offset-7 { margin-left: 58.3333%; }
+  .oldie .row .small-offset-7 { margin-left: 58.275%; }
+  .row .small-push-7 { left: 58.3333%; right: auto; }
+  .row .small-pull-7 { right: 58.3333%; left: auto; }
+  .row .small-8 { width: 66.6667%; }
+  .oldie .row .small-8 { width: 66.6%; }
+  .row .small-centered-8 { margin-left: 16.6667%; }
+  .oldie .row .small-centered-8 { margin-left: 16.65%; }
+  .row .small-offset-8 { margin-left: 66.6667%; }
+  .oldie .row .small-offset-8 { margin-left: 66.6%; }
+  .row .small-push-8 { left: 66.6667%; right: auto; }
+  .row .small-pull-8 { right: 66.6667%; left: auto; }
+  .row .small-9 { width: 75%; }
+  .oldie .row .small-9 { width: 74.925%; }
+  .row .small-centered-9 { margin-left: 12.5%; }
+  .oldie .row .small-centered-9 { margin-left: 12.4875%; }
+  .row .small-offset-9 { margin-left: 75%; }
+  .oldie .row .small-offset-9 { margin-left: 74.925%; }
+  .row .small-push-9 { left: 75%; right: auto; }
+  .row .small-pull-9 { right: 75%; left: auto; }
+  .row .small-10 { width: 83.3333%; }
+  .oldie .row .small-10 { width: 83.25%; }
+  .row .small-centered-10 { margin-left: 8.3333%; }
+  .oldie .row .small-centered-10 { margin-left: 8.325%; }
+  .row .small-offset-10 { margin-left: 83.3333%; }
+  .oldie .row .small-offset-10 { margin-left: 83.25%; }
+  .row .small-push-10 { left: 83.3333%; right: auto; }
+  .row .small-pull-10 { right: 83.3333%; left: auto; }
+  .row .small-11 { width: 91.6667%; }
+  .oldie .row .small-11 { width: 91.575%; }
+  .row .small-centered-11 { margin-left: 4.1667%; }
+  .oldie .row .small-centered-11 { margin-left: 4.1625%; }
+  .row .small-offset-11 { margin-left: 91.6667%; }
+  .oldie .row .small-offset-11 { margin-left: 91.575%; }
+  .row .small-push-11 { left: 91.6667%; right: auto; }
+  .row .small-pull-11 { right: 91.6667%; left: auto; }
+  .row .small-12 { width: 100%; }
+  .oldie .row .small-12 { width: 99.9%; }
+  .row .small-centered-12 { margin-left: 0%; }
+  .oldie .row .small-centered-12 { margin-left: 0%; }
+  .row .small-offset-12 { margin-left: 100%; }
+  .oldie .row .small-offset-12 { margin-left: 99.9%; }
+  .row .small-push-12 { left: 100%; right: auto; }
+  .row .small-pull-12 { right: 100%; left: auto; }
+  .row .small-offset-0 { margin-left: 0; }
+  .row .small-push-0 { left: auto; right: auto; }
+  .row .small-pull-0 { right: auto; left: auto; }
+  .row .small-centered { margin-left: auto; margin-right: auto; float: none; }
+  .row .small-uncentered { margin-left: 0; margin-right: 0; float: left; } }
+
+.column, .columns { position: relative; z-index: 1; float: left; width: 100%; min-height: 2px; margin: 0; padding: 0; }
+.oldie .column, .oldie .columns { width: 99.9%; }
+
+.large-auto { position: absolute; }
+
+.large-auto-top { top: 0; }
+
+.large-auto-bottom { bottom: 0; }
+
+.large-auto-left { left: 0; }
+
+.large-auto-right { right: 0; }
+
+@media only screen and (max-width: 64em) { .medium-auto-off { position: relative; }
+  .medium-auto { position: absolute; }
+  .medium-auto-top { top: 0; }
+  .medium-auto-bottom { bottom: 0; }
+  .medium-auto-left { left: 0; }
+  .medium-auto-right { right: 0; } }
+@media only screen and (max-width: 47.5em) { .small-auto-off { position: relative; }
+  .small-auto { position: absolute; }
+  .small-auto-top { top: 0; }
+  .small-auto-bottom { bottom: 0; }
+  .small-auto-left { left: 0; }
+  .small-auto-right { right: 0; } }
+.show-for-large { display: block; }
+
+.hide-for-large { display: none; }
+
+.show-for-medium { display: none; }
+@media only screen and (max-width: 64em) { .show-for-medium { display: block; } }
+
+@media only screen and (max-width: 64em) { .hide-for-medium { display: none; } }
+
+.show-for-small { display: none; }
+@media only screen and (max-width: 47.5em) { .show-for-small { display: block; } }
+
+@media only screen and (max-width: 47.5em) { .hide-for-small { display: none; } }
+
+.figure-align-center { margin: 0 auto; float: none; }
+
+.figure-align-left { float: left; margin-right: 0em; margin-bottom: 0em; }
+
+.figure-align-right { float: right; margin-left: 0em; margin-bottom: 0em; }
+
+.figure-contain { max-width: 100%; height: auto; }
+
+.figure-crop { position: relative; overflow: hidden; }
+.figure-crop .figure-crop-left { position: absolute; left: 0; }
+.figure-crop .figure-crop-right { position: absolute; right: 0; }
+.figure-crop .figure-crop-center { position: absolute; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+
+@font-face { font-family: 'Apple Icons'; font-style: normal; font-weight: 200; src: url("/v/osx/preview/b/ac-assets/fonts/AppleIcons-Thin.eot"); src: url("/v/osx/preview/b/ac-assets/fonts/AppleIcons-Thin.eot?#iefix") format("embedded-opentype"), url("/v/osx/preview/b/ac-assets/fonts/AppleIcons-Thin.woff") format("woff"), url("/v/osx/preview/b/ac-assets/fonts/AppleIcons-Thin.ttf") format("truetype"); }
+@font-face { font-family: 'Apple Icons'; font-style: normal; font-weight: 400; src: url("/v/osx/preview/b/ac-assets/fonts/AppleIcons-Text.eot"); src: url("/v/osx/preview/b/ac-assets/fonts/AppleIcons-Text.eot?#iefix") format("embedded-opentype"), url("/v/osx/preview/b/ac-assets/fonts/AppleIcons-Text.woff") format("woff"), url("/v/osx/preview/b/ac-assets/fonts/AppleIcons-Text.ttf") format("truetype"); }
+.icon, .more { behavior: url("/v/osx/preview/b/ac-assets/behaviors/icons.htc"); }
+.icon:before, .more:before { display: none; padding-right: 0.3em; }
+.icon:after, .more:after { display: inline-block; padding-left: 0.3em; }
+.icon:before, .more:before, .icon:after, .more:after { color: inherit; font-family: 'Apple Icons'; font-style: normal; font-weight: inherit; font-size: 1.143em; line-height: 0.875; text-decoration: none; }
+
+.icon-before:before { display: inline-block; }
+.icon-before:after { display: none; }
+
+.icon-ie-parent { text-decoration: none; }
+.icon-ie-parent:hover { text-decoration: none; }
+.icon-ie-parent:hover .icon-ie-link { text-decoration: underline; }
+
+.icon-more:before, .more:before, .icon-more:after, .more:after { content: "\f004"; }
+
+.icon-chevronright:before, .icon-chevronright:after { content: "\f004"; }
+
+.icon-chevronrightalt:before, .icon-chevronrightalt:after { content: "\f005"; }
+
+.icon-chevrondown:before, .icon-chevrondown:after { content: "\f000"; }
+
+.icon-chevrondownalt:before, .icon-chevrondownalt:after { content: "\f001"; }
+
+.icon-chevronleft:before, .icon-chevronleft:after { content: "\f002"; }
+
+.icon-chevronleftalt:before, .icon-chevronleftalt:after { content: "\f003"; }
+
+.icon-chevronup:before, .icon-chevronup:after { content: "\f006"; }
+
+.icon-chevronupalt:before, .icon-chevronupalt:after { content: "\f007"; }
+
+.icon-close:before, .icon-close:after { content: "\f008"; }
+
+.icon-closealt:before, .icon-closealt:after { content: "\f009"; }
+
+.icon-download:before, .icon-download:after { content: "\f010"; }
+
+.icon-downloadalt:before, .icon-downloadalt:after { content: "\f011"; }
+
+.icon-external:before, .icon-external:after { content: "\f012"; }
+
+.icon-info:before, .icon-info:after { content: "\f013"; }
+
+.icon-list:before, .icon-list:after { content: "\f014"; }
+
+.icon-paddledown:before, .icon-paddledown:after { content: "\f015"; }
+
+.icon-paddleleft:before, .icon-paddleleft:after { content: "\f016"; }
+
+.icon-paddleright:before, .icon-paddleright:after { content: "\f017"; }
+
+.icon-paddleup:before, .icon-paddleup:after { content: "\f018"; }
+
+.icon-pause:before, .icon-pause:after { content: "\f019"; }
+
+.icon-play:before, .icon-play:after { content: "\f020"; }
+
+.icon-playalt:before, .icon-playalt:after { content: "\f021"; }
+
+.icon-replay:before, .icon-replay:after { content: "\f022"; }
+
+.icon-zoom:before, .icon-zoom:after { content: "\f023"; }
+
+.more-block { margin-top: 0.5em; }
+
+.list { margin-left: 2em; margin-bottom: 1.125em; }
+.list > .list { margin-top: 0.25em; margin-bottom: 0.3125em; }
+
+.list-square { list-style: square outside; }
+
+.list-circle { list-style: circle outside; }
+
+.list-disc { list-style: disc outside; }
+
+.localnav { border-bottom: 1px solid #d6d6d6; margin: 1em auto 0; max-width: 61.25em; }
+.localnav:before, .localnav:after { content: " "; display: table; }
+.localnav:after { clear: both; }
+.oldie .localnav { zoom: 1; }
+
+.localnav-title { padding: 0; display: block; font-size: 2em; line-height: 1; float: left; }
+.localnav-title > a { margin: 6px 0 0 0; color: #333333; display: block; text-decoration: none; }
+
+.localnav-links { float: right; margin: 0.5em 0 0.625em 0; }
+.localnav-links > li { float: left; list-style: none; margin-left: 2em; }
+.localnav-links .button { margin: 0; }
+
+.localnav-link { font-size: 0.75em; color: #333333; display: inline-block; white-space: nowrap; }
+.localnav-link:hover { color: #0088cc; text-decoration: none; }
+.localnav-link.current { color: #999999; }
+
+.with-paddlenav { position: relative; }
+
+.paddlenav { list-style: none; margin: 0; }
+
+.paddlenav-arrow { color: #666666; display: block; font-family: 'Apple Icons'; font-size: 72px; font-style: normal; font-weight: 100; line-height: 1.7778; position: absolute; top: 50%; margin-top: -64px; opacity: 0.5; overflow: hidden; text-align: center; -webkit-transition: 250ms opacity linear; transition: 250ms opacity linear; width: 0.8889em; }
+.paddlenav-arrow.disabled { display: none; }
+.paddlenav-arrow:hover, .paddlenav-arrow:focus { opacity: 1; text-decoration: none; }
+.touch .paddlenav-arrow { opacity: 1; }
+
+.paddlenav-arrow-left { left: 0; }
+
+.paddlenav-arrow-right { right: 0; }
+
+.no-touch .paddlenav-onhover .paddlenav-arrow { opacity: 0; }
+.oldie .paddlenav-onhover .paddlenav-arrow { visibility: hidden; }
+.no-touch .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow { opacity: 0.5; }
+.oldie .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow { visibility: visible; }
+.with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow:hover, .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow:focus { opacity: 1; }
+
+.sosumi { margin: 24px auto 18px; padding-left: 20px; padding-right: 20px; color: #888888; }
+.sosumi a { color: #333333; }
+.sosumi a:hover { text-decoration: underline; }
+.sosumi ol { margin: 0; padding-right: 15px; padding-left: 15px; }
+.sosumi ul { list-style: none; margin: 0; }
+.sosumi li { font-size: 11px; line-height: 1.5; padding-bottom: 5px; }
+.sosumi p { font-size: 11px; line-height: 1.5; }
+.sosumi small { font-size: 1em; }
+
+.togglenav { margin: 0 auto; padding: 0; width: 100%; text-align: center; position: relative; }
+.togglenav ul { display: inline-block; }
+.oldie .togglenav ul { display: inline; zoom: 1; }
+.togglenav li { float: left; list-style: none; outline: none; }
+
+.togglenav-button { padding: 0.625em 1.25em 0.625em; line-height: 1; color: #666666; text-decoration: none; border: 1px solid #cfcfcf; background-color: white; display: block; margin-left: -1px; min-width: 6.25em; position: relative; z-index: 0; }
+.oldie .togglenav-button { margin-left: -1px; }
+.togglenav-button:hover { color: #0088cc; text-decoration: none; }
+.togglenav-button.active, .togglenav-button.current { border-color: #0088cc; background-color: #5ab3f6; color: white; text-decoration: none; cursor: default; z-index: 10; }
+
+.togglenav li:first-child .togglenav-button { border-radius: 4px 0 0 4px; }
+
+.togglenav li:last-child .togglenav-button { border-radius: 0 4px 4px 0; }
+
+#globalheader h3, #globalheader h4 { font-family: "Lucida Grande", "Lucida Sans Unicode", "Helvetica", "Arial", "Verdana", "sans-serif"; letter-spacing: 0; font-weight: bold; }
+html[lang=ja-JP] #globalheader h3, html[lang=ja-JP] #globalheader h4 { font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=th-TH] #globalheader h3, html[lang=th-TH] #globalheader h4 { font-family: "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=ko-KR] #globalheader h3, html[lang=ko-KR] #globalheader h4 { font-family: "Lucida Grande", "Lucida Sans Unicode", "Dotum", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+
+[lang="en-AE"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ae/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ae/global/nav/images/globalnav_text.gif); }
+
+[lang="en-AE"] #globalheader.svg #globalnav li a span { background-image: url(/ae/global/nav/images/globalnav_text.svg); }
+
+[lang="en-AE"] #globalheader.decelerate #globalnav li a span, [lang="en-AE"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ae/global/nav/images/globalnav_text.png); }
+
+[lang="en-AM"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/am/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/am/global/nav/images/globalnav_text.gif); }
+
+[lang="en-AM"] #globalheader.svg #globalnav li a span { background-image: url(/am/global/nav/images/globalnav_text.svg); }
+
+[lang="en-AM"] #globalheader.decelerate #globalnav li a span, [lang="en-AM"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/am/global/nav/images/globalnav_text.png); }
+
+[lang="de-AT"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/at/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/at/global/nav/images/globalnav_text.gif); }
+
+[lang="de-AT"] #globalheader.svg #globalnav li a span { background-image: url(/at/global/nav/images/globalnav_text.svg); }
+
+[lang="de-AT"] #globalheader.decelerate #globalnav li a span, [lang="de-AT"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/at/global/nav/images/globalnav_text.png); }
+
+[lang="fr-BE"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/befr/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/befr/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-BE"] #globalheader.svg #globalnav li a span { background-image: url(/befr/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-BE"] #globalheader.decelerate #globalnav li a span, [lang="fr-BE"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/befr/global/nav/images/globalnav_text.png); }
+
+[lang="nl-BE"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/benl/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/benl/global/nav/images/globalnav_text.gif); }
+
+[lang="nl-BE"] #globalheader.svg #globalnav li a span { background-image: url(/benl/global/nav/images/globalnav_text.svg); }
+
+[lang="nl-BE"] #globalheader.decelerate #globalnav li a span, [lang="nl-BE"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/benl/global/nav/images/globalnav_text.png); }
+
+[lang="bg-BG"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/bg/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/bg/global/nav/images/globalnav_text.gif); }
+
+[lang="bg-BG"] #globalheader.svg #globalnav li a span { background-image: url(/bg/global/nav/images/globalnav_text.svg); }
+
+[lang="bg-BG"] #globalheader.decelerate #globalnav li a span, [lang="bg-BG"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/bg/global/nav/images/globalnav_text.png); }
+
+[lang="en-BH"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/bh/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/bh/global/nav/images/globalnav_text.gif); }
+
+[lang="en-BH"] #globalheader.svg #globalnav li a span { background-image: url(/bh/global/nav/images/globalnav_text.svg); }
+
+[lang="en-BH"] #globalheader.decelerate #globalnav li a span, [lang="en-BH"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/bh/global/nav/images/globalnav_text.png); }
+
+[lang="pt-BR"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/br/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/br/global/nav/images/globalnav_text.gif); }
+
+[lang="pt-BR"] #globalheader.svg #globalnav li a span { background-image: url(/br/global/nav/images/globalnav_text.svg); }
+
+[lang="pt-BR"] #globalheader.decelerate #globalnav li a span, [lang="pt-BR"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/br/global/nav/images/globalnav_text.png); }
+
+[lang="en-BW"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/bw/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/bw/global/nav/images/globalnav_text.gif); }
+
+[lang="en-BW"] #globalheader.svg #globalnav li a span { background-image: url(/bw/global/nav/images/globalnav_text.svg); }
+
+[lang="en-BW"] #globalheader.decelerate #globalnav li a span, [lang="en-BW"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/bw/global/nav/images/globalnav_text.png); }
+
+[lang="fr-CA"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ca/fr/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ca/fr/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-CA"] #globalheader.svg #globalnav li a span { background-image: url(/ca/fr/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-CA"] #globalheader.decelerate #globalnav li a span, [lang="fr-CA"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ca/fr/global/nav/images/globalnav_text.png); }
+
+[lang="fr-CF"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/cf/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/cf/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-CF"] #globalheader.svg #globalnav li a span { background-image: url(/cf/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-CF"] #globalheader.decelerate #globalnav li a span, [lang="fr-CF"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/cf/global/nav/images/globalnav_text.png); }
+
+[lang="de-CH"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/chde/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/chde/global/nav/images/globalnav_text.gif); }
+
+[lang="de-CH"] #globalheader.svg #globalnav li a span { background-image: url(/chde/global/nav/images/globalnav_text.svg); }
+
+[lang="de-CH"] #globalheader.decelerate #globalnav li a span, [lang="de-CH"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/chde/global/nav/images/globalnav_text.png); }
+
+[lang="fr-CH"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/chfr/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/chfr/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-CH"] #globalheader.svg #globalnav li a span { background-image: url(/chfr/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-CH"] #globalheader.decelerate #globalnav li a span, [lang="fr-CH"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/chfr/global/nav/images/globalnav_text.png); }
+
+[lang="fr-CI"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ci/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ci/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-CI"] #globalheader.svg #globalnav li a span { background-image: url(/ci/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-CI"] #globalheader.decelerate #globalnav li a span, [lang="fr-CI"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ci/global/nav/images/globalnav_text.png); }
+
+[lang="fr-CM"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/cm/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/cm/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-CM"] #globalheader.svg #globalnav li a span { background-image: url(/cm/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-CM"] #globalheader.decelerate #globalnav li a span, [lang="fr-CM"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/cm/global/nav/images/globalnav_text.png); }
+
+[lang="zh-CN"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/cn/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/cn/global/nav/images/globalnav_text.gif); }
+
+[lang="zh-CN"] #globalheader.svg #globalnav li a span { background-image: url(/cn/global/nav/images/globalnav_text.svg); }
+
+[lang="zh-CN"] #globalheader.decelerate #globalnav li a span, [lang="zh-CN"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/cn/global/nav/images/globalnav_text.png); }
+
+[lang="cs-CZ"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/cz/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/cz/global/nav/images/globalnav_text.gif); }
+
+[lang="cs-CZ"] #globalheader.svg #globalnav li a span { background-image: url(/cz/global/nav/images/globalnav_text.svg); }
+
+[lang="cs-CZ"] #globalheader.decelerate #globalnav li a span, [lang="cs-CZ"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/cz/global/nav/images/globalnav_text.png); }
+
+[lang="de-DE"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/de/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/de/global/nav/images/globalnav_text.gif); }
+
+[lang="de-DE"] #globalheader.svg #globalnav li a span { background-image: url(/de/global/nav/images/globalnav_text.svg); }
+
+[lang="de-DE"] #globalheader.decelerate #globalnav li a span, [lang="de-DE"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/de/global/nav/images/globalnav_text.png); }
+
+[lang="da-DK"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/dk/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/dk/global/nav/images/globalnav_text.gif); }
+
+[lang="da-DK"] #globalheader.svg #globalnav li a span { background-image: url(/dk/global/nav/images/globalnav_text.svg); }
+
+[lang="da-DK"] #globalheader.decelerate #globalnav li a span, [lang="da-DK"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/dk/global/nav/images/globalnav_text.png); }
+
+[lang="et-EE"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ee/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ee/global/nav/images/globalnav_text.gif); }
+
+[lang="et-EE"] #globalheader.svg #globalnav li a span { background-image: url(/ee/global/nav/images/globalnav_text.svg); }
+
+[lang="et-EE"] #globalheader.decelerate #globalnav li a span, [lang="et-EE"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ee/global/nav/images/globalnav_text.png); }
+
+[lang="en-EG"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/eg/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/eg/global/nav/images/globalnav_text.gif); }
+
+[lang="en-EG"] #globalheader.svg #globalnav li a span { background-image: url(/eg/global/nav/images/globalnav_text.svg); }
+
+[lang="en-EG"] #globalheader.decelerate #globalnav li a span, [lang="en-EG"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/eg/global/nav/images/globalnav_text.png); }
+
+[lang="es-ES"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/es/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/es/global/nav/images/globalnav_text.gif); }
+
+[lang="es-ES"] #globalheader.svg #globalnav li a span { background-image: url(/es/global/nav/images/globalnav_text.svg); }
+
+[lang="es-ES"] #globalheader.decelerate #globalnav li a span, [lang="es-ES"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/es/global/nav/images/globalnav_text.png); }
+
+[lang="fi-FI"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/fi/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/fi/global/nav/images/globalnav_text.gif); }
+
+[lang="fi-FI"] #globalheader.svg #globalnav li a span { background-image: url(/fi/global/nav/images/globalnav_text.svg); }
+
+[lang="fi-FI"] #globalheader.decelerate #globalnav li a span, [lang="fi-FI"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/fi/global/nav/images/globalnav_text.png); }
+
+[lang="fr-FR"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/fr/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/fr/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-FR"] #globalheader.svg #globalnav li a span { background-image: url(/fr/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-FR"] #globalheader.decelerate #globalnav li a span, [lang="fr-FR"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/fr/global/nav/images/globalnav_text.png); }
+
+[lang="fr-GN"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/gn/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/gn/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-GN"] #globalheader.svg #globalnav li a span { background-image: url(/gn/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-GN"] #globalheader.decelerate #globalnav li a span, [lang="fr-GN"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/gn/global/nav/images/globalnav_text.png); }
+
+[lang="fr-GQ"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/gq/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/gq/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-GQ"] #globalheader.svg #globalnav li a span { background-image: url(/gq/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-GQ"] #globalheader.decelerate #globalnav li a span, [lang="fr-GQ"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/gq/global/nav/images/globalnav_text.png); }
+
+[lang="el-GR"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/gr/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/gr/global/nav/images/globalnav_text.gif); }
+
+[lang="el-GR"] #globalheader.svg #globalnav li a span { background-image: url(/gr/global/nav/images/globalnav_text.svg); }
+
+[lang="el-GR"] #globalheader.decelerate #globalnav li a span, [lang="el-GR"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/gr/global/nav/images/globalnav_text.png); }
+
+[lang="en-GW"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/gw/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/gw/global/nav/images/globalnav_text.gif); }
+
+[lang="en-GW"] #globalheader.svg #globalnav li a span { background-image: url(/gw/global/nav/images/globalnav_text.svg); }
+
+[lang="en-GW"] #globalheader.decelerate #globalnav li a span, [lang="en-GW"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/gw/global/nav/images/globalnav_text.png); }
+
+[lang="zh-HK"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/hk/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/hk/global/nav/images/globalnav_text.gif); }
+
+[lang="zh-HK"] #globalheader.svg #globalnav li a span { background-image: url(/hk/global/nav/images/globalnav_text.svg); }
+
+[lang="zh-HK"] #globalheader.decelerate #globalnav li a span, [lang="zh-HK"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/hk/global/nav/images/globalnav_text.png); }
+
+[lang="hr-HR"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/hr/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/hr/global/nav/images/globalnav_text.gif); }
+
+[lang="hr-HR"] #globalheader.svg #globalnav li a span { background-image: url(/hr/global/nav/images/globalnav_text.svg); }
+
+[lang="hr-HR"] #globalheader.decelerate #globalnav li a span, [lang="hr-HR"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/hr/global/nav/images/globalnav_text.png); }
+
+[lang="hu-HU"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/hu/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/hu/global/nav/images/globalnav_text.gif); }
+
+[lang="hu-HU"] #globalheader.svg #globalnav li a span { background-image: url(/hu/global/nav/images/globalnav_text.svg); }
+
+[lang="hu-HU"] #globalheader.decelerate #globalnav li a span, [lang="hu-HU"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/hu/global/nav/images/globalnav_text.png); }
+
+[lang="id-ID"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/id/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/id/global/nav/images/globalnav_text.gif); }
+
+[lang="id-ID"] #globalheader.svg #globalnav li a span { background-image: url(/id/global/nav/images/globalnav_text.svg); }
+
+[lang="id-ID"] #globalheader.decelerate #globalnav li a span, [lang="id-ID"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/id/global/nav/images/globalnav_text.png); }
+
+[lang="en-IE"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ie/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ie/global/nav/images/globalnav_text.gif); }
+
+[lang="en-IE"] #globalheader.svg #globalnav li a span { background-image: url(/ie/global/nav/images/globalnav_text.svg); }
+
+[lang="en-IE"] #globalheader.decelerate #globalnav li a span, [lang="en-IE"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ie/global/nav/images/globalnav_text.png); }
+
+[lang="en-IL"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/il/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/il/global/nav/images/globalnav_text.gif); }
+
+[lang="en-IL"] #globalheader.svg #globalnav li a span { background-image: url(/il/global/nav/images/globalnav_text.svg); }
+
+[lang="en-IL"] #globalheader.decelerate #globalnav li a span, [lang="en-IL"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/il/global/nav/images/globalnav_text.png); }
+
+[lang="en-IN"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/in/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/in/global/nav/images/globalnav_text.gif); }
+
+[lang="en-IN"] #globalheader.svg #globalnav li a span { background-image: url(/in/global/nav/images/globalnav_text.svg); }
+
+[lang="en-IN"] #globalheader.decelerate #globalnav li a span, [lang="en-IN"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/in/global/nav/images/globalnav_text.png); }
+
+[lang="it-IT"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/it/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/it/global/nav/images/globalnav_text.gif); }
+
+[lang="it-IT"] #globalheader.svg #globalnav li a span { background-image: url(/it/global/nav/images/globalnav_text.svg); }
+
+[lang="it-IT"] #globalheader.decelerate #globalnav li a span, [lang="it-IT"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/it/global/nav/images/globalnav_text.png); }
+
+[lang="en-JO"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/jo/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/jo/global/nav/images/globalnav_text.gif); }
+
+[lang="en-JO"] #globalheader.svg #globalnav li a span { background-image: url(/jo/global/nav/images/globalnav_text.svg); }
+
+[lang="en-JO"] #globalheader.decelerate #globalnav li a span, [lang="en-JO"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/jo/global/nav/images/globalnav_text.png); }
+
+[lang="ja-JP"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/jp/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/jp/global/nav/images/globalnav_text.gif); }
+
+[lang="ja-JP"] #globalheader.svg #globalnav li a span { background-image: url(/jp/global/nav/images/globalnav_text.svg); }
+
+[lang="ja-JP"] #globalheader.decelerate #globalnav li a span, [lang="ja-JP"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/jp/global/nav/images/globalnav_text.png); }
+
+[lang="en-KE"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ke/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ke/global/nav/images/globalnav_text.gif); }
+
+[lang="en-KE"] #globalheader.svg #globalnav li a span { background-image: url(/ke/global/nav/images/globalnav_text.svg); }
+
+[lang="en-KE"] #globalheader.decelerate #globalnav li a span, [lang="en-KE"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ke/global/nav/images/globalnav_text.png); }
+
+[lang="ko-KR"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/kr/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/kr/global/nav/images/globalnav_text.gif); }
+
+[lang="ko-KR"] #globalheader.svg #globalnav li a span { background-image: url(/kr/global/nav/images/globalnav_text.svg); }
+
+[lang="ko-KR"] #globalheader.decelerate #globalnav li a span, [lang="ko-KR"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/kr/global/nav/images/globalnav_text.png); }
+
+[lang="en-KW"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/kw/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/kw/global/nav/images/globalnav_text.gif); }
+
+[lang="en-KW"] #globalheader.svg #globalnav li a span { background-image: url(/kw/global/nav/images/globalnav_text.svg); }
+
+[lang="en-KW"] #globalheader.decelerate #globalnav li a span, [lang="en-KW"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/kw/global/nav/images/globalnav_text.png); }
+
+[lang="es-419"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/la/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/la/global/nav/images/globalnav_text.gif); }
+
+[lang="es-419"] #globalheader.svg #globalnav li a span { background-image: url(/la/global/nav/images/globalnav_text.svg); }
+
+[lang="es-419"] #globalheader.decelerate #globalnav li a span, [lang="es-419"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/la/global/nav/images/globalnav_text.png); }
+
+[lang="en-419"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/lae/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/lae/global/nav/images/globalnav_text.gif); }
+
+[lang="en-419"] #globalheader.svg #globalnav li a span { background-image: url(/lae/global/nav/images/globalnav_text.svg); }
+
+[lang="en-419"] #globalheader.decelerate #globalnav li a span, [lang="en-419"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/lae/global/nav/images/globalnav_text.png); }
+
+[lang="de-LI"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/li/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/li/global/nav/images/globalnav_text.gif); }
+
+[lang="de-LI"] #globalheader.svg #globalnav li a span { background-image: url(/li/global/nav/images/globalnav_text.svg); }
+
+[lang="de-LI"] #globalheader.decelerate #globalnav li a span, [lang="de-LI"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/li/global/nav/images/globalnav_text.png); }
+
+[lang="lt-LT"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/lt/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/lt/global/nav/images/globalnav_text.gif); }
+
+[lang="lt-LT"] #globalheader.svg #globalnav li a span { background-image: url(/lt/global/nav/images/globalnav_text.svg); }
+
+[lang="lt-LT"] #globalheader.decelerate #globalnav li a span, [lang="lt-LT"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/lt/global/nav/images/globalnav_text.png); }
+
+[lang="fr-LU"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/lu/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/lu/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-LU"] #globalheader.svg #globalnav li a span { background-image: url(/lu/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-LU"] #globalheader.decelerate #globalnav li a span, [lang="fr-LU"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/lu/global/nav/images/globalnav_text.png); }
+
+[lang="lv-LV"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/lv/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/lv/global/nav/images/globalnav_text.gif); }
+
+[lang="lv-LV"] #globalheader.svg #globalnav li a span { background-image: url(/lv/global/nav/images/globalnav_text.svg); }
+
+[lang="lv-LV"] #globalheader.decelerate #globalnav li a span, [lang="lv-LV"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/lv/global/nav/images/globalnav_text.png); }
+
+[lang="fr-MA"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ma/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ma/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-MA"] #globalheader.svg #globalnav li a span { background-image: url(/ma/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-MA"] #globalheader.decelerate #globalnav li a span, [lang="fr-MA"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ma/global/nav/images/globalnav_text.png); }
+
+[lang="en-MD"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/md/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/md/global/nav/images/globalnav_text.gif); }
+
+[lang="en-MD"] #globalheader.svg #globalnav li a span { background-image: url(/md/global/nav/images/globalnav_text.svg); }
+
+[lang="en-MD"] #globalheader.decelerate #globalnav li a span, [lang="en-MD"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/md/global/nav/images/globalnav_text.png); }
+
+[lang="en-ME"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/me/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/me/global/nav/images/globalnav_text.gif); }
+
+[lang="en-ME"] #globalheader.svg #globalnav li a span { background-image: url(/me/global/nav/images/globalnav_text.svg); }
+
+[lang="en-ME"] #globalheader.decelerate #globalnav li a span, [lang="en-ME"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/me/global/nav/images/globalnav_text.png); }
+
+[lang="fr-MG"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/mg/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/mg/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-MG"] #globalheader.svg #globalnav li a span { background-image: url(/mg/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-MG"] #globalheader.decelerate #globalnav li a span, [lang="fr-MG"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/mg/global/nav/images/globalnav_text.png); }
+
+[lang="en-MK"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/mk/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/mk/global/nav/images/globalnav_text.gif); }
+
+[lang="en-MK"] #globalheader.svg #globalnav li a span { background-image: url(/mk/global/nav/images/globalnav_text.svg); }
+
+[lang="en-MK"] #globalheader.decelerate #globalnav li a span, [lang="en-MK"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/mk/global/nav/images/globalnav_text.png); }
+
+[lang="fr-ML"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ml/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ml/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-ML"] #globalheader.svg #globalnav li a span { background-image: url(/ml/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-ML"] #globalheader.decelerate #globalnav li a span, [lang="fr-ML"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ml/global/nav/images/globalnav_text.png); }
+
+[lang="en-MT"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/mt/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/mt/global/nav/images/globalnav_text.gif); }
+
+[lang="en-MT"] #globalheader.svg #globalnav li a span { background-image: url(/mt/global/nav/images/globalnav_text.svg); }
+
+[lang="en-MT"] #globalheader.decelerate #globalnav li a span, [lang="en-MT"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/mt/global/nav/images/globalnav_text.png); }
+
+[lang="fr-MU"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/mu/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/mu/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-MU"] #globalheader.svg #globalnav li a span { background-image: url(/mu/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-MU"] #globalheader.decelerate #globalnav li a span, [lang="fr-MU"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/mu/global/nav/images/globalnav_text.png); }
+
+[lang="es-MX"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/mx/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/mx/global/nav/images/globalnav_text.gif); }
+
+[lang="es-MX"] #globalheader.svg #globalnav li a span { background-image: url(/mx/global/nav/images/globalnav_text.svg); }
+
+[lang="es-MX"] #globalheader.decelerate #globalnav li a span, [lang="es-MX"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/mx/global/nav/images/globalnav_text.png); }
+
+[lang="en-MZ"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/mz/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/mz/global/nav/images/globalnav_text.gif); }
+
+[lang="en-MZ"] #globalheader.svg #globalnav li a span { background-image: url(/mz/global/nav/images/globalnav_text.svg); }
+
+[lang="en-MZ"] #globalheader.decelerate #globalnav li a span, [lang="en-MZ"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/mz/global/nav/images/globalnav_text.png); }
+
+[lang="fr-NE"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ne/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ne/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-NE"] #globalheader.svg #globalnav li a span { background-image: url(/ne/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-NE"] #globalheader.decelerate #globalnav li a span, [lang="fr-NE"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ne/global/nav/images/globalnav_text.png); }
+
+[lang="en-NG"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ng/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ng/global/nav/images/globalnav_text.gif); }
+
+[lang="en-NG"] #globalheader.svg #globalnav li a span { background-image: url(/ng/global/nav/images/globalnav_text.svg); }
+
+[lang="en-NG"] #globalheader.decelerate #globalnav li a span, [lang="en-NG"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ng/global/nav/images/globalnav_text.png); }
+
+[lang="nl-NL"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/nl/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/nl/global/nav/images/globalnav_text.gif); }
+
+[lang="nl-NL"] #globalheader.svg #globalnav li a span { background-image: url(/nl/global/nav/images/globalnav_text.svg); }
+
+[lang="nl-NL"] #globalheader.decelerate #globalnav li a span, [lang="nl-NL"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/nl/global/nav/images/globalnav_text.png); }
+
+[lang="no-NO"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/no/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/no/global/nav/images/globalnav_text.gif); }
+
+[lang="no-NO"] #globalheader.svg #globalnav li a span { background-image: url(/no/global/nav/images/globalnav_text.svg); }
+
+[lang="no-NO"] #globalheader.decelerate #globalnav li a span, [lang="no-NO"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/no/global/nav/images/globalnav_text.png); }
+
+[lang="en-OM"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/om/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/om/global/nav/images/globalnav_text.gif); }
+
+[lang="en-OM"] #globalheader.svg #globalnav li a span { background-image: url(/om/global/nav/images/globalnav_text.svg); }
+
+[lang="en-OM"] #globalheader.decelerate #globalnav li a span, [lang="en-OM"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/om/global/nav/images/globalnav_text.png); }
+
+[lang="pl-PL"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/pl/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/pl/global/nav/images/globalnav_text.gif); }
+
+[lang="pl-PL"] #globalheader.svg #globalnav li a span { background-image: url(/pl/global/nav/images/globalnav_text.svg); }
+
+[lang="pl-PL"] #globalheader.decelerate #globalnav li a span, [lang="pl-PL"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/pl/global/nav/images/globalnav_text.png); }
+
+[lang="pt-PT"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/pt/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/pt/global/nav/images/globalnav_text.gif); }
+
+[lang="pt-PT"] #globalheader.svg #globalnav li a span { background-image: url(/pt/global/nav/images/globalnav_text.svg); }
+
+[lang="pt-PT"] #globalheader.decelerate #globalnav li a span, [lang="pt-PT"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/pt/global/nav/images/globalnav_text.png); }
+
+[lang="en-QA"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/qa/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/qa/global/nav/images/globalnav_text.gif); }
+
+[lang="en-QA"] #globalheader.svg #globalnav li a span { background-image: url(/qa/global/nav/images/globalnav_text.svg); }
+
+[lang="en-QA"] #globalheader.decelerate #globalnav li a span, [lang="en-QA"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/qa/global/nav/images/globalnav_text.png); }
+
+[lang="ro-RO"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ro/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ro/global/nav/images/globalnav_text.gif); }
+
+[lang="ro-RO"] #globalheader.svg #globalnav li a span { background-image: url(/ro/global/nav/images/globalnav_text.svg); }
+
+[lang="ro-RO"] #globalheader.decelerate #globalnav li a span, [lang="ro-RO"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ro/global/nav/images/globalnav_text.png); }
+
+[lang="ru-RU"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ru/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ru/global/nav/images/globalnav_text.gif); }
+
+[lang="ru-RU"] #globalheader.svg #globalnav li a span { background-image: url(/ru/global/nav/images/globalnav_text.svg); }
+
+[lang="ru-RU"] #globalheader.decelerate #globalnav li a span, [lang="ru-RU"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ru/global/nav/images/globalnav_text.png); }
+
+[lang="en-SA"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/sa/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/sa/global/nav/images/globalnav_text.gif); }
+
+[lang="en-SA"] #globalheader.svg #globalnav li a span { background-image: url(/sa/global/nav/images/globalnav_text.svg); }
+
+[lang="en-SA"] #globalheader.decelerate #globalnav li a span, [lang="en-SA"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/sa/global/nav/images/globalnav_text.png); }
+
+[lang="sv-SE"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/se/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/se/global/nav/images/globalnav_text.gif); }
+
+[lang="sv-SE"] #globalheader.svg #globalnav li a span { background-image: url(/se/global/nav/images/globalnav_text.svg); }
+
+[lang="sv-SE"] #globalheader.decelerate #globalnav li a span, [lang="sv-SE"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/se/global/nav/images/globalnav_text.png); }
+
+[lang="en-SI"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/si/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/si/global/nav/images/globalnav_text.gif); }
+
+[lang="en-SI"] #globalheader.svg #globalnav li a span { background-image: url(/si/global/nav/images/globalnav_text.svg); }
+
+[lang="en-SI"] #globalheader.decelerate #globalnav li a span, [lang="en-SI"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/si/global/nav/images/globalnav_text.png); }
+
+[lang="sk-SK"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/sk/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/sk/global/nav/images/globalnav_text.gif); }
+
+[lang="sk-SK"] #globalheader.svg #globalnav li a span { background-image: url(/sk/global/nav/images/globalnav_text.svg); }
+
+[lang="sk-SK"] #globalheader.decelerate #globalnav li a span, [lang="sk-SK"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/sk/global/nav/images/globalnav_text.png); }
+
+[lang="fr-SN"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/sn/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/sn/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-SN"] #globalheader.svg #globalnav li a span { background-image: url(/sn/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-SN"] #globalheader.decelerate #globalnav li a span, [lang="fr-SN"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/sn/global/nav/images/globalnav_text.png); }
+
+[lang="th-TH"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/th/global/nav/images/globalnav_text.png); }
+
+[lang="th-TH"] #globalheader.svg #globalnav li a span { background-image: url(/th/global/nav/images/globalnav_text.svg); }
+
+[lang="th-TH"] #globalheader.decelerate #globalnav li a span, [lang="th-TH"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/th/global/nav/images/globalnav_text.png); }
+
+[lang="fr-TN"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/tn/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/tn/global/nav/images/globalnav_text.gif); }
+
+[lang="fr-TN"] #globalheader.svg #globalnav li a span { background-image: url(/tn/global/nav/images/globalnav_text.svg); }
+
+[lang="fr-TN"] #globalheader.decelerate #globalnav li a span, [lang="fr-TN"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/tn/global/nav/images/globalnav_text.png); }
+
+[lang="tr-TR"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/tr/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/tr/global/nav/images/globalnav_text.gif); }
+
+[lang="tr-TR"] #globalheader.svg #globalnav li a span { background-image: url(/tr/global/nav/images/globalnav_text.svg); }
+
+[lang="tr-TR"] #globalheader.decelerate #globalnav li a span, [lang="tr-TR"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/tr/global/nav/images/globalnav_text.png); }
+
+[lang="zh-TW"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/tw/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/tw/global/nav/images/globalnav_text.gif); }
+
+[lang="zh-TW"] #globalheader.svg #globalnav li a span { background-image: url(/tw/global/nav/images/globalnav_text.svg); }
+
+[lang="zh-TW"] #globalheader.decelerate #globalnav li a span, [lang="zh-TW"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/tw/global/nav/images/globalnav_text.png); }
+
+[lang="en-UG"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/ug/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/ug/global/nav/images/globalnav_text.gif); }
+
+[lang="en-UG"] #globalheader.svg #globalnav li a span { background-image: url(/ug/global/nav/images/globalnav_text.svg); }
+
+[lang="en-UG"] #globalheader.decelerate #globalnav li a span, [lang="en-UG"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/ug/global/nav/images/globalnav_text.png); }
+
+[lang="en-GB"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/uk/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/uk/global/nav/images/globalnav_text.gif); }
+
+[lang="en-GB"] #globalheader.svg #globalnav li a span { background-image: url(/uk/global/nav/images/globalnav_text.svg); }
+
+[lang="en-GB"] #globalheader.decelerate #globalnav li a span, [lang="en-GB"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/uk/global/nav/images/globalnav_text.png); }
+
+[lang="en-ZA"] #globalheader #globalnav li a span { background-image: url(https://www.apple.com/za/global/nav/images/globalnav_text.png); _background-image: url(https://www.apple.com/za/global/nav/images/globalnav_text.gif); }
+
+[lang="en-ZA"] #globalheader.svg #globalnav li a span { background-image: url(/za/global/nav/images/globalnav_text.svg); }
+
+[lang="en-ZA"] #globalheader.decelerate #globalnav li a span, [lang="en-ZA"] #globalheader.ios3 #globalnav li a span { background-image: url(https://www.apple.com/za/global/nav/images/globalnav_text.png); }
+
+.footer-wrapper:before, .footer-wrapper:after { content: " "; display: table; }
+.footer-wrapper:after { clear: both; }
+.oldie .footer-wrapper { zoom: 1; }
+
+#globalfooter { margin: 18px auto 0; width: 980px; padding-bottom: 36px; color: #888; font-size: 10px; text-align: left; }
+#globalfooter a { color: #0088cc; white-space: nowrap; }
+#globalfooter p { font-size: 10px; margin: 0 0 1em; padding: 0; }
+#globalfooter ul, #globalfooter ol { margin: 0; padding: 0; list-style: none; }
+#globalfooter li { margin: 0; padding: 0; font-size: 10px; }
+#globalfooter .piped { display: block; }
+#globalfooter .piped:before, #globalfooter .piped:after { content: " "; display: table; }
+#globalfooter .piped:after { clear: both; }
+.oldie #globalfooter .piped { zoom: 1; }
+#globalfooter .piped li { display: inline; float: left; }
+#globalfooter .piped li > a { border-left: 1px solid #d0d0d0; }
+#globalfooter .piped li > .first { border-left: 0; }
+#globalfooter .piped .contact_us { padding-right: 15px; border-right: 1px solid #d0d0d0; }
+#globalfooter .piped .choose { margin-left: 0; padding-right: 0; border: 0; }
+#globalfooter .piped .choose img { margin-top: -5px; vertical-align: middle; position: relative; z-index: 1; }
+#globalfooter .gf-buy { float: left; margin: 18px 0 9px 3px; }
+#globalfooter .gf-links { float: right; margin: 18px 3px 9px 0; }
+#globalfooter .gf-links a { padding: 0 10px; white-space: nowrap; }
+#globalfooter .gf-sosumi { clear: both; width: 100%; padding-top: 9px; border-top: 1px solid #ddd; }
+#globalfooter .gf-sosumi a { padding: 0 10px; }
+#globalfooter .gf-sosumi p { float: left; margin-left: 3px; white-space: nowrap; }
+#globalfooter #breadory { margin: 0 auto; width: 978px; border: 1px solid #ddd; border-radius: 4px; }
+#globalfooter #breadory:before, #globalfooter #breadory:after { content: " "; display: table; }
+#globalfooter #breadory:after { clear: both; }
+.oldie #globalfooter #breadory { zoom: 1; }
+#globalfooter #breadory ol#breadcrumbs { background: none; color: #666; line-height: 32px; font-weight: bold; text-shadow: 0 1px 0 #fff; }
+#globalfooter #breadory ol#breadcrumbs:before, #globalfooter #breadory ol#breadcrumbs:after { content: " "; display: table; }
+#globalfooter #breadory ol#breadcrumbs:after { clear: both; }
+.oldie #globalfooter #breadory ol#breadcrumbs { zoom: 1; }
+#globalfooter #breadory ol#breadcrumbs li { float: left; font-size: 11px; padding-left: 1em; background: none; white-space: nowrap; }
+#globalfooter #breadory ol#breadcrumbs li a { float: left; padding-right: 18px; color: #666; background-repeat: no-repeat; background-position: 100% 50%; background-image: url("https://www.apple.com/v/osx/preview/b/ac-assets/images/breadcrumb_separator.png"); }
+.svg #globalfooter #breadory ol#breadcrumbs li a { background-image: url("/v/osx/preview/b/ac-assets/images/breadcrumb_separator.svg"); }
+#globalfooter #breadory ol#breadcrumbs li a:hover { color: #333; text-decoration: none; }
+#globalfooter #breadory ol#breadcrumbs li.home a { font: 0/0 a; color: transparent; height: 32px; width: 32px; padding-right: 0; background-image: url("https://www.apple.com/v/osx/preview/b/ac-assets/images/breadcrumb_home.png"); }
+.svg #globalfooter #breadory ol#breadcrumbs li.home a { background-image: url("/v/osx/preview/b/ac-assets/images/breadcrumb_home.svg"); }
+#globalfooter #breadory ol#breadcrumbs li.home a:hover { background-image: url("https://www.apple.com/v/osx/preview/b/ac-assets/images/breadcrumb_home_over.png"); }
+.svg #globalfooter #breadory ol#breadcrumbs li.home a:hover { background-image: url("/v/osx/preview/b/ac-assets/images/breadcrumb_home_over.svg"); }
+#globalfooter #breadory ol#breadcrumbs li.lang-switch { float: right; padding-left: 0; }
+#globalfooter #breadory ol#breadcrumbs li.lang-switch a { background: none; padding-right: 9px; padding-left: 9px; border-left: 1px solid #ddd; }
+#globalfooter #breadory #directorynav { float: none; margin-top: 0; width: 100%; padding-top: 2px; border-top: 1px solid #ddd; background: none; line-height: 1.2727; }
+#globalfooter #breadory #directorynav:before, #globalfooter #breadory #directorynav:after { content: " "; display: table; }
+#globalfooter #breadory #directorynav:after { clear: both; }
+.oldie #globalfooter #breadory #directorynav { zoom: 1; }
+#globalfooter #breadory #directorynav ul { padding-bottom: 9px; }
+#globalfooter #breadory #directorynav li { font-size: 11px; padding-bottom: 4px; }
+#globalfooter #breadory #directorynav a { display: block; color: #888; zoom: 1; white-space: normal; }
+#globalfooter #breadory #directorynav a:hover { color: #333; text-decoration: none; }
+#globalfooter #breadory #directorynav h3 { margin: 0; padding: 0 0 4px; color: #666; font-size: 11px; letter-spacing: 0; line-height: 1.2727; font-weight: bold; }
+#globalfooter #breadory #directorynav .column { float: left; width: 120px; padding: 9px 0 2px 18px; }
+#globalfooter #breadory #directorynav.ios .column, #globalfooter #breadory #directorynav.mac .column, #globalfooter #breadory #directorynav.ipod .column, #globalfooter #breadory #directorynav.ipodtouch .column, #globalfooter #breadory #directorynav.ipad .column, #globalfooter #breadory #directorynav.iphone .column, #globalfooter #breadory #directorynav.itunes .column { width: 190px; padding: 9px 0 0 54px; }
+#globalfooter #breadory #directorynav .capbottom { display: none; }
+
+#globalfooter p.gf-iphonefootnote { float: left; width: 100%; margin: 18px 0 9px 3px; }
+
+#globalfooter p.gf-iphonefootnote + p.gf-copyright { clear: left; padding: 9px 0 1px 3px; border-top: 1px solid #ddd; }
+
+#globalfooter p.gf-iphonefootnote + p.gf-copyright + ul.gf-links { margin-top: -3.9em; padding: 9px 0 1px 3px; border-top: 1px solid #ddd; }
+
+#globalfooter .gf-sosumi:after { content: '.'; display: block; height: 0; clear: both; visibility: hidden; }
+
+#globalfooter .gf-sosumi ul.gf-links { margin: 0 3px 9px 0; }
+
+#globalfooter p.gf-buy_cm { padding: 0 3px; }
+
+#globalfooter ul.piped li.for_english { padding: 0 15px; border-right: 1px solid #d0d0d0; }
+
+#globalfooter ul.piped li.for_english a { border-left: 0; padding-left: 0; margin-left: 0; }
+
+#globalfooter .gf-buy { width: auto; }
+
+[lang="it-IT"] #globalfooter .gf-buy { width: 40%; white-space: normal; }
+
+[lang="es-ES"] #globalfooter p.gf-buy { width: 37%; }
+
+[lang="es-ES"] #globalfooter ul.piped a { padding: 0 0 0 1em; margin-left: 1em; }
+
+[lang="es-ES"] #globalfooter ul.piped a.contact_us { padding-right: 1.5em; }
+
+[lang="es-ES"] #globalfooter ul.piped a.choose { margin-left: 0; }
+
+[lang="en-SA"] #globalfooter p.gf-copyright { margin: 18px 0 9px 3px; float: left; }
+
+[lang="lt-LT"] #globalfooter p.gf-iphonefootnote { margin: 12px 0 -7px 3px; padding-bottom: 9px; border-bottom: 1px solid #DDDDDD; }
+
+[lang="lt-LT"] #globalfooter p.gf-iphonefootnote + p.gf-copyright { float: left; width: 300px; margin: 12px 0 9px 3px; border: none; }
+
+[lang="lt-LT"] #globalfooter p.gf-iphonefootnote + p.gf-copyright + ul.gf-links { margin-top: 12px; border: none; }
+
+[lang="hr-HR"] #globalfooter p.gf-iphonefootnote { margin: 12px 0 -7px 3px; padding-bottom: 9px; border-bottom: 1px solid #DDDDDD; }
+
+[lang="hr-HR"] #globalfooter p.gf-iphonefootnote + p.gf-copyright { float: left; width: 300px; margin: 12px 0 9px 3px; border: none; }
+
+[lang="hr-HR"] #globalfooter p.gf-iphonefootnote + p.gf-copyright + ul.gf-links { margin-top: 12px; border: none; }
+
+[lang="et-EE"] #globalfooter p.gf-iphonefootnote { margin: 12px 0 -7px 3px; padding-bottom: 9px; border-bottom: 1px solid #DDDDDD; }
+
+[lang="et-EE"] #globalfooter p.gf-iphonefootnote + p.gf-copyright { float: left; width: 340px; margin: 12px 0 9px 3px; border: none; }
+
+[lang="et-EE"] #globalfooter p.gf-iphonefootnote + p.gf-copyright + ul.gf-links { margin-top: 12px; border: none; }
+
+[lang="sk-SK"] #globalfooter p.gf-iphonefootnote { margin: 12px 0 -7px 3px; padding-bottom: 9px; border-bottom: 1px solid #DDDDDD; }
+
+[lang="sk-SK"] #globalfooter p.gf-iphonefootnote + p.gf-copyright { float: left; width: 300px; margin: 12px 0 9px 3px; border: none; }
+
+[lang="sk-SK"] #globalfooter p.gf-iphonefootnote + p.gf-copyright + ul.gf-links { margin-top: 12px; border: none; }
+
+[lang="ro-RO"] #globalfooter p.gf-iphonefootnote { margin: 12px 0 -7px 3px; padding-bottom: 9px; border-bottom: 1px solid #DDDDDD; }
+
+[lang="ro-RO"] #globalfooter p.gf-iphonefootnote + p.gf-copyright { float: left; width: 290px; margin: 12px 0 9px 3px; border: none; }
+
+[lang="ro-RO"] #globalfooter p.gf-iphonefootnote + p.gf-copyright + ul.gf-links { margin-top: 12px; padding-left: 0; border: none; }
+
+[lang="el-GR"] #globalfooter p.gf-iphonefootnote { margin: 12px 0 -7px 3px; padding-bottom: 9px; border-bottom: 1px solid #DDDDDD; }
+
+[lang="el-GR"] #globalfooter p.gf-iphonefootnote + p.gf-copyright { float: left; width: 300px; margin: 12px 0 9px 3px; border: none; }
+
+[lang="el-GR"] #globalfooter p.gf-iphonefootnote + p.gf-copyright + ul.gf-links { margin-top: 12px; border: none; }
+
+[lang="bg-BG"] #globalfooter p.gf-iphonefootnote { margin: 12px 0 -7px 3px; padding-bottom: 9px; border-bottom: 1px solid #DDDDDD; }
+
+[lang="bg-BG"] #globalfooter p.gf-iphonefootnote + p.gf-copyright { float: left; width: 300px; margin: 12px 0 9px 3px; border: none; }
+
+[lang="bg-BG"] #globalfooter p.gf-iphonefootnote + p.gf-copyright + ul.gf-links { margin-top: 12px; border: none; }
+
+[lang="th-TH"] #globalfooter, [lang="th-TH"] #globalfooter p, [lang="th-TH"] #globalfooter li, [lang="th-TH"] #globalfooter #breadory ol#breadcrumbs li, [lang="th-TH"] #globalfooter #directorynav h3, [lang="th-TH"] #globalfooter #directorynav li { font-size: 12px; }
+
+html { width: 100%; height: 100%; }
+html.oldie { overflow-x: hidden; }
+
+body { min-width: 1024px; min-height: 100%; }
+
+.localnav { margin-top: 27px; }
+
+.section { min-width: 1024px; overflow: hidden; }
+.section:before, .section:after { content: " "; display: table; }
+.section:after { clear: both; }
+.oldie .section { zoom: 1; }
+.section .content { width: 980px; padding: 80px 0 80px; margin-left: auto; margin-right: auto; }
+
+.heading-icon { margin-left: auto; margin-right: auto; }
+
+.intro { color: #666; font-weight: 200; font-size: 1.75em; line-height: 1.3em; font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=zh-CN] .intro { font-family: "PingHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=zh-TW] .intro { font-family: "MHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=zh-HK] .intro { font-family: "MHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=th-TH] .intro { font-family: "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=ko-KR] .intro { font-family: "Yoon Gothic", "Helvetica Neue", "Helvetica", "Dotum", "Arial", "Verdana", "sans-serif"; }
+
+h2.subheadline, h3.subheadline { margin-top: 0; color: #333; }
+h2 .subheadline, h3 .subheadline { display: block; color: #999; }
+
+.paddlenav-solid .paddlenav-arrow { z-index: 2; background-color: #ebebeb; border-radius: 8px; height: 128px; line-height: 1.65; opacity: 0.65; }
+
+.footer-wrapper { min-width: 1024px; }
+.footer-wrapper:before, .footer-wrapper:after { content: " "; display: table; }
+.footer-wrapper:after { clear: both; }
+.oldie .footer-wrapper { zoom: 1; }
+.footer-wrapper .sosumi { max-width: 980px; margin-left: auto; margin-right: auto; }
+
+#globalfooter #breadory #directorynav h3 { font-family: "Lucida Grande", "Lucida Sans Unicode", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=ja-JP] #globalfooter #breadory #directorynav h3 { font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=th-TH] #globalfooter #breadory #directorynav h3 { font-family: "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=ko-KR] #globalfooter #breadory #directorynav h3 { font-family: "Lucida Grande", "Lucida Sans Unicode", "Dotum", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+
+.oldie body.page-developer, .oldie body.page-design, .oldie body.page-apps, .oldie body.page-mac-and-ios { background-repeat: repeat-x; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAACWCAMAAADDn6lDAAAABlBMVEX09PQAAACf1JWtAAAADklEQVQYGWNgGAVDGwAAAcIAAQf8Od0AAAAASUVORK5CYII=); }
+
+.page-overview .localnav { position: relative; z-index: 2; border-bottom-color: rgba(255, 255, 255, 0.3); }
+.page-overview .localnav .localnav-title > a { color: white; }
+.page-overview .localnav .localnav-link { color: white; }
+.page-overview .localnav .localnav-link:hover { color: #0088cc; }
+.page-overview .localnav .localnav-link.current { color: #f6f6f6; }
+.page-overview .localnav .localnav-title > a { cursor: default; }
+.page-overview .section { background-color: #fff; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, #f4f4f4 0, white 500px); background-image: linear-gradient(to bottom, #f4f4f4 0, white 500px); }
+.page-overview .section h2 { margin-bottom: 25px; }
+.page-overview .section-hero { text-align: center; color: #fff; overflow: visible; position: relative; width: 100%; max-width: 1864px; max-height: 1142px; margin: -135px auto 0 auto; }
+.oldie .page-overview .section-hero { margin-top: -150px; }
+.page-overview .section-hero .content { padding: 170px 0 50px; }
+.page-overview .section-hero h1 { margin-top: -7px; }
+.page-overview .section-hero h1 img { margin: 0 auto -12px; }
+.page-overview .section-hero h2 { margin-top: 15px; font-size: 2.9em; }
+.page-overview .section-hero .description { font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; margin-left: auto; margin-right: auto; max-width: 900px; margin-top: -12px; margin-bottom: 40px; line-height: 1.2em; font-weight: 200; font-size: 1.9em; }
+html[lang=zh-CN] .page-overview .section-hero .description { font-family: "PingHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=zh-TW] .page-overview .section-hero .description { font-family: "MHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=zh-HK] .page-overview .section-hero .description { font-family: "MHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=th-TH] .page-overview .section-hero .description { font-family: "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; }
+html[lang=ko-KR] .page-overview .section-hero .description { font-family: "Yoon Gothic", "Helvetica Neue", "Helvetica", "Dotum", "Arial", "Verdana", "sans-serif"; }
+.oldie .page-overview .section-hero .description { font-size: 1.8em; }
+.page-overview .section-hero .violator { color: #fff; border-color: #fff; }
+.page-overview .bg-wrapper { overflow: hidden; width: 100%; height: 100%; position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+.page-overview .bg-wrapper .bg { position: relative; margin: 0 auto; width: 1024px; height: 1142px; }
+@media only screen and (min-width: 64.0625em) { .page-overview .bg-wrapper .bg:before, .page-overview .bg-wrapper .bg:after { display: block; position: absolute; top: 0; bottom: 0; height: 1142px; width: 840px; background-position: 0 0; background-repeat: no-repeat; background-size: 420px 1142px; content: ''; }
+  .page-overview .bg-wrapper .bg:before { background-image: url(https://www.apple.com/osx/preview/images/overview_hero_bg_left.jpg); left: -420px; }
+  .page-overview .bg-wrapper .bg:after { background-image: url(https://www.apple.com/osx/preview/images/overview_hero_bg_right.jpg); right: -840px; } }
+.page-overview .bg-wrapper .clouds { position: absolute; top: 0; width: 5200px; height: 1142px; background-position: 0 0; opacity: 0; -webkit-transition-property: opactiy; transition-property: opactiy; -webkit-transition-duration: 5s; transition-duration: 5s; }
+.page-overview .bg-wrapper .clouds.show-clouds { opacity: .75; -webkit-transition-property: opactiy; transition-property: opactiy; -webkit-transition-duration: 5s; transition-duration: 5s; background-image: url(https://www.apple.com/osx/preview/images/overview_hero_clouds.png); -webkit-animation: cloudAnim 160s linear infinite; animation: cloudAnim 160s linear infinite; }
+.page-overview .section-design { text-align: center; background-image: none; margin-top: 70px; }
+.page-overview .section-design .content { padding: 0 0 69px; }
+.page-overview .section-design p { margin-left: auto; margin-right: auto; max-width: 895px; margin-bottom: 20px; }
+.page-overview .section-design .watch { display: inline-block; margin-bottom: 65px; }
+.page-overview .section-design .design-hero-image { margin-left: -114px; margin-bottom: 47px; }
+.page-overview .section-apps { text-align: center; background-color: #fff; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, #f4f4f4 0, white 500px); background-image: linear-gradient(to bottom, #f4f4f4 0, white 500px); }
+.page-overview .section-apps p { margin-left: auto; margin-right: auto; max-width: 880px; margin-bottom: 50px; }
+.page-overview .section-apps .apps-hero-image { margin-left: -269px; margin-bottom: 40px; }
+.page-overview .section-mac-ios { text-align: center; }
+.page-overview .section-mac-ios .section-mac-ios-text { text-align: left; }
+.page-overview .section-mac-ios .section-mac-ios-text h2 { margin-top: 130px; position: relative; z-index: 1; }
+.page-overview .section-mac-ios .section-mac-ios-text p { padding-right: 15px; }
+.page-overview .section-mac-ios .mac-ios-hero-image { display: block; margin-left: -443px; margin-bottom: 40px; }
+.page-overview .section-developer { text-align: center; }
+.page-overview .section-developer .bucket-beta { border-left: 1px solid #cccccc; }
+.page-overview .section-developer .buckets p { margin-bottom: 0; }
+.page-overview .buckets .heading-icon { margin-top: 20px; margin-bottom: 20px; }
+.page-overview .buckets h3 { margin-left: auto; margin-right: auto; max-width: 370px; }
+.page-overview .buckets p { margin-top: 10px; margin-bottom: 40px; margin-left: auto; margin-right: auto; max-width: 370px; }
+
+@-webkit-keyframes cloudAnim { from { -webkit-transform: translateX(0) translateZ(0); transform: translateX(0) translateZ(0); }
+  to { -webkit-transform: translateX(-50%) translateZ(0); transform: translateX(-50%) translateZ(0); } }
+
+@keyframes cloudAnim { from { -webkit-transform: translateX(0) translateZ(0); -ms-transform: translateX(0) translateZ(0); transform: translateX(0) translateZ(0); }
+  to { -webkit-transform: translateX(-50%) translateZ(0); -ms-transform: translateX(-50%) translateZ(0); transform: translateX(-50%) translateZ(0); } }
+.page-design .seperate { border: none; border-top: 1px #bfbfbf solid; width: 100px; margin: -4px auto 2px; }
+.page-design .section { text-align: center; }
+.page-design .section-hero { text-align: center; background-color: #f4f4f4; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, white 0%, #f4f4f4 25%); background-image: linear-gradient(to bottom, white 0%, #f4f4f4 25%); }
+.page-design .section-hero .intro { margin-left: auto; margin-right: auto; max-width: 880px; margin-bottom: 15px; }
+.page-design .section-hero .watch { display: inline-block; margin-bottom: 50px; font-size: 1.125em; }
+.page-design .section-hero .hero-image { margin-left: -88px; }
+.page-design .section-details-content > p { margin-left: auto; margin-right: auto; max-width: 765px; font-size: 1.125em; line-height: 1.7857; }
+.page-design .section-details-content > p sup { bottom: 0; }
+.page-design .section-translucent .content > p { margin-left: auto; margin-right: auto; max-width: 835px; font-size: 0.9375em; line-height: 1.6em; }
+.page-design .section-translucent .content > p sup { bottom: 0.2em; }
+.page-design .section-translucent .content .translucent-image { margin-top: 50px; }
+.page-design .section-toolbar .content { padding-top: 0; padding-bottom: 0; }
+.page-design .section-toolbar .content > p { margin-left: auto; margin-right: auto; max-width: 805px; font-size: 0.9375em; line-height: 1.6em; }
+.page-design .section-toolbar .content > p sup { bottom: 0.2em; }
+.page-design .section-toolbar .content .toolbar-image { display: block; margin-top: 50px; margin-left: -127px; }
+.page-design .section-controls { text-align: left; margin-bottom: 53px; }
+.page-design .section-controls .content .controls-monocle-container { position: relative; }
+.page-design .section-controls .content .controls-monocle { position: absolute; width: 1049px; height: 262px; left: -30px; top: -30px; text-align: left; visibility: hidden; }
+.page-design .section-controls .content .controls-monocle.ac-ambient-willplay { visibility: visible; }
+.page-design .section-controls .content .controls-monocle .monocle-canvas-surface { display: none; }
+.page-design .section-controls .content img { margin-top: 20px; margin-right: -466px; }
+.page-design .section-controls .content h3 { margin: 90px 0 0 18px; max-width: 340px; }
+.oldie .page-design .section-controls .content h3 { margin-top: 167px; }
+.page-design .section-controls .content > p { font-size: 0.9375em; line-height: 1.6em; max-width: 340px; margin: 23px 0 0 18px; }
+.page-design .section-controls .content > p sup { bottom: 0.2em; }
+.page-design .section-dock { background-color: #f6f6f6; }
+.page-design .section-dock .content .macbook-air-dock-container { margin-left: -225.5px; margin-top: -80px; width: 1431px; position: relative; }
+.page-design .section-dock .content .macbook-air-dock-container .monocle-tooltip { display: none; }
+.page-design .section-dock .content .macbook-air-dock-container .macbook-air-dock-monocle { position: absolute; width: 1077px; height: 262px; left: 173px; top: 55px; text-align: left; visibility: hidden; }
+.page-design .section-dock .content .macbook-air-dock-container .macbook-air-dock-monocle .monocle-canvas-surface { left: 0; top: 0; }
+.page-design .section-dock .content h3 { margin: 24px 0 0 -3px; }
+.page-design .section-dock .content > p { font-size: 0.9375em; line-height: 1.6em; margin-left: auto; margin-right: auto; max-width: 690px; }
+.page-design .section-dock .content > p sup { bottom: 0.2em; }
+.page-design .section-font { text-align: left; background-color: #f6f6f6; }
+.page-design .section-font .content { padding-top: 0; }
+.page-design .section-font .content .font-image { float: right; margin-right: -372px; }
+.page-design .section-font .content h3 { margin-top: 0; padding-top: 50px; margin-left: 18px; }
+.page-design .section-font .content > p { max-width: 340px; margin-left: 18px; font-size: 0.9375em; line-height: 1.6em; }
+.page-design .section-font .content > p sup { bottom: 0.2em; }
+.page-design .section-apps .content { padding-bottom: 130px; }
+.page-design .section-apps .content h3 { margin-top: 17px; }
+.page-design .section-apps .content > p { margin-left: auto; margin-right: auto; max-width: 660px; font-size: 0.9375em; line-height: 1.6em; }
+.page-design .section-apps .content > p sup { bottom: 0.2em; }
+.page-design .section-apps .content .apps-gallery { text-align: center; position: relative; background-repeat: no-repeat; background-position: top center; background-image: url(https://www.apple.com/osx/preview/design/images/osx_design_view.jpg); background-size: 1206px 708px; width: 1206px; height: 708px; margin-top: 32px; margin-bottom: 100px; margin-left: -113px; }
+.page-design .section-apps .content .apps-gallery figure { position: absolute; top: 50px; left: 148px; }
+.page-design .section-apps .content .apps-gallery figure figcaption { background-color: #fff; position: absolute; left: 0; right: 0; bottom: -190px; width: 100%; }
+.page-design .section-apps .content .apps-gallery figure figcaption > p { color: #666; font-size: 0.875em; line-height: 1.65em; }
+.page-design .section-apps .content .apps-gallery figure figcaption > p sup { bottom: 0.3em; }
+.page-design .section-apps .content .apps-gallery .paddlenav-arrow-left { left: 170px; }
+@media only screen and (min-width: 75em) { .page-design .section-apps .content .apps-gallery .paddlenav-arrow-left { left: 24px; } }
+.page-design .section-apps .content .apps-gallery .paddlenav-arrow-right { right: 165px; }
+@media only screen and (min-width: 75em) { .page-design .section-apps .content .apps-gallery .paddlenav-arrow-right { right: 22px; } }
+.page-design .section-apps .content .apps-gallery .dotnav { position: absolute; bottom: -60px; left: 0; right: 0; }
+.page-design .section-notification { background-color: #f4f4f4; }
+.page-design .section-notification .content > p { margin-top: 23px; width: 735px; margin-left: auto; margin-right: auto; max-width: 780px; font-size: 1.125em; line-height: 1.7857; }
+.page-design .section-notification .content .row { position: relative; text-align: left; margin-top: 50px; width: 980px; height: 818px; }
+.page-design .section-notification .content .row h3 { margin-top: 25px; width: 335px; }
+.page-design .section-notification .content .row .notification-2 { margin-left: -500px; }
+.page-design .section-notification .content .row .notification-info > p { max-width: 360px; }
+.page-design .section-spotlight .content { height: 1059px; }
+.page-design .section-spotlight .content h3 { margin-top: 20px; }
+.page-design .section-spotlight .content p { margin-top: 20px; margin-left: auto; margin-right: auto; max-width: 780px; }
+.page-design .section-spotlight .content .spotlight-gallery { text-align: center; position: relative; background-repeat: no-repeat; background-position: top center; background-image: url(https://www.apple.com/osx/preview/design/images/osx_design_view.jpg); background-size: 1206px 708px; width: 1206px; height: 708px; margin-top: 32px; margin-bottom: 100px; margin-left: -113px; }
+.page-design .section-spotlight .content .spotlight-gallery figure { position: absolute; top: 50px; left: 148px; }
+.page-design .section-spotlight .content .spotlight-gallery figure figcaption { background-color: #fff; position: absolute; left: 0; right: 0; bottom: -223px; width: 100%; }
+.page-design .section-spotlight .content .spotlight-gallery figure figcaption > p { color: #666; font-size: 0.875em; line-height: 1.65em; }
+.page-design .section-spotlight .content .spotlight-gallery figure figcaption > p sup { bottom: 0.3em; }
+.page-design .section-spotlight .content .spotlight-gallery figure figcaption > p.spotlight-small { max-width: 445px; }
+.page-design .section-spotlight .content .spotlight-gallery figure figcaption > p.spotlight-medium { max-width: 531px; }
+.page-design .section-spotlight .content .spotlight-gallery .paddlenav-arrow-left { left: 170px; }
+@media only screen and (min-width: 75em) { .page-design .section-spotlight .content .spotlight-gallery .paddlenav-arrow-left { left: 24px; } }
+.page-design .section-spotlight .content .spotlight-gallery .paddlenav-arrow-right { right: 165px; }
+@media only screen and (min-width: 75em) { .page-design .section-spotlight .content .spotlight-gallery .paddlenav-arrow-right { right: 22px; } }
+.page-design .section-spotlight .content .spotlight-gallery .dotnav { z-index: 2; position: absolute; bottom: -60px; left: 0; right: 0; }
+
+.page-apps .section-hero { text-align: center; background-color: #f4f4f4; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, white 0%, #f4f4f4 25%); background-image: linear-gradient(to bottom, white 0%, #f4f4f4 25%); }
+.page-apps .section-hero h1 { margin-left: auto; margin-right: auto; max-width: 720px; }
+.page-apps .section-hero .intro { margin-left: auto; margin-right: auto; max-width: 720px; }
+.page-apps .section-hero .hero-image { margin-top: 22px; }
+.page-apps .section-safari { text-align: center; }
+.page-apps .section-safari .safari-hero { margin-top: 0; }
+.page-apps .section-safari .safari-hero > p { margin-left: auto; margin-right: auto; max-width: 830px; }
+.page-apps .section-safari .safari-hero .heading-icon { margin-bottom: 20px; }
+.page-apps .section-safari .safari-hero .safari-hero-image { margin-top: 50px; margin-bottom: 87px; margin-left: -113px; }
+.page-apps .section-safari .safari-toolbar > p { font-size: 0.9375em; line-height: 1.6em; margin-left: auto; margin-right: auto; max-width: 810px; }
+.page-apps .section-safari .safari-toolbar > p sup { bottom: 0.2em; }
+.page-apps .section-safari .safari-toolbar .toolbar-image { margin-top: 40px; margin-bottom: 100px; margin-left: -124px; }
+.page-apps .section-safari .safari-favorites > p { font-size: 0.9375em; line-height: 1.6em; margin-left: auto; margin-right: auto; max-width: 880px; }
+.page-apps .section-safari .safari-favorites > p sup { bottom: 0.2em; }
+.page-apps .section-safari .safari-favorites .favorites-image { margin-top: 24px; margin-bottom: 64px; margin-left: -24px; }
+.page-apps .section-safari .safari-tabs > p { font-size: 0.9375em; line-height: 1.6em; margin-left: auto; margin-right: auto; max-width: 800px; }
+.page-apps .section-safari .safari-tabs > p sup { bottom: 0.2em; }
+.page-apps .section-safari .safari-tabs .safari-tabs-image { margin-top: 35px; margin-bottom: 58px; margin-left: -18px; }
+.page-apps .section-safari .safari-search > p { font-size: 0.9375em; line-height: 1.6em; margin-left: auto; margin-right: auto; max-width: 785px; }
+.page-apps .section-safari .safari-search > p sup { bottom: 0.2em; }
+.page-apps .section-safari .safari-search .search-image { margin-top: 27px; margin-bottom: 50px; margin-left: -71px; }
+.page-apps .section-safari .safari-faster { text-align: left; margin: 30px 0; padding: 40px 36px; background-color: #f6f6f6; }
+.page-apps .section-safari .safari-faster .column-faster p { font-size: 0.9375em; line-height: 1.6em; margin-right: -10px; }
+.page-apps .section-safari .safari-faster .column-faster p sup { bottom: 0.2em; }
+.oldie .page-apps .section-safari .safari-faster .column-faster p { margin-right: 0; }
+.page-apps .section-safari .safari-faster .chart-gallery { font-size: 0.875em; line-height: 1.65em; position: relative; width: 640px; padding-top: 366px; margin-left: 40px; }
+.page-apps .section-safari .safari-faster .chart-gallery sup { bottom: 0.3em; }
+.page-apps .section-safari .safari-faster .togglenav-button { padding-left: 3em; padding-right: 3em; }
+.page-apps .section-safari .safari-faster figure { top: 0; right: 0; position: absolute; text-align: left; width: 640px; height: 335px; background-color: #f6f6f6; }
+.page-apps .section-safari .safari-faster figure h4 { margin-top: 17px; text-align: center; font-size: 1.65em; }
+.page-apps .section-safari .safari-faster .bars, .page-apps .section-safari .safari-faster .lines { display: block; position: absolute; top: 80px; left: 0; height: 227px; width: 640px; list-style: none; margin: 0; padding: 0; }
+.page-apps .section-safari .safari-faster .bars { z-index: 2; overflow: hidden; }
+.page-apps .section-safari .safari-faster .bar { position: relative; height: 32px; margin: 0 0 15px 0; }
+.page-apps .section-safari .safari-faster .caption { margin: 0 0 5px 15px; }
+.page-apps .section-safari .safari-faster .text-value { position: absolute; right: 12px; top: 5px; color: #fff; white-space: nowrap; }
+.page-apps .section-safari .safari-faster .lines { border-left: 1px solid #cccccc; height: 227px; white-space: nowrap; }
+.page-apps .section-safari .safari-faster .lines:before, .page-apps .section-safari .safari-faster .lines:after { content: " "; display: table; }
+.page-apps .section-safari .safari-faster .lines:after { clear: both; }
+.oldie .page-apps .section-safari .safari-faster .lines { zoom: 1; }
+.page-apps .section-safari .safari-faster .lines li { border-right: 1px solid #cccccc; height: 100%; width: 0px; position: relative; display: inline-block; }
+.oldie .page-apps .section-safari .safari-faster .lines li { display: inline; zoom: 1; }
+.page-apps .section-safari .safari-faster .lines span { position: absolute; bottom: -28px; width: 100px; text-align: center; margin-left: -49px; color: #666666; font-size: 0.9375em; line-height: 1.6em; }
+.page-apps .section-safari .safari-faster .lines span sup { bottom: 0.2em; }
+.page-apps .section-safari .safari-faster .yosemite { background: #5ab3f6; }
+.page-apps .section-safari .safari-faster .firefox { background: #aaa; }
+.page-apps .section-safari .safari-faster .chrome { background: #aaa; }
+.page-apps .section-safari .safari-faster #chart-1 .yosemite { width: 0%; -webkit-transition: width 250ms ease-in-out 0ms; transition: width 250ms ease-in-out 0ms; }
+.page-apps .section-safari .safari-faster #chart-1.did-show .yosemite, .no-js .page-apps .section-safari .safari-faster #chart-1 .yosemite { width: 66.6667%; }
+.page-apps .section-safari .safari-faster #chart-1 .firefox { width: 0%; -webkit-transition: width 250ms ease-in-out 75ms; transition: width 250ms ease-in-out 75ms; }
+.page-apps .section-safari .safari-faster #chart-1.did-show .firefox, .no-js .page-apps .section-safari .safari-faster #chart-1 .firefox { width: 46.6667%; }
+.page-apps .section-safari .safari-faster #chart-1 .chrome { width: 0%; -webkit-transition: width 250ms ease-in-out 150ms; transition: width 250ms ease-in-out 150ms; }
+.page-apps .section-safari .safari-faster #chart-1.did-show .chrome, .no-js .page-apps .section-safari .safari-faster #chart-1 .chrome { width: 33.3333%; }
+.page-apps .section-safari .safari-faster #chart-1 .lines li { margin-left: 212.3333px; }
+.page-apps .section-safari .safari-faster #chart-2 .yosemite { width: 0%; -webkit-transition: width 250ms ease-in-out 0ms; transition: width 250ms ease-in-out 0ms; }
+.page-apps .section-safari .safari-faster #chart-2.did-show .yosemite, .no-js .page-apps .section-safari .safari-faster #chart-2 .yosemite { width: 92.8571%; }
+.page-apps .section-safari .safari-faster #chart-2 .chrome { width: 0%; -webkit-transition: width 250ms ease-in-out 75ms; transition: width 250ms ease-in-out 75ms; }
+.page-apps .section-safari .safari-faster #chart-2.did-show .chrome, .no-js .page-apps .section-safari .safari-faster #chart-2 .chrome { width: 15.7143%; }
+.page-apps .section-safari .safari-faster #chart-2 .firefox { width: 0%; -webkit-transition: width 250ms ease-in-out 150ms; transition: width 250ms ease-in-out 150ms; }
+.page-apps .section-safari .safari-faster #chart-2.did-show .firefox, .no-js .page-apps .section-safari .safari-faster #chart-2 .firefox { width: 14.2857%; }
+.page-apps .section-safari .safari-faster #chart-2 .lines li { margin-left: 90.4286px; }
+.page-apps .section-safari .safari-features { text-align: left; width: 1040px; margin-top: 80px; margin-bottom: 50px; }
+.page-apps .section-safari .safari-features h3 { margin-left: 18px; margin-right: 80px; }
+.page-apps .section-safari .safari-features h3 .heading-icon { margin-left: 0; margin-bottom: 20px; }
+.page-apps .section-safari .safari-features p { margin-left: 18px; margin-right: 90px; font-size: 0.9375em; line-height: 1.6em; }
+.page-apps .section-safari .safari-features p sup { bottom: 0.2em; }
+.page-apps .section-mail { background-color: #fff; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, #f4f4f4 0, white 500px); background-image: linear-gradient(to bottom, #f4f4f4 0, white 500px); }
+.page-apps .section-mail .mail-hero { text-align: center; }
+.page-apps .section-mail .mail-hero > p { margin-left: auto; margin-right: auto; max-width: 850px; }
+.page-apps .section-mail .mail-hero .mail-hero-image { margin-top: 45px; margin-bottom: 30px; margin-left: -126px; }
+.page-apps .section-mail .mail-hero .heading-icon { margin-bottom: 20px; }
+.page-apps .section-mail .mail-features { text-align: center; margin: -15px 0 0; padding-bottom: 55px; border-bottom: 1px solid #c7c7c7; }
+.page-apps .section-mail .mail-features > p { font-size: 0.9375em; line-height: 1.6em; margin-left: auto; margin-right: auto; max-width: 760px; }
+.page-apps .section-mail .mail-features > p sup { bottom: 0.2em; }
+.page-apps .section-mail .mail-features .mail-drop-icon { margin-top: 49px; }
+.page-apps .section-mail .mail-filesize { color: #999; margin-left: 50px; }
+.page-apps .section-mail .mail-filesize .moveright { margin-left: 40px; }
+.page-apps .section-mail .mail-attachments { text-align: center; margin: 70px 0 51px; }
+.page-apps .section-mail .mail-attachments > p { font-size: 0.9375em; line-height: 1.6em; margin-left: auto; margin-right: auto; max-width: 760px; }
+.page-apps .section-mail .mail-attachments > p sup { bottom: 0.2em; }
+.page-apps .section-mail .mail-gallery { text-align: center; position: relative; width: 986px; margin-bottom: 170px; margin-left: -3px; height: 618px; }
+.page-apps .section-mail .mail-gallery figure { position: absolute; top: 0; left: 0; }
+.page-apps .section-mail .mail-gallery figure figcaption { background-color: #fff; position: absolute; left: 0; right: 0; bottom: -120px; width: 100%; }
+.page-apps .section-mail .mail-gallery figure figcaption > p { margin-left: auto; margin-right: auto; max-width: 540px; font-size: 0.875em; line-height: 1.65em; }
+.page-apps .section-mail .mail-gallery figure figcaption > p sup { bottom: 0.3em; }
+.page-apps .section-mail .mail-gallery .paddlenav-arrow-left { left: 20px; }
+@media only screen and (min-width: 75em) { .page-apps .section-mail .mail-gallery .paddlenav-arrow-left { left: -114px; } }
+.page-apps .section-mail .mail-gallery .paddlenav-arrow-right { right: 20px; }
+@media only screen and (min-width: 75em) { .page-apps .section-mail .mail-gallery .paddlenav-arrow-right { right: -114px; } }
+.page-apps .section-mail .mail-gallery .dotnav { position: absolute; z-index: 2; bottom: -50px; left: 0; right: 0; }
+.page-apps .section-messages { background-color: #fff; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, #f4f4f4 0, white 500px); background-image: linear-gradient(to bottom, #f4f4f4 0, white 500px); }
+.page-apps .section-messages .messages-hero { text-align: center; margin: 0px 0 45px 0; }
+.page-apps .section-messages .messages-hero .messages-group { margin-left: auto; margin-right: auto; max-width: 750px; }
+.page-apps .section-messages .messages-hero .heading-icon { margin-bottom: 20px; }
+.page-apps .section-messages .messages-hero > p { margin-left: auto; margin-right: auto; max-width: 905px; }
+.page-apps .section-messages .messages-hero-title { margin-bottom: 20px; }
+.page-apps .section-messages .messages-hero-image { margin-top: 49px; margin-left: -110px; }
+.page-apps .section-messages .messages-title { margin: 120px 0 30px 18px; }
+.page-apps .section-messages .messages-title .messages-conversation { margin-right: -10px; }
+.page-apps .section-messages .messages-title .messages-title-image { margin: -55px 0 0 54px; }
+.page-apps .section-messages .messages-participants { margin-left: -50px; }
+.page-apps .section-messages .messages-participants h3 { margin-top: 45px; }
+.page-apps .section-messages .messages-participants p { font-size: 0.9375em; line-height: 1.6em; margin-right: 40px; }
+.page-apps .section-messages .messages-participants p sup { bottom: 0.2em; }
+.page-apps .section-messages .messages-soundbite { margin-left: -36px; }
+.page-apps .section-messages .messages-soundbite .messages-soundbite-title { margin: 52px 0 0 -52px; }
+.page-apps .section-messages .messages-soundbite .messages-soundbite-message { margin-left: -52px; max-width: 280px; }
+.page-apps .section-messages .soundbite-monocle-container { position: relative; }
+.page-apps .section-messages .soundbite-monocle-container.ac-ambient-canplay .soundbite-monocle { visibility: hidden; }
+.page-apps .section-messages .soundbite-monocle-container.ac-ambient-play .soundbite-monocle { visibility: visible; }
+.page-apps .section-messages .soundbite-monocle { position: absolute; width: 580px; height: 262px; right: 75px; bottom: -37px; text-align: left; }
+.page-apps .section-messages .soundbite-monocle .monocle-canvas-surface { display: none; }
+.page-apps .section-finder { background-color: #fff; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, #f4f4f4 0, white 500px); background-image: linear-gradient(to bottom, #f4f4f4 0, white 500px); }
+.page-apps .section-finder .finder-hero { text-align: center; margin-bottom: 30px; }
+.page-apps .section-finder .finder-hero h1 { margin-bottom: 30px; }
+.page-apps .section-finder .finder-hero h1 .heading-icon { margin-bottom: 20px; }
+.page-apps .section-finder .finder-hero > p { margin-left: auto; margin-right: auto; max-width: 820px; }
+.page-apps .section-finder .finder-icloud { margin: 75px 0 30px 0; }
+.page-apps .section-finder .finder-icloud .icloud-column h3 { margin: 40px 0 0 18px; }
+.page-apps .section-finder .finder-icloud .icloud-column > p { margin-left: 18px; font-size: 0.9375em; line-height: 1.6em; }
+.page-apps .section-finder .finder-icloud .icloud-column > p sup { bottom: 0.2em; }
+.page-apps .section-finder .finder-icloud .finder-icloud-image { margin: -6px 0 0 44px; }
+.page-apps .section-finder .finder-organize { text-align: center; margin: 60px 0; }
+.page-apps .section-finder .finder-organize > p { font-size: 0.9375em; line-height: 1.6em; margin-left: auto; margin-right: auto; max-width: 745px; }
+.page-apps .section-finder .finder-organize > p sup { bottom: 0.2em; }
+.page-apps .section-finder .finder-organize-image { margin-top: 48px; margin-left: 18px; }
+.page-apps .section-finder .finder-access { margin: 0 0 60px 0; }
+.page-apps .section-finder .finder-access .finder-access-image { margin: 23px 0 0 -37px; }
+.page-apps .section-finder .finder-access h3 { margin-top: 75px; }
+.page-apps .section-finder .finder-access p { font-size: 0.9375em; line-height: 1.6em; }
+.page-apps .section-finder .finder-access p sup { bottom: 0.2em; }
+.page-apps .section-finder .finder-airdrop .column-airdrop { margin-top: 44px; }
+.page-apps .section-finder .finder-airdrop .column-airdrop h3 { margin-left: 18px; }
+.page-apps .section-finder .finder-airdrop .column-airdrop > p { margin-left: 18px; font-size: 0.9375em; line-height: 1.6em; }
+.page-apps .section-finder .finder-airdrop .column-airdrop > p sup { bottom: 0.2em; }
+.page-apps .section-finder .finder-airdrop .finder-airdrop-image { margin: -8px 0 0 28px; }
+.page-apps .section-photos { background-color: #fff; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, #f4f4f4 0, white 500px); background-image: linear-gradient(to bottom, #f4f4f4 0, white 500px); }
+.page-apps .section-photos .apps-photos-image { margin: 47px 0 0 124px; }
+.page-apps .section-photos .photos-headline h3 { margin: 79px 0 0 47px; }
+.page-apps .section-photos .photos-headline > p { margin: 10px 0 0 49px; max-width: 270px; line-height: 1.6em; }
+
+.page-mac-and-ios .heading-icon { margin-bottom: 20px; }
+.page-mac-and-ios .section-hero { background-color: #f4f4f4; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, white 0%, #f4f4f4 25%); background-image: linear-gradient(to bottom, white 0%, #f4f4f4 25%); text-align: center; }
+.page-mac-and-ios .section-hero .intro { margin-left: auto; margin-right: auto; max-width: 820px; }
+.page-mac-and-ios .section-hero .hero-image { margin-top: 56px; }
+.page-mac-and-ios .section-hero .hero-caption { text-align: center; font-size: 0.875em; line-height: 1.65em; }
+.page-mac-and-ios .section-hero .hero-caption sup { bottom: 0.3em; }
+.page-mac-and-ios .section-phone { text-align: center; }
+.page-mac-and-ios .section-phone .content { padding-bottom: 0; }
+.page-mac-and-ios .section-phone .content > p { margin-left: auto; margin-right: auto; max-width: 780px; }
+.page-mac-and-ios .section-phone .content .phone-image { display: block; margin-top: 49px; margin-left: -425px; }
+.page-mac-and-ios .section-sms { background-color: #f7f7f7; text-align: center; }
+.page-mac-and-ios .section-sms .content { padding-bottom: 0; }
+.page-mac-and-ios .section-sms .content > p { margin-left: auto; margin-right: auto; max-width: 780px; }
+.page-mac-and-ios .section-sms .content .sms-image { display: block; margin: 47px 0 0 -6px; }
+.page-mac-and-ios .section-handoff { text-align: center; }
+.page-mac-and-ios .section-handoff .content { border-bottom: 1px solid #ccc; }
+.page-mac-and-ios .section-handoff .content > p { margin-left: auto; margin-right: auto; max-width: 802px; }
+.page-mac-and-ios .section-handoff .content .handoff-image { display: block; margin: 56px 0 40px 49px; }
+.page-mac-and-ios .section-handoff .content .handoff-caption { text-align: center; font-size: 0.875em; line-height: 1.65em; }
+.page-mac-and-ios .section-handoff .content .handoff-caption sup { bottom: 0.3em; }
+.page-mac-and-ios .section-email { text-align: center; }
+.page-mac-and-ios .section-email .content .email-image { display: block; margin: -5px 0 33px -66px; }
+.page-mac-and-ios .section-email .content .email-caption { font-size: 0.875em; line-height: 1.65em; }
+.page-mac-and-ios .section-email .content .email-caption sup { bottom: 0.3em; }
+.page-mac-and-ios .section-hotspot { background-color: #f7f7f7; text-align: center; margin-bottom: 55px; }
+.page-mac-and-ios .section-hotspot .content { padding-bottom: 0; }
+.page-mac-and-ios .section-hotspot .content p { margin-left: auto; margin-right: auto; max-width: 820px; }
+.page-mac-and-ios .section-hotspot .content .hotspot-image { margin-top: 27px; margin-left: -371px; display: block; }
+
+.page-developer .section-hero { text-align: center; background-color: #f4f4f4; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); background-image: -webkit-linear-gradient(top, white 0%, #f4f4f4 25%); background-image: linear-gradient(to bottom, white 0%, #f4f4f4 25%); }
+.page-developer .section-hero h1 { margin-left: auto; margin-right: auto; max-width: 825px; }
+.page-developer .section-hero .intro { margin-left: auto; margin-right: auto; max-width: 780px; }
+.page-developer .section-hero .hero-image { margin: 56px 0 0 -114px; }
+.page-developer .section-outside { text-align: center; }
+.page-developer .section-outside .content > p { margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 50px; }
+.page-developer .section-outside .content .outside-hero-image { margin-left: -700px; }
+.page-developer .section-outside .content .section-outside-sidebar { padding-top: 30px; padding-left: 35px; text-align: left; }
+.page-developer .section-outside .content .section-outside-sidebar p { margin-bottom: 50px; font-size: 0.875em; line-height: 1.65em; }
+.page-developer .section-outside .content .section-outside-sidebar p sup { bottom: 0.3em; }
+.page-developer .section-games { text-align: center; background-color: #f4f4f4; }
+.page-developer .section-games .content > h2 { margin-left: auto; margin-right: auto; max-width: 780px; }
+.page-developer .section-games .content > p { margin-left: auto; margin-right: auto; max-width: 520px; }
+.page-developer .section-games .content .games-hero-image { margin-top: 50px; margin-left: -114px; }
+.page-developer .section-tools { text-align: center; }
+.page-developer .section-tools .content > h2 { margin-left: auto; margin-right: auto; max-width: 780px; }
+.page-developer .section-tools .content > p { margin-left: auto; margin-right: auto; max-width: 675px; }
+.page-developer .section-tools .bucket-sidebar .more-block { max-width: 200px; }
+.page-developer .bucket { text-align: left; margin-top: 50px; }
+.page-developer .bucket p { font-size: 0.9375em; line-height: 1.6em; margin-top: 0.5em; }
+.page-developer .bucket p sup { bottom: 0.2em; }
+.page-developer .bucket .bucket-icon { margin-left: 80px; }
+.page-developer .bucket .bucket-main { border-right: 1px solid #ccc; }
+.page-developer .bucket .bucket-main .bucket-item { margin-bottom: 25px; }
+.page-developer .bucket .bucket-main h4, .page-developer .bucket .bucket-main p { margin-right: 50px; margin-left: 7px; }
+.page-developer .bucket .bucket-sidebar { margin-left: 35px; margin-right: 25px; }
+.page-developer .bucket .more-block { font-size: 1em; line-height: 1.7857; }

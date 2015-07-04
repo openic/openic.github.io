@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<link rel="shortcut icon" href="../sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="News" href="http://julio.funnymonkey.com/demo/announcements/rss.xml/4" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>News in Athletics | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_okyEETo-_MiNzLiO0rv853zFnOXGWJ04yHHaR6sJ0s4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="../sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_8YnKEH2191h1uW2SekzE955HmAgGcbHvObibmduei6w.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"4ux2ErYcZvLSGpTaAmwp64o4ZIWphslCme7Hh9JPWYQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]},"ogContext":{"groupType":"node","gid":"4"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-announcements page-announcements- page-announcements-4 og-context og-context-node og-context-node-4" >
+  <div id="skip-link">
+    <a href="4#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../../demo" title="Home"><img alt="" class="logo" typeof="foaf:Image" src="../profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf active-trail"><a href="../announcements" title="" class="active-trail active">News</a></li>
+<li class="leaf"><a href="../calendar" title="">Calendar</a></li>
+<li class="last leaf"><a href="../content/contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="4" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-3GkGHqJDKn3-zExN6Cq6fWBIetcL6Uy_mYnEIKieWbo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 first"><a href="../../demo">Home</a></li>
+<li class="menu-389"><a href="../staff">Faculty and Staff</a></li>
+<li class="menu-367"><a href="../student-life" title="Student Life">Student Life</a></li>
+<li class="menu-369"><a href="../academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="../admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="../guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 active last"><a href="../athletics" title="Athletics" class="active">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper">  <div class="region region-header">
+    <div id="block-menu-menu-julio-teams-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first last leaf"><a href="../teams" title="All teams">Teams</a></li>
+</ul>  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+      
+      <div class="region-content-wrapper">
+                  <div class="content-header">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="../../demo">Home</a> » <a href="../announcements">News</a></div>                        <h1 class="page-title title">News in Athletics</h1>                                                          </div>
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-julio-announcements view-id-julio_announcements view-display-id-page_1 view-dom-id-dd3ffff11063177f850fe68f1c5c866c">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-16" class="node node-julio-announcement node-promoted node-teaser clearfix" about="/demo/content/chapter-3" typeof="sioc:Item foaf:Document">
+
+  
+        <h2 property="dc:title" datatype=""><a href="../content/chapter-3">Chapter 3</a></h2>
+    
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2012-06-15T14:50:37-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <a href="../users/assistantfootballcoach" title="View user profile." class="username" xml:lang="" about="/demo/users/assistantfootballcoach" typeof="sioc:UserAccount" property="foaf:name">Assistant Footb...</a> on Fri, 06/15/2012 - 2:50pm</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>When I had attained the age of seventeen, my parents resolved that I should become a student at the university of Ingolstadt. I had hitherto attended the schools of Geneva; but my father thought it necessary, for the completion of my education, that I should be made acquainted with other customs than those of my native country. My departure was therefore fixed at an early date; but before the day resolved upon could arrive, the first misfortune of my life occurred--an omen, as it were, of my future misery.</p></div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-15" class="node node-julio-announcement node-promoted node-teaser clearfix" about="/demo/content/chapter-2" typeof="sioc:Item foaf:Document">
+
+  
+        <h2 property="dc:title" datatype=""><a href="../content/chapter-2">Chapter 2</a></h2>
+    
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2012-06-15T14:50:03-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <a href="../users/assistantfootballcoach" title="View user profile." class="username" xml:lang="" about="/demo/users/assistantfootballcoach" typeof="sioc:UserAccount" property="foaf:name">Assistant Footb...</a> on Fri, 06/15/2012 - 2:50pm</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>We were brought up together; there was not quite a year difference in our ages. I need not say that we were strangers to any species of disunion or dispute. Harmony was the soul of our companionship, and the diversity and contrast that subsisted in our characters drew us nearer together. Elizabeth was of a calmer and more concentrated disposition; but, with all my ardour, I was capable of a more intense application, and was more deeply smitten with the thirst for knowledge.</p></div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div id="node-14" class="node node-julio-announcement node-promoted node-teaser clearfix" about="/demo/content/chapter-1" typeof="sioc:Item foaf:Document">
+
+  
+        <h2 property="dc:title" datatype=""><a href="../content/chapter-1">Chapter 1</a></h2>
+    
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2012-06-15T14:49:27-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <a href="../users/assistantfootballcoach" title="View user profile." class="username" xml:lang="" about="/demo/users/assistantfootballcoach" typeof="sioc:UserAccount" property="foaf:name">Assistant Footb...</a> on Fri, 06/15/2012 - 2:49pm</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>I am by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew him for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; a variety of circumstances had prevented his marrying early, nor was it until the decline of life that he became a husband and the father of a family.</p></div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+          <a href="http://julio.funnymonkey.com/demo/announcements/rss.xml/4" class="feed-icon" title="Subscribe to News"><img typeof="foaf:Image" src="../misc/feed.png" width="16" height="16" alt="Subscribe to News" /></a>        </div>
+      </div>
+    </div>
+
+
+      <div class="region region-sidebar-first">
+    <div id="block-views-julio-announcements-block-1" class="block block-views">
+
+    <h2>Athletics News</h2>
+  
+  <div class="content">
+    <div class="view view-julio-announcements view-id-julio_announcements view-display-id-block_1 view-dom-id-71fb44d582c342cb47256ad60ca88ba9">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/chapter-3">Chapter 3</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/chapter-2">Chapter 2</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/chapter-1">Chapter 1</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="4">
+    All News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-julio-teams-news-block-1" class="block block-views">
+
+    <h2>Athletics News</h2>
+  
+  <div class="content">
+    <div class="view view-julio-teams-news view-id-julio_teams_news view-display-id-block_1 view-dom-id-f218298be70a4c294a08754cbfd031dd">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/chapter-3">Chapter 3</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/chapter-2">Chapter 2</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/chapter-1">Chapter 1</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="../teams/announcements">
+    More News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta content="Garden Club" about="/demo/content/garden-club" property="dc:title" />
+<link rel="shortlink" href="http://julio.funnymonkey.com/demo/node/19" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="garden-club" />
+  <title>Garden Club | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_okyEETo-_MiNzLiO0rv853zFnOXGWJ04yHHaR6sJ0s4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="../sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_8YnKEH2191h1uW2SekzE955HmAgGcbHvObibmduei6w.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"MIApqhdKV5N98HCh2xhbrSCv4oejz6kYLfWvbawoSlk","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]},"ogContext":{"groupType":"node","gid":"19"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-19 node-type-julio-club og-context og-context-node og-context-node-19" >
+  <div id="skip-link">
+    <a href="garden-club#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../../demo" title="Home"><img alt="" class="logo" typeof="foaf:Image" src="../profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../announcements" title="">News</a></li>
+<li class="leaf"><a href="../calendar" title="">Calendar</a></li>
+<li class="last leaf"><a href="contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="garden-club" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-uAgN36PXPDLbIlEBzE9OvZkLqbxNbk8UNwdJ3ICMGoA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 first"><a href="../../demo">Home</a></li>
+<li class="menu-389"><a href="../staff">Faculty and Staff</a></li>
+<li class="menu-367 active"><a href="../student-life" title="Student Life" class="active">Student Life</a></li>
+<li class="menu-369"><a href="../academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="../admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="../guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 last"><a href="../athletics" title="Athletics">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper">  <div class="region region-header">
+    <div id="block-menu-menu-julio-clubs-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first last leaf"><a href="../clubs" title="All clubs">Clubs</a></li>
+</ul>  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+      
+      <div class="region-content-wrapper">
+                  <div class="content-header">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="../../demo">Home</a></div>                        <h1 class="page-title title">Garden Club</h1>                                                          </div>
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-19" class="node node-julio-club node-promoted clearfix" about="/demo/content/garden-club" typeof="sioc:Item foaf:Document">
+
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>She died calmly; and her countenance expressed affection even in death. I need not describe the feelings of those whose dearest ties are rent by that most irreparable evil; the void that presents itself to the soul; and the despair that is exhibited on the countenance. It is so long before the mind can persuade itself that she, whom we saw every day, and whose very existence appeared a part of our own, can have departed for ever--that the brightness of a beloved eye can have been extinguished, and the sound of a voice so familiar, and dear to the ear, can be hushed, never more to be heard. These are the reflections of the first days; but when the lapse of time proves the reality of the evil, then the actual bitterness of grief commences. Yet from whom has not that rude hand rent away some dear connection? and why should I describe a sorrow which all have felt, and must feel? The time at length arrives, when grief is rather an indulgence than a necessity; and the smile that plays upon the lips, although it may be deemed a sacrilege, is not banished. My mother was dead, but we had still duties which we ought to perform; we must continue our course with the rest, and learn to think ourselves fortunate, whilst one remains whom the spoiler has not seized. My departure for Ingolstadt, which had been deferred by these events, was now again determined upon. I obtained from my father a respite of some weeks. It appeared to me sacrilege so soon to leave the repose, akin to death, of the house of mourning, and to rush into the thick of life. I was new to sorrow, but it did not the less alarm me. I was unwilling to quit the sight of those that remained to me; and, above all, I desired to see my sweet Elizabeth in some degree consoled.</p>
+<p>She indeed veiled her grief, and strove to act the comforter to us all. She looked steadily on life, and assumed its duties with courage and zeal. She devoted herself to those whom she had been taught to call her uncle and cousins. Never was she so enchanting as at this time when she recalled the sunshine of her smiles and spent them upon us. She forgot even her own regret in her endeavours to make us forget.  </p>
+<p> </p>
+<p>Image Credit : </p>
+<ul><li>Website: <a class="external free" href="http://www.flickr.com/photos/codnewsroom/" rel="nofollow" title="http://www.flickr.com/photos/codnewsroom/">http://www.flickr.com/photos/codnewsroom/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/codnewsroom/3944813491/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/codnewsroom/3944813491/sizes/m/in/photostream/">http://www.flickr.com/photos/codnewsroom/3944813491/sizes/m/in/photostream/</a></li>
+</ul> </div></div></div><div class="field field-name-field-julio-add-img field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://julio.funnymonkey.com/demo/sites/default/files/3944813491_2fd7a9cae4.jpg" title="Garden Club" class="colorbox" rel="gallery-19"><img typeof="foaf:Image" src="http://julio.funnymonkey.com/demo/sites/default/files/styles/julio_additional_img/public/3944813491_2fd7a9cae4.jpg" width="120" height="120" alt="" title="" /></a></div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                  </div>
+      </div>
+    </div>
+
+
+      <div class="region region-sidebar-first">
+    <div id="block-views-julio-announcements-block-1" class="block block-views">
+
+    <h2>Garden Club News</h2>
+  
+  <div class="content">
+    <div class="view view-julio-announcements view-id-julio_announcements view-display-id-block_1 view-dom-id-354a09d4d9ce58d3cf55600d2d355c3e">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="sufficient-leisure">Sufficient Leisure</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="day-my-departure">The day of my departure</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="../announcements/19">
+    All News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

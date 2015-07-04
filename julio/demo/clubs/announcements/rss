@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://julio.funnymonkey.com/demo/clubs/announcements" xmlns:dc="http://purl.org/dc/elements/1.1/" content="http://purl.org/rss/1.0/modules/content/" dc="http://purl.org/dc/terms/" foaf="http://xmlns.com/foaf/0.1/" og="http://ogp.me/ns#" rdfs="http://www.w3.org/2000/01/rdf-schema#" sioc="http://rdfs.org/sioc/ns#" sioct="http://rdfs.org/sioc/types#" skos="http://www.w3.org/2004/02/skos/core#" xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Student Life News</title>
+    <link>http://julio.funnymonkey.com/demo/clubs/announcements</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Sufficient Leisure</title>
+    <link>http://julio.funnymonkey.com/demo/content/sufficient-leisure</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;I had sufficient leisure for these and many other reflections during my journey to Ingolstadt, which was long and fatiguing. At length the high white steeple of the town met my eyes. I alighted, and was conducted to my solitary apartment, to spend the evening as I pleased.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 15 Jun 2012 23:17:12 +0000</pubDate>
+ <dc:creator>Garden Club Advisor</dc:creator>
+ <guid isPermaLink="false">21 at http://julio.funnymonkey.com/demo</guid>
+  </item>
+  <item>
+    <title>The day of my departure</title>
+    <link>http://julio.funnymonkey.com/demo/content/day-my-departure</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;The day of my departure at length arrived. Clerval spent the last evening with us. He had endeavoured to persuade his father to permit him to accompany me, and to become my fellow student; but in vain. His father was a narrow-minded trader, and saw idleness and ruin in the aspirations and ambition of his son. Henry deeply felt the misfortune of being debarred from a liberal education. He said little; but when he spoke, I read in his kindling eye and in his animated glance a restrained but firm resolve not to be chained to the miserable details of commerce.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 15 Jun 2012 23:15:36 +0000</pubDate>
+ <dc:creator>Garden Club Advisor</dc:creator>
+ <guid isPermaLink="false">20 at http://julio.funnymonkey.com/demo</guid>
+  </item>
+  </channel>
+</rss>

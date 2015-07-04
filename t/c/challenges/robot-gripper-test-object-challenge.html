@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+		
+		<meta charset="utf-8">
+<meta name="robots" content="noodp">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name="google-site-verification" content="sRcy8COOEVzfXadS3NzNsefhbSouqvlesgWngH5kKxs">
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="uTJ38+Dxtxi3NKml+TyE6xjFFh9nslEU1uYSRGY2rMI=" name="csrf-token" />
+<link href="http://d9ej3djcdo585.cloudfront.net/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+
+		<title>Robot Gripper Test Object Challenge - GrabCAD</title>
+<meta content="Design great product faster with secure 3D collaboration, free CAD models and access to the world&#x27;s largest community of mechanical engineers." name="description" />
+<meta content="share cad, collaborate, mechanical engineers, grabcad, cad, cam, library, free, cad models, cad drawings, models, open source, solid works, solidedge, autodesk, alibre, autocad, catia, sketchup, keycreator, pro/engineer, spaceclaim" name="keywords" />
+		
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app-5cafbacdac642bf50ad99138c0115601.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app_1-88db9beff3b67d7c78ad6369e0f476a8.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/mobile-926c78328922620d538ba8bfd444e209.css" media="screen" rel="stylesheet" type="text/css" />
+
+		
+		
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/modernizr.min-a0dbb94a4cc903c6320b4aedc103c987.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+var Analytical = {
+  track: function(page) {
+
+  },
+  event: function(name, data) {
+    if (typeof data === 'undefined') { data = {}; }
+
+  }
+};
+</script>
+
+	</head>
+	<body id="competitions">
+			<!-- Qualaroo code for grabcad.com -->
+	<script>var _kiq = _kiq || [];</script>
+	<script>
+		(function(){
+			setTimeout(function(){
+				var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+				s.async = true; s.src = '//s3.amazonaws.com/ki.js/49091/a6N.js'; f.parentNode.insertBefore(s, f);
+			}, 1);
+		})();
+	</script>
+	<script charset="utf-8">
+		_kiq.push(['identify', '']);
+	</script>
+	<!-- End of Qualaroo code for grabcad.com -->
+
+		
+		
+		<header ng-non-bindable>
+	<nav class="main g1c">
+		<a href="../index.html" class="grabcad-logo"></a>
+		<ul class="menu">
+			<li class="selected">
+				<a href="../home.html">Community</a>
+				<ul class="dropdown">
+					<li  class='secondary' >
+						<a href="../home.html">
+							<span>Home</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../library.html">
+							<span>Library</span>
+</a>					</li>
+					<li class="secondary selected" class='secondary' >
+						<a href="../challenges.html">
+							<span>Challenges</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../questions.html">
+							<span>Tutorials</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../engineers.html">
+							<span>Engineers</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li >
+					<a href="../workbench.html">
+						<span>Workbench</span>
+</a>				<ul class="dropdown workbench">
+					<li  class='secondary'>
+						<a href="../workbench.html">
+							<span>Overview</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/features.html">
+							<span>Features</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/customers.html">
+							<span>Customers</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/pricing.html">
+							<span>Pricing</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/blog/resources/">
+				<span>Resources</span>
+</a>				<ul class="dropdown">
+					<li class='secondary'>
+						<a href="http://blog.grabcad.com/blog/resources/">
+							<span>Resource Center</span>
+</a>				 	</li>
+					<li class='secondary'>
+						<a href="http://help.grabcad.com" target="_blank">
+							<span>Help Center</span>
+</a>					</li>
+					<li class='secondary'>
+						<a href="/about">
+						<span>About us</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/">
+				<span>Blog</span>
+</a>			</li>
+		</ul>
+		<div class="headerRightHalf">
+			<div class="account">
+						<a href="../login.html" class="mr16">Log in</a>
+		<a href="../profile/register.html">Sign up</a>
+
+			</div>
+			  <div class="headerSearch">
+				  <!-- <form accept-charset="UTF-8" action="http://localhost:3000/search" method="get" class="">
+	<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text"><span class="searchSpin"></span>
+	<ul class="quickfilter hidden"><li></li></ul></div>
+</form>
+ -->
+<form accept-charset="UTF-8" action="http://grabcad.com/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search community'">
+		<span class="searchSpin"></span>
+	</div>
+</form>
+			  </div>
+		</div>
+	</nav>
+</header>
+
+			<div class="signupBanner">
+				<div class="g1c">
+						<div class="g1">
+		<div class="contentUpsell">
+			<div class="g2x3c">		
+				<h2>New engineering challenges every week</h2>
+				<p>Use your skills and earn money with your work</p>
+			</div>
+			<div class="g1x3c">
+				<a href="../profile/register%3Futm_source=challenge_page.html" class="button b48 darkgray" id="banner_cta_engineers">
+					<span>Take part and earn money</span>
+</a>			</div>
+		</div>
+	</div>
+
+				</div>
+			</div>
+		<section id="body" class="">
+			<section id="bodyContent" class="gc">
+				<div class="g1">
+					<div class="flashMessage">
+					</div>
+				</div>
+				
+<div class="subHeader">
+	<div class="g2">
+		<h1 class="g2x3c">Robot Gripper Test Object Challenge</h1>
+	</div>
+	<div class="g2">
+		<div class="buttonWrapper">
+			
+		</div>
+	</div>
+</div>
+<div class="g2x3c">
+	<div class="g2x3">
+		<ul class="contentTabs">
+	<li class="selected"><a href="">Description</a></li>
+		<li><a href="robot-gripper-test-object-challenge/entries.html">Entries 78</a></li>
+		<li><a href="/challenges/robot-gripper-test-object-challenge/results">Results</a></li>
+</ul>
+
+			<p class="competitionImage"><img alt="Medium" class="competitionImage" src="https://d2t1xqejof9utc.cloudfront.net/competition_pics/pics/697/medium.jpg?1397246077" /></p>
+		<div class="competitionDescription">
+				<p>Design a universal test object for robot grippers and solve an industry-wide problem for robotics manufacturers. </p>
+				<p>Experts from various robotics manufacturers have assembled a panel of judges to evaluate the entries. This is your chance to solve a real problem with a creative and useful solution.</p>
+
+<p><h3>What's the problem?</h3> Robotic end effectors (also known as grippers or hands) enable robots to physically interact with objects in their environment. Designing better and better end effectors is a problem that many researchers and companies are trying to solve. However, all of these specialized solutions lead to big challenges in the robotics industry. </p>
+
+<p><strong>How do you select the most appropriate gripper and tester for a given task?</strong>
+<br />- Each gripping task is different and it’s often difficult to predict how well existing grippers could solve that task. 
+<br />- Many standard specs like “maximum holding force” simply don’t provide enough information. 
+<br />- Robot gripping tasks may be unusual.  
+<br />- Robot gripper may be unorthodox.</p>
+
+<p><h3>The Challenge</h3>The goal of this Challenge is to design a universal test object (or a set of test objects) to evaluate any gripper’s strengths and weaknesses and give a thorough understanding of its abilities. </p>
+
+<p><h3>Getting started</h3>The problem we're addressing is that spec sheets are often insufficient to get a good understand of what a gripper can do. Remember the goal of this Challenge is to "design a universal test object (or a set of test objects) that could be used to evaluate any gripper’s strengths and weaknesses and thereby yield a comprehensive understanding of its capabilities." So, not only must the proposed object(s) be challenging, but there must be a clear path to use them in some testing procedure to generate highly communicative test results.</p>
+
+<p>This Challenge will require highly creative design work and out-of-the-box thinking. There is no right answer. Here are some spec sheets from existing grippers:
+<br /><a href="http://www.empirerobotics.com/pdfs/Empire_Robotics_Kit_Sheet.pdf">Empire Robotics</a>
+<br /><a href="http://www.schunk.com/schunk_files/attachments/PGN-plus_100_EN.pdf">Schunk</a>
+<br /><a href="https://www.piab.com/Products/suction-cups/application/compliant-gripper/pigrab-gripper/pigrab-kit/">Piab</a>
+<br /><a href="http://robotiq.com/media/Robotiq-3-Finger-Adaptive-Robot-Gripper-Specifications.pdf">Robotiq</a>
+<br /><a href="http://us.schmalz.com/np/pg/produkte/ansicht?art=6262&amp;hier=155-171-218-4406#technische-daten">Schmalz</a>
+<br /><a href="http://web.barrett.com/support/BarrettHand_Documentation/BH8-282_Datasheet.pdf">Barrett</a></p>
+
+<p><h3>Recommendations for your design</h3>A focused, gripper-centric approach like this is not a good way to think about the challenge. Try to avoid this kind of thinking:</p>
+
+<p>"The test object(s) should probably have a flat smooth surface for testing vacuum cups... A ridged or porous surface that will be challenging for vacuum cups... There should be parallel surfaces for testing jawed grippers, and non-parallel surfaces that will be challenging for jawed grippers".</p>
+
+<p>Instead, an object-centric approach should yield better results. Try to take all the objects (especially those that are manufactured by humans) in the world and smash their features together in to the fewest possible objects. </p>
+
+<p>For example, many objects have smooth flat surfaces so I can represent them all with one such surface on my test object. Many objects have parallel surfaces, many are metal, many are plastic, there are a lot of bottles in the world, lots of boxes, lots of cylinders, and you can go on and on.</p>
+		</div>
+	</div>
+		<div class="g3">
+			<h3 class="separated">Requirements</h3>
+			<ul class="competitionRules">
+				<li><p><strong>You must include:</strong> 
+<br />- STEP or IGES version
+<br />- Rendering
+<br />- Description supporting your design choices</p></li>
+				<li><p><strong>You are encouraged to include:</strong> 
+<br />- Native CAD file in any format
+<br />- More renderings 
+<br />- STL version</p></li>
+				<li><p><strong>Design guidelines:</strong>
+<br />- The proposed test object(s) must be capable of evaluating as many types of grippers or hands as possible, ranging from: 
+<br />... <a href="http://www.empirerobotics.com/pdfs/Empire_Robotics_Kit_Sheet.pdf">VERSABALL®</a> 
+<br />...jamming grippers
+<br />...suction cups
+<br />...magnets
+<br />...pincher jaws
+<br />...multi-fingered hands
+<br />...and then keep going!
+<br />&nbsp;
+<br />- Use the least amount of objects needed to test as possible.
+<br />&nbsp;
+<br />- <strong>We will post results of a Pareto plot to determine how well entries performed.</strong> How successfully you maximized the testing ability of the object(s) and how well did you minimize the number of objects needed.
+<br />&nbsp;
+<br />- The proposed test object(s) must be physically realizable by some reproducible manufacturing method (e.g. machining, 3D printing, etc.). Let us know which method your design requires in the description. 
+<br />&nbsp;
+<br />- Use your written description to detail all design decisions (how the object(s) would work and why their design makes sense).
+</p></li>
+			</ul>
+		</div>
+		<div class="g3">
+			<h3 class="separated">Rules</h3>
+			<ul class="competitionRules">
+					<li><p><strong>ENTERING THE COMPETITION</strong>
+<br />The Challenge is open to everyone except employees and families of GrabCAD and the Sponsor. Multiple entries are welcome. Team entries are welcome. 
+<br />&nbsp;
+<br />By entering the Challenge you:
+<br />1. Accept the official GrabCAD Challenges <a href="terms.html">Terms & Conditions</a>.
+<br />2. Agree to be bound by the decisions of the judges (Jury). 
+<br />3. Warrant that you are eligible to participate.
+<br />4. Warrant that the submission is your original work. 
+<br />5. Warrant, to the best of your knowledge, your work is not, and has not been in production or otherwise previously published or exhibited. 
+<br />6. Warrant neither the work nor its use infringes the intellectual property rights (whether a patent, utility model, functional design right, aesthetic design right, trademark, copyright or any other intellectual property right) of any other person. 
+<br />7. Warrant participation shall not constitute employment, assignment or offer of employment or assignment.
+<br />8. Are not entitled to any compensation or reimbursement for any costs. 
+<br />9. Agree the Sponsor and GrabCAD have the right to promote all entries.
+<br />&nbsp;
+<br />If you think an entry may infringe on existing copyrighted materials, please email <a href="mailto:challenges@grabcad.com" rel="nofollow" target="_blank">challenges@grabcad.com</a>  </p></li>
+					<li><p><strong>SUBMITTING AN ENTRY</strong>
+<br />Only entries uploaded to GrabCAD through the "Submit entry" button on this Challenge page will be considered an entry. Only public entries are eligible.
+<br />&nbsp;
+<br />We encourage teams to use <a href="../workbench-2.html">GrabCAD Workbench</a> for developing their entries.
+<br />&nbsp;
+<br />Entries are automatically given the tag <strong>"robotgripper"</strong> when uploading to GrabCAD. Please do not edit or delete this tag. Only entries with valid tag will participate in the Challenge. </p></li>
+					<li><p><strong>AWARDING THE WINNERS</strong>
+<br />The sum of the Awards is the total gross amount of the reward. The awarded participant is solely liable for the payment of all taxes, duties and other similar measures if imposed on the reward pursuant to the legislation of the country of his/her residence, domicile, citizenship, workplace, or any other criterion of similar nature. Only 1 award per person.
+<br />&nbsp;
+<br />All winners will be contacted by the GrabCAD staff to get their contact information and any other information needed to get the prize to them. Payment of cash awards is made through PayPal. All team awards will be transferred to the member who entered the Challenge. 
+<br />&nbsp;
+<br />*Transportation to Empire Robotics is not included.
+<br />&nbsp;
+<br />We will release the finalists before the announcement of the winners to give the Community an opportunity to share their favorites in the comments, discuss concerns, and allow time for any testing or analysis by the Jury. The Jury will take the feedback into consideration when picking the winners.
+<br />&nbsp;
+<br />Winning designs will be chosen based on the Rules and Requirements.
+<br />- This Challenge ends on May 25, 2014 (11:59pm UTC). 
+<br />- Finalists will be announced by June 9, 2014.
+<br />- Winners will be announced by June 25, 2014.
+<br />&nbsp;
+<br />Void where prohibited.
+</p></li>
+			</ul>
+		</div>
+		<div class="g2x3">
+			<h3 class="separated">Prizes</h3>
+			<dl class="competitionPrizes">
+					<dt>1st Prize</dt>
+					<dd><p>$400 + Empire Robotics facilities tour * + Empire Robotics mug</p></dd>
+					<dt>2nd Prize</dt>
+					<dd><p>$100 + Empire Robotics mug</p></dd>
+					<dt>3rd - 10th Prize</dt>
+					<dd><p>GrabCAD multitool</p></dd>
+			</dl>
+		</div>
+		<div class="g2x3">
+			<div class="competitionJury bgHilite gray">
+					<h3>About the jury?</h3>
+					<p>The judging panel is comprised of industry leaders, experts, and innovators in a range of fields related to robotics from Empire Robotics, Robotiq, Schunk,  American Grippers, Yaskawa America-Motoman Robotics Division and FIPA.</p>
+					<h3>About Empire Robotics</h3>
+						<img alt="Thumb" class="logo" src="https://d2t1xqejof9utc.cloudfront.net/competitions/logos/255/thumb.png?1396956236" />
+					<p><a href="http://www.empirerobotics.com/">Empire Robotics, Inc.</a> designs and manufactures high-functioning robot grippers and automation components. We provide highly capable and cost effective grippers to robot manufacturers, integrators, and end users that enable versatile and adaptive gripping operations with a single inexpensive tool. Our jamming-based VERSABALL® grippers are setting the new standard for agile manufacturing. </p>
+			</div>
+		</div>
+	
+	<div class="commentsContainer g2x3" id="competitionComments">
+		<h2 class="subjectCommentsCount">43 comments</h2>
+		<ul class="feed subjectComments" id="Competition255">
+				<li class="comment event" id="comment_663215">
+		<div class="eventActions">
+		</div>
+		<a href="../abhishek-141.html" class="eventImg">
+			<img alt="abhishek" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1178585/feed.jpg?1401683974" />
+</a>		<h3 class="eventHead">
+			<a href="../abhishek-141.html" class="mainLink">abhishek</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>I am In.. This is something different!!!
+</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../abhishek-141.html">abhishek</a>
+				</span>
+				<span>
+					has uploaded 52 
+					 CAD models &amp; has left 756 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663224">
+		<div class="eventActions">
+		</div>
+		<a href="../abhishek-141.html" class="eventImg">
+			<img alt="abhishek" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1178585/feed.jpg?1401683974" />
+</a>		<h3 class="eventHead">
+			<a href="../abhishek-141.html" class="mainLink">abhishek</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>i hav a query: Is there any limitation for dimensions??</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../abhishek-141.html">abhishek</a>
+				</span>
+				<span>
+					has uploaded 52 
+					 CAD models &amp; has left 756 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663243">
+		<div class="eventActions">
+		</div>
+		<a href="../alexandre.drot-1.html" class="eventImg">
+			<img alt="ALEXANDRE DROT" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1258754/feed.JPG?1394136696" />
+</a>		<h3 class="eventHead">
+			<a href="../alexandre.drot-1.html" class="mainLink">ALEXANDRE DROT</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>oh oh! very interesting!</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../alexandre.drot-1.html">ALEXANDRE DROT</a>
+				</span>
+				<span>
+					has uploaded 11 
+					 CAD models &amp; has left 33 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663267">
+		<div class="eventActions">
+		</div>
+		<a href="../alexandre.drot-1.html" class="eventImg">
+			<img alt="ALEXANDRE DROT" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1258754/feed.JPG?1394136696" />
+</a>		<h3 class="eventHead">
+			<a href="../alexandre.drot-1.html" class="mainLink">ALEXANDRE DROT</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>the name of the challenge could be &quot;catch me if you can!&quot;</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../alexandre.drot-1.html">ALEXANDRE DROT</a>
+				</span>
+				<span>
+					has uploaded 11 
+					 CAD models &amp; has left 33 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663275">
+		<div class="eventActions">
+		</div>
+		<a href="../kaushal.patel-1.html" class="eventImg">
+			<img alt="Kaushal Patel" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1191373/feed.jpg?1390846949" />
+</a>		<h3 class="eventHead">
+			<a href="../kaushal.patel-1.html" class="mainLink">Kaushal Patel</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Wow...Great  Challange. I like to take part because Only creativity can win.
+</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../kaushal.patel-1.html">Kaushal Patel</a>
+				</span>
+				<span>
+					has uploaded 16 
+					 CAD models &amp; has left 146 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663407">
+		<div class="eventActions">
+		</div>
+		<a href="../singlefonts.html" class="eventImg">
+			<img alt="singlefonts" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/156794/feed.jpg?1342468659" />
+</a>		<h3 class="eventHead">
+			<a href="../singlefonts.html" class="mainLink">singlefonts</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>The gripper in action, see link: <a href="http://www.youtube.com/watch?v=ZKOI_lVDPpw" rel="nofollow" target="_blank">http://www.youtube.com/watch?v=ZKOI_lVDPpw</a></p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../singlefonts.html">singlefonts</a>
+				</span>
+				<span>
+					has uploaded 81 
+					 CAD models &amp; has left 189 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663424">
+		<div class="eventActions">
+		</div>
+		<a href="../jonathan-149.html" class="eventImg">
+			<img alt="Jonathan" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/449909/feed.jpg?1394907913" />
+</a>		<h3 class="eventHead">
+			<a href="../jonathan-149.html" class="mainLink">Jonathan</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Very Cool!</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../jonathan-149.html">Jonathan</a>
+				</span>
+				<span>
+					has uploaded 136 
+					 CAD models &amp; has left 1519 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663426">
+		<div class="eventActions">
+		</div>
+		<a href="/ernesto.chavez-1" class="eventImg">
+			<img alt="Ernesto Chavez" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/753199/feed.jpg?1371699313" />
+</a>		<h3 class="eventHead">
+			<a href="/ernesto.chavez-1" class="mainLink">Ernesto Chavez</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>A very interesting challenge indeed.</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/ernesto.chavez-1">Ernesto Chavez</a>
+				</span>
+				<span>
+					has uploaded 3 
+					 CAD models &amp; has left 20 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663447">
+		<div class="eventActions">
+		</div>
+		<a href="../the.ultimaker-1.html" class="eventImg">
+			<img alt="The Ultimaker" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1275832/feed.jpg?1394269195" />
+</a>		<h3 class="eventHead">
+			<a href="../the.ultimaker-1.html" class="mainLink">The Ultimaker</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Are you paying for my flight to the USA for the tour?  :O)</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../the.ultimaker-1.html">The Ultimaker</a>
+				</span>
+				<span>
+					has uploaded 13 
+					 CAD models &amp; has left 153 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663492">
+		<div class="eventActions">
+		</div>
+		<a href="/matt.lothe-1" class="eventImg">
+			<img alt="Matt Lothe" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1318275/feed.jpg?1396070105" />
+</a>		<h3 class="eventHead">
+			<a href="/matt.lothe-1" class="mainLink">Matt Lothe</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Does it matter what material we use for the render?</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/matt.lothe-1">Matt Lothe</a>
+				</span>
+				<span>
+					has uploaded 13 
+					 CAD models &amp; has left 25 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_663687">
+		<div class="eventActions">
+		</div>
+		<a href="/paul.arcoleo-1" class="eventImg">
+			<img alt="Paul Arcoleo" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/162263/feed.JPG?1393509268" />
+</a>		<h3 class="eventHead">
+			<a href="/paul.arcoleo-1" class="mainLink">Paul Arcoleo</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>I saw you guys talk at a Meetup at Bolt a couple months back! Loved the idea and love this challenge! </p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/paul.arcoleo-1">Paul Arcoleo</a>
+				</span>
+				<span>
+					has uploaded 4 
+					 CAD models &amp; has left 4 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_666071">
+		<div class="eventActions">
+		</div>
+		<a href="../ruan.pretorius-2.html" class="eventImg">
+			<img alt="Ruan Pretorius" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1026014/feed.JPG?1390194628" />
+</a>		<h3 class="eventHead">
+			<a href="../ruan.pretorius-2.html" class="mainLink">Ruan Pretorius</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>I must say the Empire Robotics gripper is smart thinking – I love the way it operates!!!  The Link @singlefonts showed its simply amazing!!! <a href="http://www.youtube.com/watch?v=ZKOI_lVDPpw" rel="nofollow" target="_blank">http://www.youtube.com/watch?v=ZKOI_lVDPpw</a> Nice Competition 
+</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../ruan.pretorius-2.html">Ruan Pretorius</a>
+				</span>
+				<span>
+					has uploaded 36 
+					 CAD models &amp; has left 153 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_666075">
+		<div class="eventActions">
+		</div>
+		<a href="../ruan.pretorius-2.html" class="eventImg">
+			<img alt="Ruan Pretorius" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1026014/feed.JPG?1390194628" />
+</a>		<h3 class="eventHead">
+			<a href="../ruan.pretorius-2.html" class="mainLink">Ruan Pretorius</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Thanks for sharing the link @singlefonts</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../ruan.pretorius-2.html">Ruan Pretorius</a>
+				</span>
+				<span>
+					has uploaded 36 
+					 CAD models &amp; has left 153 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_667674">
+		<div class="eventActions">
+		</div>
+		<a href="../abhishek-141.html" class="eventImg">
+			<img alt="abhishek" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1178585/feed.jpg?1401683974" />
+</a>		<h3 class="eventHead">
+			<a href="../abhishek-141.html" class="mainLink">abhishek</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p><a href="http://www.youtube.com/watch?v=QmpEiKvqdRY" rel="nofollow" target="_blank">http://www.youtube.com/watch?v=QmpEiKvqdRY</a>
+<br />robot classifying pills</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../abhishek-141.html">abhishek</a>
+				</span>
+				<span>
+					has uploaded 52 
+					 CAD models &amp; has left 756 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_667688">
+		<div class="eventActions">
+		</div>
+		<a href="../abhishek-141.html" class="eventImg">
+			<img alt="abhishek" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1178585/feed.jpg?1401683974" />
+</a>		<h3 class="eventHead">
+			<a href="../abhishek-141.html" class="mainLink">abhishek</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p><a href="http://www.youtube.com/watch?v=nkGuI4uiSLM" rel="nofollow" target="_blank">http://www.youtube.com/watch?v=nkGuI4uiSLM</a>
+<br />robot picking test objects</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../abhishek-141.html">abhishek</a>
+				</span>
+				<span>
+					has uploaded 52 
+					 CAD models &amp; has left 756 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_668966">
+		<div class="eventActions">
+		</div>
+		<a href="../pouriya-1.html" class="eventImg">
+			<img alt="Pouriya" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/849969/feed.jpg?1403116553" />
+</a>		<h3 class="eventHead">
+			<a href="../pouriya-1.html" class="mainLink">Pouriya</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>I have a question it must be a general design or for each one must be specific design? (because they have different mechanism for gripping)</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../pouriya-1.html">Pouriya</a>
+				</span>
+				<span>
+					has uploaded 54 
+					 CAD models &amp; has left 256 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_669138">
+		<div class="eventActions">
+		</div>
+		<a href="/john.amend-1" class="eventImg">
+			<img alt="John Amend" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/509492/feed.jpg?1397486428" />
+</a>		<h3 class="eventHead">
+			<a href="/john.amend-1" class="mainLink">John Amend</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Thanks for all the interest! Here are responses to some questions:</p>
+
+<p>1) Let's limit the size between something like a large marble and something like a cantaloupe.
+<br />2) Unfortunately we cannot pay for transportation to Boston to collect the Empire Robotics facilities tour prize.
+<br />3) You can use any material for the render, but remember from the rules: &quot;The proposed test object(s) must be physically realizable by some reproducible manufacturing method (e.g. machining, 3D printing, etc.). Let us know which method your design requires in the description.&quot;
+<br />4) If you choose to propose one object, it must be capable of evaluating all types of grippers, if you choose to propose multiple objects, you could for example design each for a different type of gripper. </p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/john.amend-1">John Amend</a>
+				</span>
+				<span>
+					has uploaded 0 
+					 CAD models &amp; has left 3 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_674869">
+		<div class="eventActions">
+		</div>
+		<a href="/victor.carvalho-3" class="eventImg">
+			<img alt="Victor Carvalho" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1030731/feed.jpg?1403125619" />
+</a>		<h3 class="eventHead">
+			<a href="/victor.carvalho-3" class="mainLink">Victor Carvalho</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Fantastic challenge!!</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/victor.carvalho-3">Victor Carvalho</a>
+				</span>
+				<span>
+					has uploaded 13 
+					 CAD models &amp; has left 28 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_675810">
+		<div class="eventActions">
+		</div>
+		<a href="/lauri.poldre" class="eventImg">
+			<img alt="Lauri Poldre" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/2000/feed.jpg?1392284036" />
+</a>		<h3 class="eventHead">
+			<a href="/lauri.poldre" class="mainLink">Lauri Poldre</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>2 more judges added - Stephan Eifler, Product Manager at FIPA and John A. Hall, Mechanical Engineer/Project Manager at Yaskawa America-Motoman Robotics Division!</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/lauri.poldre">Lauri Poldre</a>
+				</span>
+				<span>
+					has uploaded 1 
+					 CAD models &amp; has left 120 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_677404">
+		<div class="eventActions">
+		</div>
+		<a href="/amrish.choudhary-1" class="eventImg">
+			<img alt="Amrish Choudhary" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1360565/feed.gif?1399225382" />
+</a>		<h3 class="eventHead">
+			<a href="/amrish.choudhary-1" class="mainLink">Amrish Choudhary</a>
+			<span class="eventTime">
+				2 months
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>hmm fantastic challengers and challenges ...</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/amrish.choudhary-1">Amrish Choudhary</a>
+				</span>
+				<span>
+					has uploaded 2 
+					 CAD models &amp; has left 8 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_682247">
+		<div class="eventActions">
+		</div>
+		<a href="../edward.otter-1.html" class="eventImg">
+			<img alt="Edward Otter" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1365207/feed.JPG?1397325752" />
+</a>		<h3 class="eventHead">
+			<a href="../edward.otter-1.html" class="mainLink">Edward Otter</a>
+			<span class="eventTime">
+				about 1 month
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Very Interesting!</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../edward.otter-1.html">Edward Otter</a>
+				</span>
+				<span>
+					has uploaded 12 
+					 CAD models &amp; has left 48 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_682423">
+		<div class="eventActions">
+		</div>
+		<a href="../the.ultimaker-1.html" class="eventImg">
+			<img alt="The Ultimaker" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1275832/feed.jpg?1394269195" />
+</a>		<h3 class="eventHead">
+			<a href="../the.ultimaker-1.html" class="mainLink">The Ultimaker</a>
+			<span class="eventTime">
+				about 1 month
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Awww would love a go at this,  but my PC has died so no designing until I buy another one :(   Cool Robot video link! </p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../the.ultimaker-1.html">The Ultimaker</a>
+				</span>
+				<span>
+					has uploaded 13 
+					 CAD models &amp; has left 153 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_685811">
+		<div class="eventActions">
+		</div>
+		<a href="/pcorner" class="eventImg">
+			<img alt="pcorner" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>		<h3 class="eventHead">
+			<a href="/pcorner" class="mainLink">pcorner</a>
+			<span class="eventTime">
+				about 1 month
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Only Stiff objects ? What about surface characteristics  ? At what motion ( acceleration ( translation, rotation) should the test be carried out ? You mention a series of front end tech grippers, but what about ? 
+<br /><a href="https://www.youtube.com/watch?v=elNqQPlsYOo" rel="nofollow" target="_blank">https://www.youtube.com/watch?v=elNqQPlsYOo</a>
+<br /><a href="https://www.youtube.com/watch?v=GWw3a3OM61Y" rel="nofollow" target="_blank">https://www.youtube.com/watch?v=GWw3a3OM61Y</a></p>
+
+<p>I would judge that the octo()grippers are more relevant for comparison study? Or did I misunderstood the challenge ? </p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/pcorner">pcorner</a>
+				</span>
+				<span>
+					has uploaded 0 
+					 CAD models &amp; has left 1 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_687899">
+		<div class="eventActions">
+		</div>
+		<a href="/john.amend-1" class="eventImg">
+			<img alt="John Amend" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/509492/feed.jpg?1397486428" />
+</a>		<h3 class="eventHead">
+			<a href="/john.amend-1" class="mainLink">John Amend</a>
+			<span class="eventTime">
+				about 1 month
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>@pcorner - Thanks for  your question. The goal is definitely to challenge all types of grippers (even including new designs as they are invented in the future). The test specifics are up to you. If you can provide a test procedure, that's great; if not, the judges will try to imagine what kinds of tests to perform with your object(s).</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/john.amend-1">John Amend</a>
+				</span>
+				<span>
+					has uploaded 0 
+					 CAD models &amp; has left 3 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_713492">
+		<div class="eventActions">
+		</div>
+		<a href="/ralf.becker-1" class="eventImg">
+			<img alt="Ralf Becker" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1363667/feed.jpg?1397486629" />
+</a>		<h3 class="eventHead">
+			<a href="/ralf.becker-1" class="mainLink">Ralf Becker</a>
+			<span class="eventTime">
+				about 1 month
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Hello Particpants - its great to see all your designs dealing with very different apprachs to the compeition. Fom the Schunk side I would really like you to focus on foms that have for example several stable positions to place them on a surface and also different kinds of exposed surfeces like bend ones or spheric ones, peaks or what ever.This could help to define certain test and benchmark procedures in the later stages of the project. The top end will be an also nice object...</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/ralf.becker-1">Ralf Becker</a>
+				</span>
+				<span>
+					has uploaded 0 
+					 CAD models &amp; has left 1 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_716972">
+		<div class="eventActions">
+		</div>
+		<a href="/peter.farkas-2" class="eventImg">
+			<img alt="Peter Farkas" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1363657/feed.jpeg?1397486313" />
+</a>		<h3 class="eventHead">
+			<a href="/peter.farkas-2" class="mainLink">Peter Farkas</a>
+			<span class="eventTime">
+				about 1 month
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>A note to all contestants: Remember the challenge rules.
+<br />1)	The proposed test object(s) must be capable of evaluating as many types of grippers or hands as possible.
+<br />2)	How successfully you maximized the testing ability of the object(s) and how well did you minimize the number of objects needed. * Multiple entrees by one person will be considered to be cumulative test objects. 
+<br />3)	The proposed test object(s) must be physically realizable. Let us know which method your design requires in the description. 
+<br />4)	Use your written description to detail all design decisions (how the object(s) would work and why their design makes sense).
+</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/peter.farkas-2">Peter Farkas</a>
+				</span>
+				<span>
+					has uploaded 0 
+					 CAD models &amp; has left 1 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_723342">
+		<div class="eventActions">
+		</div>
+		<a href="../ruan.pretorius-2.html" class="eventImg">
+			<img alt="Ruan Pretorius" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1026014/feed.JPG?1390194628" />
+</a>		<h3 class="eventHead">
+			<a href="../ruan.pretorius-2.html" class="mainLink">Ruan Pretorius</a>
+			<span class="eventTime">
+				about 1 month
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>My Entries to a fun Challenge : )</p>
+
+<p><a href="https://grabcad.com/library/space-bubble-dog-and-his-body-parts-challenge-1" rel="nofollow" target="_blank">Space Bubble Dog and his body parts ( Challenge  )</a>
+<br /><a href="https://grabcad.com/library/gripper-set-challenge-1" rel="nofollow" target="_blank">Gripper Set - Challenge </a>
+<br /><a href="https://grabcad.com/library/tornado-for-grippers-1" rel="nofollow" target="_blank">Tornado for grippers</a>
+<br /><a href="https://grabcad.com/library/spike-bubble-and-in-between-challenge-1" rel="nofollow" target="_blank">Spike, bubble and in-between  ( challenge )</a>
+<br /><a href="https://grabcad.com/library/gripper-spider-cube-1" rel="nofollow" target="_blank">Gripper Spider Cube</a>
+<br /><a href="https://grabcad.com/library/7-sides-7-ways-1" rel="nofollow" target="_blank">7 Sides - 7 ways</a>
+<br /><a href="https://grabcad.com/library/polygon-gripper-set-1" rel="nofollow" target="_blank">Polygon Gripper Set</a>
+<br /><a href="https://grabcad.com/library/cube-22" rel="nofollow" target="_blank">Cube</a>
+<br /><a href="https://grabcad.com/library/cube-two-1" rel="nofollow" target="_blank">Cube two...</a></p>
+
+<p></p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../ruan.pretorius-2.html">Ruan Pretorius</a>
+				</span>
+				<span>
+					has uploaded 36 
+					 CAD models &amp; has left 153 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_728593">
+		<div class="eventActions">
+		</div>
+		<a href="/dimitar-9" class="eventImg">
+			<img alt="Dimitar" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/549341/feed.png?1402564591" />
+</a>		<h3 class="eventHead">
+			<a href="/dimitar-9" class="mainLink">Dimitar</a>
+			<span class="eventTime">
+				30 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>My favorite entry to the contest is 
+<br />''Universal test object for robot grippers'' 
+<br />by MahmoudSaeed
+<br />Good luck to all the participants! 
+</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/dimitar-9">Dimitar</a>
+				</span>
+				<span>
+					has uploaded 48 
+					 CAD models &amp; has left 61 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_745043">
+		<div class="eventActions">
+		</div>
+		<a href="../sara.sigel.html" class="eventImg">
+			<img alt="Sara Sigel" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/277079/feed.jpeg?1347299629" />
+</a>		<h3 class="eventHead">
+			<a href="../sara.sigel.html" class="mainLink">Sara Sigel</a>
+			<span class="eventTime">
+				17 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>We are a bit delayed in announcing finalists, but will get that info to you all shortly. Sorry for the wait!</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../sara.sigel.html">Sara Sigel</a>
+				</span>
+				<span>
+					has uploaded 1 
+					 CAD models &amp; has left 1807 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_747279">
+		<div class="eventActions">
+		</div>
+		<a href="../sara.sigel.html" class="eventImg">
+			<img alt="Sara Sigel" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/277079/feed.jpeg?1347299629" />
+</a>		<h3 class="eventHead">
+			<a href="../sara.sigel.html" class="mainLink">Sara Sigel</a>
+			<span class="eventTime">
+				16 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Finalists are announced!
+<br /><a href="http://grabcad.com/challenges/robot-gripper-test-object-challenge/results" rel="nofollow" target="_blank">http://grabcad.com/challenges/robot-gripper-test-object-challenge/results</a>
+<br />.
+<br />Thanks to everyone who participated! We believe these entries are the best robot gripper testing solutions based on our needs. In fact, we saw many creative and functional ideas from the GrabCAD Community in this list of finalists. Next, we'll release Pareto plot results along with the winners. In the meantime, which one is your favorite? Let us know in the comments!</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../sara.sigel.html">Sara Sigel</a>
+				</span>
+				<span>
+					has uploaded 1 
+					 CAD models &amp; has left 1807 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_747281">
+		<div class="eventActions">
+		</div>
+		<a href="../jonathan-149.html" class="eventImg">
+			<img alt="Jonathan" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/449909/feed.jpg?1394907913" />
+</a>		<h3 class="eventHead">
+			<a href="../jonathan-149.html" class="mainLink">Jonathan</a>
+			<span class="eventTime">
+				16 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>congrats to all finalists...!! will look into more when time. </p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../jonathan-149.html">Jonathan</a>
+				</span>
+				<span>
+					has uploaded 136 
+					 CAD models &amp; has left 1519 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_747292">
+		<div class="eventActions">
+		</div>
+		<a href="../robin.diekmann.html" class="eventImg">
+			<img alt="Robin Diekmann" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/125653/feed.jpeg?1331119316" />
+</a>		<h3 class="eventHead">
+			<a href="../robin.diekmann.html" class="mainLink">Robin Diekmann</a>
+			<span class="eventTime">
+				16 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Awesome, thank you so much!</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../robin.diekmann.html">Robin Diekmann</a>
+				</span>
+				<span>
+					has uploaded 16 
+					 CAD models &amp; has left 67 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_747620">
+		<div class="eventActions">
+		</div>
+		<a href="../pouriya-1.html" class="eventImg">
+			<img alt="Pouriya" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/849969/feed.jpg?1403116553" />
+</a>		<h3 class="eventHead">
+			<a href="../pouriya-1.html" class="mainLink">Pouriya</a>
+			<span class="eventTime">
+				16 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Congrats to all finalist.I am so happy for choosing me in final list :)</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../pouriya-1.html">Pouriya</a>
+				</span>
+				<span>
+					has uploaded 54 
+					 CAD models &amp; has left 256 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_747767">
+		<div class="eventActions">
+		</div>
+		<a href="/bhima.arsnanto-1" class="eventImg">
+			<img alt="Bhima Arsnanto" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1338683/feed.jpg?1398681102" />
+</a>		<h3 class="eventHead">
+			<a href="/bhima.arsnanto-1" class="mainLink">Bhima Arsnanto</a>
+			<span class="eventTime">
+				16 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Congratz to all finalist...!! And thank you! :D</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/bhima.arsnanto-1">Bhima Arsnanto</a>
+				</span>
+				<span>
+					has uploaded 2 
+					 CAD models &amp; has left 4 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_748258">
+		<div class="eventActions">
+		</div>
+		<a href="/ram.ganesh-1" class="eventImg">
+			<img alt="Ram Ganesh" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1048640/feed.jpg?1384708039" />
+</a>		<h3 class="eventHead">
+			<a href="/ram.ganesh-1" class="mainLink">Ram Ganesh</a>
+			<span class="eventTime">
+				16 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Thanks a Lot !! And congratulations to fellow finalists  :))) </p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/ram.ganesh-1">Ram Ganesh</a>
+				</span>
+				<span>
+					has uploaded 10 
+					 CAD models &amp; has left 243 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_749377">
+		<div class="eventActions">
+		</div>
+		<a href="/chris.bishop-3" class="eventImg">
+			<img alt="Chris Bishop" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>		<h3 class="eventHead">
+			<a href="/chris.bishop-3" class="mainLink">Chris Bishop</a>
+			<span class="eventTime">
+				15 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Im so happy you like my design :) Great selection of finalists, congrats to all.</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/chris.bishop-3">Chris Bishop</a>
+				</span>
+				<span>
+					has uploaded 1 
+					 CAD models &amp; has left 3 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_754524">
+		<div class="eventActions">
+		</div>
+		<a href="../ruan.pretorius-2.html" class="eventImg">
+			<img alt="Ruan Pretorius" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1026014/feed.JPG?1390194628" />
+</a>		<h3 class="eventHead">
+			<a href="../ruan.pretorius-2.html" class="mainLink">Ruan Pretorius</a>
+			<span class="eventTime">
+				11 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>I’m really happy a made it to the second round, thank you.
+<br />.
+<br />For me 1st place : <a href="https://grabcad.com/library/robot-gripper-test-cube-1" rel="nofollow" target="_blank">Robot Gripper Test "CUBE"</a> and 2nd place <a href="https://grabcad.com/library/crazy-cube-gripper-tester-1" rel="nofollow" target="_blank">Crazy Cube Gripper Tester</a>
+</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../ruan.pretorius-2.html">Ruan Pretorius</a>
+				</span>
+				<span>
+					has uploaded 36 
+					 CAD models &amp; has left 153 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_766069">
+		<div class="eventActions">
+		</div>
+		<a href="/benjamin.benji-1" class="eventImg">
+			<img alt="benjamin benji" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/846526/feed.jpg?1389783253" />
+</a>		<h3 class="eventHead">
+			<a href="/benjamin.benji-1" class="mainLink">benjamin benji</a>
+			<span class="eventTime">
+				3 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Couldn't agree more Ruan... 1st place to be Crazy Cube Gripper Tester.
+<br />and any idea of when the final results be published?</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/benjamin.benji-1">benjamin benji</a>
+				</span>
+				<span>
+					has uploaded 17 
+					 CAD models &amp; has left 30 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_766071">
+		<div class="eventActions">
+		</div>
+		<a href="../ruan.pretorius-2.html" class="eventImg">
+			<img alt="Ruan Pretorius" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1026014/feed.JPG?1390194628" />
+</a>		<h3 class="eventHead">
+			<a href="../ruan.pretorius-2.html" class="mainLink">Ruan Pretorius</a>
+			<span class="eventTime">
+				3 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p><a href="https://grabcad.com/benjamin.benji-1" rel="nofollow" target="_blank">benjamin benji</a> - According to the rules, Winners will be announced by June 25, 2014 - Best of luck*</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../ruan.pretorius-2.html">Ruan Pretorius</a>
+				</span>
+				<span>
+					has uploaded 36 
+					 CAD models &amp; has left 153 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_766715">
+		<div class="eventActions">
+		</div>
+		<a href="../sara.sigel.html" class="eventImg">
+			<img alt="Sara Sigel" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/277079/feed.jpeg?1347299629" />
+</a>		<h3 class="eventHead">
+			<a href="../sara.sigel.html" class="mainLink">Sara Sigel</a>
+			<span class="eventTime">
+				2 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Winners are announced!
+<br /><a href="https://grabcad.com/challenges/robot-gripper-test-object-challenge/results" rel="nofollow" target="_blank">https://grabcad.com/challenges/robot-gripper-test-object-challenge/results</a>
+<br />.
+<br />Thanks to everyone who participated! You can find the Pareto plot results of the finalists through the link at the top of the results page. We're hoping that plot does most of the talking for the jury as this Challenge was based on how well entries performed in that analysis along with their manufacturability. You can see each entry's rating for manufacturability, as well. Outstanding work from all the GrabCADrs involved in this one!</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../sara.sigel.html">Sara Sigel</a>
+				</span>
+				<span>
+					has uploaded 1 
+					 CAD models &amp; has left 1807 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_766774">
+		<div class="eventActions">
+		</div>
+		<a href="../pouriya-1.html" class="eventImg">
+			<img alt="Pouriya" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/849969/feed.jpg?1403116553" />
+</a>		<h3 class="eventHead">
+			<a href="../pouriya-1.html" class="mainLink">Pouriya</a>
+			<span class="eventTime">
+				2 days
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Congrats to all :)</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../pouriya-1.html">Pouriya</a>
+				</span>
+				<span>
+					has uploaded 54 
+					 CAD models &amp; has left 256 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_767074">
+		<div class="eventActions">
+		</div>
+		<a href="/bhima.arsnanto-1" class="eventImg">
+			<img alt="Bhima Arsnanto" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1338683/feed.jpg?1398681102" />
+</a>		<h3 class="eventHead">
+			<a href="/bhima.arsnanto-1" class="mainLink">Bhima Arsnanto</a>
+			<span class="eventTime">
+				1 day
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Congrats everyone! Good job! :D</p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="/bhima.arsnanto-1">Bhima Arsnanto</a>
+				</span>
+				<span>
+					has uploaded 2 
+					 CAD models &amp; has left 4 comments.
+				</span>
+		</div>
+	</li>
+	<li class="comment event" id="comment_767748">
+		<div class="eventActions">
+		</div>
+		<a href="../robin.diekmann.html" class="eventImg">
+			<img alt="Robin Diekmann" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/125653/feed.jpeg?1331119316" />
+</a>		<h3 class="eventHead">
+			<a href="../robin.diekmann.html" class="mainLink">Robin Diekmann</a>
+			<span class="eventTime">
+				about 16 hours
+				ago
+			</span>
+		</h3>
+		<div class="eventContent">
+			<p>Congratulations! </p>
+		</div>
+		<div class="eventMeta">
+				<span>
+					<a href="../robin.diekmann.html">Robin Diekmann</a>
+				</span>
+				<span>
+					has uploaded 16 
+					 CAD models &amp; has left 67 comments.
+				</span>
+		</div>
+	</li>
+
+			<div class="addCommentContainer">
+</div>
+				<div class="bigMessage">
+					<p>Please log in to add comments.</p>
+					<a href="../login.html" class="button b32 gray">
+						<span>Log in</span>
+</a>				</div>
+		</ul>
+	</div>
+</div>
+
+<div class="g3c challenge">
+	<div class="sidebar">
+		<ul class="block keyStats">
+				<li class="body split">
+					<div class="slot">
+						<span class="label">Deadline</span>
+						<span class="value">Passed</span>
+					</div>
+				</li>
+				<li class="body split">
+					<div class="slot">
+						<span class="label">Total entries</span>
+						<span class="value">78</span>
+					</div>
+				</li>
+		</ul>
+			<ul class="block alt competitionJuryList">
+				<li class="body">
+					<span class="title">Who’s in the jury?</span>
+				</li>
+					<li class="body juror">
+						<img alt="Feed" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1393602/feed.jpg?1398350400" />
+						<strong>John Hall</strong><br>
+						Mechanical Engineer/Project Manager at Yaskawa America-Motoman Robotics Division
+					</li>
+					<li class="body juror">
+						<img alt="Feed" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1393594/feed.png?1398350342" />
+						<strong>Stephan Eifler</strong><br>
+						Product Manager at FIPA GmbH
+					</li>
+					<li class="body juror">
+						<img alt="Feed" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1363644/feed.jpg?1397486878" />
+						<strong>Nadia Cheng</strong><br>
+						Ph.D., Director of R&amp;D at Empire Robotics
+					</li>
+					<li class="body juror">
+						<img alt="Feed" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/509492/feed.jpg?1397486428" />
+						<strong>John Amend</strong><br>
+						Ph.D., CTO at Empire Robotics
+					</li>
+					<li class="body juror">
+						<img alt="Feed" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1363667/feed.jpg?1397486629" />
+						<strong>Ralf Becker</strong><br>
+						Advanced Technology Department Manager at Schunk
+					</li>
+					<li class="body juror">
+						<img alt="Feed" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1363657/feed.jpeg?1397486313" />
+						<strong>Peter Farkas</strong><br>
+						President at American Grippers
+					</li>
+					<li class="body juror">
+						<img alt="Feed" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1363650/feed.jpg?1397486791" />
+						<strong>Sam Bouchard</strong><br>
+						Ph.D., CEO at Robotiq
+					</li>
+					<li class="body juror">
+						<img alt="Feed" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/277079/feed.jpeg?1347299629" />
+						<strong>Sara Sigel</strong><br>
+						Community Manager at GrabCAD
+					</li>
+			</ul>
+				<div class="bgHilite black competitionUpsellBanner">
+					<p>Have an awesome idea for this competition? Want to win cool prizes? Sign-up now to upload your entries.</p>
+					<h3>Sign up to upload your ideas</h3>
+					<a href="../profile/register-2.html" class="button b32 red">
+						<span>Sign up now</span>
+</a>				</div>
+			<div class="thumbGrid">
+				<h3 class="alt">Entries (78)</h3>
+					<div>		<a href="../library/sg-rgto-try-to-catch-me-1.html" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/4c061a702159f79eda8e0c83d5cdbcee/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="../library/test-object-for-force-and-form-closure-multi-fingered-robotic-hands-1.html" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/93830f1d91babefa3d2566f5ed043f87/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="../library/circular-object-1.html" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/1edff30ad27e232146d516fd6a66542c/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="../library/circular-gripper-1.html" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/5f38a986990458ce8b1b67d65158ddae/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="../library/bottle-as-test-object-1.html" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/627ed5ba394c10abc329230b71f2797f/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="../library/the-heart-of-robot-1.html" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/6f79157aca67343d44e594a15349374b/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/robot-gripper-test-object-challenge-2" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/510d376664ea371318ab633887043f69/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/robotic-gripper-tester-1" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/052dceff1953d531c5d78a7df4d83ab3/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/tower-of-terror-for-robot-gripper-challenge-1" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/812fce2973896ab88dfe04aff8ed65eb/tiny.png" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/robot-gripper-test-object-2" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/4c6adc2ba35c8618fc71530ca2f63015/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/devil-doll-1" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/313ecaca6103e742195540dca51a81f4/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/gripper-test-object-1" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/c93e24c56ff80645c66359947df26373/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a></div>
+					<a href="robot-gripper-test-object-challenge/entries.html" class="viewAllEntries">View all entries</a>
+			</div>
+	</div>
+</div>
+
+			</section>
+		</section>
+		<a class="replacer hidden"><img alt="" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" /></a>
+		
+		<div id="dimmer"></div>
+<div id='' class='popupWin'>
+	<div class="contentWrapper">
+		<div class='popupHeader'>
+			<span class="popupName">
+				<h1></h1>
+				<p></p>
+			</span>
+			<span class="closeButton"></span>
+			<span class="close"></span>
+		</div>
+		<div class='popupBody'>
+			<div class="bodyContent"></div>
+			<div class="spinnerDiv"></div>
+		</div>
+		<div class='popupFooter'>
+			<span class="buttons">
+				<span class="button b32 red submit" id='popupSubmit'>Save</span>
+				<a href="" class="button cancelButton" id='popupCancel'>Cancel</a>
+			</span>
+		</div>
+	</div>
+</div>
+		<footer class="g1c">
+	<div class="footerItems">
+		<nav>
+			<ul class="g6c">
+				<li class="heading">Community</li>
+				<li><a href="../library.html">Library</a></li>
+				<li><a href="../challenges.html">Challenges</a></li>
+				<li><a href="../questions.html">Tutorials</a></li>
+				<li><a href="../engineers.html">Engineers</a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">Workbench</li>
+				<li><a href="../workbench.html">About Workbench</a></li>
+				<li><a href="../workbench/security.html">Security</a></li>
+				<li><a href="../workbench/customers.html">Customers</a></li>
+				<li><a href="../workbench/pricing.html">Pricing</a></li>
+				<li><a href="../toolbox.html"><span class="translation_missing" title="translation missing: en.navigation.workbench.toolbox">Toolbox</span></a></li>
+				<li><a href="http://blog.grabcad.com/blog/resources"><span class="translation_missing" title="translation missing: en.navigation.workbench.resources">Resources</span></a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">About us</li>
+				<li><a href="/about">Company</a></li>
+				<li><a href="/jobs">Jobs</a></li>
+				<li><a href="http://help.grabcad.com" target="_blank">Help Center</a></li>
+			</ul>
+			<ul class="g6c more">
+				<li class="heading">Get more</li>
+				<li>Read our <a href="http://blog.grabcad.com">Blog</a></li>
+				<li>Follow us on <a href="https://twitter.com/GrabCAD">Twitter</a></li>
+				<li>Like us on <a href="http://facebook.com/GrabCAD">Facebook</a></li>
+			</ul>
+		</nav>
+		<section class="copyrightContainer">
+			<div class="g2x3 copyright">© 2014 GrabCAD
+				<a href="mailto:info@grabcad.com">info@grabcad.com</a>
+				<a href="../terms.html">Terms of Service</a>
+				<a href="../privacy_policy.html">Privacy policy</a>
+			</div>
+		</section>
+	</div>
+</footer>
+
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/application-97822be5d16255c56fa7f76b80e039c5.js" type="text/javascript"></script>
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/mobile-af06448f9164aca61a135d66f5e7bdc4.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+            Grabcad.configuration.configure({
+  imagePath: 'http://d9ej3djcdo585.cloudfront.net/images',
+  default3dModelPath: '/static/content/cube_holes_5.STL',
+  maximumCategoriesOnCadfile: 3,
+  uploadPath: 'https://s3.amazonaws.com/gc-p',
+  uploadifyFlash: 'http://d9ej3djcdo585.cloudfront.net/flash/uploadify.swf',
+  uploadFileSizeLimit: 524288000,
+  airbrake_options: {
+    project_key: 'bced41dc67ce770c9d55b39f172f1a47',
+    production: true,
+    environment_name: 'production',
+    project_id: '20621'
+  }
+});
+
+            
+		</script>
+		
+		
+			<!-- Google Code for Remarketing Tag -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 981400234;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/981400234/?value=0&guid=ON&script=0"/>
+		</div>
+	</noscript>
+
+	<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-5.newrelic.com","2ff0bc8e20","1508038","c1hbEkVfCgoHQhkBV11HUBJeRA8JDEMZEVBfQA==",7,1006,new Date().getTime(),"","","","",""]);</script></body>
+</html>

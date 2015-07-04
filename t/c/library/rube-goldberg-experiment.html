@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+		  <script src="//cdn.optimizely.com/js/238376531.js" type="text/javascript"></script>
+
+		<meta charset="utf-8">
+<meta name="robots" content="noodp">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name="google-site-verification" content="sRcy8COOEVzfXadS3NzNsefhbSouqvlesgWngH5kKxs">
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="bD3lBjfHNjs3hDXeW+D3J0eGIx1KRowqTn1XUgAU428=" name="csrf-token" />
+<link href="http://d9ej3djcdo585.cloudfront.net/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+
+		<title>Rube Goldberg Experiment - SOLIDWORKS, STEP / IGES, STL, Other - 3D CAD model - GrabCAD</title>
+<meta content="Rube Goldberg Experiment - Id like to try a little experiment. I was reading the blog post about Rube Goldberg machines and I thought it would be fun to have a community built CAD machine! The Idea..." name="description" />
+<meta content="share cad, collaborate, mechanical engineers, grabcad, cad, cam, library, free, cad models, cad drawings, models, open source, solid works, solidedge, autodesk, alibre, autocad, catia, sketchup, keycreator, pro/engineer, spaceclaim" name="keywords" />
+		
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app-5cafbacdac642bf50ad99138c0115601.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app_1-88db9beff3b67d7c78ad6369e0f476a8.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/mobile-926c78328922620d538ba8bfd444e209.css" media="screen" rel="stylesheet" type="text/css" />
+
+		
+		
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/modernizr.min-a0dbb94a4cc903c6320b4aedc103c987.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+var Analytical = {
+  track: function(page) {
+
+  },
+  event: function(name, data) {
+    if (typeof data === 'undefined') { data = {}; }
+
+  }
+};
+</script>
+
+	</head>
+	<body id="cadfiles">
+			<!-- Qualaroo code for grabcad.com -->
+	<script>var _kiq = _kiq || [];</script>
+	<script>
+		(function(){
+			setTimeout(function(){
+				var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+				s.async = true; s.src = '//s3.amazonaws.com/ki.js/49091/a6N.js'; f.parentNode.insertBefore(s, f);
+			}, 1);
+		})();
+	</script>
+	<script charset="utf-8">
+		_kiq.push(['identify', '']);
+	</script>
+	<!-- End of Qualaroo code for grabcad.com -->
+
+		
+		
+		<header ng-non-bindable>
+	<nav class="main g1c">
+		<a href="../index.html" class="grabcad-logo"></a>
+		<ul class="menu">
+			<li class="selected">
+				<a href="../home-3.html">Community</a>
+				<ul class="dropdown">
+					<li  class='secondary' >
+						<a href="../home-3.html">
+							<span>Home</span>
+</a>					</li>
+					<li class="secondary selected" class='secondary' >
+						<a href="../library.html">
+							<span>Library</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../challenges.html">
+							<span>Challenges</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../questions.html">
+							<span>Tutorials</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../engineers.html">
+							<span>Engineers</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li >
+					<a href="../workbench.html">
+						<span>Workbench</span>
+</a>				<ul class="dropdown workbench">
+					<li  class='secondary'>
+						<a href="../workbench.html">
+							<span>Overview</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/features.html">
+							<span>Features</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/customers.html">
+							<span>Customers</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/pricing.html">
+							<span>Pricing</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/blog/resources/">
+				<span>Resources</span>
+</a>				<ul class="dropdown">
+					<li class='secondary'>
+						<a href="http://blog.grabcad.com/blog/resources/">
+							<span>Resource Center</span>
+</a>				 	</li>
+					<li class='secondary'>
+						<a href="http://help.grabcad.com" target="_blank">
+							<span>Help Center</span>
+</a>					</li>
+					<li class='secondary'>
+						<a href="/about">
+						<span>About us</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/">
+				<span>Blog</span>
+</a>			</li>
+		</ul>
+		<div class="headerRightHalf">
+			<div class="account">
+						<a href="../login-50.html" class="mr16">Log in</a>
+		<a href="../profile/register-39.html">Sign up</a>
+
+			</div>
+			  <div class="headerSearch">
+				  <!-- <form accept-charset="UTF-8" action="http://localhost:3000/search" method="get" class="">
+	<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text"><span class="searchSpin"></span>
+	<ul class="quickfilter hidden"><li></li></ul></div>
+</form>
+ -->
+<form accept-charset="UTF-8" action="http://grabcad.com/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search community'">
+		<span class="searchSpin"></span>
+	</div>
+</form>
+			  </div>
+		</div>
+	</nav>
+</header>
+
+			<div class="signupBanner">
+				<div class="g1c">
+						<div class="g1">
+		<div class="contentUpsell">
+			<div class="g2x3c">
+				<h2>Get access to thousands of free CAD projects</h2>
+				<p>Join our community of over 1,370,000 engineers and 470,000 CAD files</p>
+			</div>
+			<div class="g1x3c">
+				<a href="../profile/register%3Futm_source=model.html" class="button b48 darkgray" id="banner_cta_engineers">
+					<span>Register</span>
+</a>			</div>
+		</div>
+	</div>
+
+				</div>
+			</div>
+		<section id="body" class="">
+			<section id="bodyContent" class="gc">
+				<div class="g1">
+					<div class="flashMessage">
+					</div>
+				</div>
+					
+	
+	
+	<div class="publicProject">
+		<div class="g1">
+			<div class="g2x3c">
+				<a href="/scott.bruins" class="avatar">
+					<img alt="Feed" class="img-round" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/320/feed.gif?1316795450" />
+</a>				<h1 class="projectName">Rube Goldberg Experiment</h1>
+				<div class="titlemeta tagify">
+						<a class="tag gray" href="software/rendering.html" >
+							<span class="">
+								Rendering
+								
+							</span>
+						</a>
+						<a class="tag gray" href="software/solidworks.html" >
+							<span class="">
+								SOLIDWORKS
+								2011
+							</span>
+						</a>
+						<a class="tag gray" href="software/step-slash-iges.html" >
+							<span class="">
+								STEP / IGES
+								
+							</span>
+						</a>
+						<a class="tag gray" href="software/stl.html" >
+							<span class="">
+								STL
+								
+							</span>
+						</a>
+						<a class="tag gray" href="software/other.html" >
+							<span class="">
+								Other
+								
+							</span>
+						</a>
+					<span class="text">
+						By <a href="/scott.bruins" class="b">Scott Bruins</a> on April 05, 2011 21:10
+						in
+							<a href="category/miscellaneous.html" class="tg u">Miscellaneous</a>
+					</span>
+				</div>
+			</div>
+			<div class="buttonWrapper">
+ 
+					<div class="dropdownContainer settingsBorder hover_tooltip" data-tooltip="Settings for the model" >
+						<span class="gearIcon-active"></span>
+						<ul>
+						</ul>
+					</div>
+				
+				
+			</div>
+		</div>
+		<div class="g1 cadfileBody viewerProject">
+			<ul class="projectTabs" data-path ="/library/rube-goldberg-experiment" data-id="1857">
+				<li
+					class='selected' data-tab="overview">
+					<a href="">Overview</a>
+				</li>
+				<li
+					class=" "
+					
+					data-tab="files"
+				>
+					<a href="/library/rube-goldberg-experiment/files">Files</a>
+				</li>
+				<li
+					 data-tab="updates">
+					<a href="/library/rube-goldberg-experiment/updates_feed">Updates</a>
+				</li>
+			</ul>
+	  		<div class="tabsContent overview">
+	<div class="galleryWrapper">
+		<div class="gallery">
+			
+<div class="filesTable3dHolder folders">
+    <div class="frame">
+        <span class="icon threeD"></span>
+        <p class = "title">
+            Select file:
+        </p>
+	        <div id="filesTable" class="filesTable">
+	            <div class="tableBody">
+	                        <span class="tableRow viewer viewIn3D first" id="viewer_79e84703783b0d8f84b98d7be141bc25" data-projectid="1857" data-fileid="19204">
+            <span class='ca'>
+                <span class='text' id='file_19204' >
+                    Rube Goldberg Machine.STEP
+                </span>
+            </span>
+            <span class='cc'>
+                <span class='text'>
+                    23 MB
+                </span>
+            </span>
+            <span class='cd'>
+                <span class='text'>
+                    <span class="versionTrack version first ">
+                        V1
+                    </span>
+                    by <a class="uHov" href="/scott.bruins">
+                        Scott Bruins
+                    </a>
+                    <span class="hidden">##1308145502##</span>
+                    about 3 years ago
+                </span>
+            </span>
+        </span>
+        <span class="tableRow viewer viewIn3D " id="viewer_db4c195f7f06cc5a08e571665aaaa90c" data-projectid="1857" data-fileid="69318">
+            <span class='ca'>
+                <span class='text' id='file_69318' >
+                    Rube Goldberg Machine.stl
+                </span>
+            </span>
+            <span class='cc'>
+                <span class='text'>
+                    
+                </span>
+            </span>
+            <span class='cd'>
+                <span class='text'>
+                    <span class="versionTrack version first ">
+                        V1
+                    </span>
+                    by <a class="uHov" href="/grabby.the.bot">
+                        Grabby The Bot
+                    </a>
+                    <span class="hidden">##1338305806##</span>
+                    about 2 years ago
+                </span>
+            </span>
+        </span>
+
+	            </div>
+	        </div>
+    </div>
+</div>
+
+		<div class="mainHolder multiple rendering">
+			<img alt="Rube Goldberg Experiment" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/d1e60951c3362faf614f06f8d076b2dd/medium.JPG" />
+			<div class="hint"><span></span></div>
+		</div>
+		<div class="thumbSlider">
+            
+    <span class="viewerButton">
+        <span class="image"></span>
+    </span>
+
+            <span class="slider  singlePage">
+				<span class="slide">
+						<span class="holder selected" id="galleryItem0">
+		<img alt="Tiny" class="thumb" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/d1e60951c3362faf614f06f8d076b2dd/tiny.JPG" />
+	</span>
+	<span class="holder" id="galleryItem1">
+		<img alt="Tiny" class="thumb" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/c8b51931c863fda9a4ea765faa2082b6/tiny.JPG" />
+	</span>
+	<span class="holder" id="galleryItem2">
+		<img alt="Tiny" class="thumb" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/e3b4cedbd4b79f17418bc4ee193b85ac/tiny.JPG" />
+	</span>
+	<span class="holder" id="galleryItem3">
+		<img alt="Tiny" class="thumb" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/6890f0ce0c20b9ca4cfcc8e8391df669/tiny.JPG" />
+	</span>
+	<span class="holder" id="galleryItem4">
+		<img alt="Tiny" class="thumb" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/63a45c720d2f2abcb566a3e5eca59e14/tiny.jpg" />
+	</span>
+	<span class="holder" id="galleryItem5">
+		<img alt="Tiny" class="thumb" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/97ec5e198f6d44fa71f87f24729e2cc2/tiny.JPG" />
+	</span>
+	<span class="holder" id="galleryItem6">
+		<img alt="Tiny" class="thumb" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/272ae5561dde2ef83f89fdbcfe83ed35/tiny.JPG" />
+	</span>
+	<span class="empty"></span>
+	<span class="empty"></span>
+	<span class="empty"></span>
+	<span class="empty"></span>
+	<span class="empty"></span>
+
+				</span>
+            </span>
+				<span class="addButton hover_tooltip" data-tooltip="Adding renderings for this model is not allowed">
+					<span class="image"></span>
+					<span class="text">add</span>
+				</span>
+		</div>
+			<div class="galleryNavi photoNavi left"><span></span></div>
+			<div class="galleryNavi photoNavi right"><span></span></div>
+
+
+		</div>
+		<div class="description">
+			<p>Id like to try a little experiment. I was reading the blog post about Rube Goldberg machines and I thought it would be fun to have a community built CAD machine!</p>
+
+<p>The Idea is everyone adds their own mechanism to the machine. I have created the first 2 mechanisms to start. Download the files, build the next mechanism(s) and when you are done post the new files on GrabCAD. Please add a comment if you are working on the next mechanism so others don't start building then have to adapt to your new mechanism.</p>
+
+<p>-I will upload files in SolidWorks 2011 and include a STEP version of the current project.
+<br />-I will accept files in any solid format (ex. IGES, STEP, X_T)
+<br />-Be as creative/elaborate as you like!
+<br />-Please do not change earlier mechanisms unless you absolutely have to.
+<br />-Have fun!</p>
+
+<p>GrabCAD Blog: (<a href="http://blog.grabcad.com/2011/04/worlds-first-crowdbuilt-goldberg-machine-by-all-of-you-happening-now/" rel="nofollow" target="_blank">http://blog.grabcad.com/2011/04/worlds-first-crowdbuilt-goldberg-machine-by-all-of-you-happening-now/</a>)
+<br />SolidSmack: (<a href="http://www.solidsmack.com/3d-cool-technology/worlds-biggest-rube-goldberg-project-grabcad/" rel="nofollow" target="_blank">http://www.solidsmack.com/3d-cool-technology/worlds-biggest-rube-goldberg-project-grabcad/</a>)</p>
+
+<p>Stage 1: <a href="http://grabcad.com/scott.bruins" rel="nofollow" target="_blank">Scott Bruins</a> 
+<br /><a href="http://grabcad.com/cadfiles/rube-goldberg-machine-stage-1" rel="nofollow" target="_blank">Rube Goldberg Machine Stage 1</a>
+<br />-&quot;Ball Stairs&quot;
+<br />-Spiral Track
+<br /><a href="http://www.youtube.com/watch?v=paDE3KO7eb0" rel="nofollow" target="_blank">http://www.youtube.com/watch?v=paDE3KO7eb0</a></p>
+
+<p>Stage 2: <a href="http://grabcad.com/esteban.martinez" rel="nofollow" target="_blank">Esteban Martínez</a> 
+<br /><a href="http://grabcad.com/cadfiles/goldberg-machine-section" rel="nofollow" target="_blank">Goldberg Machine Section</a>
+<br />-&quot;Jet Jump&quot;
+<br />(<a href="http://vimeo.com/22357668" rel="nofollow" target="_blank">http://vimeo.com/22357668</a>)</p>
+
+<p>Stage 3: <a href="http://grabcad.com/adam.pohl" rel="nofollow" target="_blank">Adam Pohl</a>
+<br /><a href="http://grabcad.com/cadfiles/rube-goldberg-section-3--1" rel="nofollow" target="_blank">RUBE GOLDBERG - SECTION 3</a>
+<br />(<a href="http://www.youtube.com/watch?v=-cDpWoJjUAw" rel="nofollow" target="_blank">http://www.youtube.com/watch?v=-cDpWoJjUAw</a>)</p>
+
+<p>Stage 4: <a href="http://grabcad.com/terry.stonehocker" rel="nofollow" target="_blank">Terry Stonehocker</a>
+<br /><a href="http://grabcad.com/library/rube-goldberg-section-4" rel="nofollow" target="_blank">Rube Goldberg section 4</a></p>
+
+<p>Stage 5-1: <a href="http://grabcad.com/j.e.paz" rel="nofollow" target="_blank">Juan Esteban Paz (JEPaz)</a>
+<br /><a href="http://grabcad.com/library/rube-goldberg-machine-section-5" rel="nofollow" target="_blank">Rube Goldberg Machine Section 5 </a>
+<br />(<a href="http://www.youtube.com/watch?v=TTtCpesDGw0&amp;feature=related" rel="nofollow" target="_blank">http://www.youtube.com/watch?v=TTtCpesDGw0&amp;feature=related</a>)</p>
+
+<p>Stage 5-2: <a href="http://grabcad.com/pranav.panchal" rel="nofollow" target="_blank">Pranav Panchal</a>
+<br /><a href="http://grabcad.com/library/rube-goldberg-experiment-section-5-2" rel="nofollow" target="_blank">Rube Goldberg Experiment section 5-2</a></p>
+
+<p>Stage 6-2: <a href="http://grabcad.com/kir.ari" rel="nofollow" target="_blank">Kir Ari</a>
+<br /><a href="http://grabcad.com/library/rube-goldberg-experiment-section" rel="nofollow" target="_blank">Rube Goldberg Experiment Section</a></p>
+
+<p>Stage 7-1: <a href="http://grabcad.com/william.barclay" rel="nofollow" target="_blank">William</a>
+<br /><a href="http://grabcad.com/library/rube-goldberg-experiment--2" rel="nofollow" target="_blank">Rube Goldberg Experiment.</a></p>
+
+<p>Stage 7-2: <a href="http://grabcad.com/emil.dot.rindell" rel="nofollow" target="_blank">Emil.Rindell</a>
+<br /><a href="http://grabcad.com/library/rube-goldberg-experiment-section-7-2" rel="nofollow" target="_blank">Rube Goldberg Experiment Section 7-2</a></p>
+
+<p>Stage 8-2: <a href="http://grabcad.com/kalle.grennfalk" rel="nofollow" target="_blank">Kalle Grennfalk</a>
+<br /><a href="http://grabcad.com/library/rube-goldberg-experiment-8-2" rel="nofollow" target="_blank">Rube Goldberg Experiment 8-2</a></p>
+		</div>
+		<div class="comments">
+			<div class="commentsContainer ">
+	<div class="commentsHeader">
+		<h3>Comments:</h3>
+	</div>
+	<ul class="feed comments Cadfile1857" data-nextset='/load_more_comments/cadfile/1857'>
+			<li>
+				<div class="seeAllComments Cadfile1857" com="1857" section="Cadfile">
+					<a class="collapsed noticeMessage adjust">View all comments (235)</a>
+				</div>
+			</li>
+				<li class="remove comment comment86129">
+		<a href="/james--179" class="avatar">
+			<img alt="James" class="img-round lazy" data-original="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>		<div class="commentContent ml8 fl">
+			<span class="author fl">
+				<a href="/james--179" class="b uHov">James</a>
+			</span>
+			<span class="time ml8 fl">
+				over 2 years
+				ago
+			</span>
+			<p>This is awesome! I'm gonna have to start thinking of things to add...</p>
+		</div>
+	</li>
+
+				<li class="remove comment comment86130">
+		<a href="/william-1" class="avatar">
+			<img alt="William" class="img-round lazy" data-original="https://d2t1xqejof9utc.cloudfront.net/members/avatars/8761/feed.jpg?1339781513" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>		<div class="commentContent ml8 fl">
+			<span class="author fl">
+				<a href="/william-1" class="b uHov">William</a>
+			</span>
+			<span class="time ml8 fl">
+				over 2 years
+				ago
+			</span>
+			<p>Nice one James :)))</p>
+		</div>
+	</li>
+
+				<li class="remove comment comment150076">
+		<a href="/timothy-11" class="avatar">
+			<img alt="Timothy" class="img-round lazy" data-original="https://d2t1xqejof9utc.cloudfront.net/members/avatars/97938/feed.jpg?1376954966" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>		<div class="commentContent ml8 fl">
+			<span class="author fl">
+				<a href="/timothy-11" class="b uHov">Timothy</a>
+			</span>
+			<span class="time ml8 fl">
+				over 1 year
+				ago
+			</span>
+			<p>what is the best software for this sort of animation</p>
+		</div>
+	</li>
+
+	</ul>
+	<div class="addCommentContainer">
+</div>
+		<div class="bigMessage">
+			<p>Please log in to add comments.</p>
+			<a href="../login-50.html" class="button b32 gray">
+				<span>Log in</span>
+</a>		</div>
+</div>
+
+		</div>
+	</div>
+	<div class="g4c">
+		<a href="#" class="scrollup"></a>
+<div class="sidebar">
+		<div class="downloadAll sidebarBtn mb16">
+			<a href="/library/rube-goldberg-experiment/download?cadid=367d56d37527addced43b59b4a049ebf">
+				<div class="button b48 red btn "  >
+					<span class="image"></span>
+					<span class="text">Download all</span>
+				</div>
+			</a>
+			<div class="size">81 MB (10 files)</div>
+		</div>
+	<div class="viewFiles sidebarBtn">
+		<div class="button b48 red btn">
+			<a href="/library/rube-goldberg-experiment/files">
+				<span class="image"></span>
+				<span class="text">View files</span>
+			</a>
+		</div>
+	</div>
+	<ul class="statistics mt32">
+		<li class="download">
+			<span class="icon ml8"></span>
+			<span class="text ml8">
+				Total downloads
+			</span>
+			<span class="value b">
+				857
+			</span>
+		</li>
+		<li class="comment">
+			<span class="icon ml8"></span>
+			<span class="text ml8">
+				Total comments
+			</span>
+			<span class="value b">
+				235
+			</span>
+		</li>
+		<li class="pin">
+			<span class="icon ml8"></span>
+			<span class="text ml8">
+				Total pins
+			</span>
+			<span class="value b">
+				0
+			</span>
+		</li>
+		<li class="rendering">
+			<span class="icon ml8"></span>
+			<span class="text ml8">
+				Total renderings
+			</span>
+			<span class="value b">
+				7
+			</span>
+			<li class="like">
+				<span class="icon ml8"></span>
+				<span class="text ml8">
+					Total likes
+				</span>
+				<span class="value b">
+					60
+				</span>
+			</li>
+		</li>
+	</ul>
+	<div class="mt32 upsell">
+    
+<a href="../workbench.html"><img alt="Pdm_made_easy" src="http://d9ej3djcdo585.cloudfront.net/assets/illustrations/pdm_made_easy.png" /></a>
+
+  </div>
+		<div class="thumbGrid mt32">
+			<h3>Similar models</h3>
+					<a href="/library/rube-goldberg-experiment--1" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/d2da914333efdfbff2209cce7c87e53c/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/rube-goldberg-experiment--2" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/a2c72ecac954a6f622af4129d9e4fdc3/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/rube-goldberg-experiment-section" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/6b3e61e5fe6ed6e96bb876a8992d8f9e/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/rube-goldberg-experiment-section-7-2" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/d4778cce13e961e76d298d331c55f776/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/rube-goldberg-experiment-section-5-2" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/8bbd87d510ff9684305531bd2bcaae61/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/rube-goldberg-experiment-8-2" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/80059f004afa085941756f8b13d25fd6/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>
+		</div>
+		<div class="thumbGrid mt32">
+			<h3>More by <a href="/scott.bruins">Scott Bruins</a></h3>
+					<a href="/library/portal-turret" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/2667077d97222355b7c7b19b524fa6d0/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/brain-gear" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/bd826e6ad2d4026e6dfbe5e597234a13/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/electric-hot-rod-sedan" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/db62b272a083fead7868d27313100544/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/crowbar" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/42c5e5e3d92ef23b889672dd0ce82854/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/phobya-case-monster" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/279fc6179415a582203f3b8dd3a5f9e8/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/robodude" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/da6871c9678eba8b717300cda12a839e/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/1x-120mm-radiator" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/b1e877dc33b76d6511a9257e8c9fed17/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/2x-120mm-radiator" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/4777e53ddd1510a3093fb4b5d019ace8/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/grabcad-car-collection" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/41cf0d6d699d9523e6f8765bd4afe5ed/tiny.jpg" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/rubber-ducky" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/61830fb5009cf29ceaed79993bafce87/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/ti-ring-proto-number-7" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/ca682bd168f705f1e8454a522b3777b3/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>		<a href="/library/ti-ring-proto-number-8" class="thumb">
+				<img alt="Spinner-default" class="lazyload" data-original="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/2700e36b1ccfbaa8ea2d1516252a272a/tiny.JPG" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" />
+</a>
+		</div>
+		<div class="thumbGrid mt32">
+			<ul class="tags mt16">
+				<li class="tagify">
+						<a href="/library/tag/machine" class="tag blue">
+							<span class="icon"></span>
+							<span>machine</span>
+</a>						<a href="/library/tag/rube" class="tag blue">
+							<span class="icon"></span>
+							<span>rube</span>
+</a>						<a href="/library/tag/goldberg" class="tag blue">
+							<span class="icon"></span>
+							<span>goldberg</span>
+</a>						<a href="/library/tag/crowdcad" class="tag blue">
+							<span class="icon"></span>
+							<span>crowdcad</span>
+</a>				</li>
+			</ul>
+		</div>
+	<div class="thumbGrid mt32 bgHilite gray sideBlock">
+		<div class="cadfileSocialSharing" >
+		<div class="socialShare">
+			<div id="fb-root"></div>
+			<ul class="socialList">
+				<!-- GOOGLE + tag -->
+				<li class="socialButton">
+					<div>
+						<g:plusone size="tall"></g:plusone>
+					</div>
+				</li>
+				<!-- Facebook tag -->
+				<li class="socialButton fbLike">
+					<div>
+						<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+						<fb:like href="" send="false" layout="box_count" width="55" show_faces="false"></fb:like>
+					</div>
+				</li>
+				<!-- TWEET tag -->
+				<li class="socialButtonLast">
+					<div>
+						<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical" data-text="Checkout Rube Goldberg Experiment @GrabCAD">Tweet</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+</div>
+	</div>
+</div>
+	</div>
+</div>
+<div id="popupContent">
+</div>
+
+		</div>
+	</div>
+
+	<div class="viewerWrapper fitViewport cornerClose hidden">
+    <input type="button" class="cornerCloseButton closeViewer">
+    <div class="viewerContainer fitViewport">
+        <div class="viewerWidget fitViewport"></div>
+    </div>
+</div>
+
+
+
+			</section>
+		</section>
+		<a class="replacer hidden"><img alt="" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" /></a>
+			<script>
+		if (typeof GC == 'undefined') {
+			GC = {};
+		}
+		GC.galleryItems = {
+				
+				"galleryItem0": {
+					"medium": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/d1e60951c3362faf614f06f8d076b2dd/medium.JPG",
+					"large": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/d1e60951c3362faf614f06f8d076b2dd/large.JPG",
+					"original": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/d1e60951c3362faf614f06f8d076b2dd/original.JPG",
+					"url": "/contentfiles/152589"
+														}
+				,
+				"galleryItem1": {
+					"medium": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/c8b51931c863fda9a4ea765faa2082b6/medium.JPG",
+					"large": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/c8b51931c863fda9a4ea765faa2082b6/large.JPG",
+					"original": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/c8b51931c863fda9a4ea765faa2082b6/original.JPG",
+					"url": "/contentfiles/140775"
+														}
+				,
+				"galleryItem2": {
+					"medium": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/e3b4cedbd4b79f17418bc4ee193b85ac/medium.JPG",
+					"large": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/e3b4cedbd4b79f17418bc4ee193b85ac/large.JPG",
+					"original": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/e3b4cedbd4b79f17418bc4ee193b85ac/original.JPG",
+					"url": "/contentfiles/152457"
+														}
+				,
+				"galleryItem3": {
+					"medium": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/6890f0ce0c20b9ca4cfcc8e8391df669/medium.JPG",
+					"large": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/6890f0ce0c20b9ca4cfcc8e8391df669/large.JPG",
+					"original": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/6890f0ce0c20b9ca4cfcc8e8391df669/original.JPG",
+					"url": "/contentfiles/152458"
+														}
+				,
+				"galleryItem4": {
+					"medium": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/63a45c720d2f2abcb566a3e5eca59e14/medium.jpg",
+					"large": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/63a45c720d2f2abcb566a3e5eca59e14/large.jpg",
+					"original": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/63a45c720d2f2abcb566a3e5eca59e14/original.jpg",
+					"url": "/contentfiles/160974"
+														}
+				,
+				"galleryItem5": {
+					"medium": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/97ec5e198f6d44fa71f87f24729e2cc2/medium.JPG",
+					"large": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/97ec5e198f6d44fa71f87f24729e2cc2/large.JPG",
+					"original": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/97ec5e198f6d44fa71f87f24729e2cc2/original.JPG",
+					"url": "/contentfiles/190506"
+										,
+						"author": "Rendering by<a href=\"/juan.esteban.paz.jepaz-1\">Juan Esteban Paz (JEPaz)<\/a>"
+				}
+				,
+				"galleryItem6": {
+					"medium": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/272ae5561dde2ef83f89fdbcfe83ed35/medium.JPG",
+					"large": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/272ae5561dde2ef83f89fdbcfe83ed35/large.JPG",
+					"original": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/272ae5561dde2ef83f89fdbcfe83ed35/original.JPG",
+					"url": "/contentfiles/200155"
+										,
+						"author": "Rendering by<a href=\"/marcus--2\">Marcus<\/a>"
+				}
+		};
+	</script>
+
+		<div id="dimmer"></div>
+<div id='' class='popupWin'>
+	<div class="contentWrapper">
+		<div class='popupHeader'>
+			<span class="popupName">
+				<h1></h1>
+				<p></p>
+			</span>
+			<span class="closeButton"></span>
+			<span class="close"></span>
+		</div>
+		<div class='popupBody'>
+			<div class="bodyContent"></div>
+			<div class="spinnerDiv"></div>
+		</div>
+		<div class='popupFooter'>
+			<span class="buttons">
+				<span class="button b32 red submit" id='popupSubmit'>Save</span>
+				<a href="#" class="button cancelButton" id='popupCancel'>Cancel</a>
+			</span>
+		</div>
+	</div>
+</div>
+		<footer class="g1c">
+	<div class="footerItems">
+		<nav>
+			<ul class="g6c">
+				<li class="heading">Community</li>
+				<li><a href="../library.html">Library</a></li>
+				<li><a href="../challenges.html">Challenges</a></li>
+				<li><a href="../questions.html">Tutorials</a></li>
+				<li><a href="../engineers.html">Engineers</a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">Workbench</li>
+				<li><a href="../workbench.html">About Workbench</a></li>
+				<li><a href="/workbench/security">Security</a></li>
+				<li><a href="../workbench/customers.html">Customers</a></li>
+				<li><a href="../workbench/pricing.html">Pricing</a></li>
+				<li><a href="/toolbox"><span class="translation_missing" title="translation missing: en.navigation.workbench.toolbox">Toolbox</span></a></li>
+				<li><a href="http://blog.grabcad.com/blog/resources"><span class="translation_missing" title="translation missing: en.navigation.workbench.resources">Resources</span></a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">About us</li>
+				<li><a href="/about">Company</a></li>
+				<li><a href="/jobs">Jobs</a></li>
+				<li><a href="http://help.grabcad.com" target="_blank">Help Center</a></li>
+			</ul>
+			<ul class="g6c more">
+				<li class="heading">Get more</li>
+				<li>Read our <a href="http://blog.grabcad.com">Blog</a></li>
+				<li>Follow us on <a href="https://twitter.com/GrabCAD">Twitter</a></li>
+				<li>Like us on <a href="http://facebook.com/GrabCAD">Facebook</a></li>
+			</ul>
+		</nav>
+		<section class="copyrightContainer">
+			<div class="g2x3 copyright">© 2014 GrabCAD
+				<a href="mailto:info@grabcad.com">info@grabcad.com</a>
+				<a href="/terms">Terms of Service</a>
+				<a href="/privacy_policy">Privacy policy</a>
+			</div>
+		</section>
+	</div>
+</footer>
+
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/application-97822be5d16255c56fa7f76b80e039c5.js" type="text/javascript"></script>
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/mobile-af06448f9164aca61a135d66f5e7bdc4.js" type="text/javascript"></script>
+			<script src="http://d9ej3djcdo585.cloudfront.net/assets/projects-f2920c64d2a21c1e109d436f5d7477a2.js" type="text/javascript"></script>
+			<script src="http://d9ej3djcdo585.cloudfront.net/assets/viewer-0fdd782cfde06279c46ade789a7d5d82.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+            Grabcad.configuration.configure({
+  imagePath: 'http://d9ej3djcdo585.cloudfront.net/images',
+  default3dModelPath: '/static/content/cube_holes_5.STL',
+  maximumCategoriesOnCadfile: 3,
+  uploadPath: 'https://s3.amazonaws.com/gc-p',
+  uploadifyFlash: 'http://d9ej3djcdo585.cloudfront.net/flash/uploadify.swf',
+  uploadFileSizeLimit: 524288000,
+  airbrake_options: {
+    project_key: 'bced41dc67ce770c9d55b39f172f1a47',
+    production: true,
+    environment_name: 'production',
+    project_id: '20621'
+  }
+});
+
+            Grabcad.configuration.configure({
+  pubnub_options:
+		{
+		  enabled: true,
+		  channel_name: "private-project-channel-gcOWW2h8m_nQpVE_yCayoNB5EXk0Ob9XUKXUF2rvu5E2XT-4bd00616110fa8314ab102df4bfbae3b51cd4c7ad7a7b2c5807da2b52049e84d",
+		  subscribe_key: "sub-c-f3158300-f382-11e2-b871-02ee2ddab7fe",
+		  use_ssl: true
+		}
+});
+
+		</script>
+		
+		
+			<!-- Google Code for Remarketing Tag -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 981400234;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/981400234/?value=0&guid=ON&script=0"/>
+		</div>
+	</noscript>
+
+	<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-5.newrelic.com","2ff0bc8e20","1508038","c1hbEkVfCgoHQhkBWVRRXApSQ0kVCl9B",6,689,new Date().getTime(),"","","","",""]);</script></body>
+</html>

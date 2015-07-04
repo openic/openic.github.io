@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta content="Image Credits " about="/demo/content/image-credits" property="dc:title" />
+<link rel="shortlink" href="../node/24" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="image-credits" />
+  <title>Image Credits  | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_okyEETo-_MiNzLiO0rv853zFnOXGWJ04yHHaR6sJ0s4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="../sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_8YnKEH2191h1uW2SekzE955HmAgGcbHvObibmduei6w.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"jCDe1arLRKk-ORYq01OfxiE14Bcd1OMXQVoHR16HgAI","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-24 node-type-julio-announcement" >
+  <div id="skip-link">
+    <a href="image-credits#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../../demo" title="Home"><img alt="" class="logo" typeof="foaf:Image" src="../profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../announcements" title="">News</a></li>
+<li class="leaf"><a href="../calendar" title="">Calendar</a></li>
+<li class="last leaf"><a href="contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="image-credits" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-PnTGFSiTxtQHQuXH8UnYAdeXl_vw5vocTMv03meFkUQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 first"><a href="../../demo">Home</a></li>
+<li class="menu-389"><a href="../staff">Faculty and Staff</a></li>
+<li class="menu-367"><a href="../student-life" title="Student Life">Student Life</a></li>
+<li class="menu-369"><a href="../academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="../admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="../guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 last"><a href="../athletics" title="Athletics">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper"></div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+      
+      <div class="region-content-wrapper">
+                  <div class="content-header">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="../../demo">Home</a></div>                        <h1 class="page-title title">Image Credits </h1>                                                          </div>
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-24" class="node node-julio-announcement node-promoted clearfix" about="/demo/content/image-credits" typeof="sioc:Item foaf:Document">
+
+  
+      
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2012-06-15T17:25:36-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <a href="../users/admin" title="View user profile." class="username" xml:lang="" about="/demo/users/admin" typeof="sioc:UserAccount" property="foaf:name">admin</a> on Fri, 06/15/2012 - 5:25pm</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Here are is a list of credits for the photos you see on the site.</p>
+<ul><li>Name: Andy Mangold</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/andymangold/" rel="nofollow" title="http://www.flickr.com/people/andymangold/">http://www.flickr.com/people/andymangold/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/andymangold/4891598935/sizes/o/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/andymangold/4891598935/sizes/o/in/photostream/">http://www.flickr.com/photos/andymangold/4891598935/sizes/o/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Kevin Ballard</li>
+<li>Website: <a class="external free" href="http://kevin.sb.org/" rel="nofollow" title="http://kevin.sb.org/">http://kevin.sb.org/</a>
+<ul><li>Image URL: <a class="external free" href="http://www.flickr.com/photos/eridius/67872800/sizes/l/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/eridius/67872800/sizes/l/in/photostream/">http://www.flickr.com/photos/eridius/67872800/sizes/l/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Germán Póo-Caamaño</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/gpoo/" rel="nofollow" title="http://www.flickr.com/people/gpoo/">http://www.flickr.com/people/gpoo/</a>
+<ul><li>Image URL: <a class="external free" href="http://www.flickr.com/photos/gpoo/3148829427/" rel="nofollow" title="http://www.flickr.com/photos/gpoo/3148829427/">http://www.flickr.com/photos/gpoo/3148829427/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Steve Jurvetson</li>
+<li>Website:<a class="external free" href="http://www.dfj.com/team/teamdetail.php?SteveJurvetson-10148" rel="nofollow" title="http://www.dfj.com/team/teamdetail.php?SteveJurvetson-10148">http://www.dfj.com/team/teamdetail.php?SteveJurvetson-10148</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/jurvetson/4390811377/" rel="nofollow" title="http://www.flickr.com/photos/jurvetson/4390811377/">http://www.flickr.com/photos/jurvetson/4390811377/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/jurvetson/4392750498/" rel="nofollow" title="http://www.flickr.com/photos/jurvetson/4392750498/">http://www.flickr.com/photos/jurvetson/4392750498/</a>
+<ul><li>Also Gov.jpg</li>
+</ul></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Kristen Taylor</li>
+<li>Website:<a class="external free" href="http://www.kthread.com/kthread/" rel="nofollow" title="http://www.kthread.com/kthread/">http://www.kthread.com/kthread/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/kthread/4791096769/" rel="nofollow" title="http://www.flickr.com/photos/kthread/4791096769/">http://www.flickr.com/photos/kthread/4791096769/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/kthread/6653144095/in/photostream" rel="nofollow" title="http://www.flickr.com/photos/kthread/6653144095/in/photostream">http://www.flickr.com/photos/kthread/6653144095/in/photostream</a>
+<ul><li>also sports.jpg</li>
+</ul></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: hottholler</li>
+<li>Website:<a class="external free" href="http://www.flickr.com/people/hottholler/" rel="nofollow" title="http://www.flickr.com/people/hottholler/">http://www.flickr.com/people/hottholler/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/hottholler/2614229673/" rel="nofollow" title="http://www.flickr.com/photos/hottholler/2614229673/">http://www.flickr.com/photos/hottholler/2614229673/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Jessica mullen</li>
+<li>Website:jessicamullen.com
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/jessicamullen/3177690751/" rel="nofollow" title="http://www.flickr.com/photos/jessicamullen/3177690751/">http://www.flickr.com/photos/jessicamullen/3177690751/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Michelle TeGrootenhuis</li>
+<li>Website:<a class="external free" href="http://mrstg.edublogs.org/" rel="nofollow" title="http://mrstg.edublogs.org/">http://mrstg.edublogs.org/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/28083698@N07/5788566724/" rel="nofollow" title="http://www.flickr.com/photos/28083698@N07/5788566724/">http://www.flickr.com/photos/28083698@N07/5788566724/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Jimmie</li>
+<li>Website:<a class="external free" href="http://jimmiescollage.com/" rel="nofollow" title="http://jimmiescollage.com/">http://jimmiescollage.com/</a>
+<ul><li>'Image URL:<a class="external free" href="http://www.flickr.com/photos/jimmiehomeschoolmom/3798178904/" rel="nofollow" title="http://www.flickr.com/photos/jimmiehomeschoolmom/3798178904/">http://www.flickr.com/photos/jimmiehomeschoolmom/3798178904/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Chris Brown</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/zoonabar/" rel="nofollow" title="http://www.flickr.com/people/zoonabar/">http://www.flickr.com/people/zoonabar/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/zoonabar/135860053/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/zoonabar/135860053/sizes/m/in/photostream/">http://www.flickr.com/photos/zoonabar/135860053/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name:Kate Ter Haar</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/katerha/" rel="nofollow" title="http://www.flickr.com/people/katerha/">http://www.flickr.com/people/katerha/</a>
+<ul><li>Image URL: <a class="external free" href="http://www.flickr.com/photos/katerha/4304679964/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/katerha/4304679964/sizes/m/in/photostream/">http://www.flickr.com/photos/katerha/4304679964/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Liz West</li>
+<li>Website: EWestPhotos.com</li>
+<li>Contact: <a href="mailto:eduwrite2@sprynet.com">eduwrite2@sprynet.com</a>
+<ul><li>Image URL: <a class="external free" href="http://www.flickr.com/photos/calliope/5347237755/" rel="nofollow" title="http://www.flickr.com/photos/calliope/5347237755/">http://www.flickr.com/photos/calliope/5347237755/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Dan Zen</li>
+<li>Website: <a class="external free" href="http://www.danzen.com/tree.html" rel="nofollow" title="http://www.danzen.com/tree.html">http://www.danzen.com/tree.html</a></li>
+<li>Contact: <a href="mailto:Door@danzen.com">Door@danzen.com</a>
+<ul><li>Image URL: <a class="external free" href="http://www.flickr.com/photos/danzen/6223207859/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/danzen/6223207859/sizes/m/in/photostream/">http://www.flickr.com/photos/danzen/6223207859/sizes/m/in/photostream/</a></li>
+<li>Image URL: <a class="external free" href="http://www.flickr.com/photos/danzen/6212511464/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/danzen/6212511464/sizes/m/in/photostream/">http://www.flickr.com/photos/danzen/6212511464/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Michael Nordine</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/planofthebrachialplexus/" rel="nofollow" title="http://www.flickr.com/people/planofthebrachialplexus/">http://www.flickr.com/people/planofthebrachialplexus/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/planofthebrachialplexus/4350089553/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/planofthebrachialplexus/4350089553/sizes/m/in/photostream/">http://www.flickr.com/photos/planofthebrachialplexus/4350089553/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Mikel Larreategi</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/erral/" rel="nofollow" title="http://www.flickr.com/people/erral/">http://www.flickr.com/people/erral/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/erral/6055664605/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/erral/6055664605/sizes/m/in/photostream/">http://www.flickr.com/photos/erral/6055664605/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Website: <a class="external free" href="http://www.flickr.com/people/therealme/" rel="nofollow" title="http://www.flickr.com/people/therealme/">http://www.flickr.com/people/therealme/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/therealme/1183684002/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/therealme/1183684002/sizes/m/in/photostream/">http://www.flickr.com/photos/therealme/1183684002/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Tom</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/tomgrundyphoto/" rel="nofollow" title="http://www.flickr.com/people/tomgrundyphoto/">http://www.flickr.com/people/tomgrundyphoto/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/tomgrundyphoto/2637179746/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/tomgrundyphoto/2637179746/sizes/m/in/photostream/">http://www.flickr.com/photos/tomgrundyphoto/2637179746/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Walter Kalata</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/walbert/" rel="nofollow" title="http://www.flickr.com/people/walbert/">http://www.flickr.com/people/walbert/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/walbert/2221698932/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/walbert/2221698932/sizes/m/in/photostream/">http://www.flickr.com/photos/walbert/2221698932/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Gideon</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/malias/" rel="nofollow" title="http://www.flickr.com/people/malias/">http://www.flickr.com/people/malias/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/malias/73169727/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/malias/73169727/sizes/m/in/photostream/">http://www.flickr.com/photos/malias/73169727/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Elvert Barnes</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/perspective/" rel="nofollow" title="http://www.flickr.com/people/perspective/">http://www.flickr.com/people/perspective/</a></li>
+<li>Contact: <a href="mailto:elvertbarnes@yahoo.com">elvertbarnes@yahoo.com</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/perspective/447371482/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/perspective/447371482/sizes/m/in/photostream/">http://www.flickr.com/photos/perspective/447371482/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/perspective/483644584/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/perspective/483644584/sizes/m/in/photostream/">http://www.flickr.com/photos/perspective/483644584/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/perspective/483644604/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/perspective/483644604/sizes/m/in/photostream/">http://www.flickr.com/photos/perspective/483644604/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/perspective/483644606/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/perspective/483644606/sizes/m/in/photostream/">http://www.flickr.com/photos/perspective/483644606/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/perspective/18057298/" rel="nofollow" title="http://www.flickr.com/photos/perspective/18057298/">http://www.flickr.com/photos/perspective/18057298/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Edmund Garman</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/3cl/" rel="nofollow" title="http://www.flickr.com/people/3cl/">http://www.flickr.com/people/3cl/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/3cl/6426265791/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/3cl/6426265791/in/photostream/">http://www.flickr.com/photos/3cl/6426265791/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Image Editor</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/11304375@N07/" rel="nofollow" title="http://www.flickr.com/people/11304375@N07/">http://www.flickr.com/people/11304375@N07/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/11304375@N07/2844536237/" rel="nofollow" title="http://www.flickr.com/photos/11304375@N07/2844536237/">http://www.flickr.com/photos/11304375@N07/2844536237/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/11304375@N07/2844536237/" rel="nofollow" title="http://www.flickr.com/photos/11304375@N07/2844536237/">http://www.flickr.com/photos/11304375@N07/2844536237/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Scott Rubin</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/apreche/" rel="nofollow" title="http://www.flickr.com/people/apreche/">http://www.flickr.com/people/apreche/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/apreche/71779585/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/apreche/71779585/sizes/m/in/photostream/">http://www.flickr.com/photos/apreche/71779585/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Courtney Robinson</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/musiclver05/" rel="nofollow" title="http://www.flickr.com/people/musiclver05/">http://www.flickr.com/people/musiclver05/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/musiclver05/2640027281/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/musiclver05/2640027281/sizes/m/in/photostream/">http://www.flickr.com/photos/musiclver05/2640027281/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Website: <a class="external free" href="http://www.flickr.com/people/m_power/" rel="nofollow" title="http://www.flickr.com/people/m_power/">http://www.flickr.com/people/m_power/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/m_power/115186679/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/m_power/115186679/sizes/m/in/photostream/">http://www.flickr.com/photos/m_power/115186679/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Website: <a class="external free" href="http://www.flickr.com/photos/codnewsroom/" rel="nofollow" title="http://www.flickr.com/photos/codnewsroom/">http://www.flickr.com/photos/codnewsroom/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/codnewsroom/3944814783/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/codnewsroom/3944814783/sizes/m/in/photostream/">http://www.flickr.com/photos/codnewsroom/3944814783/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/codnewsroom/3944813491/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/codnewsroom/3944813491/sizes/m/in/photostream/">http://www.flickr.com/photos/codnewsroom/3944813491/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/codnewsroom/3945601992/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/codnewsroom/3945601992/sizes/m/in/photostream/">http://www.flickr.com/photos/codnewsroom/3945601992/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Website: <a class="external free" href="http://www.flickr.com/people/digitaljourney/" rel="nofollow" title="http://www.flickr.com/people/digitaljourney/">http://www.flickr.com/people/digitaljourney/</a>
+<ul><li>Image URL: <a class="external free" href="http://www.flickr.com/photos/digitaljourney/5848251193/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/digitaljourney/5848251193/sizes/m/in/photostream/">http://www.flickr.com/photos/digitaljourney/5848251193/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name:</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/vancouverfilmschool/" rel="nofollow" title="http://www.flickr.com/people/vancouverfilmschool/">http://www.flickr.com/people/vancouverfilmschool/</a></li>
+<li>Contact:
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/vancouverfilmschool/3672793655/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/vancouverfilmschool/3672793655/sizes/m/in/photostream/">http://www.flickr.com/photos/vancouverfilmschool/3672793655/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/vancouverfilmschool/3672793793/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/vancouverfilmschool/3672793793/sizes/m/in/photostream/">http://www.flickr.com/photos/vancouverfilmschool/3672793793/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/vancouverfilmschool/3673603336/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/vancouverfilmschool/3673603336/sizes/m/in/photostream/">http://www.flickr.com/photos/vancouverfilmschool/3673603336/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/vancouverfilmschool/3672793971/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/vancouverfilmschool/3672793971/sizes/m/in/photostream/">http://www.flickr.com/photos/vancouverfilmschool/3672793971/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/vancouverfilmschool/3672794277/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/vancouverfilmschool/3672794277/sizes/m/in/photostream/">http://www.flickr.com/photos/vancouverfilmschool/3672794277/sizes/m/in/photostream/</a></li>
+<li>Image URL:<a class="external free" href="http://www.flickr.com/photos/vancouverfilmschool/4993859274/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/vancouverfilmschool/4993859274/sizes/m/in/photostream/">http://www.flickr.com/photos/vancouverfilmschool/4993859274/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name:James Naruke</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/jamesnaruke/" rel="nofollow" title="http://www.flickr.com/people/jamesnaruke/">http://www.flickr.com/people/jamesnaruke/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/jamesnaruke/3511295455/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/jamesnaruke/3511295455/sizes/m/in/photostream/">http://www.flickr.com/photos/jamesnaruke/3511295455/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name:Roger Price</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/rwp-roger/" rel="nofollow" title="http://www.flickr.com/people/rwp-roger/">http://www.flickr.com/people/rwp-roger/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/rwp-roger/6012645457/" rel="nofollow" title="http://www.flickr.com/photos/rwp-roger/6012645457/">http://www.flickr.com/photos/rwp-roger/6012645457/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Website: <a class="external free" href="http://www.flickr.com/people/snaks/" rel="nofollow" title="http://www.flickr.com/people/snaks/">http://www.flickr.com/people/snaks/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/snaks/5070651858/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/snaks/5070651858/sizes/m/in/photostream/">http://www.flickr.com/photos/snaks/5070651858/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Website: <a class="external free" href="http://www.flickr.com/people/wheatfields/" rel="nofollow" title="http://www.flickr.com/people/wheatfields/">http://www.flickr.com/people/wheatfields/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/wheatfields/4250761815/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/wheatfields/4250761815/sizes/m/in/photostream/">http://www.flickr.com/photos/wheatfields/4250761815/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name: Roger Price</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/rwp-roger/" rel="nofollow" title="http://www.flickr.com/people/rwp-roger/">http://www.flickr.com/people/rwp-roger/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/rwp-roger/6012645457/" rel="nofollow" title="http://www.flickr.com/photos/rwp-roger/6012645457/">http://www.flickr.com/photos/rwp-roger/6012645457/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Website: <a class="external free" href="http://www.flickr.com/people/nseika/" rel="nofollow" title="http://www.flickr.com/people/nseika/">http://www.flickr.com/people/nseika/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/nseika/5234548420/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/nseika/5234548420/sizes/m/in/photostream/">http://www.flickr.com/photos/nseika/5234548420/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name:Phil Roeder</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/tabor-roeder/" rel="nofollow" title="http://www.flickr.com/people/tabor-roeder/">http://www.flickr.com/people/tabor-roeder/</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/tabor-roeder/6281605117/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/tabor-roeder/6281605117/sizes/m/in/photostream/">http://www.flickr.com/photos/tabor-roeder/6281605117/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul><p> </p>
+<ul><li>Name:Steven Depolo</li>
+<li>Website: <a class="external free" href="http://www.flickr.com/people/stevendepolo/" rel="nofollow" title="http://www.flickr.com/people/stevendepolo/">http://www.flickr.com/people/stevendepolo/</a></li>
+<li>Contact: <a href="mailto:depolo@gmail.com">depolo@gmail.com</a>
+<ul><li>Image URL:<a class="external free" href="http://www.flickr.com/photos/stevendepolo/3747916256/sizes/m/in/photostream/" rel="nofollow" title="http://www.flickr.com/photos/stevendepolo/3747916256/sizes/m/in/photostream/">http://www.flickr.com/photos/stevendepolo/3747916256/sizes/m/in/photostream/</a></li>
+</ul></li>
+</ul> </div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                  </div>
+      </div>
+    </div>
+
+
+      <div class="region region-sidebar-first">
+    <div id="block-views-julio-announcements-block-3" class="block block-views">
+
+    <h2>News</h2>
+  
+  <div class="content">
+    <div class="view view-julio-announcements view-id-julio_announcements view-display-id-block_3 view-dom-id-60fc667e0d1b9fb034a9db5a72c5c6ff">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="image-credits" class="active">Image Credits </a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="sufficient-leisure">Sufficient Leisure</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="day-my-departure">The day of my departure</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="chapter-3">Chapter 3</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="chapter-2">Chapter 2</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="../announcements">
+    All News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="../sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>User account | Julio Demo Site</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_MvKWydKW1DtllSExNSinhOnCOlddJ6RB4c4u76Saz0U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css__r408iefJFDp7tkJY64xde0BtyLdHU1-GytpTja6H4w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_okyEETo-_MiNzLiO0rv853zFnOXGWJ04yHHaR6sJ0s4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_GUQFDuQlyOWQivO2OnXhcuNV7xL7zzCMlos3N8DQ1H0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_x30vPGf-HGoa-YqDIzfoeqcEG61qRzaN1b9l3gbElbo.css" media="all" />
+  <script type="text/javascript" src="../sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_4RLg_0mcLz8_00RMt9A9Ud5xsS4fiSi3ArVfSZMKjy4.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_FyEXxFSwepiPzgtoQgWF4u32ruC3mQ4bUFqXHzO6dj4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/","pathPrefix":"","ajaxPageState":{"theme":"watt","theme_token":"BzmdXdJywCaX9HjmWJxYTOPXNLkMfVqv_q-2olkADoU","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"misc\/ajax.js":1,"misc\/tabledrag.js":1,"profiles\/julio\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"profiles\/julio\/modules\/colorbox\/js\/colorbox.js":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"misc\/tableheader.js":1,"misc\/progress.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/julio\/modules\/date\/date_api\/date.css":1,"profiles\/julio\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/julio\/modules\/views\/css\/views.css":1,"profiles\/julio\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"profiles\/julio\/modules\/ctools\/css\/ctools.css":1,"profiles\/julio\/themes\/watt\/styles\/elements.css":1,"profiles\/julio\/themes\/watt\/styles\/colors.css":1,"profiles\/julio\/themes\/watt\/styles\/screen.css":1,"profiles\/julio\/themes\/watt\/styles\/buttons.css":1,"profiles\/julio\/themes\/watt\/styles\/style.css":1,"profiles\/julio\/themes\/watt\/css_options\/Layout.option\/Fluid (Responsive).css":1,"profiles\/julio\/themes\/watt\/css_options\/Sidebar Position.option\/Sidebar Left.css":1,"profiles\/julio\/themes\/watt\/css_options\/Texture.option\/Noise.css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Family.option\/Sans-Serif (Helvetica, Arial).css":1,"profiles\/julio\/themes\/watt\/css_options\/Font Size.option\/Medium - 14px.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]},"ajax":{"edit-field-julio-department-und-add-more":{"callback":"field_add_more_js","wrapper":"field-julio-department-add-more-wrapper","effect":"fade","event":"mousedown","keypress":true,"prevent":"click","url":"\/demo\/system\/ajax","submit":{"_triggering_element_name":"field_julio_department_add_more","_triggering_element_value":"Add another item"}}},"tableDrag":{"field-julio-department-values":{"field_julio_department-delta-order":[{"target":"field_julio_department-delta-order","source":"field_julio_department-delta-order","relationship":"sibling","action":"order","hidden":true,"limit":0}]}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-user page-user-register" >
+  <div id="skip-link">
+    <a href="register#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="clearfix">
+
+  <div id="site-header" class="clearfix">
+      <div class="site-branding">
+          <h2 class="site-id">
+        <a href="../../demo" title="Home"><img alt="" class="logo" typeof="foaf:Image" src="../profiles/julio/themes/watt/images/logo.png" /> <span class="site-name">Julio Demo Site</span></a>        <p class="site-slogan">Your organization's new website.</p>      </h2>
+          <div class="region region-header-top">
+    <div id="block-menu-menu-julio-contact-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../announcements" title="">News</a></li>
+<li class="leaf"><a href="../calendar" title="">Calendar</a></li>
+<li class="last leaf"><a href="../content/contact" title="">Contact</a></li>
+</ul>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="register" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-HtqnQvKGoC86rrYZcyGxm6H5V3t_6V6r2rcU3YxlTbc" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+    
+      <div class="site-navigation">
+      <h2 class="element-invisible">Main menu</h2><ul class="main-menu links inline"><li class="menu-311 first"><a href="../../demo">Home</a></li>
+<li class="menu-389"><a href="../staff">Faculty and Staff</a></li>
+<li class="menu-367"><a href="../student-life" title="Student Life">Student Life</a></li>
+<li class="menu-369"><a href="../academics" title="Academics">Academics</a></li>
+<li class="menu-351"><a href="../admissions" title="Admissions">Admissions</a></li>
+<li class="menu-437"><a href="../guardians" title="Parents &amp; Guardians">Parents &amp; Guardians</a></li>
+<li class="menu-352 last"><a href="../athletics" title="Athletics">Athletics</a></li>
+</ul>          </div>
+  
+    <div class="header-wrapper"></div>
+  </div>
+
+  
+  <div id="page-main" class="clearfix">
+    <div class="content-wrapper">
+
+      
+      <div class="region-content-wrapper">
+                  <div class="content-header">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="../../demo">Home</a> » <a href="../user">User account</a></div>                        <h1 class="page-title title">User account</h1>                        <h2 class="element-invisible">Primary tabs</h2><ul class="tabs primary"><li class="active"><a href="register" class="active">Create new account<span class="element-invisible">(active tab)</span></a></li>
+<li><a href="../user">Log in</a></li>
+<li><a href="password">Request new password</a></li>
+</ul>                                  </div>
+        
+        <div id="main-content" class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <form class="user-info-from-cookie" enctype="multipart/form-data" action="register" method="post" id="user-register-form" accept-charset="UTF-8"><div><div id="edit-account" class="form-wrapper"><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input class="username form-text required" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" />
+<div class="description">Spaces are allowed; punctuation is not allowed except for periods, hyphens, apostrophes, and underscores.</div>
+</div>
+<div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail address <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="60" maxlength="254" class="form-text required" />
+<div class="description">A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail.</div>
+</div>
+<input type="hidden" name="timezone" value="America/Los_Angeles" />
+</div><input type="hidden" name="form_build_id" value="form-0_rkzG3X6WTg9Sb-u4Hp1SK4UbPWTQsGcI_ENYfKfBE" />
+<input type="hidden" name="form_id" value="user_register_form" />
+<div class="field-type-text field-name-field-julio-first-name field-widget-text-textfield form-wrapper" id="edit-field-julio-first-name"><div id="field-julio-first-name-add-more-wrapper"><div class="form-item form-type-textfield form-item-field-julio-first-name-und-0-value">
+  <label for="edit-field-julio-first-name-und-0-value">First Name </label>
+ <input class="text-full form-text" type="text" id="edit-field-julio-first-name-und-0-value" name="field_julio_first_name[und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div><div class="field-type-text field-name-field-julio-last-name field-widget-text-textfield form-wrapper" id="edit-field-julio-last-name"><div id="field-julio-last-name-add-more-wrapper"><div class="form-item form-type-textfield form-item-field-julio-last-name-und-0-value">
+  <label for="edit-field-julio-last-name-und-0-value">Last Name </label>
+ <input class="text-full form-text" type="text" id="edit-field-julio-last-name-und-0-value" name="field_julio_last_name[und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div><div class="field-type-text field-name-field-julio-job-title field-widget-text-textfield form-wrapper" id="edit-field-julio-job-title"><div id="field-julio-job-title-add-more-wrapper"><div class="form-item form-type-textfield form-item-field-julio-job-title-und-0-value">
+  <label for="edit-field-julio-job-title-und-0-value">Job Title </label>
+ <input class="text-full form-text" type="text" id="edit-field-julio-job-title-und-0-value" name="field_julio_job_title[und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div><div class="field-type-text field-name-field-julio-department field-widget-text-textfield form-wrapper" id="edit-field-julio-department"><div id="field-julio-department-add-more-wrapper"><div class="form-item"><table id="field-julio-department-values" class="field-multiple-table sticky-enabled">
+ <thead><tr><th colspan="2" class="field-label"><label>Department(s): </label></th><th>Order</th> </tr></thead>
+<tbody>
+ <tr class="draggable odd"><td class="field-multiple-drag"></td><td><div class="form-item form-type-textfield form-item-field-julio-department-und-0-value">
+  <input class="text-full form-text" type="text" id="edit-field-julio-department-und-0-value" name="field_julio_department[und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</td><td class="delta-order"><div class="form-item form-type-select form-item-field-julio-department-und-0--weight">
+  <label class="element-invisible" for="edit-field-julio-department-und-0-weight">Weight for row 1 </label>
+ <select class="field_julio_department-delta-order form-select" id="edit-field-julio-department-und-0-weight" name="field_julio_department[und][0][_weight]"><option value="0" selected="selected">0</option></select>
+</div>
+</td> </tr>
+</tbody>
+</table>
+<div class="clearfix"><input class="field-add-more-submit form-submit" type="submit" id="edit-field-julio-department-und-add-more" name="field_julio_department_add_more" value="Add another item" /></div></div></div></div><div class="field-type-text field-name-field-julio-phone field-widget-text-textfield form-wrapper" id="edit-field-julio-phone"><div id="field-julio-phone-add-more-wrapper"><div class="form-item form-type-textfield form-item-field-julio-phone-und-0-value">
+  <label for="edit-field-julio-phone-und-0-value">Phone </label>
+ <input class="text-full form-text" type="text" id="edit-field-julio-phone-und-0-value" name="field_julio_phone[und][0][value]" value="" size="60" maxlength="255" />
+</div>
+</div></div><div class="field-type-email field-name-field-julio-email field-widget-email-textfield form-wrapper" id="edit-field-julio-email"><div id="field-julio-email-add-more-wrapper"><div class="text-full-wrapper"><div class="form-item form-type-textfield form-item-field-julio-email-und-0-email">
+  <label for="edit-field-julio-email-und-0-email">Email </label>
+ <input type="text" id="edit-field-julio-email-und-0-email" name="field_julio_email[und][0][email]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+</div></div></div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Create new account" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+                  </div>
+      </div>
+    </div>
+
+
+        
+      </div>
+
+  <div id="site-footer">
+      <div class="region region-footer">
+    <div id="block-julio-core-footer" class="block block-julio-core">
+
+    
+  <div class="content">
+     <p>Click the contextual link on the right and choose "Configure Block" to change the footer text.</p>
+   </div>
+</div>
+  </div>
+  </div>
+
+</div>
+  </body>
+</html>

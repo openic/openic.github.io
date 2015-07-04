@@ -1,0 +1,3080 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+		
+		<meta charset="utf-8">
+<meta name="robots" content="noodp">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name="google-site-verification" content="sRcy8COOEVzfXadS3NzNsefhbSouqvlesgWngH5kKxs">
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="OS0SU/PFwVyH6nJKaRWmPIYpuzDhfWy8ke9rtw4tm90=" name="csrf-token" />
+<link href="http://d9ej3djcdo585.cloudfront.net/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+
+		<title>Tutorial how to make engine part 1 - GrabCAD</title>
+<meta content="share cad, collaborate, mechanical engineers, grabcad, cad, cam, library, free, cad models, cad drawings, models, open source, solid works, solidedge, autodesk, alibre, autocad, catia, sketchup, keycreator, pro/engineer, spaceclaim" name="keywords" />
+		
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app-5cafbacdac642bf50ad99138c0115601.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app_1-88db9beff3b67d7c78ad6369e0f476a8.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/mobile-926c78328922620d538ba8bfd444e209.css" media="screen" rel="stylesheet" type="text/css" />
+
+		
+		
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/modernizr.min-a0dbb94a4cc903c6320b4aedc103c987.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+var Analytical = {
+  track: function(page) {
+
+  },
+  event: function(name, data) {
+    if (typeof data === 'undefined') { data = {}; }
+
+  }
+};
+</script>
+
+	</head>
+	<body id="questions">
+			<!-- Qualaroo code for grabcad.com -->
+	<script>var _kiq = _kiq || [];</script>
+	<script>
+		(function(){
+			setTimeout(function(){
+				var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+				s.async = true; s.src = '//s3.amazonaws.com/ki.js/49091/a6N.js'; f.parentNode.insertBefore(s, f);
+			}, 1);
+		})();
+	</script>
+	<script charset="utf-8">
+		_kiq.push(['identify', '']);
+	</script>
+	<!-- End of Qualaroo code for grabcad.com -->
+
+		
+		
+		<header ng-non-bindable>
+	<nav class="main g1c">
+		<a href="../index.html" class="grabcad-logo"></a>
+		<ul class="menu">
+			<li class="selected">
+				<a href="../home.html">Community</a>
+				<ul class="dropdown">
+					<li  class='secondary' >
+						<a href="../home.html">
+							<span>Home</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../library.html">
+							<span>Library</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../challenges.html">
+							<span>Challenges</span>
+</a>					</li>
+					<li class="secondary selected" class='secondary' >
+						<a href="../questions.html">
+							<span>Tutorials</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../engineers.html">
+							<span>Engineers</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li >
+					<a href="../workbench.html">
+						<span>Workbench</span>
+</a>				<ul class="dropdown workbench">
+					<li  class='secondary'>
+						<a href="../workbench.html">
+							<span>Overview</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/features.html">
+							<span>Features</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/customers.html">
+							<span>Customers</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/pricing.html">
+							<span>Pricing</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/blog/resources/">
+				<span>Resources</span>
+</a>				<ul class="dropdown">
+					<li class='secondary'>
+						<a href="http://blog.grabcad.com/blog/resources/">
+							<span>Resource Center</span>
+</a>				 	</li>
+					<li class='secondary'>
+						<a href="http://help.grabcad.com" target="_blank">
+							<span>Help Center</span>
+</a>					</li>
+					<li class='secondary'>
+						<a href="/about">
+						<span>About us</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/">
+				<span>Blog</span>
+</a>			</li>
+		</ul>
+		<div class="headerRightHalf">
+			<div class="account">
+						<a href="../login.html" class="mr16">Log in</a>
+		<a href="../profile/register.html">Sign up</a>
+
+			</div>
+			  <div class="headerSearch">
+				  <!-- <form accept-charset="UTF-8" action="http://localhost:3000/search" method="get" class="">
+	<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text"><span class="searchSpin"></span>
+	<ul class="quickfilter hidden"><li></li></ul></div>
+</form>
+ -->
+<form accept-charset="UTF-8" action="http://grabcad.com/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search community'">
+		<span class="searchSpin"></span>
+	</div>
+</form>
+			  </div>
+		</div>
+	</nav>
+</header>
+
+			<div class="signupBanner">
+				<div class="g1c">
+						<div class="g1">
+		<div class="contentUpsell">
+			<div class="g2x3c">		
+				<h2>Ask and answer questions and download tutorials</h2>
+				<p>Thousands of tutorials to learn from</p>
+			</div>
+			<div class="g1x3c">
+				<a href="/profile/register?utm_source=tutorial_page" class="button b48 darkgray" id="banner_cta_engineers">
+					<span> Start learning, sign up</span>
+</a>			</div>
+		</div>
+	</div>
+
+				</div>
+			</div>
+		<section id="body" class="">
+			<section id="bodyContent" class="gc">
+				<div class="g1">
+					<div class="flashMessage">
+					</div>
+				</div>
+				
+<div class="g2x3c">
+	<div class="g2x3 questionHead">
+		<a href="/aykut.dana" class="avatar">
+				<img alt="Feed" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>		<h1 class="withAvatar">
+			Tutorial how to make engine part 1
+		</h1>
+		<div class="tagList">
+			<a href="latest/software/solidworks.html" class="system qTag">SOLIDWORKS</a>
+				<a href="/questions/latest/tag/part" class="qTag">part</a>
+				<a href="/questions/latest/tag/engine" class="qTag">engine</a>
+				<a href="/questions/latest/tag/rod" class="qTag">rod</a>
+				<a href="/questions/latest/tag/connecting" class="qTag">connecting</a>
+				<a href="/questions/latest/tag/tutorial" class="qTag">tutorial</a>
+		</div>
+		<div class="titlemeta">
+			By <a href="/aykut.dana">Aykut Dana</a> on 22 Feb 21:33
+			<span class="answers">84 answers</span>
+			<span class="views">224333 views</span>
+			<span class="comments">35 comments</span>
+		</div>
+		<div class="questionData">
+			<p>I will generate tutorials that explains how to make car engine step by step</p>
+
+<p>I used random dimensions. I want to explain the commands and the way to make an engine. You can use your dimensions</p>
+
+<p>In this part we will start with connecting rod </p>
+
+<p>part 1: <a href="" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-1</a> 
+<br />part 2: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-2--1" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-2--1</a> 
+<br />part 3: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-3" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-3</a> 
+<br />part 4: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-4" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-4</a> 
+<br />part 5: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-5" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-5</a> 
+<br />part 6: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-6" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-6</a> 
+<br />part 7: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-7" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-7</a> 
+<br />part 8: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-8" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-8</a> 
+<br />part 9: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-9" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-9</a> 
+<br />part 10: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-10" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-10</a> 
+<br />part 11: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-11" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-11</a> 
+<br />part 12: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-12" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-12</a> 
+<br />part 13: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-13" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-13</a> 
+<br />part 14: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-14" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-14</a> 
+<br />part 15: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-15" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-15</a> 
+<br />part 16: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-16" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-16</a> 
+<br />part 17: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-17" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-17</a> 
+<br />part 18: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-18" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-18</a> 
+<br />part 19: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-19" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-19</a> 
+<br />part 20: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-20" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-20</a> 
+<br />part 21: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-21" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-21</a> 
+<br />part 22: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-22" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-22</a> 
+<br />part 23: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-23" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-23</a> 
+<br />part 24: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-24" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-24</a> 
+<br />part 25: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-25" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-25</a> 
+<br />part 26: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-26" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-26</a>
+<br />semi final: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-final" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-final</a>
+<br />part 27: <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-27" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-27</a></p>
+
+<p>FILE: <a href="http://grabcad.com/library/v12-engine--1" rel="nofollow" target="_blank">V12 engine</a></p>
+
+<p>semi final <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-27" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-27</a> 
+<br />cylinder head <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-28" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-28</a> 
+<br />cylinder head <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-29" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-29</a> 
+<br />cylinder head <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-30" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-30</a> 
+<br />cylinder head <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-31" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-31</a> 
+<br />cylinder head <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-32" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-32</a> 
+<br />cylinder head <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-33" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-33</a> 
+<br />cylinder head <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-34" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-34</a> 
+<br />cylinder head <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-35" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-35</a> 
+<br />cylinder head <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-36" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-36</a> 
+<br />camshaft <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-37" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-37</a> 
+<br />camshaft <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-38" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-38</a> 
+<br />valve seat, right side <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-39" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-39</a> 
+<br />retainer, valve seat <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-40" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-40</a> 
+<br />valve nails <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-41" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-41</a> 
+<br />intake valve <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-42" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-42</a> 
+<br />exhaust valve, springs <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-43" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-43</a> 
+<br />springs <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-44" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-44</a> 
+<br />springs <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-45" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-45</a> 
+<br />spag plug <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-46" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-46</a> 
+<br />spag plug <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-47" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-47</a> 
+<br />spag plug <a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-48" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-48</a></p>
+			<div class="questionAttachments">
+					<div class="questionImages">
+						<h3>Added images</h3>
+							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12119/large.jpg?1335949093" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12119/square.jpg?1335949093" />
+</a>							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12120/large.jpg?1335949094" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12120/square.jpg?1335949094" />
+</a>							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12121/large.jpg?1335949095" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12121/square.jpg?1335949095" />
+</a>							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12122/large.jpg?1335949095" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12122/square.jpg?1335949095" />
+</a>							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13628/large.JPG?1344453079" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13628/square.JPG?1344453079" />
+</a>							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13629/large.JPG?1344453081" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13629/square.JPG?1344453081" />
+</a>							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13630/large.JPG?1344453082" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13630/square.JPG?1344453082" />
+</a>							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13631/large.JPG?1344453083" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13631/square.JPG?1344453083" />
+</a>							<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13632/large.JPG?1344453085" class="lightbox">
+								<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13632/square.JPG?1344453085" />
+</a>					</div>
+			</div>
+		</div>
+	</div>
+	<div class="g2x3">
+		<h3>
+			84 answers
+		</h3>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/aykut.dana" class="avatar">
+							<img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>						<div class="body">
+							<a href="/aykut.dana" class="author">Aykut Dana</a>
+							<span class="eventTime">over 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Connecting Rod</p>
+
+<p>file: <a href="http://grabcad.com/library/connecting-rod--15" rel="nofollow" target="_blank">connecting rod</a></p>
+									<ol class="answerTutorialSteps">
+											<li>
+												<h3>Step 1</h3>
+												<p> draw two circles like shown on the front plane</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5615/large.JPG?1329946893" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5615/medium.JPG?1329946893" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 2</h3>
+												<p>add two tangent line</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5616/large.JPG?1329946894" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5616/medium.JPG?1329946894" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 3</h3>
+												<p>add two more circle</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5617/large.JPG?1329946895" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5617/medium.JPG?1329946895" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 4</h3>
+												<p>draw a line and mirror it</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5618/large.JPG?1329946897" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5618/medium.JPG?1329946897" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 5</h3>
+												<p>draw a centerline and use trim command</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5619/large.JPG?1329946898" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5619/medium.JPG?1329946898" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 6</h3>
+												<p>use fillet command like shown</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5620/large.JPG?1329946899" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5620/medium.JPG?1329946899" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 7</h3>
+												<p>go up side and use trim command</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5621/large.JPG?1329946900" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5621/medium.JPG?1329946900" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 8</h3>
+												<p>use fillet command again</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5622/large.JPG?1329946901" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5622/medium.JPG?1329946901" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 9</h3>
+												<p>extrude the sketch in two directions. (5,5 mm for each way, total 11mm)</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12810/large.JPG?1339342433" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12810/medium.JPG?1339342433" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 10</h3>
+												<p>open a sketch on the body and draw a line. make parallel the line with the shown edge</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5624/large.JPG?1329946903" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5624/medium.JPG?1329946903" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 11</h3>
+												<p>mirror the line and add this two circle</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5625/large.JPG?1329946904" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5625/medium.JPG?1329946904" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 12</h3>
+												<p>Intersect the lines and use trim command</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5626/large.JPG?1329946906" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5626/medium.JPG?1329946906" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 13</h3>
+												<p>use trim command and mirror it</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5627/large.JPG?1329946907" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5627/medium.JPG?1329946907" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 14</h3>
+												<p>draw two circles and cut the body</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12811/large.JPG?1339343153" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12811/medium.JPG?1339343153" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 15</h3>
+												<p>draw two circles more and cut the body again. use offset feature</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5629/large.JPG?1329946909" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5629/medium.JPG?1329946909" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 16</h3>
+												<p>draw a sketch on the body like shown</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5630/large.JPG?1329946910" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5630/medium.JPG?1329946910" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 17</h3>
+												<p>extrude it 2mm and use mirror command</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5631/large.JPG?1329946911" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5631/medium.JPG?1329946911" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 18</h3>
+												<p>now use fillet command</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5632/large.JPG?1329946912" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5632/medium.JPG?1329946912" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 19</h3>
+												<p>your connecting rod is ready to use ( create a folder and save into it, firstly we will generate the V12 engine parts )</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5633/large.JPG?1329946913" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/5633/medium.JPG?1329946913" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 20</h3>
+												<p>from Luis :)</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/7562/large.jpg?1330814225" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/7562/medium.jpg?1330814225" />
+</a>												</p>
+											</li>
+									</ol>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_4815">
+								<ol class="answerComments" id="Answer4815">
+												<li id="comment_653497">
+    <a href="/diogo.machado-3" class="avatar">
+        <img alt="diogo machado" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/diogo.machado-3" class="author">diogo machado</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">3 months ago</span>
+        <blockquote>
+            <p>very nice.but you drawing is wrong. you cut someting you shouldn't.XD</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_571410">
+    <a href="/habibullah.adil-1" class="avatar">
+        <img alt="Habibullah Adil" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/550174/feed.png?1363040453" />
+</a>    <div class="body">
+        <a href="/habibullah.adil-1" class="author">Habibullah Adil</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">5 months ago</span>
+        <blockquote>
+            <p>Very Well Presented</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_405614">
+    <a href="/sameer-54" class="avatar">
+        <img alt="Sameer" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/sameer-54" class="author">Sameer</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">10 months ago</span>
+        <blockquote>
+            <p>Thanks .... Great work</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_80214">
+    <a href="../sudhir.gill.html" class="avatar">
+        <img alt="Sudhir Gill" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/29274/feed.jpg?1354551084" />
+</a>    <div class="body">
+        <a href="../sudhir.gill.html" class="author">Sudhir Gill</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 2 years ago</span>
+        <blockquote>
+            <p>That's Good :D</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_153078">
+    <a href="/james.lenane" class="avatar">
+        <img alt="james lenane" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/143680/feed.jpg?1390301527" />
+</a>    <div class="body">
+        <a href="/james.lenane" class="author">james lenane</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>Well done Luis for the drawing,makes it easier for a lot of people and that is how a lot of parts are done ie from a set of dimensions!</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_131465">
+    <a href="/bart.vansteenkiste--1" class="avatar">
+        <img alt="Bart Vansteenkiste" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/bart.vansteenkiste--1" class="author">Bart Vansteenkiste</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">almost 2 years ago</span>
+        <blockquote>
+            <p>I don't like sketches with blue lines :( I was able to make it but it's not simple if you're kinda new</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_134887">
+    <a href="/kandarp-1" class="avatar">
+        <img alt="kandarp" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/249265/feed.png?1354653371" />
+</a>    <div class="body">
+        <a href="/kandarp-1" class="author">kandarp</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">almost 2 years ago</span>
+        <blockquote>
+            <p>use 188 insted of 155 in step 1.
+<br />otherwise u will face problem in assembling........</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_187066">
+    <a href="/costa-9" class="avatar">
+        <img alt="Costa" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/costa-9" class="author">Costa</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>Excellent ! Very, vey good. Thank's.</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_228142">
+    <a href="/assembe.assembe.samuel-1" class="avatar">
+        <img alt="assembe assembe samuel" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/432812/feed.JPG?1372100730" />
+</a>    <div class="body">
+        <a href="/assembe.assembe.samuel-1" class="author">assembe assembe samuel</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>i'm a novice on solidworks and i think that it's a good tutorial, easy to perform.
+<br />and i did it!!!
+<br />thanks a lot for this !!!
+<br />i think i'll do the next step !!</p>
+
+<p></p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_228140">
+    <a href="/assembe.assembe.samuel-1" class="avatar">
+        <img alt="assembe assembe samuel" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/432812/feed.JPG?1372100730" />
+</a>    <div class="body">
+        <a href="/assembe.assembe.samuel-1" class="author">assembe assembe samuel</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>i'm a novice on solidworks and i think that it's a good tutorial, easy to perform.
+<br />and i did it!!!
+<br />thanks a lot for this !!!
+<br />i think i'll do the next step !!
+</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_278226">
+    <a href="/denis.bizarria-2" class="avatar">
+        <img alt="Denis Bizarria" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/322234/feed.jpg?1378777871" />
+</a>    <div class="body">
+        <a href="/denis.bizarria-2" class="author">Denis Bizarria</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">about 1 year ago</span>
+        <blockquote>
+            <p>very good, thank you for sharing your knowledge with us! </p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/rooz" class="avatar">
+							<img alt="ROOZ" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/rooz" class="author">ROOZ</a>
+							<span class="eventTime">over 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>That would be really helpful if you continue the tutorial on how to make engine.
+<br />Thanks Aykut!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_4824">
+								<ol class="answerComments" id="Answer4824">
+												<li id="comment_80445">
+    <a href="/aykut.dana" class="avatar">
+        <img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>    <div class="body">
+        <a href="/aykut.dana" class="author">Aykut Dana</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 2 years ago</span>
+        <blockquote>
+            <p>I will add new tutorials everyday:))</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/aykut.dana" class="avatar">
+							<img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>						<div class="body">
+							<a href="/aykut.dana" class="author">Aykut Dana</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>New tutorials will be published next month!</p>
+
+<p>Start to modelling your V12! </p>
+
+<p></p>
+									<ol class="answerTutorialSteps">
+											<li>
+												<h3>Step 1</h3>
+												<p>(and finish these 26 tutorials as soon as possible :)</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13640/large.JPG?1344542327" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/13640/medium.JPG?1344542327" />
+</a>												</p>
+											</li>
+									</ol>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9683">
+								<ol class="answerComments" id="Answer9683">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/aykut.dana" class="avatar">
+							<img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>						<div class="body">
+							<a href="/aykut.dana" class="author">Aykut Dana</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p><a href="http://grabcad.com/library/connecting-rod--15" rel="nofollow" target="_blank">connecting rod</a> I uploaded your model as a format Amir. thank you </p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7699">
+								<ol class="answerComments" id="Answer7699">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/manoj.gori" class="avatar">
+							<img alt="MANOJ GORI" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/101386/feed.jpg?1337146970" />
+</a>						<div class="body">
+							<a href="/manoj.gori" class="author">MANOJ GORI</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Dear all one thing I can not understand here you have drawn one hole worth 5 mm here after than you have drawn 7mm hole and both the holes has been extrude cut through out from their so you have shown both holes in drawings so how it is possible??</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7558">
+								<ol class="answerComments" id="Answer7558">
+												<li id="comment_112430">
+    <a href="/bab.anand-1" class="avatar">
+        <img alt="Bab Anand" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/184219/feed.jpeg?1336141791" />
+</a>    <div class="body">
+        <a href="/bab.anand-1" class="author">Bab Anand</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">about 2 years ago</span>
+        <blockquote>
+            <p>using bend cut...</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_191251">
+    <a href="/orhan.cetinkaya-1" class="avatar">
+        <img alt="Orhan Çetinkaya" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/316268/feed.JPG?1349467685" />
+</a>    <div class="body">
+        <a href="/orhan.cetinkaya-1" class="author">Orhan Çetinkaya</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>the 7 diameter holes is offsetted 20 mm from the base surface.</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/daniel.shariatpanah-1" class="avatar">
+							<img alt="daniel shariatpanah" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/210215/feed.JPG?1394397952" />
+</a>						<div class="body">
+							<a href="/daniel.shariatpanah-1" class="author">daniel shariatpanah</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>very good
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_12990">
+								<ol class="answerComments" id="Answer12990">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/asift" class="avatar">
+							<img alt="AsifT" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/134104/feed.jpg?1331852665" />
+</a>						<div class="body">
+							<a href="/asift" class="author">AsifT</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>very helpful tutorial indeed! thanks!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7663">
+								<ol class="answerComments" id="Answer7663">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="../ahmad.hamdy-1.html" class="avatar">
+							<img alt="Ahmad Hamdy" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/231011/feed.jpg?1340760579" />
+</a>						<div class="body">
+							<a href="../ahmad.hamdy-1.html" class="author">Ahmad Hamdy</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>The tutorial is really helpful.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_8708">
+								<ol class="answerComments" id="Answer8708">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/muhammad.sarkheil-1" class="avatar">
+							<img alt="Muhammad sarkheil" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/232987/feed.jpg?1348169873" />
+</a>						<div class="body">
+							<a href="/muhammad.sarkheil-1" class="author">Muhammad sarkheil</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>i really thank you for this</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10832">
+								<ol class="answerComments" id="Answer10832">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/soliman.nasr-1" class="avatar">
+							<img alt="soliman nasr" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/264162/feed.jpg?1394616719" />
+</a>						<div class="body">
+							<a href="/soliman.nasr-1" class="author">soliman nasr</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>GOOD
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9739">
+								<ol class="answerComments" id="Answer9739">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/daniel.shariatpanah-1" class="avatar">
+							<img alt="daniel shariatpanah" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/210215/feed.JPG?1394397952" />
+</a>						<div class="body">
+							<a href="/daniel.shariatpanah-1" class="author">daniel shariatpanah</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>very good
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_12989">
+								<ol class="answerComments" id="Answer12989">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/praneeth--1" class="avatar">
+							<img alt="praneeth" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/64389/feed.jpg?1323924332" />
+</a>						<div class="body">
+							<a href="/praneeth--1" class="author">praneeth</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Hello aykut, are there any drawing files of the dimensions? 
+<br />can you upload them too... that would be very helpful for us to follow up with the dimensions.... I want to make an engine.
+<br />Thank you</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_6803">
+								<ol class="answerComments" id="Answer6803">
+												<li id="comment_102833">
+    <a href="/aykut.dana" class="avatar">
+        <img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>    <div class="body">
+        <a href="/aykut.dana" class="author">Aykut Dana</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">about 2 years ago</span>
+        <blockquote>
+            <p>I used random dimensions Praneeth, you should download the part file and check the dimensions</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_102851">
+    <a href="/aykut.dana" class="avatar">
+        <img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>    <div class="body">
+        <a href="/aykut.dana" class="author">Aykut Dana</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">about 2 years ago</span>
+        <blockquote>
+            <p>you can use your dimensions. only take notes of the dimensions. Then think that which dimensions connected with each other. Continue in this way and find the other lengths. That was exactly what I did</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/manas.patnaik-1" class="avatar">
+							<img alt="Manas Patnaik" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/181109/feed.jpg?1335890977" />
+</a>						<div class="body">
+							<a href="/manas.patnaik-1" class="author">Manas Patnaik</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>The tutorial was really helpful. I am looking forward for more of this
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7322">
+								<ol class="answerComments" id="Answer7322">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/aykut.dana" class="avatar">
+							<img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>						<div class="body">
+							<a href="/aykut.dana" class="author">Aykut Dana</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>video: <a href="http://www.youtube.com/watch?feature=player_embedded&v=4Z-iJSmDgz0" rel="nofollow" target="_blank">http://www.youtube.com/watch?feature=player_embedded&v=4Z-iJSmDgz0</a></p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7729">
+								<ol class="answerComments" id="Answer7729">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/sreeraj-1" class="avatar">
+							<img alt="sreeraj" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/203416/feed.jpg?1338738708" />
+</a>						<div class="body">
+							<a href="/sreeraj-1" class="author">sreeraj</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>thanks</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7872">
+								<ol class="answerComments" id="Answer7872">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/aykut.dana" class="avatar">
+							<img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>						<div class="body">
+							<a href="/aykut.dana" class="author">Aykut Dana</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>STL file is available </p>
+
+<p><a href="http://grabcad.com/library/v12-engine--1" rel="nofollow" target="_blank">V12 engine</a></p>
+
+<p>Thanks to <a href="http://grabcad.com/grabby.the.bot-1" rel="nofollow" target="_blank">4cf08d93</a> :) </p>
+									<div class="answerImages">
+										<h4>Added images</h4>
+												<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12620/large.JPG?1338333597" class="lightbox">
+												<img alt="Square" class="avatar" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/12620/square.JPG?1338333597" />
+</a>									</div>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7978">
+								<ol class="answerComments" id="Answer7978">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/cesar.iturbero.monroy-1" class="avatar">
+							<img alt="Cesar Iturbero Monroy" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/cesar.iturbero.monroy-1" class="author">Cesar Iturbero Monroy</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>This tutorial is very well, If you are coaching o are learning</p>
+
+<p>Thanks for your contributions</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_8046">
+								<ol class="answerComments" id="Answer8046">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/kaushal.bhatt-1" class="avatar">
+							<img alt="Kaushal Bhatt" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/234439/feed.jpg?1341119813" />
+</a>						<div class="body">
+							<a href="/kaushal.bhatt-1" class="author">Kaushal Bhatt</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Helpful & quite easy to understand . Thanx for ur Contributions</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_8819">
+								<ol class="answerComments" id="Answer8819">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="../leo.kiviluoma.html" class="avatar">
+							<img alt="Leo Kiviluoma" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/146073/feed.jpg?1391076260" />
+</a>						<div class="body">
+							<a href="../leo.kiviluoma.html" class="author">Leo Kiviluoma</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Very good tutorial. Part 1 is ready, I'll carry on right away. Thank You Aykut Danak.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9188">
+								<ol class="answerComments" id="Answer9188">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/dhwanit.joshi-1" class="avatar">
+							<img alt="DHWANIT JOSHI" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/dhwanit.joshi-1" class="author">DHWANIT JOSHI</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>it's very useful to me as learning this software.
+<br />thank you.
+<br />please upload it as video tutorial. </p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9211">
+								<ol class="answerComments" id="Answer9211">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/chungvit" class="avatar">
+							<img alt="chungvit" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/chungvit" class="author">chungvit</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Thanks in advance!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9607">
+								<ol class="answerComments" id="Answer9607">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/emrehan-1" class="avatar">
+							<img alt="Emrehan" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/260574/feed.jpg?1349688950" />
+</a>						<div class="body">
+							<a href="/emrehan-1" class="author">Emrehan</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Thanks Aykut! It's very useful...</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9610">
+								<ol class="answerComments" id="Answer9610">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/hamidreza.rastan" class="avatar">
+							<img alt="Hamidreza Rastan" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/75444/feed.JPG?1327306660" />
+</a>						<div class="body">
+							<a href="/hamidreza.rastan" class="author">Hamidreza Rastan</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>this part have problem,e drawing does not equal to your part!!!!!please check it!!!!(if you sketch it,you can understand what i mean)</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9700">
+								<ol class="answerComments" id="Answer9700">
+												<li id="comment_194912">
+    <a href="/daniel-494" class="avatar">
+        <img alt="daniel" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/daniel-494" class="author">daniel</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>Step 9 the extrusion is symetrical 5,5 mm,step 20 the extrusion is 15 mm , something is rong in the drawing</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/paul.sylvest-1" class="avatar">
+							<img alt="paul sylvest" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/269134/feed.jpg?1345151733" />
+</a>						<div class="body">
+							<a href="/paul.sylvest-1" class="author">paul sylvest</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Props to the tutor. Gret tutorial!!. I look forward to the day when I can share one with fellow students of solidworks. Thanks</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9832">
+								<ol class="answerComments" id="Answer9832">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/aykut.dana" class="avatar">
+							<img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>						<div class="body">
+							<a href="/aykut.dana" class="author">Aykut Dana</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>As I see these tutorials can help another cad solfware users
+<br /><a href="http://grabcad.com/kaushal.bhatt-1" rel="nofollow" target="_blank">Kaushal Bhatt</a> created his own V12 on CATIA!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9856">
+								<ol class="answerComments" id="Answer9856">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/tkm116" class="avatar">
+							<img alt="tkm116" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/tkm116" class="author">tkm116</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Detailed tutorial! Thank you. I'll follow the rest tutorials.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9905">
+								<ol class="answerComments" id="Answer9905">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/kumar.ujjwal-3" class="avatar">
+							<img alt="kumar ujjwal" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/264989/feed.jpg?1344712545" />
+</a>						<div class="body">
+							<a href="/kumar.ujjwal-3" class="author">kumar ujjwal</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>awesome tutorial...........</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9986">
+								<ol class="answerComments" id="Answer9986">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/sompol.chaengsri-1" class="avatar">
+							<img alt="Sompol Chaengsri" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/280621/feed.JPG?1346364705" />
+</a>						<div class="body">
+							<a href="/sompol.chaengsri-1" class="author">Sompol Chaengsri</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>I'm just finish your model</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10046">
+								<ol class="answerComments" id="Answer10046">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/arun.kumar-6" class="avatar">
+							<img alt="arun kumar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/arun.kumar-6" class="author">arun kumar</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>it is too good</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10047">
+								<ol class="answerComments" id="Answer10047">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/ammar.haider-1" class="avatar">
+							<img alt="AMMAR HAIDER" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/ammar.haider-1" class="author">AMMAR HAIDER</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Its so awesome and extremely helpful for engineering study................again thanks....</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10083">
+								<ol class="answerComments" id="Answer10083">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/cullen.williams" class="avatar">
+							<img alt="Cullen Williams" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/152415/feed.JPG?1348116834" />
+</a>						<div class="body">
+							<a href="/cullen.williams" class="author">Cullen Williams</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Great Job, Looks like a lot of fun.
+<br />I'll start on this tonight...</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10142">
+								<ol class="answerComments" id="Answer10142">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/teppi90-1" class="avatar">
+							<img alt="teppi90" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/286080/feed.jpg?1346939236" />
+</a>						<div class="body">
+							<a href="/teppi90-1" class="author">teppi90</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Thanks. It's very helpful</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10209">
+								<ol class="answerComments" id="Answer10209">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/gustavo.natal-1" class="avatar">
+							<img alt="Gustavo Natal" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/gustavo.natal-1" class="author">Gustavo Natal</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>tutorial 6 comes after the 1
+<br /><a href="http://grabcad.com/questions/tutorial-how-to-make-engine-part-6" rel="nofollow" target="_blank">http://grabcad.com/questions/tutorial-how-to-make-engine-part-6</a></p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10256">
+								<ol class="answerComments" id="Answer10256">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/surendar-3" class="avatar">
+							<img alt="surendar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/294171/feed.jpg?1347682223" />
+</a>						<div class="body">
+							<a href="/surendar-3" class="author">surendar</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>its very helpful .thankz ..i like ur site</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10311">
+								<ol class="answerComments" id="Answer10311">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/hadleigh.murad" class="avatar">
+							<img alt="Hadleigh Murad" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/hadleigh.murad" class="author">Hadleigh Murad</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Very nice tutorial so far after i enjoyed creating the first part, I assume the last fillet around the edge of the connecting rod was 0.5mm? that's what i used</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10329">
+								<ol class="answerComments" id="Answer10329">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/raam.k-1" class="avatar">
+							<img alt="Raam K" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/260062/feed.jpg?1344162152" />
+</a>						<div class="body">
+							<a href="/raam.k-1" class="author">Raam K</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>how to make tangent lines between two circles in solidworks 2010?</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10388">
+								<ol class="answerComments" id="Answer10388">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/vaibhav.pattani-1" class="avatar">
+							<img alt="Vaibhav Pattani" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/vaibhav.pattani-1" class="author">Vaibhav Pattani</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>The filleting part is confusing.
+<br />The given file mentions something else compared to the tutorial...
+<br />Corrections to that section would make it easier =)</p>
+
+<p>Great job on the tutorial (Y)</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10714">
+								<ol class="answerComments" id="Answer10714">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/fernando.tomokame" class="avatar">
+							<img alt="fernando tomokame" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/117142/feed.JPG?1343185290" />
+</a>						<div class="body">
+							<a href="/fernando.tomokame" class="author">fernando tomokame</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>nice tuto,  in step 6 when i try to fillet , the system tell me its not possible becouse specified radius would eliminate one of the elements. 
+<br />some know how to resolve, thanks
+<br />fernando</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_10953">
+								<ol class="answerComments" id="Answer10953">
+												<li id="comment_198491">
+    <a href="/-1693" class="avatar">
+        <img alt="Милан Ромчевић" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/452724/feed.jpeg?1358257803" />
+</a>    <div class="body">
+        <a href="/-1693" class="author">Милан Ромчевић</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>I have the same problem, if you finde solution please tell.</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/mayank.sharma-2" class="avatar">
+							<img alt="mayank sharma" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/308186/feed.jpg?1350459925" />
+</a>						<div class="body">
+							<a href="/mayank.sharma-2" class="author">mayank sharma</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Helpful & quite easy to understand . Thanx for ur Contributions
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_11084">
+								<ol class="answerComments" id="Answer11084">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/james.lenane" class="avatar">
+							<img alt="james lenane" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/143680/feed.jpg?1390301527" />
+</a>						<div class="body">
+							<a href="/james.lenane" class="author">james lenane</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>one question to inventor users,when the crank has been built you can go in and turn the journals to the degs that they need to be,now you cant do that in inventor unless you made one piece and brought it in to the assembly files,any other way of doing it or should I just model the crank in a part file and make the changes there so its all one solid,ie just do it by constraining the sketch in the first place,built the whole crank and then found I could not change the angles in the part file or can I???</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_11130">
+								<ol class="answerComments" id="Answer11130">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/gilang-1" class="avatar">
+							<img alt="gilang " src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/368055/feed.jpg?1352966088" />
+</a>						<div class="body">
+							<a href="/gilang-1" class="author">gilang </a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>wow,it amazing,just that i can say</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_11735">
+								<ol class="answerComments" id="Answer11735">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/ugur-1" class="avatar">
+							<img alt="ugur" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/ugur-1" class="author">ugur</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Allah razı olsun kardeşim. ben kimya mühendisiyim, hobi olarak uğraşıyorum Solid ile. 
+<br />Böyle uluslararası platformlarda sizin gibi yetenekli kardeşlerimizi görünce gurur duymamak içten değil. 
+<br />İnşallah ben de çizmeyi deneyeceğim bu parçayı...</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_11773">
+								<ol class="answerComments" id="Answer11773">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/siddharth.surana-1" class="avatar">
+							<img alt="siddharth surana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/377860/feed.jpg?1355402481" />
+</a>						<div class="body">
+							<a href="/siddharth.surana-1" class="author">siddharth surana</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>assembly of valves ,springs and cams
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_12238">
+								<ol class="answerComments" id="Answer12238">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/marco.lopes-1" class="avatar">
+							<img alt="Marco Lopes" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/marco.lopes-1" class="author">Marco Lopes</a>
+							<span class="eventTime">about 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>How come is the extrude of 11mm and in the drawing it shows thickness = 15mm ? Other than that , thank you very much... I'm using this to get some knowledge about combustion motors as I'll be introduced to them in a couple months in thermodynamics II.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_14665">
+								<ol class="answerComments" id="Answer14665">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/jairo.luis" class="avatar">
+							<img alt="jairo luis" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/64915/feed.jpg?1335847566" />
+</a>						<div class="body">
+							<a href="/jairo.luis" class="author">jairo luis</a>
+							<span class="eventTime">over 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>very good but I miss the distance of 5 mm diameter hole
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_5213">
+								<ol class="answerComments" id="Answer5213">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/yyc-1" class="avatar">
+							<img alt="yyc" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/185582/feed.gif?1336314870" />
+</a>						<div class="body">
+							<a href="/yyc-1" class="author">yyc</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>thanks for your advice very helpful !!!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7257">
+								<ol class="answerComments" id="Answer7257">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/amir-18" class="avatar">
+							<img alt="Amir" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/194436/feed.gif?1337577048" />
+</a>						<div class="body">
+							<a href="/amir-18" class="author">Amir</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Thanks Aykut. The tutorial is pretty helpful. I made an Alibre Design version of this connecting rod.</p>
+									<div class="answerFiles">
+										<h4>Attachments</h4>
+											<div class="fileRow">
+												Connecting_Rod_(How_to_make_engine_part_1).AD_PRT, 706 KB
+												<br>
+												<a href="https://d2t1xqejof9utc.cloudfront.net/files/12491/Connecting_Rod_(How_to_make_engine_part_1).AD_PRT?1337577674" class="button b24 gray">
+													<span>Download</span>
+</a>											</div>
+									</div>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7698">
+								<ol class="answerComments" id="Answer7698">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/bretecher" class="avatar">
+							<img alt="bretecher" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/139325/feed.jpg?1370813679" />
+</a>						<div class="body">
+							<a href="/bretecher" class="author">bretecher</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Thank you for your tutorial ;) ! 
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_7885">
+								<ol class="answerComments" id="Answer7885">
+												<li id="comment_116227">
+    <a href="/aykut.dana" class="avatar">
+        <img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>    <div class="body">
+        <a href="/aykut.dana" class="author">Aykut Dana</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">about 2 years ago</span>
+        <blockquote>
+            <p>You are welcome:)</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/istvan.borbely-1" class="avatar">
+							<img alt="Istvan Borbely" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/istvan.borbely-1" class="author">Istvan Borbely</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Superb tutorial! Congrats!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_8490">
+								<ol class="answerComments" id="Answer8490">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/ummed.suthar-2" class="avatar">
+							<img alt="ummed suthar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/171520/feed.jpg?1335039491" />
+</a>						<div class="body">
+							<a href="/ummed.suthar-2" class="author">ummed suthar</a>
+							<span class="eventTime">about 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>vary halpful & easy for designing my second car engine</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_8624">
+								<ol class="answerComments" id="Answer8624">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/spartak.sinadinoski-1" class="avatar">
+							<img alt="Spartak Sinadinoski" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/spartak.sinadinoski-1" class="author">Spartak Sinadinoski</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Well done Aykut. Very detailed tutorial. I am encouraging you to prepare other tutorials for Sheet Metal an for Welding for example.. Congrats !!!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_8946">
+								<ol class="answerComments" id="Answer8946">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/andre.reuter-1" class="avatar">
+							<img alt="Andre Reuter" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/241833/feed.jpeg?1341960810" />
+</a>						<div class="body">
+							<a href="/andre.reuter-1" class="author">Andre Reuter</a>
+							<span class="eventTime">almost 2 years ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>i didn't understand the step 12. i can't intersect the lines.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_9014">
+								<ol class="answerComments" id="Answer9014">
+												<li id="comment_153072">
+    <a href="/james.lenane" class="avatar">
+        <img alt="james lenane" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/143680/feed.jpg?1390301527" />
+</a>    <div class="body">
+        <a href="/james.lenane" class="author">james lenane</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>If you look at the blue lines in the con  rod their not touching the circle at the top or bottom of sketch,just extend these to the circles and then you can use the trim command,I use Inventor but a sketch is the same in most software,your just generating a 3D part from a 2D sketch,let me know how you get on....James</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/naoufel-2" class="avatar">
+							<img alt="Naoufel" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/331995/feed.jpg?1350569711" />
+</a>						<div class="body">
+							<a href="/naoufel-2" class="author">Naoufel</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Very detailed and helpful this tutorial.
+<br />Thank you !!!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_11098">
+								<ol class="answerComments" id="Answer11098">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/alain.di.zeo-1" class="avatar">
+							<img alt="Alain Di Zeo" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/alain.di.zeo-1" class="author">Alain Di Zeo</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>These tutorials look great and are detailed.  Btw would you happen to know where I can find detailed dimensions for engine parts so that I can accurately model them?</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_11111">
+								<ol class="answerComments" id="Answer11111">
+												<li id="comment_157071">
+    <a href="/ermidis.grigorios-1" class="avatar">
+        <img alt="Ermidis Grigorios" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/240760/feed.jpg?1351548768" />
+</a>    <div class="body">
+        <a href="/ermidis.grigorios-1" class="author">Ermidis Grigorios</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>I am fairly confident you can't find technical drawings for all (or even some) parts of the same engine. I am actually thinking of making a big uni project of my one for modelling a real engine!!</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_157655">
+    <a href="/alain.di.zeo-1" class="avatar">
+        <img alt="Alain Di Zeo" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/alain.di.zeo-1" class="author">Alain Di Zeo</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>I haven't been very successful in finding any specs other than bores and strokes.  I ould assume the best strategy would be to use eye judgement to determine the approximate size of components.  I am primarily looking for ways to model more complex parts (like an intake manifold).  Thanks for the comment  Btw that sounds like an interesting project Ermidis.  I would like to know how that project is going and if I am of any assistance.</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_171424">
+    <a href="/rockroad-1" class="avatar">
+        <img alt="rockroad" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/378415/feed.jpg?1353653550" />
+</a>    <div class="body">
+        <a href="/rockroad-1" class="author">rockroad</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>anyway just a model not really thing </p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_226381">
+    <a href="/alain.di.zeo-1" class="avatar">
+        <img alt="Alain Di Zeo" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/alain.di.zeo-1" class="author">Alain Di Zeo</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>Also I would like to know if you have created tutorials for the intake manifold and if you could post them if you have, thanks.</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/rockroad-1" class="avatar">
+							<img alt="rockroad" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/378415/feed.jpg?1353653550" />
+</a>						<div class="body">
+							<a href="/rockroad-1" class="author">rockroad</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>very good, halpful I will finish it</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_12000">
+								<ol class="answerComments" id="Answer12000">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/jody.boston-1" class="avatar">
+							<img alt="Jody Boston" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/380780/feed.jpg?1353861829" />
+</a>						<div class="body">
+							<a href="/jody.boston-1" class="author">Jody Boston</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Hello, very happy I have found this tutorial, thanks.</p>
+
+<p>I done everything for this one apart from somewhere between step 12 & 13 where I cannot figure out how to mirror the groove shape into the opposite side?</p>
+
+<p>Any help would be great...thanks.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_12030">
+								<ol class="answerComments" id="Answer12030">
+												<li id="comment_173366">
+    <a href="/james.lenane" class="avatar">
+        <img alt="james lenane" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/143680/feed.jpg?1390301527" />
+</a>    <div class="body">
+        <a href="/james.lenane" class="author">james lenane</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>Jody you need a plane running through the middle of the con rod to mirror it to other side,when I say running through the middle I mean straight through the two bolt holes and up to the top(that direction),pick the feature to mirror ie the cut into the rod and use the that plane as your mirror plane and it will come out on the other side,if I was showing you,you'd have it done in seconds.</p>
+
+<p>James</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/nicholas.koranteng-1" class="avatar">
+							<img alt="NICHOLAS KORANTENG" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/401190/feed.jpg?1355228479" />
+</a>						<div class="body">
+							<a href="/nicholas.koranteng-1" class="author">NICHOLAS KORANTENG</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>nice</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_12335">
+								<ol class="answerComments" id="Answer12335">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/momodou.s.ceesay-1" class="avatar">
+							<img alt="Momodou S. Ceesay" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/436852/feed.jpg?1357661327" />
+</a>						<div class="body">
+							<a href="/momodou.s.ceesay-1" class="author">Momodou S. Ceesay</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>this is perfect in the line of STEM work I do with kids, I already have them using SolidWorks to model a Formula Lego Car, the engine tutorial will completely blow their mind to the power of CAD!
+<br />wonderful, many thanks</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_12837">
+								<ol class="answerComments" id="Answer12837">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/kaloumenos.giorgos" class="avatar">
+							<img alt="Kaloumenos Giorgos" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/kaloumenos.giorgos" class="author">Kaloumenos Giorgos</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>First of all Hi!My name is George and i have to say that i am newbie with solidworks so i have some questions. Why my sketch brings out some yellow lines when i trim in step 5 and 7?I do exactly what you show but i still get this lines. I do it over and over and the yellow lines is still there.i dont know if i dont do something right but i rly wanna do this tutorial.i cannot extrude and i believe this is from the yellow lines..i get an error that says "sketch contains more than one open contour"......... Plz any help it would be great. P.S.1. I get this yellow lines in tangents. P.S.2. I am from greece so i am sry about my bad english.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_13085">
+								<ol class="answerComments" id="Answer13085">
+												<li id="comment_388193">
+    <a href="/alex.taylor-7" class="avatar">
+        <img alt="Alex Taylor" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/alex.taylor-7" class="author">Alex Taylor</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">11 months ago</span>
+        <blockquote>
+            <p>Hi George, You first have to make sure all unwanted lines are trimmed away. Zoom in to the trim areas and make sure everything is trimmed away. Secondly , the bottom of the connecting rod legs have to be closed. Draw two lines to close them. this should help, as i had the same problem.</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/kaloumenos.giorgos" class="avatar">
+							<img alt="Kaloumenos Giorgos" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/kaloumenos.giorgos" class="author">Kaloumenos Giorgos</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>First of all Hi!My name is George and i have to say that i am newbie with solidworks so i have some questions. Why my sketch brings out some yellow lines when i trim in step 5 and 7?I do exactly what you show but i still get this lines. I do it over and over and the yellow lines is still there.i dont know if i dont do something right but i rly wanna do this tutorial.i cannot extrude and i believe this is from the yellow lines..i get an error that says "sketch contains more than one open contour"......... Plz any help it would be great. P.S.1. I get this yellow lines in tangents. P.S.2. I am from greece so i am sry about my bad english.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_13086">
+								<ol class="answerComments" id="Answer13086">
+												<li id="comment_200780">
+    <a href="/aykut.dana" class="avatar">
+        <img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>    <div class="body">
+        <a href="/aykut.dana" class="author">Aykut Dana</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>first of all your english is better than me:) secondly I didn't understand your problem exactly. please delete all things, open a new file and try to make it again. Failing this, please send me an e-mail with the file. 
+<br />Cheers</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/tiago.lopes-3" class="avatar">
+							<img alt="Tiago Lopes" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/tiago.lopes-3" class="author">Tiago Lopes</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Hey, I'm doing this in AutoCAD 2013, and I can't seem to figure out Step 6 for the Fillet. I'm new to AutoCAD so if anybody could please tell me how to do that step I would be very grateful, Thanks.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_13224">
+								<ol class="answerComments" id="Answer13224">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/ahmet-174" class="avatar">
+							<img alt="Ahmet" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/474357/feed.jpg?1359222105" />
+</a>						<div class="body">
+							<a href="/ahmet-174" class="author">Ahmet</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Aykut kardeş mükemmel paylaşım..Teşekkürler</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_13318">
+								<ol class="answerComments" id="Answer13318">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/frederick.w.rose-1" class="avatar">
+							<img alt="FREDERICK W ROSE" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/306534/feed.JPG?1348716035" />
+</a>						<div class="body">
+							<a href="/frederick.w.rose-1" class="author">FREDERICK W ROSE</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>THE 5 MM HOLES ON THE BOTTOM GO THRU, BUT THE 6.5 MM HOLES STOP SHORT OF GOING THRU.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_14169">
+								<ol class="answerComments" id="Answer14169">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/vikrant.yadav-1" class="avatar">
+							<img alt="vikrant yadav" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/408855/feed.jpg?1364242917" />
+</a>						<div class="body">
+							<a href="/vikrant.yadav-1" class="author">vikrant yadav</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>can u pls give some source where i can find real standard dimensions of all engine parts used practically somewhere...i badly need them to work on a designing project</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_14405">
+								<ol class="answerComments" id="Answer14405">
+												<li id="comment_249652">
+    <a href="/ermidis.grigorios-1" class="avatar">
+        <img alt="Ermidis Grigorios" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/240760/feed.jpg?1351548768" />
+</a>    <div class="body">
+        <a href="/ermidis.grigorios-1" class="author">Ermidis Grigorios</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>I am afraid you can't get something like that. I looked into that myself and I think it is due to copyright issues etc.</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_249682">
+    <a href="/vikrant.yadav-1" class="avatar">
+        <img alt="vikrant yadav" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/408855/feed.jpg?1364242917" />
+</a>    <div class="body">
+        <a href="/vikrant.yadav-1" class="author">vikrant yadav</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>ohh..bad luck ..thnx nywz</p>
+        </blockquote>
+    </div>
+</li>
+												<li id="comment_252792">
+    <a href="/alain.di.zeo-1" class="avatar">
+        <img alt="Alain Di Zeo" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>    <div class="body">
+        <a href="/alain.di.zeo-1" class="author">Alain Di Zeo</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">about 1 year ago</span>
+        <blockquote>
+            <p>Sorry man these companies don't give these dimensions out at all.  Your best bet is to use pictures to guess the dimensions.  I have had the same problems.</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/h.i.nguy.n-1" class="avatar">
+							<img alt="Hải Nguyễn" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/354479/feed.jpeg?1352135546" />
+</a>						<div class="body">
+							<a href="/h.i.nguy.n-1" class="author">Hải Nguyễn</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>nice</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_14435">
+								<ol class="answerComments" id="Answer14435">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/niushun-1" class="avatar">
+							<img alt="NIUSHUN" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/niushun-1" class="author">NIUSHUN</a>
+							<span class="eventTime">about 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>very good</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_14623">
+								<ol class="answerComments" id="Answer14623">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/hasan.ismail-1" class="avatar">
+							<img alt="Hasan ismail" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/615734/feed.JPG?1371562674" />
+</a>						<div class="body">
+							<a href="/hasan.ismail-1" class="author">Hasan ismail</a>
+							<span class="eventTime">about 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Thanks its a great Job </p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_14651">
+								<ol class="answerComments" id="Answer14651">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/sumit.dubey-1" class="avatar">
+							<img alt="Sumit Dubey" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/198841/feed.jpg?1365853906" />
+</a>						<div class="body">
+							<a href="/sumit.dubey-1" class="author">Sumit Dubey</a>
+							<span class="eventTime">about 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>great</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_15249">
+								<ol class="answerComments" id="Answer15249">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/fujiangen-1" class="avatar">
+							<img alt="fujiangen" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/841119/feed.jpg?1374368135" />
+</a>						<div class="body">
+							<a href="/fujiangen-1" class="author">fujiangen</a>
+							<span class="eventTime">11 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>it's very nice work,of course I can use solidwork ,but I do not know engine knowlege,I want to study it </p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_16851">
+								<ol class="answerComments" id="Answer16851">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/hamed-78" class="avatar">
+							<img alt="hamed" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/844231/feed.jpg?1374604527" />
+</a>						<div class="body">
+							<a href="/hamed-78" class="author">hamed</a>
+							<span class="eventTime">11 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>help me to made cnc 5 axis,please</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_16927">
+								<ol class="answerComments" id="Answer16927">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/lino.veiga-1" class="avatar">
+							<img alt="Lino Veiga" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/lino.veiga-1" class="author">Lino Veiga</a>
+							<span class="eventTime">11 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>can anyone tell me what is the value of the fillets on steps 6 and 8?
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_17196">
+								<ol class="answerComments" id="Answer17196">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/alex.taylor-7" class="avatar">
+							<img alt="Alex Taylor" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/alex.taylor-7" class="author">Alex Taylor</a>
+							<span class="eventTime">11 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>This tutorial is very helpful and has given me a lot more knowledge and understanding of solidworks as a beginner.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_17238">
+								<ol class="answerComments" id="Answer17238">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/m.a.motin.sobuj-2" class="avatar">
+							<img alt="M A Motin ( Sobuj )" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/859233/feed.jpg?1375302990" />
+</a>						<div class="body">
+							<a href="/m.a.motin.sobuj-2" class="author">M A Motin ( Sobuj )</a>
+							<span class="eventTime">10 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Nice post</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_17458">
+								<ol class="answerComments" id="Answer17458">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/sameer-54" class="avatar">
+							<img alt="Sameer" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/sameer-54" class="author">Sameer</a>
+							<span class="eventTime">10 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Great very helpful..........Thanks.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_17607">
+								<ol class="answerComments" id="Answer17607">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/zaoui-3" class="avatar">
+							<img alt="zaoui" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/542982/feed.jpg?1374285012" />
+</a>						<div class="body">
+							<a href="/zaoui-3" class="author">zaoui</a>
+							<span class="eventTime">9 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>in the drawing you can use its
+<br /> symmetrical entities easier</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_18262">
+								<ol class="answerComments" id="Answer18262">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/chakazolo-1" class="avatar">
+							<img alt="Chakazolo " src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/chakazolo-1" class="author">Chakazolo </a>
+							<span class="eventTime">9 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Thank you !</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_18432">
+								<ol class="answerComments" id="Answer18432">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/jason.wang-5" class="avatar">
+							<img alt="Jason WANG" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/968074/feed.jpg?1381291293" />
+</a>						<div class="body">
+							<a href="/jason.wang-5" class="author">Jason WANG</a>
+							<span class="eventTime">9 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>wow v12, great thank you for sharing!! </p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_18435">
+								<ol class="answerComments" id="Answer18435">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/daniel.zj-1" class="avatar">
+							<img alt="Daniel zj" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1020094/feed.jpg?1386938154" />
+</a>						<div class="body">
+							<a href="/daniel.zj-1" class="author">Daniel zj</a>
+							<span class="eventTime">8 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Wow! You are very nice,thank you for sharing the knowledge,this is very usefull!!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_18877">
+								<ol class="answerComments" id="Answer18877">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/rui.fang-1" class="avatar">
+							<img alt="RUI Fang" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/rui.fang-1" class="author">RUI Fang</a>
+							<span class="eventTime">7 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>It is amazing .I will save it for future study.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19058">
+								<ol class="answerComments" id="Answer19058">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/murat.kahya-1" class="avatar">
+							<img alt="murat kahya" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/murat.kahya-1" class="author">murat kahya</a>
+							<span class="eventTime">7 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>First of all big thanks for this extraordinary tutorial, it helps me my graduated project. Now I would like type  a couple of turkish words.</p>
+
+<p>abii eyvallah :))
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19230">
+								<ol class="answerComments" id="Answer19230">
+												<li id="comment_507692">
+    <a href="/aykut.dana" class="avatar">
+        <img alt="Aykut Dana" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/19272/feed.jpg?1336975758" />
+</a>    <div class="body">
+        <a href="/aykut.dana" class="author">Aykut Dana</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">7 months ago</span>
+        <blockquote>
+            <p>you are welcome, bişey değil dostum :))</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/liuxuyang-1" class="avatar">
+							<img alt="liuxuyang" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1144228/feed.jpg?1388826188" />
+</a>						<div class="body">
+							<a href="/liuxuyang-1" class="author">liuxuyang</a>
+							<span class="eventTime">6 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>very helpful..thank you.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19722">
+								<ol class="answerComments" id="Answer19722">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/rencha88-1" class="avatar">
+							<img alt="Rencha88" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/rencha88-1" class="author">Rencha88</a>
+							<span class="eventTime">6 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Very nice and helpful work. Thanks!</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_19772">
+								<ol class="answerComments" id="Answer19772">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/edgar.gamino-1" class="avatar">
+							<img alt="Edgar Gamiño" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/missing_feed.png" />
+</a>						<div class="body">
+							<a href="/edgar.gamino-1" class="author">Edgar Gamiño</a>
+							<span class="eventTime">3 months ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Awesome and well explained tutorial!!!
+<br />Gracias.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_21195">
+								<ol class="answerComments" id="Answer21195">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/binu.sherbin-1" class="avatar">
+							<img alt="binu sherbin" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/1479707/feed.jpg?1401382462" />
+</a>						<div class="body">
+							<a href="/binu.sherbin-1" class="author">binu sherbin</a>
+							<span class="eventTime">26 days ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>thanks ..... 
+</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_21862">
+								<ol class="answerComments" id="Answer21862">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+			<div class="newAnswer">
+				<h2>Add your answer to: <span>"Tutorial how to make engine part 1"</span></h2>
+				<div class="bgHilite gray addAnswerContainer commentGroup">
+						<div class="signin">
+							Please log in to answer questions.
+							<a href="../login.html" class="button b32 gray">
+								<span>Log in</span>
+</a>						</div>
+				</div>
+			</div>
+	</div>
+</div>
+<div class="g3">
+	<div class="sidebar">
+		<div class="actions right">
+			<div class="dropdownContainer settingsBorder right">
+				<span class="gearIcon-active"></span>
+				<ul>
+				</ul>
+			</div>
+			
+		</div>
+			<div class="bgHilite light socialList">
+
+				<ul>
+					<!-- GOOGLE + tag -->
+					<li class="socialButton">
+						<div>
+							<g:plusone size="tall"></g:plusone>
+						</div>
+					</li>
+					<!-- Facebook tag -->
+					<div id="fb-root"></div>
+					<li class="socialButton fbLike">
+						<div>
+							<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+							<fb:like href="grabcad.com/questions/tutorial-how-to-make-engine-part-1" send="false" layout="box_count" width="55" show_faces="false"></fb:like>
+						</div>
+					</li>
+					<!-- TWEET tag -->
+					<li class="socialButtonLast">
+						<div>
+							<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical" data-text="Checkout Tutorial how to make engine part 1 @GrabCAD">Tweet</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="fl fullW">Similar questions</h3>
+	<ul class="sidebarList">
+			<li><strong><a href="/questions/tutorial-how-to-make-engine-part-9">Tutorial how to make engine part 9</a></strong>
+			<span class="meta">By Aykut Dana, 24 Feb 21:35</span></li>
+			<li><strong><a href="/questions/tutorial-how-to-make-engine-part-46">Tutorial: How to make engine part 46</a></strong>
+			<span class="meta">By Aykut Dana, 28 Sep 19:55</span></li>
+			<li><strong><a href="/questions/tutorial-how-to-make-engine-part-39">Tutorial: How to make engine part 39</a></strong>
+			<span class="meta">By Aykut Dana, 25 Sep 18:28</span></li>
+			<li><strong><a href="/questions/tutorial-how-to-make-engine-part-35">Tutorial: How to make engine part 35</a></strong>
+			<span class="meta">By Aykut Dana, 17 Sep 12:21</span></li>
+			<li><strong><a href="/questions/tutorial-how-to-make-engine-part-23">tutorial how to make engine part 23</a></strong>
+			<span class="meta">By Aykut Dana, 27 Feb 22:27</span></li>
+			<li><strong><a href="/questions/tutorial-how-to-make-engine-part-2">Tutorial how to make engine part 2</a></strong>
+			<span class="meta">By Aykut Dana, 23 Feb 09:48</span></li>
+	</ul>
+	<h3>Similar tags</h3>
+	<p class="tagList">
+			<a href="/questions/latest/tag/part" class="qTag">part</a>
+			<a href="/questions/latest/tag/rod" class="qTag">rod</a>
+			<a href="/questions/latest/tag/tutorial" class="qTag">tutorial</a>
+			<a href="/questions/latest/tag/engine" class="qTag">engine</a>
+			<a href="/questions/latest/tag/connecting" class="qTag">connecting</a>
+	</p>
+	<h3>Popular systems</h3>
+	<p class="popularList">
+			<strong><a href="latest/software/autocad.html">AutoCAD</a></strong><br>
+			<strong><a href="latest/software/autodesk-inventor.html">Autodesk Inventor</a></strong><br>
+			<strong><a href="latest/software/catia.html">CATIA</a></strong><br>
+			<strong><a href="latest/software/nx.html">NX</a></strong><br>
+			<strong><a href="latest/software/pro-slash-engineer-wildfire.html">Pro/Engineer Wildfire</a></strong><br>
+			<strong><a href="latest/software/ptc-creo-elements.html">PTC Creo Elements</a></strong><br>
+			<strong><a href="latest/software/solidworks.html">SOLIDWORKS</a></strong><br>
+			<strong><a href="latest/software/solid-edge.html">Solid Edge</a></strong><br>
+			<strong><a href="latest/software/other.html">Other</a></strong><br>
+	</p>
+
+	</div>
+</div>
+			</section>
+		</section>
+		<a class="replacer hidden"><img alt="" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" /></a>
+		
+		<div id="dimmer"></div>
+<div id='' class='popupWin'>
+	<div class="contentWrapper">
+		<div class='popupHeader'>
+			<span class="popupName">
+				<h1></h1>
+				<p></p>
+			</span>
+			<span class="closeButton"></span>
+			<span class="close"></span>
+		</div>
+		<div class='popupBody'>
+			<div class="bodyContent"></div>
+			<div class="spinnerDiv"></div>
+		</div>
+		<div class='popupFooter'>
+			<span class="buttons">
+				<span class="button b32 red submit" id='popupSubmit'>Save</span>
+				<a href="" class="button cancelButton" id='popupCancel'>Cancel</a>
+			</span>
+		</div>
+	</div>
+</div>
+		<footer class="g1c">
+	<div class="footerItems">
+		<nav>
+			<ul class="g6c">
+				<li class="heading">Community</li>
+				<li><a href="../library.html">Library</a></li>
+				<li><a href="../challenges.html">Challenges</a></li>
+				<li><a href="../questions.html">Tutorials</a></li>
+				<li><a href="../engineers.html">Engineers</a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">Workbench</li>
+				<li><a href="../workbench.html">About Workbench</a></li>
+				<li><a href="../workbench/security.html">Security</a></li>
+				<li><a href="../workbench/customers.html">Customers</a></li>
+				<li><a href="../workbench/pricing.html">Pricing</a></li>
+				<li><a href="../toolbox.html"><span class="translation_missing" title="translation missing: en.navigation.workbench.toolbox">Toolbox</span></a></li>
+				<li><a href="http://blog.grabcad.com/blog/resources"><span class="translation_missing" title="translation missing: en.navigation.workbench.resources">Resources</span></a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">About us</li>
+				<li><a href="/about">Company</a></li>
+				<li><a href="/jobs">Jobs</a></li>
+				<li><a href="http://help.grabcad.com" target="_blank">Help Center</a></li>
+			</ul>
+			<ul class="g6c more">
+				<li class="heading">Get more</li>
+				<li>Read our <a href="http://blog.grabcad.com">Blog</a></li>
+				<li>Follow us on <a href="https://twitter.com/GrabCAD">Twitter</a></li>
+				<li>Like us on <a href="http://facebook.com/GrabCAD">Facebook</a></li>
+			</ul>
+		</nav>
+		<section class="copyrightContainer">
+			<div class="g2x3 copyright">© 2014 GrabCAD
+				<a href="mailto:info@grabcad.com">info@grabcad.com</a>
+				<a href="../terms.html">Terms of Service</a>
+				<a href="../privacy_policy.html">Privacy policy</a>
+			</div>
+		</section>
+	</div>
+</footer>
+
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/application-97822be5d16255c56fa7f76b80e039c5.js" type="text/javascript"></script>
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/mobile-af06448f9164aca61a135d66f5e7bdc4.js" type="text/javascript"></script>
+			<script src="http://d9ej3djcdo585.cloudfront.net/assets/learning-51de1b9a40e30c62aa530ac9aed60fb7.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+            Grabcad.configuration.configure({
+  imagePath: 'http://d9ej3djcdo585.cloudfront.net/images',
+  default3dModelPath: '/static/content/cube_holes_5.STL',
+  maximumCategoriesOnCadfile: 3,
+  uploadPath: 'https://s3.amazonaws.com/gc-p',
+  uploadifyFlash: 'http://d9ej3djcdo585.cloudfront.net/flash/uploadify.swf',
+  uploadFileSizeLimit: 524288000,
+  airbrake_options: {
+    project_key: 'bced41dc67ce770c9d55b39f172f1a47',
+    production: true,
+    environment_name: 'production',
+    project_id: '20621'
+  }
+});
+
+            
+		</script>
+		
+		
+			<!-- Google Code for Remarketing Tag -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 981400234;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/981400234/?value=0&guid=ON&script=0"/>
+		</div>
+	</noscript>
+
+	<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-5.newrelic.com","2ff0bc8e20","1508038","c1hbEkVfCgoHQhkTTVVEQQ9YXhVJEVhZFQ==",6,2182,new Date().getTime(),"","","","",""]);</script></body>
+</html>

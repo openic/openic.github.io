@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+		
+		<meta charset="utf-8">
+<meta name="robots" content="noodp">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name="google-site-verification" content="sRcy8COOEVzfXadS3NzNsefhbSouqvlesgWngH5kKxs">
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="xGNTnl+Li4ce7WmJemzG7Wm181Ui/4KGc/FrHUUPkp0=" name="csrf-token" />
+<link href="http://d9ej3djcdo585.cloudfront.net/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+
+		<title>pick and place mechanism - GrabCAD</title>
+<meta content="share cad, collaborate, mechanical engineers, grabcad, cad, cam, library, free, cad models, cad drawings, models, open source, solid works, solidedge, autodesk, alibre, autocad, catia, sketchup, keycreator, pro/engineer, spaceclaim" name="keywords" />
+		
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app-5cafbacdac642bf50ad99138c0115601.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/app_1-88db9beff3b67d7c78ad6369e0f476a8.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://d9ej3djcdo585.cloudfront.net/assets/mobile-926c78328922620d538ba8bfd444e209.css" media="screen" rel="stylesheet" type="text/css" />
+
+		
+		
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/modernizr.min-a0dbb94a4cc903c6320b4aedc103c987.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+var Analytical = {
+  track: function(page) {
+
+  },
+  event: function(name, data) {
+    if (typeof data === 'undefined') { data = {}; }
+
+  }
+};
+</script>
+
+	</head>
+	<body id="questions">
+			<!-- Qualaroo code for grabcad.com -->
+	<script>var _kiq = _kiq || [];</script>
+	<script>
+		(function(){
+			setTimeout(function(){
+				var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+				s.async = true; s.src = '//s3.amazonaws.com/ki.js/49091/a6N.js'; f.parentNode.insertBefore(s, f);
+			}, 1);
+		})();
+	</script>
+	<script charset="utf-8">
+		_kiq.push(['identify', '']);
+	</script>
+	<!-- End of Qualaroo code for grabcad.com -->
+
+		
+		
+		<header ng-non-bindable>
+	<nav class="main g1c">
+		<a href="../index.html" class="grabcad-logo"></a>
+		<ul class="menu">
+			<li class="selected">
+				<a href="../home-3.html">Community</a>
+				<ul class="dropdown">
+					<li  class='secondary' >
+						<a href="../home-3.html">
+							<span>Home</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../library.html">
+							<span>Library</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../challenges.html">
+							<span>Challenges</span>
+</a>					</li>
+					<li class="secondary selected" class='secondary' >
+						<a href="../questions.html">
+							<span>Tutorials</span>
+</a>					</li>
+					<li  class='secondary' >
+						<a href="../engineers.html">
+							<span>Engineers</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li >
+					<a href="../workbench.html">
+						<span>Workbench</span>
+</a>				<ul class="dropdown workbench">
+					<li  class='secondary'>
+						<a href="../workbench.html">
+							<span>Overview</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/features.html">
+							<span>Features</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/customers.html">
+							<span>Customers</span>
+</a>					</li>
+					<li  class='secondary'>
+						<a href="../workbench/pricing.html">
+							<span>Pricing</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/blog/resources/">
+				<span>Resources</span>
+</a>				<ul class="dropdown">
+					<li class='secondary'>
+						<a href="http://blog.grabcad.com/blog/resources/">
+							<span>Resource Center</span>
+</a>				 	</li>
+					<li class='secondary'>
+						<a href="http://help.grabcad.com" target="_blank">
+							<span>Help Center</span>
+</a>					</li>
+					<li class='secondary'>
+						<a href="/about">
+						<span>About us</span>
+</a>					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://blog.grabcad.com/">
+				<span>Blog</span>
+</a>			</li>
+		</ul>
+		<div class="headerRightHalf">
+			<div class="account">
+						<a href="../login-52.html" class="mr16">Log in</a>
+		<a href="../profile/register-59.html">Sign up</a>
+
+			</div>
+			  <div class="headerSearch">
+				  <!-- <form accept-charset="UTF-8" action="http://localhost:3000/search" method="get" class="">
+	<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text"><span class="searchSpin"></span>
+	<ul class="quickfilter hidden"><li></li></ul></div>
+</form>
+ -->
+<form accept-charset="UTF-8" action="http://grabcad.com/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+	<div class="search siteSearch">
+		<button class="search" type="submit"></button>
+		<input autocomplete="off" class="searchField" data-url="/quickfilter" id="searchField" name="query" placeholder="Search community" size="30" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search community'">
+		<span class="searchSpin"></span>
+	</div>
+</form>
+			  </div>
+		</div>
+	</nav>
+</header>
+
+			<div class="signupBanner">
+				<div class="g1c">
+						<div class="g1">
+		<div class="contentUpsell">
+			<div class="g2x3c">		
+				<h2>Ask and answer questions and download tutorials</h2>
+				<p>Thousands of tutorials to learn from</p>
+			</div>
+			<div class="g1x3c">
+				<a href="../profile/register%3Futm_source=tutorial_page.html" class="button b48 darkgray" id="banner_cta_engineers">
+					<span> Start learning, sign up</span>
+</a>			</div>
+		</div>
+	</div>
+
+				</div>
+			</div>
+		<section id="body" class="">
+			<section id="bodyContent" class="gc">
+				<div class="g1">
+					<div class="flashMessage">
+					</div>
+				</div>
+				
+<div class="g2x3c">
+	<div class="g2x3 questionHead">
+		<a href="/jehan.kothari-1" class="avatar">
+				<img alt="Feed" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/250473/feed.jpg?1370883874" />
+</a>		<h1 class="withAvatar">
+			pick and place mechanism
+		</h1>
+		<div class="tagList">
+			<a href="latest/software/ptc-creo-elements.html" class="system qTag">PTC Creo Elements</a>
+		</div>
+		<div class="titlemeta">
+			By <a href="/jehan.kothari-1">jehan kothari</a> on 02 Feb 17:39
+			<span class="answers">4 answers</span>
+			<span class="views">1880 views</span>
+			<span class="comments">1 comment</span>
+		</div>
+		<div class="questionData">
+			<p>Is it possible to have a pick and place mechanism like solidworks ??</p>
+			<div class="questionAttachments">
+			</div>
+		</div>
+	</div>
+	<div class="g2x3">
+		<h3>
+			4 answers
+		</h3>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/prof.cleiton.abreu" class="avatar">
+							<img alt="Prof Cleiton Abreu" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/55602/feed.jpg?1381558947" />
+</a>						<div class="body">
+							<a href="/prof.cleiton.abreu" class="author">Prof Cleiton Abreu</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>segue a primeira parte da criação de uma montagem com uso de mecanismo.
+<br />follows the first part of creating an assembly using a mechanism.</p>
+									<ol class="answerTutorialSteps">
+											<li>
+												<h3>Step 1</h3>
+												<p>Criando um novo conjunto.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18391/large.png?1361079655" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18391/medium.png?1361079655" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 2</h3>
+												<p>enter the base first
+<br />(enter the base first)
+<br />not as tera degree of freedom use the default constraint
+<br />(the non-therapeutic use constrain movement default)</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18392/large.png?1361079657" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18392/medium.png?1361079657" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 3</h3>
+												<p>anexo imagem</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18393/large.png?1361079659" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18393/medium.png?1361079659" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 4</h3>
+												<p>anexo imagem</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18394/large.png?1361079661" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18394/medium.png?1361079661" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 5</h3>
+												<p>anexo imagem</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18395/large.png?1361079663" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18395/medium.png?1361079663" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 6</h3>
+												<p>anexo imagem</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18396/large.png?1361079665" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18396/medium.png?1361079665" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 7</h3>
+												<p>anexo imagem</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18397/large.png?1361079668" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18397/medium.png?1361079668" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 8</h3>
+												<p>anexo imagem</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18398/large.png?1361079670" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18398/medium.png?1361079670" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 9</h3>
+												<p>anexo imagem</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18399/large.png?1361079672" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18399/medium.png?1361079672" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 10</h3>
+												<p>anexo imagem</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18400/large.png?1361079674" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18400/medium.png?1361079674" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 11</h3>
+												<p>anexo imagem</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18401/large.png?1361079676" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18401/medium.png?1361079676" />
+</a>												</p>
+											</li>
+									</ol>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_13710">
+								<ol class="answerComments" id="Answer13710">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/prof.cleiton.abreu" class="avatar">
+							<img alt="Prof Cleiton Abreu" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/55602/feed.jpg?1381558947" />
+</a>						<div class="body">
+							<a href="/prof.cleiton.abreu" class="author">Prof Cleiton Abreu</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>segue a primeira parte da criação de uma montagem com uso de mecanismo.
+<br />follows the first part of creating an assembly using a mechanism.</p>
+									<ol class="answerTutorialSteps">
+											<li>
+												<h3>Step 1</h3>
+												<p>Criando um novo conjunto.</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18388/large.png?1361079309" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18388/medium.png?1361079309" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 2</h3>
+												<p>enter the base first
+<br />(enter the base first)
+<br />not as tera degree of freedom use the default constraint
+<br />(the non-therapeutic use constrain movement default)</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18389/large.png?1361079311" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18389/medium.png?1361079311" />
+</a>												</p>
+											</li>
+											<li>
+												<h3>Step 3</h3>
+												<p>utilize a opção pino.
+<br />Para dar grau de liberdade no sentido do eixo e travar na face.
+<br />Desta forma o grau de liberdade é utilizado apenas no sentido do eixo.
+<br />(use the option pin.
+<br />To give degree of freedom in the axial and lock the face.
+<br />Thus the degree of freedom is used only in the direction of the axis.)</p>
+												<p class="tutorialPicture">
+													<a href="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18390/large.png?1361079313" class="lightbox">
+													<img alt="Medium" class="tutorialImage" src="https://d2t1xqejof9utc.cloudfront.net/pictures/files/18390/medium.png?1361079313" />
+</a>												</p>
+											</li>
+									</ol>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_13709">
+								<ol class="answerComments" id="Answer13709">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/prof.cleiton.abreu" class="avatar">
+							<img alt="Prof Cleiton Abreu" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/55602/feed.jpg?1381558947" />
+</a>						<div class="body">
+							<a href="/prof.cleiton.abreu" class="author">Prof Cleiton Abreu</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>Este processo permite registrar posições de mecanismo, onde usaremos em desenhos e animações.
+<br />This process allows recording mechanism positions where we use on drawings and animations.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_13724">
+								<ol class="answerComments" id="Answer13724">
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+				<ul class="eventList">
+					<li class="answer">
+						<a href="/prof.cleiton.abreu" class="avatar">
+							<img alt="Prof Cleiton Abreu" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/55602/feed.jpg?1381558947" />
+</a>						<div class="body">
+							<a href="/prof.cleiton.abreu" class="author">Prof Cleiton Abreu</a>
+							<span class="eventTime">over 1 year ago</span>
+							<div class="dropdownContainer gearIcon-active right">
+								<ul>
+								</ul>
+							</div>
+							<blockquote>
+								<p>The next operation will enable us to record positions to be added in designs and simulations.
+<br />Sorry my english.</p>
+							</blockquote>
+							<div class="hidden" id="add_answer_comment_form_13714">
+								<ol class="answerComments" id="Answer13714">
+												<li id="comment_222729">
+    <a href="/saurabh.kumar-1" class="avatar">
+        <img alt="Saurabh Kumar" src="https://d2t1xqejof9utc.cloudfront.net/members/avatars/268901/feed.jpg?1370355481" />
+</a>    <div class="body">
+        <a href="/saurabh.kumar-1" class="author">Saurabh Kumar</a>
+        <span class="deleteAnswerComment">
+        </span>
+        <span class="eventTime">over 1 year ago</span>
+        <blockquote>
+            <p>it would have been better had the description been in written in more universally accepted language not your linguistic one...</p>
+        </blockquote>
+    </div>
+</li>
+								</ol>
+								<div class="addCommentContainer">
+</div>
+							</div>
+						</div>
+					</li>
+			</ul>
+			<div class="newAnswer">
+				<h2>Add your answer to: <span>"pick and place mechanism"</span></h2>
+				<div class="bgHilite gray addAnswerContainer commentGroup">
+						<div class="signin">
+							Please log in to answer questions.
+							<a href="../login-52.html" class="button b32 gray">
+								<span>Log in</span>
+</a>						</div>
+				</div>
+			</div>
+	</div>
+</div>
+<div class="g3">
+	<div class="sidebar">
+		<div class="actions right">
+			<div class="dropdownContainer settingsBorder right">
+				<span class="gearIcon-active"></span>
+				<ul>
+				</ul>
+			</div>
+			
+		</div>
+			<div class="bgHilite light socialList">
+
+				<ul>
+					<!-- GOOGLE + tag -->
+					<li class="socialButton">
+						<div>
+							<g:plusone size="tall"></g:plusone>
+						</div>
+					</li>
+					<!-- Facebook tag -->
+					<div id="fb-root"></div>
+					<li class="socialButton fbLike">
+						<div>
+							<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+							<fb:like href="grabcad.com/questions/pick-and-place-mechanism" send="false" layout="box_count" width="55" show_faces="false"></fb:like>
+						</div>
+					</li>
+					<!-- TWEET tag -->
+					<li class="socialButtonLast">
+						<div>
+							<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical" data-text="Checkout pick and place mechanism @GrabCAD">Tweet</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="fl fullW">Similar questions</h3>
+	<ul class="sidebarList">
+			<li><strong><a href="/questions/create-a-picking-mechanism-in-catia-v5">Create a picking mechanism in CATIA V5.</a></strong>
+			<span class="meta">By Sahaj Panchal, 01 Jun 09:10</span></li>
+			<li><strong><a href="/questions/the-best-places-of-canada-for-mechanical-design-engineers">The best places of Canada for mechanical design engineers ? </a></strong>
+			<span class="meta">By smmoosavian, 30 Jan 08:57</span></li>
+			<li><strong><a href="/questions/locking-mechanical-mate">Locking Mechanical Mate</a></strong>
+			<span class="meta">By Robert Futch, 26 Nov 08:46</span></li>
+			<li><strong><a href="/questions/mercedes-wiper-blades-mechanism">mercedes wiper blades mechanism </a></strong>
+			<span class="meta">By Aman ahmed, 02 Apr 11:09</span></li>
+			<li><strong><a href="/questions/how-to-animate-a-mechanical-jack-arm-using-solidworks-2013">how to animate a mechanical jack arm using solidworks 2013</a></strong>
+			<span class="meta">By yogesh kumar, 01 Aug 09:04</span></li>
+			<li><strong><a href="/questions/can-i-convert-a-piece-into-a-weapon-file-on-x-plane-plane-maker">Can I convert a piece into a &quot;weapon&quot; file on x-plane plane maker?</a></strong>
+			<span class="meta">By Jeremy Truesdell, 26 Mar 20:00</span></li>
+	</ul>
+	<h3>Popular systems</h3>
+	<p class="popularList">
+			<strong><a href="latest/software/autocad.html">AutoCAD</a></strong><br>
+			<strong><a href="latest/software/autodesk-inventor.html">Autodesk Inventor</a></strong><br>
+			<strong><a href="latest/software/catia.html">CATIA</a></strong><br>
+			<strong><a href="latest/software/nx.html">NX</a></strong><br>
+			<strong><a href="latest/software/pro-slash-engineer-wildfire.html">Pro/Engineer Wildfire</a></strong><br>
+			<strong><a href="latest/software/ptc-creo-elements.html">PTC Creo Elements</a></strong><br>
+			<strong><a href="latest/software/solidworks.html">SOLIDWORKS</a></strong><br>
+			<strong><a href="/questions/latest/software/solid-edge">Solid Edge</a></strong><br>
+			<strong><a href="/questions/latest/software/other">Other</a></strong><br>
+	</p>
+
+	</div>
+</div>
+			</section>
+		</section>
+		<a class="replacer hidden"><img alt="" src="https://d9ej3djcdo585.cloudfront.net/images/_/spinner-default.gif" /></a>
+		
+		<div id="dimmer"></div>
+<div id='' class='popupWin'>
+	<div class="contentWrapper">
+		<div class='popupHeader'>
+			<span class="popupName">
+				<h1></h1>
+				<p></p>
+			</span>
+			<span class="closeButton"></span>
+			<span class="close"></span>
+		</div>
+		<div class='popupBody'>
+			<div class="bodyContent"></div>
+			<div class="spinnerDiv"></div>
+		</div>
+		<div class='popupFooter'>
+			<span class="buttons">
+				<span class="button b32 red submit" id='popupSubmit'>Save</span>
+				<a href="#" class="button cancelButton" id='popupCancel'>Cancel</a>
+			</span>
+		</div>
+	</div>
+</div>
+		<footer class="g1c">
+	<div class="footerItems">
+		<nav>
+			<ul class="g6c">
+				<li class="heading">Community</li>
+				<li><a href="../library.html">Library</a></li>
+				<li><a href="../challenges.html">Challenges</a></li>
+				<li><a href="../questions.html">Tutorials</a></li>
+				<li><a href="../engineers.html">Engineers</a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">Workbench</li>
+				<li><a href="../workbench.html">About Workbench</a></li>
+				<li><a href="/workbench/security">Security</a></li>
+				<li><a href="../workbench/customers.html">Customers</a></li>
+				<li><a href="../workbench/pricing.html">Pricing</a></li>
+				<li><a href="/toolbox"><span class="translation_missing" title="translation missing: en.navigation.workbench.toolbox">Toolbox</span></a></li>
+				<li><a href="http://blog.grabcad.com/blog/resources"><span class="translation_missing" title="translation missing: en.navigation.workbench.resources">Resources</span></a></li>
+			</ul>
+			<ul class="g6c">
+				<li class="heading">About us</li>
+				<li><a href="/about">Company</a></li>
+				<li><a href="/jobs">Jobs</a></li>
+				<li><a href="http://help.grabcad.com" target="_blank">Help Center</a></li>
+			</ul>
+			<ul class="g6c more">
+				<li class="heading">Get more</li>
+				<li>Read our <a href="http://blog.grabcad.com">Blog</a></li>
+				<li>Follow us on <a href="https://twitter.com/GrabCAD">Twitter</a></li>
+				<li>Like us on <a href="http://facebook.com/GrabCAD">Facebook</a></li>
+			</ul>
+		</nav>
+		<section class="copyrightContainer">
+			<div class="g2x3 copyright">© 2014 GrabCAD
+				<a href="mailto:info@grabcad.com">info@grabcad.com</a>
+				<a href="/terms">Terms of Service</a>
+				<a href="/privacy_policy">Privacy policy</a>
+			</div>
+		</section>
+	</div>
+</footer>
+
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/application-97822be5d16255c56fa7f76b80e039c5.js" type="text/javascript"></script>
+		<script src="http://d9ej3djcdo585.cloudfront.net/assets/mobile-af06448f9164aca61a135d66f5e7bdc4.js" type="text/javascript"></script>
+			<script src="http://d9ej3djcdo585.cloudfront.net/assets/learning-51de1b9a40e30c62aa530ac9aed60fb7.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+            Grabcad.configuration.configure({
+  imagePath: 'http://d9ej3djcdo585.cloudfront.net/images',
+  default3dModelPath: '/static/content/cube_holes_5.STL',
+  maximumCategoriesOnCadfile: 3,
+  uploadPath: 'https://s3.amazonaws.com/gc-p',
+  uploadifyFlash: 'http://d9ej3djcdo585.cloudfront.net/flash/uploadify.swf',
+  uploadFileSizeLimit: 524288000,
+  airbrake_options: {
+    project_key: 'bced41dc67ce770c9d55b39f172f1a47',
+    production: true,
+    environment_name: 'production',
+    project_id: '20621'
+  }
+});
+
+            
+		</script>
+		
+		
+			<!-- Google Code for Remarketing Tag -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 981400234;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/981400234/?value=0&guid=ON&script=0"/>
+		</div>
+	</noscript>
+
+	<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-5.newrelic.com","2ff0bc8e20","1508038","c1hbEkVfCgoHQhkTTVVEQQ9YXhVJEVhZFQ==",7,462,new Date().getTime(),"","","","",""]);</script></body>
+</html>

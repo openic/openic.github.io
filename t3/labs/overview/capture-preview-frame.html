@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/capture-preview-frame.html -->
+<html ng-app="spark.extension.content.capturePreview" xmlns="http://www.w3.org/1999/html" class="ng-scope"><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}</style>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/css/capture-preview-frame.css" rel="stylesheet" type="text/css">
+    <link href="chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/css/toast.css" rel="stylesheet" type="text/css">
+</head>
+<body ng-controller="capturePreviewController as controller" class="ng-scope">
+    <div class="cancel-click-area" ng-switch="" on="reason">
+    <toast><div class="toast-container">
+    <div class="toast-content">
+        <div class="toast-controls">
+            <button class="toast-close-button">×</button>
+        </div>
+        <div class="toast-text"><span class="toast-text-content"></span></div>
+    </div>
+</div></toast>
+    <div class="content">
+        <div class="top">
+            <div class="close-button">
+                <button>
+                    <img src="chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/assets/img/popup/popup-whiteX.png" ng-click="controller.dismiss()">
+                </button>
+            </div>
+
+            <form name="previewForm" class="previewForm ng-pristine ng-valid" ng-submit="controller.updateName()">
+                <input class="capture-name-input ng-pristine ng-valid" id="capture-name-input" ng-disabled="!file" ng-model="fileName" name="captureName" type="text" placeholder="Name_your_capture!" disabled="disabled">
+            </form>
+            <div class="image-wrapper">
+                <img class="preview-image" ng-src="">
+            </div>
+            <div class="button-area">
+                <div class="button button-syncing" ng-hide="file">
+                    <i18n key="capturePreviewFrame_syncingLabel">Syncing</i18n>&nbsp;
+                    <span class="app-loading-dots editor-sharing-loading-dots">
+                        <span>.</span><span> .</span><span> .</span>
+                    </span>
+                </div>
+                <div class="button ng-hide" ng-show="file" ng-click="controller.grabLink()"><i18n key="capturePreviewFrame_copyLinkButtonLabel">Grab Link</i18n></div>
+                <div class="button-space"></div>
+                <a ng-href="" download="capture.png" ng-click="controller.clickedDownload()"><div class="button"><i18n key="capturePreviewFrame_downloadButtonLabel">Download</i18n></div></a>
+            </div>
+
+        </div>
+        <div class="bottom">
+            <img class="preview-upsell-image" src="chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/assets/img/capture-preview/annotation-ad.png">
+            <!-- ngIf: reason == 'appNotInstalled' -->
+            <!-- ngIf: reason == 'appNotEnabled' -->
+        </div>
+    </div>
+    </div>
+    <script src="chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/vendor/angular/angular.js"></script>
+    <script src="chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/vendor/angular-retina.js"></script>
+    <script src="chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/js/extension.common.js"></script>
+    <script src="chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/js/common.js"></script>
+    <script src="chrome-extension://annopcfmbiofommjmcmcfmhklhgbhkce/js/capturePreview.js"></script>
+
+
+</body></html>
